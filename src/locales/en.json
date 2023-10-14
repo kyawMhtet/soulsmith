@@ -11,7 +11,7 @@
     "Team": "Team",
     "Contact Us": "Contact Us",
     "About SOULSMITH": "SOULSMITH offers a holistic service experience dedicated to nurturing and improving mental, physical, and life energy well-being. Our services are centred around mental and soul well-being, covering preventive measures, enhancing equilibrium, and promoting resilience through therapeutic approaches. We provide a range of services, including Listening Service and Mindfulness Practise, Counselling, Psychotherapy, Arts Psychotherapy, Therapeutic Workshop, Sound Healing and Therapy, Sound Bath, Chakra Awareness Meditation, Yoga for Chakra Balancing, all led by certified professionals in their respective fields. This ensures that each individual receives the utmost quality and effectiveness in the services we offer",
-    "SectionA": "Psychological Support: Psychotherapy",
+    "SectionA": "Psychological Support: Psychotherapy & Counseling",
     "ServiceDescription1": "The Psychological Support service aims to enhance and optimize mental well-being, increasing one's ability to cope with current challenges. It seeks to alleviate personal vulnerabilities and strengthen mental resilience to navigate difficult times and achieve set objectives. All processes are facilitated by certified experts from diverse professional backgrounds, ensuring quality care and adherence to standards.",
     "ServiceDescription2": "The Psychological Support service is suitable for individuals dealing with relationship issues, self-management, seeking to understand their behaviors, and desiring targeted adjustments. If you are facing life challenges and finding it difficult to find a way out, wanting to change coping behaviors for various problems, needing someone to listen and provide support, going through a period of loss that is impacting your daily life, struggling with sleep, experiencing a decline in quality of life and work without identifiable reasons, aiming to quit certain habits, finding it increasingly challenging to manage your emotions, making repetitive decisions, feeling an imbalance and dissatisfaction with certain aspects of life, feeling empty, lonely, overwhelmed, anxious, depressed, or stressed - our service is here to assist you on your journey towards healing and personal growth",
     "SectionB": "Healing & Therapy",
@@ -131,7 +131,49 @@
 
     "A4dSession1": "Single session: 4,500",
     "A4dSession2": "5 Sessions: xxx",
-    "A4dSession3": "10 Session: xx"
+    "A4dSession3": "10 Session: xx",
+
+
+
+    "A5Description_01": "Therapeutic Workshop is a psychotherapy that enhances skills in managing various aspects of life, such as problem-solving, relationship management, and self-management through understanding. It emphasizes problem analysis and solving and exploring a safe, non-judgmental inner space. The process involves dialogue, working through various art forms, asking questions, engaging in bodily movements, learning psychological techniques, and experimentation to deeply comprehend the encountered problems. It aims to find practical solutions guided by a facilitator, who acts as a supportive companion and designs the process. The entire process is built on the foundation of emotional safety, respect for human dignity, and is based on the principles of Human-Relationship, without a therapist-client relationship.",
+
+    "A5Description_02": "Therapeutic Workshop is Suitable for individuals who want to enhance social and emotional skills, undergo self-transformation, gain insight into areas for personal development, experiment with different communication styles and life problem-solving approaches, struggle with emotional management, seek support, aim to address specific challenges, seek to understand their current problems, and desire guidance in coping with certain issues.",
+
+
+
+
+
+    "A5a": "Therapeutic Workshop: One-to-one",
+
+    "descA5a": "Description: Dramatherapy is a therapeutic process focused on transformation through drama techniques or drama therapy. It involves borrowing acting methods to facilitate learning and self-understanding. Utilizing drama techniques such as role-playing can help the service recipient understand their own and others' situations. Additionally, it promotes skill development through real-time engagement within the process, facilitated by a space conducive to experimentation and discussion for targeted learning.",
+
+
+    "A5aDuration" : "Duration: 90 minutes",
+
+    "A5adesc1": "Service Delivery Channels: Available for Online & Onsite at SOULSMITH",
+    "A5alanguage": "Language: Available for Thai Language & English.",
+
+    "A5aSession1": "Single session: 4,500",
+    "A5aSession2": "5 Sessions: xxx",
+    "A5aSession3": "10 Session: xx",
+
+
+
+
+
+    "A5b": "Therapeutic Workshop: Couple",
+
+    "descA5b": "Description: Dramatherapy is a therapeutic process focused on transformation through drama techniques or drama therapy. It involves borrowing acting methods to facilitate learning and self-understanding. Utilizing drama techniques such as role-playing can help the service recipient understand their own and others' situations. Additionally, it promotes skill development through real-time engagement within the process, facilitated by a space conducive to experimentation and discussion for targeted learning.",
+
+
+    "A5bDuration" : "Duration: 90 minutes",
+
+    "A5bdesc1": "Service Delivery Channels: Available for Online & Onsite at SOULSMITH",
+    "A5blanguage": "Language: Available for Thai Language & English.",
+
+    "A5bSession1": "Single session: 4,500",
+    "A5bSession2": "5 Sessions: xxx",
+    "A5bSession3": "10 Session: xx"
 
 
 

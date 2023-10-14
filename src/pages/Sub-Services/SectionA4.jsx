@@ -48,7 +48,7 @@ const SectionA4 = () => {
       </li>
 
       <li className='tw-text-bone'>
-        {t('Price')} :
+        {t('Price')} 
         <ul className='mt-2' style={{ listStyleType: "circle" }}>
           <li>
             <p>
@@ -100,7 +100,7 @@ const SectionA4 = () => {
       </li>
 
       <li className='tw-text-bone'>
-        {t('Price')} :
+        {t('Price')} 
         <ul className='mt-2' style={{ listStyleType: "circle" }}>
           <li>
             <p>
@@ -150,7 +150,7 @@ const SectionA4 = () => {
       </li>
 
       <li className='tw-text-bone'>
-        {t('Price')} :
+        {t('Price')} 
         <ul className='mt-2' style={{ listStyleType: "circle" }}>
           <li>
             <p>
@@ -202,7 +202,7 @@ const SectionA4 = () => {
       </li>
 
       <li className='tw-text-bone'>
-        {t('Price')} :
+        {t('Price')} 
         <ul className='mt-2' style={{ listStyleType: "circle" }}>
           <li>
             <p>

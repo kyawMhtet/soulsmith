@@ -6,17 +6,18 @@
 .main {
     display: flex;
     overflow-x: hidden;
+    
     justify-content: space-between;
 }
 
 * {
-    
-    /* font-family: 'Geologica_Regular', 'IBM Plex Sans', 'DM Serif Display', 'Open Sans', sans-serif, serif; */
-    /* font-family: 'MyCustomFontRegular', 'MyCustomFontMedium', 'Geologica_Regular', sans-serif, serif; */
-    font-family:   'DM Serif Display', serif,
+/*     
+    font-family: 'Geologica_Regular', 'IBM Plex Sans', 'DM Serif Display', 'Open Sans', sans-serif, serif; */
+    font-family: 'MyCustomFontRegular', 'MyCustomFontMedium', 'Geologica_Regular', sans-serif, serif;
+    /* font-family:   'DM Serif Display', serif,
     'Geologica', sans-serif,
     'IBM Plex Sans', sans-serif,
-    'Open Sans', sans-serif;
+    'Open Sans', sans-serif; */
     
     word-spacing: 0.3rem;
     letter-spacing: 0.08em;
@@ -47,10 +48,10 @@ p {
 
 .main-content {
     position:absolute;
-    width: 45%;
+    width: 40%;
     /* background-color: red; */
     top: 35%;
-    left: 5%;
+    left: 3%;
     z-index: 1;
 }
 

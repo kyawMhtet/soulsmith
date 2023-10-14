@@ -3,7 +3,6 @@ import Layout from "../pages/layout/Layout";
 import HomePage from "../pages/HomePage";
 import ContactUs from "../pages/ContactUs";
 import Services from "../pages/Services";
-import Product from "../pages/Product";
 import Team from "../pages/Team";
 import NotFound from "../pages/NotFound";
 import SectionA from "../pages/Sub-Services/SectionA";
@@ -68,10 +67,10 @@ const router = createBrowserRouter([
                 path: '/services/Psychological Support: Psychotherapy & Counseling/Therapeutic Workshop',
                 element: <SectionA5 />
             },
-            {
-                path: '/product',
-                element: <Product />
-            },
+            // {
+            //     path: '/product',
+            //     element: <Product />
+            // },
             {
                 path: '/team',
                 element: <Team />

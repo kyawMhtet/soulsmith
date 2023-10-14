@@ -74,11 +74,11 @@ const NavBar = () => {
   return (
     <>
       <div className='tw-hidden lg:tw-block tw-booking tw-bg-bone tw-text-gold '>
-        <div className='tw-grid tw-grid-cols-4'>
+        <div className='tw-grid tw-grid-cols-5'>
           <div className='tw-text-right tw-py-5 tw-pe-5 '> +66 63 193 3642</div>
           <div className='tw-py-5 tw-px-8  '>empathy.sauce@gmail.com</div>
-          <div className='tw-col-span-2  '>
-            <div className='tw-flex tw-ps-10 tw-space-x-10'>
+          <div className='tw-col-span-3'>
+            <div className='tw-flex tw-ps-10 tw-space-x-10 tw-justify-evenly'>
               <div className='tw-py-5'>Empathy Sauce</div>
               <div className='tw-py-5'>The Workshoppers</div>
               <div className='tw-py-1'>
@@ -90,8 +90,8 @@ const NavBar = () => {
       </div>
 
       <nav className={navbarClasses}>
-        <div className="container ">
-          <a className="navbar-brand tw-flex tw-items-center" href="#">
+        <div className="container-fluid ">
+          <a className="navbar-brand ms-4" href="#">
             <img src={MainLogo} alt="" />
           </a>
           <button

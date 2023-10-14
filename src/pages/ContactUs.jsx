@@ -76,7 +76,7 @@ const ContactUs = () => {
         className="tw-appearance-none tw-block tw-w-full tw-bg-bone tw-text-gray-700 tw-border tw-rounded tw-py-3 tw-px-4 tw-mb-3 tw-leading-tight tw-focus:tw-outline-none tw-focus:bg-white"
         id="grid-first-name"
         type="text"
-        placeholder="Jane"
+        placeholder="Your Name"
       />
       {/* <p className="tw-text-red-500 tw-text-xs tw-italic">Please fill out this field.</p> */}
     </div>

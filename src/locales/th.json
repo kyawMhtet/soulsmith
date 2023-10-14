@@ -136,7 +136,51 @@
 
     "A4dSession1": "ค่าบริการสำหรับการบริการ 1 ครั้ง: 3,500 บาท",
     "A4dSession2": "ค่าบริการสำหรับการบริการ 5 ครั้ง: xxx",
-    "A4dSession3": "ค่าบริการสำหรับการบริการ 10 ครั้ง: xxx"
+    "A4dSession3": "ค่าบริการสำหรับการบริการ 10 ครั้ง: xxx",
+
+
+    "A5Description_01": "บริการการอบรมเชิงปฏิบัติส่วนตัว - Therapeutic Workshop: คือบริการจิตบำบัดสร้างเสริมทักษะการจัดการในแง่มุมต่างๆของชีวิต เช่น การจัดการปัญหา การจัดการความสัมพันธ์ การจัดการตัวเอง ผ่านความเข้าใจ เน้นการจัดการกับปัญหา (Problem Analysis and Solving) และการค้นหาภายในพื้นที่ที่ปลอดภัยไร้การตัดสิน ในกระบวนการการทำงานจะมีการพูดคุย การทำงานผ่านศิลปะแขนงต่างๆ การตั้งคำถาม การทำงานกับการเคลื่อนไหวร่างกาย การเรียนรู้เทคนิคทางจิตวิทยา และการทดลองเพื่อความเข้าใจอันถ่องแท้ของปัญหาที่เผชิญอยู่และเรียนรู้ที่จะมีวิธีจัดการกับปัญหานั้นโดยมีผู้นำกระบวนการเป็นเพื่อนร่วมทางและออกแบบกระบวนการ กระบวนการจะมีความตรงไปตรงมาและมุ่งเน้นหาทางออกที่สามารถนำไปใช้ได้อย่างเป็นรูปธรรมแต่ทั้งนี้ทั้งนั้นกระบวนการทั้งหมดตั้งอยู่บนพื้นฐานของความปลอดภัยทางใจ ความเคารพต่อศักดิ์ศรีของเพื่อนมนุษย์ และตั้งอยู่บนพื้นฐานของ Human-Relationship โดยไม่ได้มีความสัมพันธ์แบบนักจิตบำบัดและผู้รับการบำบัดตั้งอยู่.",
+
+    "A5Description_02": "ผู้ที่ต้องการเพิ่มเสริมทักษะด้านการอยู่ในสังคมหรือด้านอารมณ์ ต้องการปรับเปลี่ยนตัวเอง อยากเล็งเห็นถึงจุดที่ต้องการพัฒนาในตนเอง อยากทดลองรูปแบบการสื่อสารและการจัดการปัญหาชีวิตในแบบที่หลากหลาย จัดการอารมณ์ไม่ได้ ต้องการการ support อยากจัดการแก้ปัญหาบางอย่าง อยากเข้าใจปัญหาที่ประสบอยู่ อยากได้แนวทางในการรับมือกับปัญหาบางอย่าง.",
+
+
+
+    "A5a": "บริการการอบรมเชิงปฏิบัติส่วนตัว: แบบเดี่ยว",
+
+    "descA5a": "Description: Dramatherapy is a therapeutic process focused on transformation through drama techniques or drama therapy. It involves borrowing acting methods to facilitate learning and self-understanding. Utilizing drama techniques such as role-playing can help the service recipient understand their own and others' situations. Additionally, it promotes skill development through real-time engagement within the process, facilitated by a space conducive to experimentation and discussion for targeted learning.",
+
+
+    "A5aDuration" : "ระยะเวลา: 90 นาที",
+
+    "A5adesc1": "ช่องทางการให้บริการ: ให้บริการผ่านช่องทางออนไลน์และที่ SOULSMITH",
+    "A5alanguage": "ภาษา: ให้บริการภาษาไทยและภาษาอังกฤษ",
+
+    "A5aSession1": "ค่าบริการสำหรับการบริการ 1 ครั้ง: 3,500 บาท",
+    "A5aSession2": "ค่าบริการสำหรับการบริการ 5 ครั้ง: xxx",
+    "A5aSession3": "ค่าบริการสำหรับการบริการ 10 ครั้ง: xxx",
+
+
+
+
+    "A5b": "บริการการอบรมเชิงปฏิบัติส่วนตัว: แบบคู่",
+
+    "descA5b": "Description: Dramatherapy is a therapeutic process focused on transformation through drama techniques or drama therapy. It involves borrowing acting methods to facilitate learning and self-understanding. Utilizing drama techniques such as role-playing can help the service recipient understand their own and others' situations. Additionally, it promotes skill development through real-time engagement within the process, facilitated by a space conducive to experimentation and discussion for targeted learning.",
+
+
+    "A5bDuration" : "ระยะเวลา: 90 นาที",
+
+    "A5bdesc1": "ช่องทางการให้บริการ: ให้บริการผ่านช่องทางออนไลน์และที่ SOULSMITH",
+    "A5blanguage": "ภาษา: ให้บริการภาษาไทยและภาษาอังกฤษ",
+
+    "A5bSession1": "ค่าบริการสำหรับการบริการ 1 ครั้ง: 3,500 บาท",
+    "A5bSession2": "ค่าบริการสำหรับการบริการ 5 ครั้ง: xxx",
+    "A5bSession3": "ค่าบริการสำหรับการบริการ 10 ครั้ง: xxx"
+
+
+
+
+    
+
 
 
 

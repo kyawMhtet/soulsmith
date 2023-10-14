@@ -1,0 +1,116 @@
+.card1 {
+    /* width: 300px; */
+    position: relative;
+    /* border: 1px solid #ddd; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    color: #fff;
+    transition: transform 0.2s ease, background 0.2s ease;
+
+
+}
+
+.card1-content {
+    background-image: url('../../assets/A1.ListeningServiceandMindfulnessPractice.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    transition: opacity 0.2s ease;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
+    height: 250px;
+
+    display: flex; /* Use flex display to center the content */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+.card2-content {
+    background-image: url('../../assets/A2.Counseling.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    transition: opacity 0.2s ease;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
+    height: 250px;
+
+    display: flex; /* Use flex display to center the content */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+.card3-content {
+    background-image: url('../../assets/A3.Psychotherapy.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    transition: opacity 0.2s ease;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
+    height: 250px;
+
+    display: flex; /* Use flex display to center the content */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+.card4-content {
+    background-image: url('../../assets/A4.ArtPsychotherapy.jpeg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    transition: opacity 0.2s ease;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
+    height: 250px;
+
+    display: flex; /* Use flex display to center the content */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+
+.card5-content {
+    background-image: url('../../assets/A5.TherapeuticWorkshop.jpeg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    transition: opacity 0.2s ease;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
+    height: 250px;
+
+    display: flex; /* Use flex display to center the content */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+
+.card1 p {
+    display: block;
+    width: 250px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    z-index: 1;
+}
+
+
+.card1:hover {
+    transform: scale(1.05); /* Apply the transform on hover */
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.card1:hover .card-content {
+    opacity: 1;
+}
+
+
+

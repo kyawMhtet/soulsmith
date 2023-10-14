@@ -1,0 +1,40 @@
+
+
+.a5 {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+
+.a5 ul {
+
+  list-style-type: disc;
+
+}
+
+@media (max-width: 992px) {
+  .a5 {
+        
+    display: inline;
+
+}
+
+.a5 .about {
+    margin-top: 15px;
+    
+}
+  }
+  
+ 
+  @media (max-width: 576px) {
+
+    .a5 {
+        display: inline;
+
+    }
+
+    .a5 .about {
+        margin-top: 15px;
+        
+    }
+  }
