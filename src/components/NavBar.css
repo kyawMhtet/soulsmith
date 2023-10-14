@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+.nav-link.active {
+  /* Set the background color to white for the active NavLink */
+  color: #E8E5D7 !important;
+}
+
+/* nested-dropdowns a.active {
+  color: white;
+} */
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.nav-link {
+  color: #C4A962;
+}
+
+
+.nav-item:hover .submenu {
+  display: block;
+}
+
+.navbar-transition {
+  transition: all 0.5s ease-in-out; /* Adjust the duration and easing as needed */
+}
+
+.nav-link {
+  position: relative;
+}
+
+
+
+.nav-link:hover {
+  color: #E8E5D7;
+}
+/* .nav-item a {
+  background-color: red;
+} */
+
+.nav-item a::after {
+  content: "";
+  width: 0%;
+  height: 1.5px;
+  background-color: #C4A962;
+  /* color: white; */
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  transition: all 0.5s;
+}
+
+.nav-item a:hover::after,
+.nav-item .active::after {
+  width: 100%;
+}
+
+.dropbtn {
+
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #C4A962;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+}
+
+.navbar-brand img {
+  width: 200px;
+  height: 100px;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+/* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+
+/* NavBar.css */
+
+/* Overlay layer */
+/* .offcanvas-backdrop {
+  background-color: transparent;
+} */
+
+/* .offcanvas-backdrop.show {
+  
+} */
+
+
+
+@media (max-width: 640px) {
+  .nav-link {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .navbar-brand img {
+    width: 150px;
+    height: 80px;
+  }
+  
+
+}
+
+/* Large screen (lg) */
+@media (min-width: 1024px) {
+  .nav-link {
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+.nested-dropdowns {
+  /* Border */
+  border: 1px solid #d1d5db;
+  display: flex;
+
+  /* Reset list styles */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nested-dropdowns li {
+  cursor: pointer;
+
+  /* Spacing */
+  padding: 0.25rem;
+
+  /* Used to position the sub nested-dropdowns */
+  position: relative;
+}
+
+/* The sub nested-dropdowns */
+.nested-dropdowns ul {
+  /* Border */
+  /* border: 1px solid #d1d5db; */
+  z-index: 1;
+  /* Hidden by default */
+  display: none;
+
+  /* Absolute position */
+  left: 0;
+  position: absolute;
+  top: 100%;
+
+  background-color: #2D3738;
+  width: 15rem;
+  /* width: auto; */
+  /* Reset styles */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* The second level sub nested-dropdowns */
+.nested-dropdowns ul ul {
+  left: 100%;
+  /* margin-top: 25px; */
+  /* margin-left: 5px; */
+  /* background-color: red; */
+  position: absolute;
+  top: 0;
+}
+
+/* Change background color of list item when being hovered */
+.nested-dropdowns li:hover {
+  /* background-color: rgba(0, 0, 0, 0.1); */
+}
+
+/* Show the direct sub nested-dropdowns when hovering the list item */
+.nested-dropdowns li:hover > ul {
+  display: block;
+}
+
+
+
+
+
+
+.drawer {
+  /* Take full size */
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+  z-index: 9999;
+}
+
+.drawer__overlay {
+  /* Take full size */
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  /* User still can see the content of main page */
+  background-color: rgba(0, 0, 0, 0.5);
+
+  z-index: -1;
+}
+
+.drawer__sidebar {
+  /* Take full height */
+  
+  height: 100%;
+  
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 250px;
+
+  /* Background */
+  background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+

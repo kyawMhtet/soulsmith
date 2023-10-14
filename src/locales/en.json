@@ -1,0 +1,140 @@
+
+{
+    "pageTitle": "Welcome to My Website",
+    "pageContent": "This is the content of the page in English.",
+    "aboutTitle": "About Page",
+    "serviceTitle": "SERVICE",
+    "Home": "Home",
+    "Services": "Services",
+    "Service": "Service",
+    "Product": "Product",
+    "Team": "Team",
+    "Contact Us": "Contact Us",
+    "About SOULSMITH": "SOULSMITH offers a holistic service experience dedicated to nurturing and improving mental, physical, and life energy well-being. Our services are centred around mental and soul well-being, covering preventive measures, enhancing equilibrium, and promoting resilience through therapeutic approaches. We provide a range of services, including Listening Service and Mindfulness Practise, Counselling, Psychotherapy, Arts Psychotherapy, Therapeutic Workshop, Sound Healing and Therapy, Sound Bath, Chakra Awareness Meditation, Yoga for Chakra Balancing, all led by certified professionals in their respective fields. This ensures that each individual receives the utmost quality and effectiveness in the services we offer",
+    "SectionA": "Psychological Support: Psychotherapy",
+    "ServiceDescription1": "The Psychological Support service aims to enhance and optimize mental well-being, increasing one's ability to cope with current challenges. It seeks to alleviate personal vulnerabilities and strengthen mental resilience to navigate difficult times and achieve set objectives. All processes are facilitated by certified experts from diverse professional backgrounds, ensuring quality care and adherence to standards.",
+    "ServiceDescription2": "The Psychological Support service is suitable for individuals dealing with relationship issues, self-management, seeking to understand their behaviors, and desiring targeted adjustments. If you are facing life challenges and finding it difficult to find a way out, wanting to change coping behaviors for various problems, needing someone to listen and provide support, going through a period of loss that is impacting your daily life, struggling with sleep, experiencing a decline in quality of life and work without identifiable reasons, aiming to quit certain habits, finding it increasingly challenging to manage your emotions, making repetitive decisions, feeling an imbalance and dissatisfaction with certain aspects of life, feeling empty, lonely, overwhelmed, anxious, depressed, or stressed - our service is here to assist you on your journey towards healing and personal growth",
+    "SectionB": "Healing & Therapy",
+    "SectionC": "Body - Mind - Soul Mixology Service",
+    "SectionA1": "Listening Service and Mindfulness Practice",
+    "SectionA2": "Counseling",
+    "SectionA3": "Psychotherapy",
+    "SectionA4": "Arts Psychotherapy",
+    "SectionA5": "Therapeutic Workshop",
+
+
+    
+    "A1Description_01": "Listening Service and Mindfulness Practice is a service that provides a safe space for individuals to utilize as a supportive and cathartic environment. It allows service recipients to express and process their thoughts alongside being heard, without the need to disclose their identity.",
+    "A1Description_02": "Listening Service and Mindfulness Practice is suitable for individuals experiencing stress, anxiety, feeling overwhelmed, needing understanding, desiring a high level of privacy but wanting someone to listen, or seeking a listener and feeling unable to talk to those around them.",
+
+
+    "A2Description_01": "Counselling Service is a service that provides advice to explore possibilities or seek solutions to navigate through specific challenges. It emphasizes a guided or expert-recommended process.",
+    "A2Description_02": "Counselling Service is suitable for individuals seeking guidance, advice, or direction in resolving life challenges.",
+
+
+    "A3Description_01" : "Psychotherapy is a profound process that delves into the thoughts, emotions, social interactions, and lifestyle of the service recipient to gain understanding and facilitate behavioral changes. Psychotherapy is an ongoing and consistent process that requires regularity over an extended period, such as three months or even more than a decade. The frequency of sessions ranges from weekly to every three weeks, depending on individual needs, goals, and self-working abilities. Breaks from the therapy process are agreed upon mutually and occur periodically in alignment with the individual's needs and the agreement between the recipient and the expert.",
+
+    "A3Description_02" : "Psychotherapy is suitable for individuals seeking to adjust their personalities, change thought patterns, and cope with recurring problems. It is beneficial for those who feel burnt out, lack motivation in life, desire collaborative decision-making regarding life choices, seek self-understanding, aim to heal emotional wounds, or experience challenges with family members. This service is applicable to all age groups, including children, adolescents, adults, and the elderly.",
+
+    "A4Description_01": "Arts Psychotherapy is a form of psychotherapy that incorporates various art forms as a means of communication during the therapeutic process. It is rooted in the foundational principles of psychotherapy but involves the use of different art disciplines as mediums in the therapeutic process. The nature of art allows the recipient to transcend the limitations of spoken language, which may not fully encapsulate emotions or mental states. Moreover, art can bridge into the subconscious mind more effectively than verbal language and provide a safe space for the recipient to work with their mind.",
+
+    "A4Description_02": "Arts Psychotherapy is Suitable for Children, preteens, teenagers, adults, and the elderly seeking self-understanding or understanding of others, individuals with low self-esteem, those wanting someone to comprehend their emotions, thoughts, and behaviours, those exploring possibilities for life direction, seeking solutions to existing problems, enhancing relationship skills, emotional awareness, and analytical thinking, feeling stressed, anxious, or detached, needing emotional healing and understanding.",
+
+    "A1a" : "Listening Service and Mindfulness Practice: One-to-one",
+
+    "A2a" : "Counselling: One-to-one",
+
+    "A3a" : "Psychotherapy: One-to-one",
+
+    "descA3a" : "Description: Psychotherapy: One-to-one is suitable for working on personal matters. It can be deep or sensitive in nature.",
+
+    "A3aDuration" : "Duration: 75 minutes",
+
+    "A3adesc1": "Service Delivery Channels: Available for Online & Onsite at SOULSMITH",
+    "A3alanguage": "Language: Available for Thai Language & English.",
+
+    "Price": "Price:",
+    "A3aSession1": "Single session: 2,500",
+    "A3aSession2": "5 Sessions: xxx",
+    "A3aSession3": "10 Session: xxx",
+
+    "Duration" : " Duration: 60 minutes",
+
+    "A3b": "Psychotherapy by Senior Psychotherapist: One-to-one",
+
+    "descA3b": "Description: Psychotherapy by Senior Psychotherapist: One-to-one is suitable for working on personal matters. It can be deep or sensitive in nature.",
+
+    "A3bdesc1": "Service Delivery Channels: Available for Online session only",
+
+    "A3bSession1": "Single session: 3,500",
+    "A3bSession2": "5 Sessions: xxx",
+    "A3bSession3": "10 Session: xxx",
+
+
+    "A3c": "Psychotherapy by Senior Psychotherapist: Couple",
+    "descA3c": "Description: Psychotherapy by Senior Psychotherapist: Couple service is suitable for working on relationship issues such as communication challenges, differing perspectives, frequent arguments, or the desire to maintain the relationship without necessarily engaging in conversation.",
+    "A3cdesc1": "Service Delivery Channels: Available for Online session only",
+    "A3clanguage": "Language: Available for Thai Language & English.",
+    "A3cSession1": "Single session: 4,200",
+    "A3cSession2": "5 Sessions: xxx",
+    "A3cSession3": "10 Session: xxx",
+
+
+
+    "A3d": "Psychotherapy by Senior Psychotherapist: Family",
+    "descA3d": "Description: Psychotherapy by Senior Psychotherapist: Family is suitable for working with individuals within the same family unit and addressing issues directly related to family relationships.",
+    "A3ddesc1": "Service Delivery Channels: Available for Online session only",
+    "A3dlanguage": "Language: Available for Thai Language & English.",
+    "A3dSession1": "Single session: 4,500",
+    "A3dSession2": "5 Sessions: xxx",
+    "A3dSession3": "10 Session: xxx",
+
+
+
+
+    "A4a" : "Dance Movement Psychotherapy: One-to-one",
+
+    "descA4a" : "Description: Dance Movement Psychotherapy involves a process where participants utilise body movement to express what is within their mind, in conjunction with verbal communication. Incorporating body language and working through movement can reflect how one manages their mind, highlighting the points of tension between personal development and relationships, and the ability to manage thoughts, emotions, and environmental factors in life.",
+
+    "A4aDuration" : "Duration: 75 minutes",
+
+    "A4adesc1": "Service Delivery Channels: Available for Onsite at SOULSMITH only",
+    "A4alanguage": "Language: Available for Thai Language & English.",
+
+    "A4aSession1": "Single session: 2,500",
+    "A4aSession2": "5 Sessions: xxx",
+    "A4aSession3": "10 Session: xx",
+
+
+    "A4b" : "Music Psychotherapy: One-to-one",
+    "descA4b" : "Description: Music Therapy is a form of psychotherapy where the therapeutic process involves using the expressive capabilities of music. It serves as a language for communication and a means to directly engage with the psyche. Music therapy creates a space for exploring alternative perspectives and choices in life.",
+    "A4blanguage": "Language: Available for Thai Language only.",
+
+    "A4bdesc1": "Service Delivery Channels: Available for Online & Onsite at SOULSMITH",
+
+
+
+    "A4c": "Drama and Movement Therapy by Registered Dramatherapist: One-to-one",
+
+    "descA4c": "Description: Drama and Movement Therapy is a therapeutic process utilizing drama tools, physical movement, and imagination linkage. It promotes the ability to 'play' within a designated space, delving deeply into the connection of body and mind, and the relationship between the therapist and the recipient. After the session, the therapist guides reflection and learning experiences, leading to the connection of meaning, self-understanding, and harmonious relationships from various perspectives within oneself.",
+
+
+    "A4d": "Dramatherapy by Senior Registered Dramatherapist: One-to-one",
+
+    "descA4d": "Description: Dramatherapy is a therapeutic process focused on transformation through drama techniques or drama therapy. It involves borrowing acting methods to facilitate learning and self-understanding. Utilizing drama techniques such as role-playing can help the service recipient understand their own and others' situations. Additionally, it promotes skill development through real-time engagement within the process, facilitated by a space conducive to experimentation and discussion for targeted learning.",
+
+
+    "A4dDuration" : "Duration: 60 minutes",
+
+    "A4ddesc1": "Service Delivery Channels: Available for Online session only",
+    "A4dlanguage": "Language: Available for Thai Language & English.",
+
+    "A4dSession1": "Single session: 4,500",
+    "A4dSession2": "5 Sessions: xxx",
+    "A4dSession3": "10 Session: xx"
+
+
+
+}
+
+  

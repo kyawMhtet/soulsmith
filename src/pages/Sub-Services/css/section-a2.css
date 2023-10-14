@@ -1,0 +1,40 @@
+
+
+.a2 {
+    display: flex;
+}
+
+
+.a2 ul {
+
+  list-style-type: disc;
+
+}
+
+@media (max-width: 992px) {
+  .a2 {
+        
+    display: inline;
+
+}
+
+.a2 .about {
+    margin-top: 15px;
+    
+}
+  }
+  
+ 
+  @media (max-width: 576px) {
+
+    .a2 {
+        
+        display: inline;
+
+    }
+
+    .a2 .about {
+        margin-top: 15px;
+        
+    }
+  }

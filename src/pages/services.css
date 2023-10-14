@@ -1,0 +1,22 @@
+
+.sections {
+    margin-top: 50px;
+}
+
+.sections ul {
+    list-style-type: circle;
+    color: #C4A962;
+}
+
+.sections ul li {
+    padding: 2px 0;
+}
+
+.sections a:hover {
+    text-decoration: underline;
+}
+
+/* .sections h5 {
+    color: #E8E5D7;
+} */
+

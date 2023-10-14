@@ -1,0 +1,234 @@
+
+* {
+    scroll-behavior: smooth;
+}
+
+.main {
+    display: flex;
+    overflow-x: hidden;
+    justify-content: space-between;
+}
+
+* {
+    
+    /* font-family: 'Geologica_Regular', 'IBM Plex Sans', 'DM Serif Display', 'Open Sans', sans-serif, serif; */
+    /* font-family: 'MyCustomFontRegular', 'MyCustomFontMedium', 'Geologica_Regular', sans-serif, serif; */
+    font-family:   'DM Serif Display', serif,
+    'Geologica', sans-serif,
+    'IBM Plex Sans', sans-serif,
+    'Open Sans', sans-serif;
+    
+    word-spacing: 0.3rem;
+    letter-spacing: 0.08em;
+}
+
+p {
+    font-size: 17px;
+}
+
+.carousel img {
+    position: relative;
+    width: 70%;
+    height: auto;
+    margin-left: 650px;
+    margin-top: -60px;
+    /* box-shadow: -12px 20px 15px -1px rgba(232,229,215,0.75);
+-webkit-box-shadow: -12px 20px 15px -1px rgba(232,229,215,0.75);
+-moz-box-shadow: -12px 20px 15px -1px rgba(232,229,215,0.75);    */
+}
+
+
+.team img {
+    width: 70%;
+    margin-inline: auto;
+}
+
+
+
+.main-content {
+    position:absolute;
+    width: 45%;
+    /* background-color: red; */
+    top: 35%;
+    left: 5%;
+    z-index: 1;
+}
+
+
+.services {
+    height: 65vh;
+    position:relative;
+}
+
+.service {
+    position: relative;
+    /* background-color: rgb(221, 125, 125); */
+    height: 300px;
+    width: 300px;
+    z-index: 1;
+}
+
+.child {
+    position: absolute;
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    bottom: 3.5%;
+    right: 3.5%;
+    z-index: 2;
+}
+
+
+.element1 {
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    bottom: -24%;
+    left: -6%;
+}
+
+.element2 {
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    bottom: -37%;
+    right: -4%;
+    z-index: -1;
+}
+
+.element3 {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: -15%;
+    right: -6%;
+    z-index: -1;
+}
+
+
+/* #main {
+    position: relative;
+} */
+
+.content {
+    position: relative;
+    height: 500px;
+    width: 600px;
+    background-color: rgb(205, 39, 55);
+    z-index: 1;
+    left: 20%;
+  
+}
+
+.main-photo {
+    position: absolute;
+    height: 500px;
+    width: 600px;
+    background-color: aqua;
+    z-index: -1;
+    left: 80%;
+    bottom: 0.1%;
+}
+
+/* .main-photo img {
+    position: absolute;
+
+    
+    z-index: -1;
+    left: 80%;
+    display: block;
+    box-shadow: -16px 25px 20px -6px rgba(56,71,46,0.66);
+    -webkit-box-shadow: -16px 25px 20px -6px rgba(56,71,46,0.66);
+    -moz-box-shadow: -16px 25px 20px -6px rgba(56,71,46,0.66);
+} */
+
+
+/* Custom CSS for overlay effect */
+.carousel-item {
+    position: relative;
+    filter: blur(8px); /* Adjust the blur amount as needed */
+    z-index: 1;
+  }
+  
+  .carousel-item.active {
+    filter: blur(0); /* Remove blur for the active item */
+    z-index: 2;
+  }
+  
+  .carousel-inner {
+    position: relative;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    z-index: 3;
+  }
+
+
+.team {
+    margin-top: 150px;
+}
+  
+
+
+/* @media (max-width: 640px) {
+    .service {
+        height: 100px;
+        width: 100px;
+        z-index: 1;
+    }
+    .child {
+        height: 100px;
+        width: 100px;
+        z-index: 2;
+    }
+  } */
+
+  @media (max-width: 992px) {
+
+    .service {
+        height: 200px;
+        width: 200px;
+        z-index: 1;
+    }
+
+    .services {
+        height: auto;
+    }
+    .child {
+        position: absolute;
+        right: 4.5%;
+        bottom: 4.5%;
+        height: 200px;
+        width: 200px;
+        z-index: 2;
+    }
+
+    .team {
+        margin-top: 30px;
+    }
+  }
+  
+ 
+  @media (max-width: 576px) {
+    .service {
+        height: 200px;
+        width: 200px;
+        z-index: 1;
+    }
+
+    .services {
+        height: auto;
+    }
+    .child {
+        height: 200px;
+        width: 200px;
+        z-index: 2;
+    }
+
+    .team {
+        margin-top: 30px;
+    }
+  }
+
+

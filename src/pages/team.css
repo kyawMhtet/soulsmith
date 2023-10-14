@@ -1,0 +1,87 @@
+/* Default styles for larger screens */
+.person {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row; /* Horizontal layout for larger screens */
+  }
+  
+  .info, .info1 {
+    height: 230px;
+    overflow-y: hidden;
+    transition: all 0.5s;
+  }
+  
+  .info:hover {
+    cursor: default;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.info:hover::-webkit-scrollbar {
+    width: 5px;
+}
+
+.info:hover::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #2D3738;
+    border-radius: 10px;
+}
+
+.info:hover::-webkit-scrollbar-thumb {
+    background: #C4A962;
+    border-radius: 10px;
+}
+
+.info:hover::-webkit-scrollbar-thumb:hover {
+    background: #C4A962;
+}
+  
+  .info1 {
+    direction: rtl;
+    overflow-y: hidden;
+    height: 230px;
+  }
+  
+  .info1:hover {
+    cursor: default;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.info1:hover::-webkit-scrollbar {
+    width: 5px;
+}
+
+.info1:hover::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #2D3738;
+    border-radius: 10px;
+}
+
+.info1:hover::-webkit-scrollbar-thumb {
+    background: #C4A962;
+    border-radius: 10px;
+}
+
+.info1:hover::-webkit-scrollbar-thumb:hover {
+    background: #C4A962;
+}
+  
+  /* Media query for small screens (adjust the breakpoint as needed) */
+  @media (max-width: 576px) {
+    .person {
+      flex-direction: column; /* Vertical layout for small screens */
+    }
+  
+    .info1 {
+      order: 1; /* Swap order on small screens */
+    }
+  
+    .photo1 {
+      order: 2; /* Swap order on small screens */
+    }
+
+    .info, .info1 {
+        width: 100%;
+        height: 100%;
+    }
+  }
+  
