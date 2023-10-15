@@ -2,9 +2,13 @@ import React, { useState, useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import LanguageToggle from './LanguageToggle';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap'
 import MainLogo from '../assets/MainLogo.png';
 import './NavBar.css';
 import { useTranslation } from 'react-i18next';
+import DownArrow from '../assets/down-arrow.svg'
+import RightArrow from '../assets/right-arrow.svg'
+
 
 const NavBar = () => {
   const { t } = useTranslation();
@@ -15,6 +19,10 @@ const NavBar = () => {
 
 
   const [isNavbar, setIsNavbar] = useState(null);
+
+  const [ANav, setANav] = useState(false);
+  const [subNav, setSubNav] = useState(false);
+
 
   useEffect(() => {
     setIsNavbar(false);
@@ -70,6 +78,15 @@ const NavBar = () => {
   const navbarClasses = `navbar navbar-expand-lg ${
     isNavbarFixed ? ' navbar-transition' : ''
   }`;
+  
+
+  const toggleA = () => {
+    setANav((prevANav) => !prevANav);
+  }
+
+  const toggleA1 = () => {
+    setSubNav((prevSubNav) => !prevSubNav);
+  }
 
   return (
     <>
@@ -312,24 +329,33 @@ const NavBar = () => {
                       </NavLink>
         </li>
         <li className="nav-item mx-2">
-            <div className="nested-dropdowns__item">
-            <NavLink to={'/services'} className="nav-link tw-text-gold" >
-                        {t('Services')}
+            <div className="nested-dropdowns__item d-flex justify-content-between">
+            <NavLink to={'/services'} className="nav-link tw-text-gold justify-content-between" >
+                        {t('Services')} 
+
                       </NavLink>
-                
+                      <img src={DownArrow} alt="" onClick={toggleA}/>
+
             </div>
-            <ul>
+
+            {
+              ANav && (
+                            <ul>
     
     
             <li>
-                    <div className="nested-dropdowns__item">
-                      <NavLink to={'/services/Psychological Support: Psychotherapy & Counseling'} className="nav-link tw-text-gold"  >
+                    <div className="nested-dropdowns__item d-flex justify-content-between">
+                      <NavLink to={'/services/Psychological Support: Psychotherapy & Counseling'} className="nav-link d-flex tw-text-gold"  >
                     {t('SectionA')}
-    
                       </NavLink>
+
+                      <img src={RightArrow} alt="" onClick={toggleA1} />
+
                        
                     </div>
-                    <ul>
+                    {
+                      subNav && (
+                        <ul className='A1-links'>
                         <li>
                           <NavLink to={'/services/Psychological Support: Psychotherapy & Counseling/Listening Service and Mindfulness Practice'}
                             className="nav-link tw-text-gold" 
@@ -366,6 +392,8 @@ const NavBar = () => {
                           </NavLink>
                         </li>
                     </ul>
+                      )
+                    }
                 </li>
             <li>
                   <NavLink to={'/services/Healing & Therapy'} className="nav-link tw-text-gold" >
@@ -381,14 +409,17 @@ const NavBar = () => {
                 </li>
     
             </ul>
+              )
+            }
         </li>
+
 
         
 
         <li className="nav-item mx-2">
-        <NavLink to={'/product'} className="nav-link tw-text-gold" >
-                        {t('Product')}
-                      </NavLink>
+        <NavLink to={'/team'} className="nav-link tw-text-gold" >
+                    {t('Team')}
+                  </NavLink>
         </li>
         <li className="nav-item mx-2">
         <NavLink to={'/contact-us'} className="nav-link tw-text-gold" >

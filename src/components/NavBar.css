@@ -65,6 +65,10 @@ a {
   transition: all 0.5s;
 }
 
+.navbar-toggler-icon {
+  color: #C4A962 !important;
+}
+
 .nav-item a:hover::after,
 .nav-item .active::after {
   width: 100%;
@@ -124,6 +128,8 @@ a {
 
 
 
+
+
 @media (max-width: 640px) {
   .nav-link {
     margin-left: 0 !important;
@@ -175,30 +181,58 @@ a {
 }
 
 /* The sub nested-dropdowns */
-.nested-dropdowns ul {
-  /* Border */
-  /* border: 1px solid #d1d5db; */
-  z-index: 1;
-  /* Hidden by default */
-  display: none;
+@media (min-width: 992px)
+{
+  .nested-dropdowns ul {
+    /* Border */
+    /* border: 1px solid #d1d5db; */
+    z-index: 1;
+    /* Hidden by default */
+    display: none;
+  
+    /* Absolute position */
+    left: 0;
+    position: absolute;
+    top: 100%;
+  
+    background-color: #2D3738;
+    width: 13rem;
+    /* width: auto; */
+    /* Reset styles */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+}
 
-  /* Absolute position */
-  left: 0;
-  position: absolute;
-  top: 100%;
-
-  background-color: #2D3738;
-  width: 15rem;
-  /* width: auto; */
-  /* Reset styles */
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+@media (max-width: 992px)
+{
+  .nested-dropdowns ul {
+    /* Border */
+    /* border: 1px solid #d1d5db; */
+    z-index: 1;
+    /* Hidden by default */
+    display: none;
+  
+    /* Absolute position */
+    left: 0;
+    position: absolute;
+    top: 100%;
+  
+    background-color: #2D3738;
+    width: 12.5rem;
+    /* width: auto; */
+    /* Reset styles */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 /* The second level sub nested-dropdowns */
 .nested-dropdowns ul ul {
   left: 100%;
+  padding: 15px 0;
   /* margin-top: 25px; */
   /* margin-left: 5px; */
   /* background-color: red; */
@@ -212,6 +246,7 @@ a {
 }
 
 /* Show the direct sub nested-dropdowns when hovering the list item */
+
 .nested-dropdowns li:hover > ul {
   display: block;
 }
@@ -254,7 +289,7 @@ a {
   left: 0;
   position: fixed;
   top: 0;
-  width: 250px;
+  width: 210px;
 
   /* Background */
   background-color: #fff;
