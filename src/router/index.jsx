@@ -33,11 +33,11 @@ const router = createBrowserRouter([
                 element: <Services />,
             },
             {
-                path: '/services/PsychologicalSupport-Psychotherapy&Counseling',
+                path: '/services/PsychologicalSupport-Psychotherapy-Counseling',
                 element: <SectionA />
             },
             {
-                path: '/services/PsychologicalSupport-Psychotherapy&Counseling/ListeningServiceandMindfulnessPractice',
+                path: '/services/PsychologicalSupport-Psychotherapy-Counseling/ListeningServiceandMindfulnessPractice',
                 element: <SectionA1 />
             },
 
