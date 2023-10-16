@@ -33,16 +33,16 @@ const router = createBrowserRouter([
                 element: <Services />,
             },
             {
-                path: '/services/PsychologicalSupport:Psychotherapy&Counseling',
+                path: '/services/PsychologicalSupport-Psychotherapy&Counseling',
                 element: <SectionA />
             },
             {
-                path: '/services/PsychologicalSupport:Psychotherapy&Counseling/ListeningServiceandMindfulnessPractice',
+                path: '/services/PsychologicalSupport-Psychotherapy&Counseling/ListeningServiceandMindfulnessPractice',
                 element: <SectionA1 />
             },
 
             {
-                path: '/services/Healing&Therapy',
+                path: '/services/Healing-Therapy',
                 element: <SectionB />
             },
 
@@ -52,19 +52,19 @@ const router = createBrowserRouter([
             },
 
             {
-                path: '/services/PsychologicalSupport:Psychotherapy&Counseling/Counseling',
+                path: '/services/PsychologicalSupport-Psychotherapy-Counseling/Counseling',
                 element: <SectionA2 />
             },
             {
-                path: '/services/PsychologicalSupport:Psychotherapy&Counseling/Psychotherapy',
+                path: '/services/PsychologicalSupport-Psychotherapy-Counseling/Psychotherapy',
                 element: <SectionA3 />
             },
             {
-                path: '/services/PsychologicalSupport:Psychotherapy&Counseling/ArtsPsychotherapy',
+                path: '/services/PsychologicalSupport-Psychotherapy-Counseling/ArtsPsychotherapy',
                 element: <SectionA4 />
             },
             {
-                path: '/services/PsychologicalSupport:Psychotherapy&Counseling/TherapeuticWorkshop',
+                path: '/services/PsychologicalSupport-Psychotherapy-Counseling/TherapeuticWorkshop',
                 element: <SectionA5 />
             },
             // {

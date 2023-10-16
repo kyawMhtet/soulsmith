@@ -215,7 +215,7 @@ const NavBar = () => {
 
         <li>
                 <div className="nested-dropdowns__item">
-                  <NavLink to={'/services/PsychologicalSupport:Psychotherapy&Counseling'} className="nav-link tw-text-gold"  >
+                  <NavLink to={'/services/PsychologicalSupport-Psychotherapy-Counseling'} className="nav-link tw-text-gold"  >
                 {t('SectionA')}
 
                   </NavLink>
@@ -223,26 +223,26 @@ const NavBar = () => {
                 </div>
                 <ul>
                     <li>
-                      <NavLink to={'/services/PsychologicalSupport:Psychotherapy&Counseling/ListeningServiceandMindfulnessPractice'}
+                      <NavLink to={'/services/PsychologicalSupport-Psychotherapy-Counseling/ListeningServiceandMindfulnessPractice'}
                         className="nav-link tw-text-gold" 
                       >
                         {t('SectionA1')}
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink to={'/services/PsychologicalSupport:Psychotherapy&Counseling/Counseling'} className="nav-link tw-text-gold"  >
+                      <NavLink to={'/services/PsychologicalSupport-Psychotherapy-Counseling/Counseling'} className="nav-link tw-text-gold"  >
                       {t('SectionA2')}
 
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink to={'/services/PsychologicalSupport:Psychotherapy&Counseling/Psychotherapy'} className="nav-link tw-text-gold"  >
+                      <NavLink to={'/services/PsychologicalSupport-Psychotherapy-Counseling/Psychotherapy'} className="nav-link tw-text-gold"  >
                       {t('SectionA3')}
 
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink to={'/services/PsychologicalSupport:Psychotherapy&Counseling/ArtsPsychotherapy'}
+                      <NavLink to={'/services/PsychologicalSupport-Psychotherapy-Counseling/ArtsPsychotherapy'}
                         className="nav-link tw-text-gold" 
                       >
                       {t('SectionA4')}
@@ -250,7 +250,7 @@ const NavBar = () => {
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink to={'/services/PsychologicalSupport:Psychotherapy&Counseling/TherapeuticWorkshop'} 
+                      <NavLink to={'/services/PsychologicalSupport-Psychotherapy-Counseling/TherapeuticWorkshop'} 
                       className="nav-link tw-text-gold" 
                       >
                       {t('SectionA5')}
