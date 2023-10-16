@@ -33,7 +33,7 @@ const router = createBrowserRouter([
                 element: <Services />,
             },
             {
-                path: '/services/sectionA',
+                path: '/services/PsychologicalSupport-Psychotherapy-Counseling',
                 element: <SectionA />
             },
             {
