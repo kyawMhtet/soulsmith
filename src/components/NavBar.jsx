@@ -215,7 +215,7 @@ const NavBar = () => {
 
         <li>
                 <div className="nested-dropdowns__item">
-                  <NavLink to={'/services/PsychologicalSupport-Psychotherapy-Counseling'} className="nav-link tw-text-gold"  >
+                  <NavLink to={'/services/sectionA'} className="nav-link tw-text-gold"  >
                 {t('SectionA')}
 
                   </NavLink>
