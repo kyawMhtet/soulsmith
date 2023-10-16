@@ -27,7 +27,7 @@ const SectionA = () => {
         <div className="container text-center mt-4">
           <div className="row ">
             <div className="col-12 col-lg-4 col-md-2 col-sm-12 my-3">
-              <NavLink to={'/services/Psychological Support: Psychotherapy & Counseling/Listening Service and Mindfulness Practice'}>
+              <NavLink to={'/services/PsychologicalSupport:Psychotherapy&Counseling/ListeningServiceandMindfulnessPractice'}>
               <div className="card1">
                 <div className="card1-content">
                   <h5 className=''>

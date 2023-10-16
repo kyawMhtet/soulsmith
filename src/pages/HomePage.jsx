@@ -87,7 +87,7 @@ const HomePage = () => {
       </div> */}
 
 
-      <div className=' main d-none d-lg-block'>
+      <div className=' main d-none d-lg-block mt-3'>
           <div className=' main-content'>
             <h1 className='tw-text-gold'>SOUL SMITH</h1>
             <p className='text-white'>

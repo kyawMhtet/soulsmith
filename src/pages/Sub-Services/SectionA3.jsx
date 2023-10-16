@@ -24,7 +24,7 @@ const SectionA3 = () => {
         </p>
 
 
-        <div className='my-5 a3 w-100'>
+        <div className=' a3'>
 <div className="mt-3">
     <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg" className='w-100' style={{ height: 500}} alt="" />
   </div>
@@ -74,7 +74,7 @@ const SectionA3 = () => {
 
 
 {/* A3b */}
-<div className='my-5 a3 w-100'>
+<div className=' a3 w-100'>
 <div className="mt-3">
     <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg" className='w-100' style={{ height: 500}} alt="" />
   </div>
@@ -123,7 +123,7 @@ const SectionA3 = () => {
 
 
 {/* A3c */}
-<div className='my-5 a3 w-100'>
+<div className=' a3 w-100'>
 <div className="mt-3">
     <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg" className='w-100' style={{ height: 500}} alt="" />
   </div>
@@ -174,7 +174,7 @@ const SectionA3 = () => {
 
 {/* A3d */}
 
-<div className='my-5 a3 w-100'>
+<div className=' a3 w-100'>
 <div className="mt-3">
     <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg" className='w-100' style={{ height: 500}} alt="" />
   </div>

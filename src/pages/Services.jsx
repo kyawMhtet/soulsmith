@@ -27,7 +27,7 @@ const Services = () => {
           <ul>
             <li>
               <h5>
-                  <NavLink to={'/services/Psychological Support: Psychotherapy & Counseling'}
+                  <NavLink to={'/services/PsychologicalSupport:Psychotherapy&Counseling'}
                     className={'tw-text-gold'}
                   >
                 Psychological Support: Psychotherapy & Counseling
@@ -38,7 +38,7 @@ const Services = () => {
 
             <li>
               <h5>
-                <NavLink to={'/services/Healing & Therapy'} className={'tw-text-gold'} >
+                <NavLink to={'/services/Healing&Therapy'} className={'tw-text-gold'} >
                 Healing & Therapy 
                 </NavLink>
               </h5>
@@ -46,7 +46,7 @@ const Services = () => {
 
             <li>
               <h5>
-                <NavLink to={'/services/Body - Mind - Soul Mixology Service'} className={'tw-text-gold'} >
+                <NavLink to={'/services/Body-Mind-SoulMixologyService'} className={'tw-text-gold'} >
                 Body - Mind - Soul Mixology Service
                 </NavLink>
               </h5>

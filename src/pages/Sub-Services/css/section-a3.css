@@ -2,6 +2,8 @@
 
 .a3 {
     display: flex;
+    margin-top: 50px;
+    /* background-color: red; */
     /* justify-content: space-between; */
 }
 
@@ -15,7 +17,10 @@
 @media (max-width: 992px) {
   .a3 {
         
-    display: inline;
+    display: inline-block;
+    /* background-color: red; */
+
+    /* margin-top: 50px; */
 
 }
 
@@ -30,12 +35,16 @@
 
     .a3 {
         
-        display: inline;
+        display: inline-block;
+    /* margin-top: 50px; */
+
+
 
     }
 
     .a3 .about {
         margin-top: 15px;
+
         
     }
   }

@@ -33,38 +33,38 @@ const router = createBrowserRouter([
                 element: <Services />,
             },
             {
-                path: '/services/Psychological Support: Psychotherapy & Counseling',
+                path: '/services/PsychologicalSupport:Psychotherapy&Counseling',
                 element: <SectionA />
             },
             {
-                path: '/services/Psychological Support: Psychotherapy & Counseling/Listening Service and Mindfulness Practice',
+                path: '/services/PsychologicalSupport:Psychotherapy&Counseling/ListeningServiceandMindfulnessPractice',
                 element: <SectionA1 />
             },
 
             {
-                path: '/services/Healing & Therapy',
+                path: '/services/Healing&Therapy',
                 element: <SectionB />
             },
 
             {
-                path: '/services/Body - Mind - Soul Mixology Service',
+                path: '/services/Body-Mind-SoulMixologyService',
                 element: <SectionC />
             },
 
             {
-                path: '/services/Psychological Support: Psychotherapy & Counseling/Counseling',
+                path: '/services/PsychologicalSupport:Psychotherapy&Counseling/Counseling',
                 element: <SectionA2 />
             },
             {
-                path: '/services/Psychological Support: Psychotherapy & Counseling/Psychotherapy',
+                path: '/services/PsychologicalSupport:Psychotherapy&Counseling/Psychotherapy',
                 element: <SectionA3 />
             },
             {
-                path: '/services/Psychological Support: Psychotherapy & Counseling/Arts Psychotherapy',
+                path: '/services/PsychologicalSupport:Psychotherapy&Counseling/ArtsPsychotherapy',
                 element: <SectionA4 />
             },
             {
-                path: '/services/Psychological Support: Psychotherapy & Counseling/Therapeutic Workshop',
+                path: '/services/PsychologicalSupport:Psychotherapy&Counseling/TherapeuticWorkshop',
                 element: <SectionA5 />
             },
             // {

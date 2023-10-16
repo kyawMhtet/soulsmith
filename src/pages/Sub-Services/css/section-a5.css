@@ -2,6 +2,7 @@
 
 .a5 {
     display: flex;
+    margin-top: 50px;
     /* justify-content: space-between; */
 }
 
@@ -15,7 +16,7 @@
 @media (max-width: 992px) {
   .a5 {
         
-    display: inline;
+    display: inline-block;
 
 }
 
@@ -29,7 +30,7 @@
   @media (max-width: 576px) {
 
     .a5 {
-        display: inline;
+        display: inline-block;
 
     }
 

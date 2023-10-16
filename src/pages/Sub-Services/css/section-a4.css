@@ -2,6 +2,7 @@
 
 .a4 {
     display: flex;
+    margin-top: 50px;
     /* justify-content: space-between; */
 }
 
@@ -15,7 +16,7 @@
 @media (max-width: 992px) {
   .a4 {
         
-    display: inline;
+    display: inline-block;
 
 }
 
@@ -30,7 +31,7 @@
 
     .a4 {
         
-        display: inline;
+        display: inline-block;
 
     }
 

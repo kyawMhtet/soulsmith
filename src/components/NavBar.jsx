@@ -75,7 +75,7 @@ const NavBar = () => {
 
   
 
-  const navbarClasses = `navbar navbar-expand-lg ${
+  const navbarClasses = `navbar navbar-expand-lg sticky-top tw-bg-primary shadow-sm ${
     isNavbarFixed ? ' navbar-transition' : ''
   }`;
   
@@ -106,7 +106,7 @@ const NavBar = () => {
         </div>
       </div>
 
-      <nav className={navbarClasses}>
+      <nav className={navbarClasses} >
         <div className="container-fluid ">
           <a className="navbar-brand ms-4" href="#">
             <img src={MainLogo} alt="" />
@@ -215,7 +215,7 @@ const NavBar = () => {
 
         <li>
                 <div className="nested-dropdowns__item">
-                  <NavLink to={'/services/Psychological Support: Psychotherapy & Counseling'} className="nav-link tw-text-gold"  >
+                  <NavLink to={'/services/PsychologicalSupport:Psychotherapy&Counseling'} className="nav-link tw-text-gold"  >
                 {t('SectionA')}
 
                   </NavLink>
@@ -223,26 +223,26 @@ const NavBar = () => {
                 </div>
                 <ul>
                     <li>
-                      <NavLink to={'/services/Psychological Support: Psychotherapy & Counseling/Listening Service and Mindfulness Practice'}
+                      <NavLink to={'/services/PsychologicalSupport:Psychotherapy&Counseling/ListeningServiceandMindfulnessPractice'}
                         className="nav-link tw-text-gold" 
                       >
                         {t('SectionA1')}
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink to={'/services/Psychological Support: Psychotherapy & Counseling/Counseling'} className="nav-link tw-text-gold"  >
+                      <NavLink to={'/services/PsychologicalSupport:Psychotherapy&Counseling/Counseling'} className="nav-link tw-text-gold"  >
                       {t('SectionA2')}
 
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink to={'/services/Psychological Support: Psychotherapy & Counseling/Psychotherapy'} className="nav-link tw-text-gold"  >
+                      <NavLink to={'/services/PsychologicalSupport:Psychotherapy&Counseling/Psychotherapy'} className="nav-link tw-text-gold"  >
                       {t('SectionA3')}
 
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink to={'/services/Psychological Support: Psychotherapy & Counseling/Arts Psychotherapy'}
+                      <NavLink to={'/services/PsychologicalSupport:Psychotherapy&Counseling/ArtsPsychotherapy'}
                         className="nav-link tw-text-gold" 
                       >
                       {t('SectionA4')}
@@ -250,7 +250,7 @@ const NavBar = () => {
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink to={'/services/Psychological Support: Psychotherapy & Counseling/Therapeutic Workshop'} 
+                      <NavLink to={'/services/PsychologicalSupport:Psychotherapy&Counseling/TherapeuticWorkshop'} 
                       className="nav-link tw-text-gold" 
                       >
                       {t('SectionA5')}
@@ -260,13 +260,13 @@ const NavBar = () => {
                 </ul>
             </li>
         <li>
-              <NavLink to={'/services/Healing & Therapy'} className="nav-link tw-text-gold" >
+              <NavLink to={'/services/Healing&Therapy'} className="nav-link tw-text-gold" >
                 {t('SectionB')}
               </NavLink>
         </li>
 
             <li>
-              <NavLink to={'/services/Body - Mind - Soul Mixology Service'} className="nav-link tw-text-gold"   >
+              <NavLink to={'/services/Body-Mind -SoulMixologyService'} className="nav-link tw-text-gold"   >
                 {t('SectionC')}
 
               </NavLink>
@@ -303,7 +303,7 @@ const NavBar = () => {
       isNavbar && (
         <div class="drawer">
     
-        <div class="drawer__overlay "></div>
+        <div class="drawer__overlay"></div>
     
       
         <div class="drawer__sidebar">
