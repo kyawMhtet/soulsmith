@@ -7,6 +7,18 @@
     /* justify-content: space-between; */
 }
 
+.a3 .button {
+  list-style-type: none;
+}
+
+.a3 .button button {
+  transition: all 0.3s;
+}
+
+.a3 .button button:hover {
+  background-color: #E8E5D7;
+  color: #C4A962;
+}
 
 .a3 ul {
 

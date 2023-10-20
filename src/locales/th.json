@@ -39,13 +39,28 @@
 
 
 
-        "A4Description_01": "บริการด้านจิตบำบัดด้วยกระบวนการทางศิลปะ - Arts Psychotherapy คือบริการจิตบำบัดด้วยกระบวนการทางศิลปะที่มีหลักการพื้นฐานตั้งต้นเหมือนบริการจิตบำบัดแต่มีการใช้ศิลปะแขนงต่างๆเข้ามามีส่วนร่วมเพื่อเป็นสื่อกลางในกระบวนการการทำงานซึ่งธรรมชาติของศิลปะนั้นจะทำให้ผู้รับบริการไม่ติดกับดักของภาษาพูดที่อาจจะไม่สามารถอธิบายถึงความรู้สึกหรือสภาวะทางจิตใจได้อย่างครบถ้วน มากไปกว่านั้นศิลปะสามารถเชื่อมโยงไปถึงจิตใจในระดับจิตใต้สำนึกได้คล่องตัวกว่าภาษาพูด และสามารถทำให้ผู้รับบริการมีพื้นที่ในการทำงานกับจิตใจได้อย่างรู้สึกปลอดภัย.",
+    "A4Description_01": "บริการด้านจิตบำบัดด้วยกระบวนการทางศิลปะ - Arts Psychotherapy คือบริการจิตบำบัดด้วยกระบวนการทางศิลปะที่มีหลักการพื้นฐานตั้งต้นเหมือนบริการจิตบำบัดแต่มีการใช้ศิลปะแขนงต่างๆเข้ามามีส่วนร่วมเพื่อเป็นสื่อกลางในกระบวนการการทำงานซึ่งธรรมชาติของศิลปะนั้นจะทำให้ผู้รับบริการไม่ติดกับดักของภาษาพูดที่อาจจะไม่สามารถอธิบายถึงความรู้สึกหรือสภาวะทางจิตใจได้อย่างครบถ้วน มากไปกว่านั้นศิลปะสามารถเชื่อมโยงไปถึงจิตใจในระดับจิตใต้สำนึกได้คล่องตัวกว่าภาษาพูด และสามารถทำให้ผู้รับบริการมีพื้นที่ในการทำงานกับจิตใจได้อย่างรู้สึกปลอดภัย.",
 
     "A4Description_02": "เด็ก พรีทีน วัยรุ่น ผู้ใหญ่ ผู้สูงวัยที่ต้องการเข้าใจตัวเองหรือคนอื่น ผู้ที่รู้สึก low self- esteem ผู้ที่ต้องการคนเข้าใจ ผู้ที่ต้องการสำรวจภาวะทางอารมณ์ ความคิดและพฤติกรรมของตัวเอง ค้นหาความเป็นไปได้ในการดำเนินชีวิต หาทางออกให้กับปัญหาที่มี เพิ่มพูนทักษะด้านความสัมพันธ์ ด้านอารมณ์และด้านการคิดวิเคราะห์ รู้สึกเครียด กังวล หรือ แปลกแยก ต้องการเยียวยาบาดแผลทางใจ ต้องการคนเข้าใจ.",
 
 
 
     "A1a" : "บริการรับฟังและการฝึกสติ: แบบเดี่ยว",
+
+    "descA1a" : "เหมาะสำหรับ: ผู้รับบริการแบบบุคคล",
+
+    "A1aDuration" : "ระยะเวลา: 60 นาที",
+
+    "A1adesc1": "ช่องทางการให้บริการ: ให้บริการเฉพาะช่องทางออนไลน์",
+    "A1alanguage": "ให้บริการเฉพาะภาษาไทย",
+
+    "A1aSession1": "ค่าบริการสำหรับการบริการ 1 ครั้ง: 900 บาท",
+    "A1aSession2": "ค่าบริการสำหรับการบริการ 5 ครั้ง: 4,300",
+
+
+    "A1aSession3": "Package of 5 Sessions: 4,300",
+
+
 
     "A2a" : "บริการให้คำปรึกษาด้านสุขภาพจิต: แบบเดี่ยว",
 
@@ -174,13 +189,45 @@
 
     "A5bSession1": "ค่าบริการสำหรับการบริการ 1 ครั้ง: 3,500 บาท",
     "A5bSession2": "ค่าบริการสำหรับการบริการ 5 ครั้ง: xxx",
-    "A5bSession3": "ค่าบริการสำหรับการบริการ 10 ครั้ง: xxx"
+    "A5bSession3": "ค่าบริการสำหรับการบริการ 10 ครั้ง: xxx",
 
 
 
 
     
+    "name1" : "คุณแพร์ วิลาวัณย์ บุญเกื้อกุลวงษ์",
+    "category1" : "นักจิตบำบัดความคิดและพฤติกรรม",
+    "listA" : "ประวัติการศึกษา",
+    "listB" : "ประวัติการทำงานโดยสังเขป",
+    "list1Aa" : "อักษรศาสตรบัณฑิต (อ.บ.) เอกปรัชญา คณะอักษรศาสตร์ ม.ศิลปากร",
+    "list1Ab" : "ป.บัณฑิต (เพศวิทยาคลินิก) คณะแพทยศาสตร์ ม.ธรรมศาสตร์",
+    "list1Ac" : "ป.บัณฑิต (จิตบำบัดความคิดและพฤติกรรม) คณะแพทยศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย",
+    "list1Ba" : "นักจิตบำบัดความคิดและพฤติกรรม, บจ.ซีบีที ดีต่อใจ Facebook Page : CBT ดีต่อใจ",
+    "list1Bb" : "อาจารย์พิเศษ คณะแพทยศาสตร์ ภาควิชาจิตเวชศาสตร์ สาขาวิชาสุขภาพจิต แขนงวิชาจิตบำบัดความคิดและพฤติกรรม",
 
+
+
+
+
+    "name2" : "คุณเมย์ พิชญา ดังศิริแสงทอง",
+    "category2" : "นักดนตรีบำบัด",
+    "list2A" : "ประวัติการศึกษา",
+    "list2B" : "ประวัติการทำงานโดยสังเขป",
+    "list2Aa" : "Bachelor of engineering IN INDUSTRIAL ENGINEER (E.C) MAHIDOL UNIVERSITY.",
+    "list2Ab" : "Master of Arts in music therapy (m.a) MAHIDOL UNIVERSITY.",
+    "list2Ac" : "Certification of Neurologic Music Therapy, Academy of Neurologic Music Therapy, The University of Toronto, USA.",
+
+    "list2Ba" : "ผู้ก่อตั้งและนักดนตรีบำบัดประจำ บริษัท สุขภาวะข้างถนน จำกัด ให้บริการดนตรีบำบัดเพื่อเป้าหมายในการฟื้นฟูสุขภาพแก่ผู้ป่วยไร้บ้าน และดนตรีบำบัดแบบกลุ่มเพื่อส่งเสริมทักษะด้านสังคมแก่คนไร้บ้านที่อยู่ในการดูแลของกลุ่มภาคีเครือข่าย",
+    "list2Bb" : "นักดนตรีบำบัดชั่วคราว ศูนย์ฝึกสมอง โรงพยาบาลจุฬาลงกรณ์ ให้บริการดนตรีบำบัดแบบกลุ่ม เพื่อป้องกันโรคสมองเสื่อมในกลุ่มผู้สูงอายุ",
+    "list2Bc" : "นักดนตรีบำบัดชั่วคราว ศูนย์ดูแลภาวะสมองเสื่อม โรงพยาบาลจุฬาลงกรณ์ ให้บริการดนตรีบำบัดแบบกลุ่มแก่ผู้สูงอายุโรคสมองเสื่อม",
+    "list2Bd" : "Cognitive Fitness Center, King Chulalongkorn Memorial Hospital, Bangkok",
+    "list2Be" : "Part time music therapist, providing group music therapy sessions for well-being elderly as a goal to maintain cognitive functions.",
+    "list2Bf" : "Music therapy private setting for organisation, providing group music therapy focusing on team building and stress management",
+    "list2Bg" : "Founder of almost. Music therapy facebook page, knowledge sharing and group workshop about music for self-care both online and onsite",
+    "list2Bh" : "Group Virtual Music Therapy for stress management during Covid-19 pandemic in small hotels managers in Thailand (M.A. thesis)",
+    "list2Bi" : "Music Therapy for Elderly, Navasri Nursing Home, Bangkok, providing music therapy sessions for elderly in nursing homes.",
+    "list2Bj" : "Siriraj Palliative Care Center, Siriraj Hospital, Bangkok",
+    "list2Bk" : "Intern music therapist, assisting in providing music therapy sessions in clinical settings, including palliative care patients, children and adults in intensive care units, etc."
 
 
 

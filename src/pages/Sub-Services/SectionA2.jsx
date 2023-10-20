@@ -9,7 +9,7 @@ const SectionA2 = () => {
 
   return (
     <>
-      <h2 className='text-center tw-text-gold text-decoration-underline mt-4'>
+      <h2 className='text-center tw-text-bone text-decoration-underline mt-4'>
         {t('SectionA2')}
       </h2>
 
@@ -39,13 +39,13 @@ const SectionA2 = () => {
 
 
 
-<div className='my-4 a2 w-75'>
+<div className='my-4 a2 tw-bg-midnight p-4 rounded-4'>
 <div className="mt-3">
     <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg" className='w-100' style={{ height: 500}} alt="" />
   </div>
 
   <div className='mt-3 ms-4 about'>
-  <h5 className='tw-text-gold  text-decoration-underline'>
+  <h5 className='tw-text-bone text-decoration-underline'>
           {t('A2a')}
         </h5>
     <ul className='mt-3'>
@@ -74,8 +74,14 @@ const SectionA2 = () => {
             <p>10 Session: xxx</p>
           </li>
         </ul>
+
+        <li className='button tw-list-none ms-4 mt-5'>
+    <a href='https://SOULSMITH.as.me/' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">BOOK NOW</a>
+
+      </li>
       </li>
 
+        
       
     </ul>
   </div>

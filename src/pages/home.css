@@ -27,7 +27,7 @@ p {
     font-size: 17px;
 }
 
-.carousel img {
+.carousel-home img {
     position: relative;
     width: 70%;
     height: auto;
@@ -169,6 +169,35 @@ p {
 .team {
     margin-top: 150px;
 }
+  
+
+.book-now {
+    position: fixed;
+    top: 50%;
+    right: 0;
+
+    margin-right: -48px;
+    transform: translateY(-50%) rotate(-90deg);
+    z-index: 1000;
+  }
+  
+  .book-now-button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    padding: 10px 18px;
+    border: none;
+    /* border-radius: 50px; */
+    /* transform: rotate(-90deg); */
+
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+  }
+  
+  .book-now-button:hover {
+    background-color: #45a049;
+  }
   
 
 

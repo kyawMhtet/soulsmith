@@ -10,9 +10,9 @@ const Services = () => {
   return (
     <>
       <div className="container mt-4">
-        <h2 className='text-center tw-underline tw-text-gold'>{t('serviceTitle')}</h2>
+        <h2 className='text-center tw-underline tw-text-bone'>{t('serviceTitle')}</h2>
         
-        <div className='container mt-4'>
+        {/* <div className='container mt-4'>
           <p className='tw-text-bone fw-semibold'>
             {t('ServiceDescription1')}
           </p>
@@ -20,25 +20,24 @@ const Services = () => {
           <p className='tw-text-bone fw-semibold'>
               {t('ServiceDescription2')}
           </p>
-        </div>
+        </div> */}
 
 
         <div className='sections'>
           <ul>
             <li>
               <h5>
-                  <NavLink to={'/services/PsychologicalSupport:Psychotherapy&Counseling'}
-                    className={'tw-text-gold'}
+                  <NavLink to={'/services/PsychologicalSupport-Psychotherapy-Counseling'}
+                    className={'tw-text-bone'}
                   >
                 Psychological Support: Psychotherapy & Counseling
-
                   </NavLink>
               </h5>
             </li>
 
             <li>
               <h5>
-                <NavLink to={'/services/Healing&Therapy'} className={'tw-text-gold'} >
+                <NavLink to={'/services/Healing-Therapy'} className={'tw-text-bone'} >
                 Healing & Therapy 
                 </NavLink>
               </h5>
@@ -46,7 +45,7 @@ const Services = () => {
 
             <li>
               <h5>
-                <NavLink to={'/services/Body-Mind-SoulMixologyService'} className={'tw-text-gold'} >
+                <NavLink to={'/services/Body-Mind-SoulMixologyService'} className={'tw-text-bone'} >
                 Body - Mind - Soul Mixology Service
                 </NavLink>
               </h5>

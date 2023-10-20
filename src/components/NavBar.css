@@ -28,7 +28,8 @@ a {
 }
 
 .nav-link {
-  color: #C4A962;
+  /* color: #C4A962; */
+  color: #E8E5D7;
 }
 
 
@@ -47,7 +48,7 @@ a {
 
 
 .nav-link:hover {
-  color: #E8E5D7;
+  color: #C4A962;
 }
 /* .nav-item a {
   background-color: red;
@@ -156,9 +157,6 @@ a {
 
 
 
-
-
-
 .nested-dropdowns {
   /* Border */
   border: 1px solid #d1d5db;
@@ -207,6 +205,8 @@ a {
 
 @media (max-width: 992px)
 {
+  
+
   .nested-dropdowns ul {
     /* Border */
     /* border: 1px solid #d1d5db; */
@@ -216,34 +216,67 @@ a {
   
     /* Absolute position */
     left: 0;
+    
     position: absolute;
     top: 100%;
   
     background-color: #2D3738;
-    width: 12.5rem;
+    width: 20rem;
     /* width: auto; */
     /* Reset styles */
     list-style-type: none;
     margin: 0;
     padding: 0;
+    
   }
 }
+
+
+@media (max-width: 576px)
+{
+  
+
+  .nested-dropdowns ul {
+    /* Border */
+    /* border: 1px solid #d1d5db; */
+    z-index: 1;
+    /* Hidden by default */
+    display: none;
+  
+    /* Absolute position */
+    left: 0;
+    
+    position: absolute;
+    top: 100%;
+  
+    background-color: #2D3738;
+    width: 12rem;
+    /* width: auto; */
+    /* Reset styles */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+}
+
 
 /* The second level sub nested-dropdowns */
 .nested-dropdowns ul ul {
   left: 100%;
-  padding: 15px 0;
-  /* margin-top: 25px; */
-  /* margin-left: 5px; */
-  /* background-color: red; */
+  padding: 0px 0;
+  /* border: 1px solid #E8E5D7; */
+
+  width: 100%;
   position: absolute;
   top: 0;
+  /* background-color: red; */
 }
 
 /* Change background color of list item when being hovered */
-.nested-dropdowns li:hover {
-  /* background-color: rgba(0, 0, 0, 0.1); */
-}
+/* .nested-dropdowns li:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+} */
 
 /* Show the direct sub nested-dropdowns when hovering the list item */
 
@@ -289,10 +322,10 @@ a {
   left: 0;
   position: fixed;
   top: 0;
-  width: 210px;
+  width: 60%;
 
   /* Background */
-  background-color: #fff;
+  background-color: #2D3738;
 }
 
 

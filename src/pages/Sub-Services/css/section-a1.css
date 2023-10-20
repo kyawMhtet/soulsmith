@@ -1,41 +1,50 @@
 
 
 .a1 {
-    display: flex;
-    margin-top: 50px;
+  display: flex;
+  margin-top: 50px;
 }
 
 
 .a1 ul {
 
-  list-style-type: disc;
+list-style-type: disc;
 
+}
+.a1 .button button {
+transition: all 0.3s;
+}
+
+
+.a1 .button button:hover {
+background-color: #E8E5D7;
+color: #C4A962;
 }
 
 @media (max-width: 992px) {
-  .a1 {
-        
-    display: inline;
+.a1 {
+      
+  display: inline-block;
 
 }
 
-.a1 .info {
-    margin-top: 15px;
-    
-}
-  }
+.a1 .about {
+  margin-top: 15px;
   
- 
-  @media (max-width: 576px) {
+}
+}
 
-    .a1 {
-        
-        display: inline;
 
-    }
+@media (max-width: 576px) {
 
-    .a1 .info {
-        margin-top: 15px;
-        
-    }
+  .a1 {
+      
+      display: inline-block;
+
   }
+
+  .a1 .about {
+      margin-top: 15px;
+      
+  }
+}

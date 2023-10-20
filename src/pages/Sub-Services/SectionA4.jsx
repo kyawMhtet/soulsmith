@@ -7,31 +7,31 @@ const SectionA4 = () => {
 
   return (
     <>
-      <h3 className='text-center mt-4 tw-text-gold text-decoration-underline'>
+      <h3 className='text-center mt-4 tw-text-bone text-decoration-underline'>
         {t('SectionA4')}
       </h3>
 
 
-      <div className="container my-4">
+      <div className="container my-4 main-desc">
         <p className='tw-text-bone'>
           {t('A4Description_01')}
         </p>
 
-        <p className='tw-text-bone'>
+        <p className='tw-text-bone A4D2'>
           {t('A4Description_02')}
         </p>
 
 
-        <div className='my-5 a4 w-100'>
+        <div className='my-5 a4 w-100 tw-bg-midnight p-4 rounded-3'>
 <div className="mt-3">
     <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg" className='w-100' style={{ height: 500}} alt="" />
   </div>
 
-  <div className='mt-3 ms-4 about w-75'>
-  <h5 className='tw-text-gold  text-decoration-underline'>
+  <div className='mt-3 ms-4 about'>
+  <h5 className='tw-text-bone  text-decoration-underline'>
           {t('A4a')}
         </h5>
-    <ul className='mt-3'>
+    <ul className='mt-3 lists'>
       <li className='tw-text-bone'>
         <p className=''>{t('descA4a')}</p>
       </li>
@@ -62,6 +62,11 @@ const SectionA4 = () => {
             <p>{t('A4aSession3')}</p>
           </li>
         </ul>
+
+        <li className='button tw-list-none ms-4 mt-5'>
+    <a href='https://SOULSMITH.as.me/' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">BOOK NOW</a>
+
+      </li>
       </li>
 
       
@@ -74,16 +79,16 @@ const SectionA4 = () => {
 {/* A4b */}
 
 
-<div className='my-5 a4 w-100'>
+<div className='my-5 a4 w-100 tw-bg-midnight p-4 rounded-3'>
 <div className="mt-3">
     <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg" className='w-100' style={{ height: 500}} alt="" />
   </div>
 
-  <div className='mt-3 ms-4 about w-75'>
-  <h5 className='tw-text-gold  text-decoration-underline'>
+  <div className='mt-3 ms-4 about'>
+  <h5 className='tw-text-bone  text-decoration-underline'>
           {t('A4b')}
         </h5>
-    <ul className='mt-3'>
+    <ul className='mt-3 lists'>
       <li className='tw-text-bone'>
         <p className=''>{t('descA4b')}</p>
       </li>
@@ -114,6 +119,11 @@ const SectionA4 = () => {
             <p>{t('A4aSession3')}</p>
           </li>
         </ul>
+        <li className='button tw-list-none ms-4 mt-5'>
+    <a href='https://SOULSMITH.as.me/' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">BOOK NOW</a>
+
+      </li>
+        
       </li>
 
       
@@ -124,16 +134,16 @@ const SectionA4 = () => {
 
 
 {/* A4c */}
-<div className='my-5 a4 w-100'>
+<div className='my-5 a4 w-100 tw-bg-midnight p-4 rounded-3'>
 <div className="mt-3">
     <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg" className='w-100' style={{ height: 500}} alt="" />
   </div>
 
-  <div className='mt-3 ms-4 about w-75'>
-  <h5 className='tw-text-gold  text-decoration-underline'>
+  <div className='mt-3 ms-4 about'>
+  <h5 className='tw-text-bone  text-decoration-underline'>
           {t('A4c')}
         </h5>
-    <ul className='mt-3'>
+    <ul className='mt-3 lists'>
       <li className='tw-text-bone'>
         <p className=''>{t('descA4c')}</p>
       </li>
@@ -164,6 +174,11 @@ const SectionA4 = () => {
             <p>{t('A4aSession3')}</p>
           </li>
         </ul>
+
+        <li className='button tw-list-none ms-4 mt-5'>
+    <a href='https://SOULSMITH.as.me/' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">BOOK NOW</a>
+
+      </li>
       </li>
 
       
@@ -176,16 +191,16 @@ const SectionA4 = () => {
 
 {/* A4d */}
 
-<div className='my-5 a4 w-100'>
+<div className='my-5 a4 w-100 tw-bg-midnight p-4 rounded-3'>
 <div className="mt-3">
     <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg" className='w-100' style={{ height: 500}} alt="" />
   </div>
 
-  <div className='mt-3 ms-4 about w-75'>
-  <h5 className='tw-text-gold  text-decoration-underline'>
+  <div className='mt-3 ms-4 about'>
+  <h5 className='tw-text-bone text-decoration-underline'>
           {t('A4d')}
         </h5>
-    <ul className='mt-3'>
+    <ul className='mt-3 lists'>
       <li className='tw-text-bone'>
         <p className=''>{t('descA4d')}</p>
       </li>
@@ -216,6 +231,11 @@ const SectionA4 = () => {
             <p>{t('A4dSession3')}</p>
           </li>
         </ul>
+
+        <li className='button tw-list-none ms-5 mt-5'>
+    <a href='https://SOULSMITH.as.me/' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">BOOK NOW</a>
+
+      </li>
       </li>
 
       

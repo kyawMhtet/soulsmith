@@ -106,7 +106,7 @@ const HomePage = () => {
 
         <div
         id="carouselExampleFade"
-        className="carousel slide carousel-fade z-0"
+        className="carousel-home slide carousel-fade z-0"
         data-bs-ride="carousel"
         data-bs-interval="3000" // Adjust the interval (in milliseconds) as needed 
       >
@@ -176,7 +176,7 @@ const HomePage = () => {
       <div className='container-fluid mt-5' >
         <div className="row">
           <div className="col-10  mx-auto rounded-3 services">
-            <h3 className='tw-text-gold text-center p-3'>SERVICES</h3>
+            <h3 className='tw-text-bone text-center p-3'>SERVICES</h3>
 
 
             <div className='row mt-2 gap-2 py-4 mx-auto' data-aos="fade-right" data-aos-duration="1500">
@@ -217,7 +217,7 @@ const HomePage = () => {
       {/* our team */}
 
       <div className='team'>
-        <h3 className='text-center tw-text-gold'>OUR TEAM</h3>
+        <h3 className='text-center tw-text-bone'>OUR TEAM</h3>
 
 
       <div className="container mt-5">
@@ -259,6 +259,11 @@ const HomePage = () => {
         </div>
       </div>
 
+      </div>
+
+
+      <div className="book-now">
+        <button className="book-now-button">Book Now</button>
       </div>
 
 
