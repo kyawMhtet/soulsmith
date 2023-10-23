@@ -87,8 +87,8 @@ const HomePage = () => {
       </div> */}
 
 
-      <div className=' main d-none d-lg-block mt-3'>
-          <div className=' main-content'>
+      <div className='main mt-3'>
+          <div className=' main-content order-2 order-lg-1'>
             <h1 className='tw-text-gold'>SOUL SMITH</h1>
             <p className='text-white'>
               {t('About SOULSMITH')}
@@ -101,12 +101,11 @@ const HomePage = () => {
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo cupiditate iusto vitae aperiam exercitationem, minus harum non aliquam tempora ad, eligendi ullam laborum accusamus doloremque soluta assumenda ratione unde ut corrupti dignissimos. Quisquam enim itaque perspiciatis repellat voluptatem esse molestias.</p> */}
           </div>
 
-        {/* <img src={Section1} className='' alt="" /> */}
 
 
         <div
         id="carouselExampleFade"
-        className="carousel-home slide carousel-fade z-0"
+        className="carousel-home slide carousel-fade order-1 order-lg-2"
         data-bs-ride="carousel"
         data-bs-interval="3000" // Adjust the interval (in milliseconds) as needed 
       >
@@ -135,24 +134,7 @@ const HomePage = () => {
             />
           </div>
         </div>
-        {/* <button
-          className="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleFade"
-          data-bs-slide="prev"
-        >
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button
-          className="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleFade"
-          data-bs-slide="next"
-        >
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Next</span>
-        </button> */}
+
       </div>
 
 
@@ -263,7 +245,7 @@ const HomePage = () => {
 
 
       <div className="book-now">
-        <button className="book-now-button">Book Now</button>
+        <a href='https://SOULSMITH.as.me/' className="book-now-button rounded-1">Book Now</a>
       </div>
 
 

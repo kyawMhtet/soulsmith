@@ -28,7 +28,7 @@ const SectionA = () => {
         <div className="container text-center mt-4">
           <div className="row ">
             <div className="col-12 col-lg-4 col-md-2 col-sm-12 my-3">
-              <NavLink to={'/services/PsychologicalSupport:Psychotherapy&Counseling/ListeningServiceandMindfulnessPractice'}>
+              <NavLink to={'/services/PsychologicalSupport-Psychotherapy-Counseling/ListeningServiceandMindfulnessPractice'}>
               <div className="card1">
                 <div className="card1-content">
                   <h5 className=''>
@@ -41,6 +41,7 @@ const SectionA = () => {
             </div>
 
             <div className="col-12 col-lg-4 col-md-2 col-sm-12 my-3">
+              <NavLink to={'/services/PsychologicalSupport-Psychotherapy-Counseling/Counseling'}>
               <div className="card1">
                 <div className="card2-content">
                 <h5>
@@ -49,10 +50,12 @@ const SectionA = () => {
                   </h5>
                 </div>
               </div>
+              </NavLink>
             </div>
 
             <div className="col-12 col-lg-4 col-md-2 col-sm-12 my-3">
-            <div className="card1">
+              <NavLink to={'/services/PsychologicalSupport-Psychotherapy-Counseling/Psychotherapy'}>
+              <div className="card1">
                 <div className="card3-content">
                 <h5>
                   {t('SectionA3')}
@@ -60,6 +63,7 @@ const SectionA = () => {
                   </h5>
                 </div>
               </div>
+              </NavLink>
             </div>
 
 
@@ -70,6 +74,7 @@ const SectionA = () => {
         <div className="container mt-2">
           <div className="row">
           <div className="col-4 offset-2">
+            <NavLink to={'/services/PsychologicalSupport-Psychotherapy-Counseling/ArtsPsychotherapy'}>
             <div className="card1">
                 <div className="card4-content">
                 <h5>
@@ -78,10 +83,12 @@ const SectionA = () => {
                   </h5>
                 </div>
               </div>
+            </NavLink>
             </div>
 
             <div className="col-4">
-            <div className="card1">
+              <NavLink to={'/services/PsychologicalSupport-Psychotherapy-Counseling/TherapeuticWorkshop'}>
+              <div className="card1">
                 <div className="card5-content">
                   <h5>
                   {t('SectionA5')}
@@ -89,6 +96,7 @@ const SectionA = () => {
                   </h5>
                 </div>
               </div>
+              </NavLink>
             </div>
           </div>
         </div>

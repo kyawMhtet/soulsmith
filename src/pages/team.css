@@ -1,6 +1,6 @@
 /* Default styles for larger screens */
 .person {
-    margin-top: 50px;
+    margin-top: 80px;
     display: flex;
     flex-direction: row; /* Horizontal layout for larger screens */
   }
@@ -124,6 +124,10 @@
         width: 100%;
         height: 100%;
         overflow: hidden;
+    }
+
+    .name, .category {
+      text-align: center;
     }
   }
   
