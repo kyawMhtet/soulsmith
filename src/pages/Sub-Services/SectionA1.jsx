@@ -26,18 +26,16 @@ const SectionA1 = () => {
 
       <div className='mt-5 container'>
 
-
-
         <div className=' my-4 a1 tw-bg-midnight p-4 rounded-3'>
-        <div className="mt-3 ">
-            <img src="https://empathysauce.com/wp-content/uploads/2020/05/1Online-Personal-one-on-one-scaled.jpg" className='w-100' style={{ height: 500}} alt="" />
-          </div>
+      
+            <img src="https://empathysauce.com/wp-content/uploads/2020/05/1Online-Personal-one-on-one-scaled.jpg"  alt="" />
+          
 
-          <div className='mt-3 ms-4 about'>
-          <h5 className='tw-text-bone text-decoration-underline'>
+          <div className=' about'>
+          <h5 className='tw-text-bone text-center text-decoration-underline'>
             {t('A1a')}
           </h5>
-          <ul className='mt-3'>
+          <ul className='mt-3 ms-lg-3'>
       <li className='tw-text-bone'>
         <p className=''>{t('descA1a')}</p>
       </li>

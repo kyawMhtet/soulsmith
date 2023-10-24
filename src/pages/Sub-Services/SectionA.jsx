@@ -72,8 +72,8 @@ const SectionA = () => {
 
 
         <div className="container mt-2">
-          <div className="row">
-          <div className="col-4 offset-2">
+          <div className="row gap-3">
+          <div className="col-12 col-lg-4 col-md-4 col-sm-12">
             <NavLink to={'/services/PsychologicalSupport-Psychotherapy-Counseling/ArtsPsychotherapy'}>
             <div className="card1">
                 <div className="card4-content">
@@ -86,7 +86,7 @@ const SectionA = () => {
             </NavLink>
             </div>
 
-            <div className="col-4">
+            <div className="col-12 col-lg-4 col-md-4 col-sm-12">
               <NavLink to={'/services/PsychologicalSupport-Psychotherapy-Counseling/TherapeuticWorkshop'}>
               <div className="card1">
                 <div className="card5-content">

@@ -111,7 +111,7 @@ const ContactUs = () => {
             {/* map */}
 
             <div className='mx-auto px-2 my-5'>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1905.5687291042332!2d100.5084235462813!3d13.725174239190665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e299b2efbe5181%3A0x838a32522037d70a!2sEmpathy%20Sauce%20Co.%2CLtd.!5e0!3m2!1sen!2smm!4v1696956874400!5m2!1sen!2smm"  style={{ border: 0, width: '100%', height: 500 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1905.5687291042332!2d100.5084235462813!3d13.725174239190665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e299b2efbe5181%3A0x838a32522037d70a!2sEmpathy%20Sauce%20Co.%2CLtd.!5e0!3m2!1sen!2smm!4v1696956874400!5m2!1sen!2smm"  style={{ border: 0, width: '100%', height: 500 }}  loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
 

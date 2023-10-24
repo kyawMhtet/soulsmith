@@ -5,6 +5,15 @@
     margin-top: 50px;
 }
 
+.a2 img {
+  width: 40%;
+}
+
+.about {
+  width: 60%;
+  /* background-color: red; */
+}
+
 
 .a2 ul {
 
@@ -32,6 +41,15 @@
     margin-top: 15px;
     
 }
+
+.a2 img {
+  width: 100%;
+}
+
+.about {
+  width: 100%;
+  /* background-color: red; */
+}
   }
   
  
@@ -47,4 +65,17 @@
         margin-top: 15px;
         
     }
+
+    .a2 img {
+      width: 100%;
+    }
+    
+    .about {
+      width: 100%;
+      /* background-color: red; */
+    }
+
+    
+
+    
   }

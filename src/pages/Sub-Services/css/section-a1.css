@@ -5,6 +5,15 @@
   margin-top: 50px;
 }
 
+.a1 img {
+  width: 40%;
+}
+
+.about {
+  width: 60%;
+  /* background-color: red; */
+}
+
 
 .a1 ul {
 
@@ -32,6 +41,15 @@ color: #C4A962;
   margin-top: 15px;
   
 }
+
+.a1 img {
+  width: 100%;
+}
+
+.about {
+  width: 100%;
+  /* background-color: red; */
+}
 }
 
 
@@ -47,4 +65,14 @@ color: #C4A962;
       margin-top: 15px;
       
   }
+
+  .a1 img {
+    width: 100%;
+  }
+  
+  .about {
+    width: 100%;
+    /* background-color: red; */
+  }
+  
 }

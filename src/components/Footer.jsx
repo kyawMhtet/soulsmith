@@ -3,7 +3,7 @@ import MainLogo from '../assets/MainLogo.png'
 
 const Footer = () => {
   return (
-    <div className='footer tw-bg-midnight mt-5'>
+    <div className='footer tw-bg-midnight' style={{ marginTop: 150 }}>
         <div className="container-fluid py-4">
             <div className="row">
                 <div className="col-12 col-lg-3 col-md-3">

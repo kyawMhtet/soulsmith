@@ -1,4 +1,8 @@
 /* Default styles for larger screens */
+body {
+  overflow-x: hidden;
+}
+
 .person {
     margin-top: 80px;
     display: flex;

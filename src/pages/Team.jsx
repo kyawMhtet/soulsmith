@@ -10,7 +10,7 @@ const Team = () => {
 
   const isThaiLanguage = i18n.language === 'th';
 
-  console.log(isThaiLanguage);
+
 
   return (
     <>
@@ -32,10 +32,10 @@ const Team = () => {
         </div>
 
         <div className='w-100 info p-3 tw-text-bone'>
-          <h4 className='tw-text-bone name text-decoration-underline'>
+          <h4 className='tw-text-bone name text-sm-center text-decoration-underline'>
           {t('name1')}
           </h4>
-          <h5 className='my-3 category'>({t('category1')})</h5>
+          <h5 className='my-3 category text-sm-center '>({t('category1')})</h5>
           
           {/* <h5 className=' tw-text-gold text-center'> Cognitive Behavioral Therapist</h5> */}
 
@@ -96,10 +96,10 @@ const Team = () => {
         
       <div className='w-100 info1 p-3 tw-text-bone'>
 
-      <h4 className='tw-text-bone name text-decoration-underline'>
+      <h4 className='tw-text-bone name text-sm-center  text-decoration-underline'>
           {t('name2')}
           </h4>
-          <h5 className='my-3 category'>({t('category2')})</h5>
+          <h5 className='my-3 category text-sm-center '>({t('category2')})</h5>
           
           {/* <h5 className=' tw-text-gold text-center'> Cognitive Behavioral Therapist</h5> */}
 
@@ -209,10 +209,10 @@ const Team = () => {
         </div>
 
         <div className='w-100 info p-3 tw-text-bone'>
-          <h4 className='tw-text-bone name text-decoration-underline'>
+          <h4 className='tw-text-bone text-sm-center  name text-decoration-underline'>
           {t('name3')}
           </h4>
-          <h5 className='my-3 category'>({t('category3')})</h5>
+          <h5 className='my-3 category text-sm-center '>({t('category3')})</h5>
           
           {/* <h5 className=' tw-text-gold text-center'> Cognitive Behavioral Therapist</h5> */}
 
@@ -289,10 +289,10 @@ const Team = () => {
         
       <div className='w-100 info1 p-3 tw-text-bone'>
 
-      <h4 className='tw-text-bone name text-decoration-underline'>
+      <h4 className='tw-text-bone text-sm-center  name text-decoration-underline'>
           {t('name2')}
           </h4>
-          <h5 className='my-3 category'>({t('category4')})</h5>
+          <h5 className='my-3 category text-sm-center '>({t('category4')})</h5>
           
           {/* <h5 className=' tw-text-gold text-center'> Cognitive Behavioral Therapist</h5> */}
 
@@ -334,9 +334,6 @@ const Team = () => {
                 </div>
           </Carousel>
 
-
-
-
         </div>
 
         <div className='photo'>
@@ -355,10 +352,10 @@ const Team = () => {
         </div>
 
         <div className='w-100 info p-3 tw-text-bone'>
-          <h4 className='tw-text-bone name text-decoration-underline'>
+          <h4 className='tw-text-bone text-sm-center  name text-decoration-underline'>
           {t('name5')}
           </h4>
-          <h5 className='my-3 category'>({t('category5')})</h5>
+          <h5 className='my-3 category text-sm-center '>({t('category5')})</h5>
           
           {/* <h5 className=' tw-text-gold text-center'> Cognitive Behavioral Therapist</h5> */}
 
@@ -427,17 +424,175 @@ const Team = () => {
           </Carousel>
           {/* </div> */}
 
+        </div>
+      </div>
+
+
+
+      {/* 6th member */}
+
+      <div className='person w-75 mx-auto'>
+
+
+        
+<div className='w-100 info1 p-3 tw-text-bone'>
+
+<h4 className='tw-text-bone name text-sm-center  text-decoration-underline'>
+    {t('name6')}
+    </h4>
+    <h5 className='my-3 category text-sm-center '>({t('category6')})</h5>
+    
+    {/* <h5 className=' tw-text-gold text-center'> Cognitive Behavioral Therapist</h5> */}
+
+    
+    {/* <div className='mt-3 text-left'> */}
+    <Carousel showThumbs={false} width="100%" dynamicHeight={true} showArrows={false} emulateTouch={true} showStatus={false} >
+    <div className='text-start py-1 list2'>
+        <h5 className=''>
+          {t('list6A')}
+        </h5>
+
+        <ul className='tw-list-disc mt-1 mb-5 tw-text-start' >
+          <li>{t('list6Aa')}</li>
+          <li className='my-2'>{t('list6Ab')}</li>
+          <li>{t('list6Ac')}</li>
+        </ul>
+
+              {/* <p className="legend">Legend 1</p> */}
+          </div>
+
+
+      <div className='text-start py-1'>
+        <h5 className=''>
+        {t('list6B')}
+        </h5>
+
+        <ul className='tw-list-disc mt-3 mb-5'>
+          <li>{t('list6Ba')}
+          </li>
+          <li className='my-2'>
+            {t('list6Bb')}
+          </li>
+
+          <li className='my-2'>
+            {t('list6Bc')}
+          </li>
+
+          <li className='my-2'>
+            {t('list6Bd')}
+          </li>
+
+          <li className='my-2'>
+            {t('list6Be')}
+          </li>
+
+          <li className='my-2'>
+            {t('list6Bf')}
+          </li>
+
+          <li className='my-2'>
+            {t('list6Bg')}
+          </li>
+
+              <li className='my-2'>
+              {t('list6Bh')}
+            </li>
+
+
+    
+          
+        </ul>
+          </div>
+    </Carousel>
+
+  </div>
+
+  <div className='photo'>
+    <img src="https://strategyfirst.edu.mm/frontend/people/wypz.png" className='rounded-circle photo1' alt="" />
+  </div>
+  
+</div>
+
+
+
+
+<div className='person w-75 mx-auto h-auto'>
+        <div className='photo'>
+          <img src="https://strategyfirst.edu.mm/frontend/people/wypz.png" className='rounded-circle' alt="" />
+        </div>
+
+        <div className='w-100 info p-3 tw-text-bone'>
+          <h4 className='tw-text-bone text-sm-center  name text-decoration-underline'>
+          {t('name7')}
+          </h4>
+          <h5 className='my-3 category text-sm-center '>{t('category7')}</h5>
+          
+          {/* <h5 className=' tw-text-gold text-center'> Cognitive Behavioral Therapist</h5> */}
+
+          
+          {/* <div className='mt-3 text-left'> */}
+          <Carousel showThumbs={false} width="100%" dynamicHeight={true} showArrows={false} emulateTouch={true} showStatus={false} >
+          <div className='text-start py-1 '>
+              <h5 className=''>
+                {t('list7A')}
+              </h5>
+
+              <ul className='tw-list-disc mt-1 mb-5 tw-text-start' >
+                <li>{t('list7Aa')}</li>
+                <li className='my-2'>{t('list7Ab')}</li>
+                <li className='my-2'>{t('list7Ac')}</li>
+                <li className='my-2'>{t('list7Ad')}</li>
+                
+              </ul>
+
+                    {/* <p className="legend">Legend 1</p> */}
+                </div>
+
+
+            <div className='text-start py-1'>
+              <h5 className=''>
+              {t('list7B')}
+              </h5>
+
+              <ul className='tw-list-disc mt-3 mb-5'>
+                <li>{t('list7Ba')}
+
+                </li>
+                <li className='my-2'>
+                  {t('list7Bb')}
+                </li>
+
+    
+                    <li className='my-2'>
+                    {t('list7Bc')}
+                  </li>
+
+
+
+                
+              </ul>
+
+                    {/* <p className="legend">Legend 1</p> */}
+                </div>
+          </Carousel>
+          {/* </div> */}
+
 
 
 
 
         </div>
       </div>
-
-
-
-
     </div>
+
+
+
+
+    {/* 7th member */}
+
+
+
+    
 
 
     <Footer />

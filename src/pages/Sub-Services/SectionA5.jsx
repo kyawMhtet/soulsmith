@@ -27,15 +27,15 @@ const SectionA5 = () => {
 
 {/* A5a */}
         <div className='my-5 a5 w-100 tw-bg-midnight p-4 rounded-3'>
-<div className="mt-3">
-    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg" className='w-100' style={{ height: 500}} alt="" />
-  </div>
 
-  <div className='mt-3 ms-4 about w-75'>
-  <h5 className='tw-text-bone  text-decoration-underline'>
+    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
+
+
+  <div className=' about'>
+  <h5 className='tw-text-bone text-center text-decoration-underline'>
           {t('A5a')}
         </h5>
-    <ul className='mt-3'>
+    <ul className='mt-3 ms-lg-3'>
       <li className='tw-text-bone'>
         {/* <p className=''>{t('descA5a')}</p> */}
         <p>May be later</p>
@@ -69,7 +69,7 @@ const SectionA5 = () => {
         </ul>
       </li>
 
-      <li className='button tw-list-none ms-5 mt-5'>
+      <li className='button tw-list-none ms-4 mt-5'>
     <a href='https://SOULSMITH.as.me/' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">BOOK NOW</a>
 
       </li>
@@ -81,15 +81,15 @@ const SectionA5 = () => {
 
 {/* A5b */}
 <div className='my-5 a5 w-100 tw-bg-midnight p-4 rounded-3'>
-<div className="mt-3">
-    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg" className='w-100' style={{ height: 500}} alt="" />
-  </div>
 
-  <div className='mt-3 ms-4 about w-75'>
-  <h5 className='tw-text-bone  text-decoration-underline'>
+    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
+
+
+  <div className=' about'>
+  <h5 className='tw-text-bone text-center text-decoration-underline'>
           {t('A5b')}
         </h5>
-    <ul className='mt-3'>
+    <ul className='mt-3 ms-lg-3'>
       <li className='tw-text-bone'>
         {/* <p className=''>{t('descA4a')}</p> */}
         <p>May be later</p>
@@ -124,7 +124,7 @@ const SectionA5 = () => {
       </li>
 
 
-      <li className='button tw-list-none ms-5 mt-5'>
+      <li className='button tw-list-none ms-4 mt-5'>
     <a href='https://SOULSMITH.as.me/' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">BOOK NOW</a>
 
       </li>

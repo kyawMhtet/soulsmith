@@ -25,15 +25,15 @@ const SectionA3 = () => {
 
 
         <div className='a3 tw-bg-midnight p-4 rounded-3'>
-<div className="mt-3">
-    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg" className='w-100' style={{ height: 500}} alt="" />
-  </div>
 
-  <div className='mt-3 ms-4 about w-75'>
-  <h5 className='tw-text-bone text-decoration-underline'>
+    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
+
+
+  <div className='  about'>
+  <h5 className='tw-text-bone text-center text-decoration-underline'>
           {t('A3a')}
         </h5>
-    <ul className='mt-3'>
+    <ul className='mt-3 ms-lg-3'>
       <li className='tw-text-bone'>
         <p className=''>{t('descA3a')}</p>
       </li>
@@ -79,15 +79,15 @@ const SectionA3 = () => {
 
 {/* A3b */}
 <div className=' a3 tw-bg-midnight p-4 rounded-4'>
-<div className="mt-3">
-    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg" className='w-100' style={{ height: 500}} alt="" />
-  </div>
 
-  <div className='mt-3 ms-4 about w-75'>
-  <h5 className='tw-text-bone  text-decoration-underline'>
+    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
+
+
+  <div className='about'>
+  <h5 className='tw-text-bone text-center text-decoration-underline'>
           {t('A3b')}
         </h5>
-    <ul className='mt-3'>
+    <ul className='mt-3 ms-lg-3'>
       <li className='tw-text-bone'>
         <p className=''>{t('descA3b')}</p>
       </li>
@@ -135,15 +135,15 @@ const SectionA3 = () => {
 
 {/* A3c */}
 <div className=' a3 tw-bg-midnight p-4 rounded-4'>
-<div className="mt-3">
-    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg" className='w-100' style={{ height: 500}} alt="" />
-  </div>
 
-  <div className='mt-3 ms-4 about w-75'>
-  <h5 className='tw-text-bone  text-decoration-underline'>
+    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
+
+
+  <div className='about'>
+  <h5 className='tw-text-bone text-center text-decoration-underline'>
           {t('A3c')}
         </h5>
-    <ul className='mt-3'>
+    <ul className='mt-3 ms-lg-3'>
       <li className='tw-text-bone'>
         <p className=''>{t('descA3c')}</p>
       </li>
@@ -191,15 +191,15 @@ const SectionA3 = () => {
 {/* A3d */}
 
 <div className=' a3 tw-bg-midnight p-4 rounded-4'>
-<div className="mt-3">
-    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg" className='w-100' style={{ height: 500}} alt="" />
-  </div>
 
-  <div className='mt-3 ms-4 about w-75'>
-  <h5 className='tw-text-bone  text-decoration-underline'>
+    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
+
+
+  <div className='about'>
+  <h5 className='tw-text-bone text-center text-decoration-underline'>
           {t('A3d')}
         </h5>
-    <ul className='mt-3'>
+    <ul className='mt-3 ms-lg-3'>
       <li className='tw-text-bone'>
         <p className=''>{t('descA3d')}</p>
       </li>
@@ -250,11 +250,11 @@ const SectionA3 = () => {
       <div className="row  mx-auto gap-5">
           <div className="col p-2">
           <div className=' a3 w-100 mx-auto'>
-<div className="mt-3">
-    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg" className='w-100' style={{ height: 500}} alt="" />
+
+    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
   </div>
 
-  <div className='mt-3 ms-4 about w-75'>
+  <div className='mt-3 ms-4 about'>
   <h5 className='tw-text-bone  text-decoration-underline'>
           {t('A2a')}
         </h5>
@@ -296,11 +296,11 @@ const SectionA3 = () => {
 
           <div className="col">
                     <div className=' a3 w-100 mx-auto'>
-<div className="mt-3">
-    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg" className='w-100' style={{ height: 500}} alt="" />
+
+    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
   </div>
 
-  <div className='mt-3 ms-4 about w-75 '>
+  <div className='mt-3 ms-4 about '>
   <h5 className='tw-text-bone  text-decoration-underline'>
           {t('A2a')}
         </h5>

@@ -27,64 +27,6 @@ const HomePage = () => {
 
   return (
     <>
-      {/* <div
-        id="carouselExampleFade"
-        className="carousel slide carousel-fade z-0"
-        data-bs-ride="carousel"
-        data-bs-interval="3000" // Adjust the interval (in milliseconds) as needed 
-      >
-        <div className="carousel-inner">
-          <div className="carousel-item ">
-            <img
-              src={Section1}
-              alt="Slide 1"
-            />
-          </div>
-          <div className="carousel-item active">
-            <img
-              src="https://scontent-sin6-2.xx.fbcdn.net/v/t31.18172-8/29871894_192517221366750_7151077294607288258_o.jpg?_nc_cat=109&ccb=1-7&_nc_sid=e3f864&_nc_ohc=MmYWkYg3j0QAX85za8p&_nc_ht=scontent-sin6-2.xx&oh=00_AfDh2maSdLP_nQYPfupbgc1963q-o5ned8kSNrJwg-pefg&oe=65447EC2"
-              className="d-block w-100 img-fluid"
-              alt="Slide 2"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src="https://scontent-sin6-2.xx.fbcdn.net/v/t39.30808-6/380816010_615859110754892_2738443758761912119_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=52f669&_nc_ohc=hUd4UeF9xlQAX9LDbrW&_nc_ht=scontent-sin6-2.xx&oh=00_AfB5766mcXXFUfKkbp2MhDdXLjSac8V04dxZ9C3YSFoPdQ&oe=6522C7C8"
-              className="d-block w-100 img-fluid"
-              alt="Slide 3"
-            />
-          </div>
-        </div>
-        <button
-          className="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleFade"
-          data-bs-slide="prev"
-        >
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button
-          className="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleFade"
-          data-bs-slide="next"
-        >
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Next</span>
-        </button>
-      </div> */}
-
-      {/* <div id='main'>
-        <div className='content'>
-          
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse ducimus ex iure doloremque possimus neque eius, non corporis, voluptatum quidem alias nobis, qui corrupti cupiditate ea! Numquam necessitatibus, dolore suscipit itaque omnis eaque nisi neque totam. Rerum quos cumque, nesciunt atque eum omnis officia beatae commodi? Adipisci molestias nostrum officia?
-          
-          <div className='main-photo'>
-              <img src={Section1} className='' alt="" />
-          </div>
-        </div>
-      </div> */}
 
 
       <div className='main mt-3'>

@@ -22,16 +22,16 @@ const SectionA4 = () => {
         </p>
 
 
-        <div className='my-5 a4 w-100 tw-bg-midnight p-4 rounded-3'>
-<div className="mt-3">
-    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg" className='w-100' style={{ height: 500}} alt="" />
-  </div>
+        <div className='my-5 a4 tw-bg-midnight p-4 rounded-3'>
 
-  <div className='mt-3 ms-4 about'>
-  <h5 className='tw-text-bone  text-decoration-underline'>
+    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
+
+
+  <div className=' about'>
+  <h5 className='tw-text-bone text-center  text-decoration-underline'>
           {t('A4a')}
         </h5>
-    <ul className='mt-3 lists'>
+    <ul className='mt-3 lists ms-3'>
       <li className='tw-text-bone'>
         <p className=''>{t('descA4a')}</p>
       </li>
@@ -79,16 +79,16 @@ const SectionA4 = () => {
 {/* A4b */}
 
 
-<div className='my-5 a4 w-100 tw-bg-midnight p-4 rounded-3'>
-<div className="mt-3">
-    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg" className='w-100' style={{ height: 500}} alt="" />
-  </div>
+<div className='my-5 a4 tw-bg-midnight p-4 rounded-3'>
 
-  <div className='mt-3 ms-4 about'>
-  <h5 className='tw-text-bone  text-decoration-underline'>
+    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
+
+
+  <div className=' about'>
+  <h5 className='tw-text-bone text-center  text-decoration-underline'>
           {t('A4b')}
         </h5>
-    <ul className='mt-3 lists'>
+    <ul className='mt-3 lists ms-3'>
       <li className='tw-text-bone'>
         <p className=''>{t('descA4b')}</p>
       </li>
@@ -134,16 +134,16 @@ const SectionA4 = () => {
 
 
 {/* A4c */}
-<div className='my-5 a4 w-100 tw-bg-midnight p-4 rounded-3'>
-<div className="mt-3">
-    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg" className='w-100' style={{ height: 500}} alt="" />
-  </div>
+<div className='my-5 a4 tw-bg-midnight p-4 rounded-3'>
 
-  <div className='mt-3 ms-4 about'>
-  <h5 className='tw-text-bone  text-decoration-underline'>
+    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
+
+
+  <div className='about'>
+  <h5 className='tw-text-bone px-3 text-center  text-decoration-underline'>
           {t('A4c')}
         </h5>
-    <ul className='mt-3 lists'>
+    <ul className='mt-3 lists ms-3'>
       <li className='tw-text-bone'>
         <p className=''>{t('descA4c')}</p>
       </li>
@@ -191,16 +191,16 @@ const SectionA4 = () => {
 
 {/* A4d */}
 
-<div className='my-5 a4 w-100 tw-bg-midnight p-4 rounded-3'>
-<div className="mt-3">
-    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg" className='w-100' style={{ height: 500}} alt="" />
-  </div>
+<div className='my-5 a4 tw-bg-midnight p-4 rounded-3'>
 
-  <div className='mt-3 ms-4 about'>
-  <h5 className='tw-text-bone text-decoration-underline'>
+    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
+
+
+  <div className='about'>
+  <h5 className='tw-text-bone text-center text-decoration-underline'>
           {t('A4d')}
         </h5>
-    <ul className='mt-3 lists'>
+    <ul className='mt-3 lists ms-3'>
       <li className='tw-text-bone'>
         <p className=''>{t('descA4d')}</p>
       </li>
@@ -232,7 +232,7 @@ const SectionA4 = () => {
           </li>
         </ul>
 
-        <li className='button tw-list-none ms-5 mt-5'>
+        <li className='button tw-list-none ms-4 mt-5'>
     <a href='https://SOULSMITH.as.me/' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">BOOK NOW</a>
 
       </li>

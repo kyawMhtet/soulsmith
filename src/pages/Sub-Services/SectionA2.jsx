@@ -40,15 +40,15 @@ const SectionA2 = () => {
 
 
 <div className='my-4 a2 tw-bg-midnight p-4 rounded-4'>
-<div className="mt-3">
-    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg" className='w-100' style={{ height: 500}} alt="" />
-  </div>
 
-  <div className='mt-3 ms-4 about'>
-  <h5 className='tw-text-bone text-decoration-underline'>
+    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg" alt="" />
+
+
+  <div className=' about'>
+  <h5 className='tw-text-bone text-center text-decoration-underline'>
           {t('A2a')}
         </h5>
-    <ul className='mt-3'>
+    <ul className='mt-3 ms-lg-3'>
       <li className='tw-text-bone'>
         <p className=''>{t('Duration')}</p>
       </li>

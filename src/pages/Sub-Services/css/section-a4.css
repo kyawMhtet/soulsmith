@@ -6,6 +6,16 @@
     /* justify-content: space-between; */
 }
 
+.a4 img {
+  width: 40%;
+  
+}
+
+.about {
+  width: 60%;
+  /* background-color: red; */
+}
+
 
 .a4 ul {
 
@@ -22,9 +32,6 @@
   color: #C4A962;
 }
 
-.about {
-  width: 90%;
-}
 
 /* .main-desc {
   text-indent: 3rem;
@@ -41,6 +48,17 @@
     margin-top: 15px;
     
 }
+
+.a4 img {
+  width: 100%;
+
+}
+
+.about {
+  width: 100%;
+  /* background-color: red; */
+}
+
   }
   
  
@@ -67,6 +85,17 @@
       width: 100%;
       padding: 15px;
     }
+
+    .a4 img {
+      width: 100%;
+    
+    }
+    
+    .about {
+      width: 100%;
+      /* background-color: red; */
+    }
+    
 
     
   }
