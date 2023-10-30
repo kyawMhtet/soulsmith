@@ -68,7 +68,7 @@ const SectionA3 = () => {
       </li>
 
       <li className='button tw-list-none ms-4 mt-5'>
-    <a href='https://SOULSMITH.as.me/' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
+    <a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
 
       </li>
     </ul>
@@ -123,7 +123,7 @@ const SectionA3 = () => {
         </ul>
 
         <li className='button tw-list-none ms-4 mt-5'>
-    <a href='https://SOULSMITH.as.me/' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
+    <a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
 
       </li>
       </li>
@@ -177,7 +177,7 @@ const SectionA3 = () => {
         </ul>
 
         <li className='button tw-list-none ms-4 mt-5'>
-    <a href='https://SOULSMITH.as.me/' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
+    <a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
 
       </li>
       </li>
@@ -233,7 +233,7 @@ const SectionA3 = () => {
         </ul>
 
         <li className='button tw-list-none ms-4 mt-5'>
-    <a href='https://SOULSMITH.as.me/' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
+    <a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
 
       </li>
       </li>
