@@ -360,8 +360,8 @@ p {
         height: 20%;
         overflow: auto;
         padding: 5px 0;
-        top: 30%;
-        /* text-align: center; */
+        top: 35%;
+        text-align: center;
         /* background-color: red; */
         z-index: 100;
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);

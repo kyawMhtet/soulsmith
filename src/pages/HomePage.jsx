@@ -97,7 +97,7 @@ const HomePage = () => {
       {/* services */}
 
 
-      <div className='container-fluid mt-4' >
+      <div className='container-fluid mt-5' >
         <div className="row">
           <div className="col-10  mx-auto rounded-3 services">
             <h3 className='tw-text-bone text-center p-3'>SERVICES</h3>
