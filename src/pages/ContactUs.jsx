@@ -54,7 +54,7 @@ const ContactUs = () => {
             </div>
 
             <div className='row'>
-              <p className='col-3 tw-text-gold'>Address:</p>
+              <p className='col-3 tw-text-gold'>{t('Address')}:</p>
               <p className='col tw-text-bone'>
                 {t('Location')}
               </p>
