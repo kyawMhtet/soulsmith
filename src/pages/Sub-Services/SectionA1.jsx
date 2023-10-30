@@ -9,7 +9,7 @@ const SectionA1 = () => {
 
   return (
     <>
-      <h2 className='text-center mt-4 tw-text-bone text-decoration-underline'>
+      <h2 className='text-center mt-4 tw-text-bone'>
         {t('SectionA1')}
       </h2>
 
@@ -32,10 +32,10 @@ const SectionA1 = () => {
           
 
           <div className=' about'>
-          <h5 className='tw-text-bone text-center text-decoration-underline'>
+          <h5 className='tw-text-bone text-center'>
             {t('A1a')}
           </h5>
-          <ul className='mt-3 ms-lg-3'>
+          <ul className='mt-4 ms-lg-3'>
       <li className='tw-text-bone'>
         <p className=''>{t('descA1a')}</p>
       </li>
@@ -60,15 +60,12 @@ const SectionA1 = () => {
             </p>
           </li>
           <li>
-            <p>{t('A1aSession2')}</p>
-          </li>
-          <li>
             <p>{t('A1aSession3')}</p>
           </li>
         </ul>
 
         <li className='button tw-list-none ms-4 mt-5'>
-    <a href='https://SOULSMITH.as.me/' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">BOOK NOW</a>
+    <a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
 
       </li>
       </li>

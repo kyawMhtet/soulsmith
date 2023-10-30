@@ -9,7 +9,7 @@ const SectionA2 = () => {
 
   return (
     <>
-      <h2 className='text-center tw-text-bone text-decoration-underline mt-4'>
+      <h2 className='text-center tw-text-bone  mt-4'>
         {t('SectionA2')}
       </h2>
 
@@ -45,38 +45,42 @@ const SectionA2 = () => {
 
 
   <div className=' about'>
-  <h5 className='tw-text-bone text-center text-decoration-underline'>
+  <h5 className='tw-text-bone text-center'>
           {t('A2a')}
         </h5>
-    <ul className='mt-3 ms-lg-3'>
-      <li className='tw-text-bone'>
-        <p className=''>{t('Duration')}</p>
+    <ul className='mt-4 ms-lg-3'>
+      <li className="tw-text-bone">
+        <p>{t('descA2a')}</p>
       </li>
 
       <li className='tw-text-bone'>
-        <p className=''>Service Delivery Channels: Available for Online & Onsite at SOULSMITH</p>
+        <p className=''>{t('A2aDuration')}</p>
       </li>
 
       <li className='tw-text-bone'>
-        <p className=''>Language: Available for Thai Language only</p>
+        <p className=''>{t('A2adesc1')}</p>
       </li>
 
       <li className='tw-text-bone'>
-        Price :
+        <p className=''>{t('A2alanguage')}</p>
+      </li>
+
+      <li className='tw-text-bone'>
+        {t('Price')}
         <ul className='mt-2' style={{ listStyleType: "circle" }}>
           <li>
-            <p>Single session, 1,500</p>
+            <p>{t('A2aSession1')}</p>
           </li>
           <li>
-            <p>5 Sessions: xxx</p>
+            <p>{t('A2aSession2')}</p>
           </li>
           <li>
-            <p>10 Session: xxx</p>
+            <p>{t('A2aSession3')}</p>
           </li>
         </ul>
 
         <li className='button tw-list-none ms-4 mt-5'>
-    <a href='https://SOULSMITH.as.me/' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">BOOK NOW</a>
+    <a href='https://SOULSMITH.as.me/' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
 
       </li>
       </li>

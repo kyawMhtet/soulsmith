@@ -1,6 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 import './css/section-a3.css'
+import Footer from '../../components/Footer';
 
 const SectionA3 = () => {
 
@@ -8,7 +9,7 @@ const SectionA3 = () => {
 
   return (
     <>
-      <h2 className='tw-text-bone text-center text-decoration-underline mt-4'>
+      <h2 className='tw-text-bone text-center mt-4'>
       {t('SectionA3')}
       </h2>
 
@@ -30,10 +31,10 @@ const SectionA3 = () => {
 
 
   <div className='  about'>
-  <h5 className='tw-text-bone text-center text-decoration-underline'>
+  <h5 className='tw-text-bone text-center'>
           {t('A3a')}
         </h5>
-    <ul className='mt-3 ms-lg-3'>
+    <ul className='mt-4 ms-lg-3'>
       <li className='tw-text-bone'>
         <p className=''>{t('descA3a')}</p>
       </li>
@@ -50,7 +51,7 @@ const SectionA3 = () => {
       </li>
 
       <li className='tw-text-bone'>
-        {t('Price')} 
+        <p>{t('Price')}</p> 
         <ul className='mt-2' style={{ listStyleType: "circle" }}>
           <li>
             <p>
@@ -67,7 +68,7 @@ const SectionA3 = () => {
       </li>
 
       <li className='button tw-list-none ms-4 mt-5'>
-    <a href='https://SOULSMITH.as.me/' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">BOOK NOW</a>
+    <a href='https://SOULSMITH.as.me/' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
 
       </li>
     </ul>
@@ -84,16 +85,16 @@ const SectionA3 = () => {
 
 
   <div className='about'>
-  <h5 className='tw-text-bone text-center text-decoration-underline'>
+  <h5 className='tw-text-bone text-center'>
           {t('A3b')}
         </h5>
-    <ul className='mt-3 ms-lg-3'>
+    <ul className='mt-4 ms-lg-3'>
       <li className='tw-text-bone'>
         <p className=''>{t('descA3b')}</p>
       </li>
 
       <li className='tw-text-bone'>
-        <p className=''>{t('Duration')}</p>
+        <p className=''>{t('A3bDuration')}</p>
       </li>
 
       <li className='tw-text-bone'>
@@ -104,7 +105,7 @@ const SectionA3 = () => {
       </li>
 
       <li className='tw-text-bone'>
-        {t('Price')} 
+        <p>{t('Price')}</p> 
         <ul className='mt-2' style={{ listStyleType: "circle" }}>
           <li>
             <p>
@@ -122,7 +123,7 @@ const SectionA3 = () => {
         </ul>
 
         <li className='button tw-list-none ms-4 mt-5'>
-    <a href='https://SOULSMITH.as.me/' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">BOOK NOW</a>
+    <a href='https://SOULSMITH.as.me/' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
 
       </li>
       </li>
@@ -140,16 +141,16 @@ const SectionA3 = () => {
 
 
   <div className='about'>
-  <h5 className='tw-text-bone text-center text-decoration-underline'>
+  <h5 className='tw-text-bone text-center'>
           {t('A3c')}
         </h5>
-    <ul className='mt-3 ms-lg-3'>
+    <ul className='mt-4 ms-lg-3'>
       <li className='tw-text-bone'>
         <p className=''>{t('descA3c')}</p>
       </li>
 
       <li className='tw-text-bone'>
-        <p className=''>{t('Duration')}</p>
+        <p className=''>{t('A3cDuration')}</p>
       </li>
 
       <li className='tw-text-bone'>
@@ -176,7 +177,7 @@ const SectionA3 = () => {
         </ul>
 
         <li className='button tw-list-none ms-4 mt-5'>
-    <a href='https://SOULSMITH.as.me/' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">BOOK NOW</a>
+    <a href='https://SOULSMITH.as.me/' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
 
       </li>
       </li>
@@ -196,16 +197,16 @@ const SectionA3 = () => {
 
 
   <div className='about'>
-  <h5 className='tw-text-bone text-center text-decoration-underline'>
+  <h5 className='tw-text-bone text-center'>
           {t('A3d')}
         </h5>
-    <ul className='mt-3 ms-lg-3'>
+    <ul className='mt-4 ms-lg-3'>
       <li className='tw-text-bone'>
         <p className=''>{t('descA3d')}</p>
       </li>
 
       <li className='tw-text-bone'>
-        <p className=''>{t('Duration')}</p>
+        <p className=''>{t('A3dDuration')}</p>
       </li>
 
       <li className='tw-text-bone'>
@@ -232,7 +233,7 @@ const SectionA3 = () => {
         </ul>
 
         <li className='button tw-list-none ms-4 mt-5'>
-    <a href='https://SOULSMITH.as.me/' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">BOOK NOW</a>
+    <a href='https://SOULSMITH.as.me/' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
 
       </li>
       </li>
@@ -254,11 +255,11 @@ const SectionA3 = () => {
     <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
   </div>
 
-  <div className='mt-3 ms-4 about'>
-  <h5 className='tw-text-bone  text-decoration-underline'>
+  <div className='mt-4 ms-4 about'>
+  <h5 className='tw-text-bone '>
           {t('A2a')}
         </h5>
-    <ul className='mt-3'>
+    <ul className='mt-4'>
       <li className='tw-text-bone'>
         <p className=''>{t('Duration')}</p>
       </li>
@@ -300,11 +301,11 @@ const SectionA3 = () => {
     <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
   </div>
 
-  <div className='mt-3 ms-4 about '>
-  <h5 className='tw-text-bone  text-decoration-underline'>
+  <div className='mt-4 ms-4 about '>
+  <h5 className='tw-text-bone '>
           {t('A2a')}
         </h5>
-    <ul className='mt-3'>
+    <ul className='mt-4'>
       <li className='tw-text-bone'>
         <p className=''>{t('Duration')}</p>
       </li>
@@ -340,7 +341,7 @@ const SectionA3 = () => {
         </div>
       </div> */}
 
-      
+      <Footer />
     </>
   )
 }

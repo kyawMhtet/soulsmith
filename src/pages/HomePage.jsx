@@ -31,8 +31,8 @@ const HomePage = () => {
 
       <div className='main mt-3'>
           <div className=' main-content order-2 order-lg-1'>
-            <h1 className='tw-text-gold'>SOUL SMITH</h1>
-            <p className='text-white'>
+            <h1 className='tw-text-gold'>SOULSMITH</h1>
+            <p className='tw-text-bone mt-3'>
               {t('About SOULSMITH')}
             </p>
 
@@ -104,17 +104,17 @@ const HomePage = () => {
 
 
             <div className='row mt-2 gap-2 py-4 mx-auto' data-aos="fade-right" data-aos-duration="1500">
-                <div className="col-12 my-3 col-lg-4 col-md-4 col-sm12 mx-auto service tw-bg-gold">
+                <div className="col-12 my-3 col-lg-4 col-md-4 col-sm12 mx-auto service tw-bg-midnight">
                   <div className='child'>
 
                   </div>
                 </div>
-                <div className="col-12 my-3 col-lg-4 col-md-4 col-sm12 mx-auto service tw-bg-gold">
+                <div className="col-12 my-3 col-lg-4 col-md-4 col-sm12 mx-auto service tw-bg-midnight">
                   <div className="child">
 
                   </div>
                 </div>
-                <div className="col-12 my-3 col-lg-4 col-md-4 col-sm12 mx-auto service tw-bg-gold">
+                <div className="col-12 my-3 col-lg-4 col-md-4 col-sm12 mx-auto service tw-bg-midnight">
                   <div className="child">
                     
                   </div>
@@ -187,7 +187,7 @@ const HomePage = () => {
 
 
       <div className="book-now">
-        <a href='https://SOULSMITH.as.me/' className="book-now-button rounded-1">Book Now</a>
+        <a href='https://SOULSMITH.as.me/' target='_blank' className="book-now-button rounded-1">Book Now</a>
       </div>
 
 

@@ -3,6 +3,8 @@ body {
   overflow-x: hidden;
 }
 
+
+
 .person {
     margin-top: 80px;
     display: flex;
@@ -38,6 +40,26 @@ body {
 .info:hover::-webkit-scrollbar-thumb:hover {
     background: #2D3738;
 }
+
+
+/* Increase the size of all indicator buttons */
+.carousel .control-dots li {
+  width: 12px !important; /* Adjust the width as needed */
+  height: 12px !important; /* Adjust the height as needed */
+}
+
+/* Add some margin between the indicator buttons */
+.carousel .control-dots li + li {
+  margin-left: 10px; /* Adjust the margin as needed */
+}
+
+
+/* Change the active indicator size (optional) */
+/* .carousel .control-dots .dot.selected {
+
+  width: 20px; 
+  height: 20px; 
+} */
 
 
 

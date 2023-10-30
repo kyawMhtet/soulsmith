@@ -19,7 +19,7 @@ const Team = () => {
 
     </div> */}
   <div className="container">
-  <h2 className='tw-text-bone text-center mt-4 text-decoration-underline'>
+  <h2 className='tw-text-gold text-center mt-4 '>
       SOULSMITH TEAM MEMBERS
     </h2>
   </div>
@@ -32,7 +32,7 @@ const Team = () => {
         </div>
 
         <div className='w-100 info p-3 tw-text-bone'>
-          <h4 className='tw-text-bone name text-sm-center text-decoration-underline'>
+          <h4 className='tw-text-bone name text-sm-center '>
           {t('name1')}
           </h4>
           <h5 className='my-3 category text-sm-center '>({t('category1')})</h5>
@@ -42,12 +42,12 @@ const Team = () => {
           
           {/* <div className='mt-3 text-left'> */}
           <Carousel showThumbs={false} width="100%" dynamicHeight={true} showArrows={false} emulateTouch={true} showStatus={false} >
-          <div className='text-start py-1'>
-              <h5 className=''>
+          <div className='text-start py-1 '>
+              <h5 className='tw-text-bone' >
                 {t('list1A')}
               </h5>
 
-              <ul className='tw-list-disc mt-1 mb-5 tw-text-start' >
+              <ul className='tw-list-disc mt-1 mb-5 tw-text-start tw-text-bone' >
                 <li>{t('list1Aa')}</li>
                 <li className='my-2'>{t('list1Ab')}</li>
                 <li>{t('list1Ac')}</li>
@@ -96,7 +96,7 @@ const Team = () => {
         
       <div className='w-100 info1 p-3 tw-text-bone'>
 
-      <h4 className='tw-text-bone name text-sm-center  text-decoration-underline'>
+      <h4 className='tw-text-bone name text-sm-center  '>
           {t('name2')}
           </h4>
           <h5 className='my-3 category text-sm-center '>({t('category2')})</h5>
@@ -107,12 +107,12 @@ const Team = () => {
           {/* <div className='mt-3 text-left'> */}
           <Carousel showThumbs={false} width="100%" dynamicHeight={true} showArrows={false} emulateTouch={true} showStatus={false} >
           <div className='text-start py-1 list2'>
-              <h5 className=''>
+              <h5 className='tw-text-bone'>
                 {t('list2A')}
               </h5>
 
-              <ul className='tw-list-disc mt-1 mb-5 tw-text-start' >
-                <li>{t('list2Aa')}</li>
+              <ul className='tw-list-disc mt-1 mb-5 tw-text-start tw-text-bone' >
+                <li className=''>{t('list2Aa')}</li>
                 <li className='my-2'>{t('list2Ab')}</li>
                 <li>{t('list2Ac')}</li>
               </ul>
@@ -122,11 +122,11 @@ const Team = () => {
 
 
             <div className='text-start py-1'>
-              <h5 className=''>
+              <h5 className='tw-text-bone'>
               {t('list2B')}
               </h5>
 
-              <ul className='tw-list-disc mt-3 mb-5'>
+              <ul className='tw-list-disc mt-3 mb-5 tw-text-bone'>
                 <li>{t('list2Ba')}
                 </li>
                 <li className='my-2'>
@@ -209,7 +209,7 @@ const Team = () => {
         </div>
 
         <div className='w-100 info p-3 tw-text-bone'>
-          <h4 className='tw-text-bone text-sm-center  name text-decoration-underline'>
+          <h4 className='tw-text-bone text-sm-center  name '>
           {t('name3')}
           </h4>
           <h5 className='my-3 category text-sm-center '>({t('category3')})</h5>
@@ -220,11 +220,11 @@ const Team = () => {
           {/* <div className='mt-3 text-left'> */}
           <Carousel showThumbs={false} width="100%" dynamicHeight={true} showArrows={false} emulateTouch={true} showStatus={false} >
           <div className='text-start py-1 '>
-              <h5 className=''>
+              <h5 className='tw-text-bone'>
                 {t('list3A')}
               </h5>
 
-              <ul className='tw-list-disc mt-1 mb-5 tw-text-start' >
+              <ul className='tw-list-disc mt-1 mb-5 tw-text-start tw-text-bone' >
                 <li>{t('list3Aa')}</li>
                 <li className='my-2'>{t('list3Ab')}</li>
                 
@@ -235,11 +235,11 @@ const Team = () => {
 
 
             <div className='text-start py-1'>
-              <h5 className=''>
+              <h5 className='tw-text-bone '>
               {t('list3B')}
               </h5>
 
-              <ul className='tw-list-disc mt-3 mb-5'>
+              <ul className='tw-list-disc mt-3 mb-5 tw-text-bone'>
                 <li>{t('list3Ba')}
 
                 </li>
@@ -289,7 +289,7 @@ const Team = () => {
         
       <div className='w-100 info1 p-3 tw-text-bone'>
 
-      <h4 className='tw-text-bone text-sm-center  name text-decoration-underline'>
+      <h4 className='tw-text-bone text-sm-center  name '>
           {t('name2')}
           </h4>
           <h5 className='my-3 category text-sm-center '>({t('category4')})</h5>
@@ -300,11 +300,11 @@ const Team = () => {
           {/* <div className='mt-3 text-left'> */}
           <Carousel showThumbs={false} width="100%" dynamicHeight={true} showArrows={false} emulateTouch={true} showStatus={false} >
           <div className='text-start py-1 list2'>
-              <h5 className=''>
+              <h5 className='tw-text-bone '>
                 {t('list4A')}
               </h5>
 
-              <ul className='tw-list-disc mt-1 mb-5 tw-text-start' >
+              <ul className='tw-list-disc mt-1 mb-5 tw-text-start tw-text-bone' >
                 <li>{t('list4Aa')}</li>
 
               </ul>
@@ -352,7 +352,7 @@ const Team = () => {
         </div>
 
         <div className='w-100 info p-3 tw-text-bone'>
-          <h4 className='tw-text-bone text-sm-center  name text-decoration-underline'>
+          <h4 className='tw-text-bone text-sm-center  name '>
           {t('name5')}
           </h4>
           <h5 className='my-3 category text-sm-center '>({t('category5')})</h5>
@@ -437,7 +437,7 @@ const Team = () => {
         
 <div className='w-100 info1 p-3 tw-text-bone'>
 
-<h4 className='tw-text-bone name text-sm-center  text-decoration-underline'>
+<h4 className='tw-text-bone name text-sm-center  '>
     {t('name6')}
     </h4>
     <h5 className='my-3 category text-sm-center '>({t('category6')})</h5>
@@ -522,7 +522,7 @@ const Team = () => {
         </div>
 
         <div className='w-100 info p-3 tw-text-bone'>
-          <h4 className='tw-text-bone text-sm-center  name text-decoration-underline'>
+          <h4 className='tw-text-bone text-sm-center  name '>
           {t('name7')}
           </h4>
           <h5 className='my-3 category text-sm-center '>{t('category7')}</h5>

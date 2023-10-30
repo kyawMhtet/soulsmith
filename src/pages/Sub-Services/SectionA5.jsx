@@ -1,6 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 import './css/section-a5.css'
+import Footer from '../../components/Footer';
 
 const SectionA5 = () => {
 
@@ -9,11 +10,11 @@ const SectionA5 = () => {
   return (
     
     <>
-      <h2 className='text-center tw-text-bone mt-4 text-decoration-underline'>
+      <h2 className='text-center tw-text-bone mt-4'>
         {t('SectionA5')}
       </h2>
 
-      <div className="container">
+      <div className="container mt-4">
         <p className='tw-text-bone'>
           {t('A5Description_01')}
         </p>
@@ -32,10 +33,10 @@ const SectionA5 = () => {
 
 
   <div className=' about'>
-  <h5 className='tw-text-bone text-center text-decoration-underline'>
+  <h5 className='tw-text-bone text-center '>
           {t('A5a')}
         </h5>
-    <ul className='mt-3 ms-lg-3'>
+    <ul className='mt-4 ms-lg-3'>
       <li className='tw-text-bone'>
         {/* <p className=''>{t('descA5a')}</p> */}
         <p>May be later</p>
@@ -70,7 +71,7 @@ const SectionA5 = () => {
       </li>
 
       <li className='button tw-list-none ms-4 mt-5'>
-    <a href='https://SOULSMITH.as.me/' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">BOOK NOW</a>
+    <a href='https://SOULSMITH.as.me/' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
 
       </li>
       
@@ -86,10 +87,10 @@ const SectionA5 = () => {
 
 
   <div className=' about'>
-  <h5 className='tw-text-bone text-center text-decoration-underline'>
+  <h5 className='tw-text-bone text-center '>
           {t('A5b')}
         </h5>
-    <ul className='mt-3 ms-lg-3'>
+    <ul className='mt-4 ms-lg-3'>
       <li className='tw-text-bone'>
         {/* <p className=''>{t('descA4a')}</p> */}
         <p>May be later</p>
@@ -125,7 +126,7 @@ const SectionA5 = () => {
 
 
       <li className='button tw-list-none ms-4 mt-5'>
-    <a href='https://SOULSMITH.as.me/' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">BOOK NOW</a>
+    <a href='https://SOULSMITH.as.me/' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
 
       </li>
       
@@ -134,6 +135,10 @@ const SectionA5 = () => {
 </div>
         
       </div>
+
+
+    <Footer />
+
     </>
 
 

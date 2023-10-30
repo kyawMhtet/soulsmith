@@ -45,6 +45,8 @@ const router = createBrowserRouter([
                 path: '/services/Healing-Therapy',
                 element: <SectionB />
             },
+            
+
 
             {
                 path: '/services/Body-Mind-SoulMixologyService',
