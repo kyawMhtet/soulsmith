@@ -2,6 +2,19 @@ import React from 'react'
 import { useTranslation } from 'react-i18next'
 import './css/section-a3.css'
 import Footer from '../../components/Footer';
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css"
+import A3a from '../../assets/services/A3/A3a.png'
+import five from '../../assets/services/A3/5.png'
+import four from '../../assets/services/A3/4.png'
+import six from '../../assets/services/A3/6.png'
+import A3b from '../../assets/services/A3/A3b.png'
+import seven from '../../assets/services/A3/7.png'
+import A3c from '../../assets/services/A3/A3c.png'
+import eight from '../../assets/services/A3/8.png'
+import A3d from '../../assets/services/A3/A3d.png'
+import nine from '../../assets/services/A3/9.png'
+
 
 const SectionA3 = () => {
 
@@ -25,12 +38,30 @@ const SectionA3 = () => {
         </p>
 
 
-        <div className='a3 tw-bg-midnight p-4 rounded-3'>
+        <div className='a3 tw-bg-midnight p-4 rounded-3 w-100'>
 
-    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
+    {/* <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" /> */}
+    <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
+            <div className=''>
+              <img src={A3a} className='w-100' alt="" />
+            </div>
+
+            <div className=''>
+              <img src={four} className='w-100' alt="" />
+            </div>
+
+            <div className=''>
+              <img src={five} className='w-100' alt="" />
+            </div>
+
+            <div className=''>
+              <img src={six} className='w-100' alt="" />
+            </div>
+
+          </Carousel>
 
 
-  <div className='  about'>
+  <div className='  about w-100'>
   <h5 className='tw-text-bone text-center'>
           {t('A3a')}
         </h5>
@@ -79,12 +110,21 @@ const SectionA3 = () => {
 
 
 {/* A3b */}
-<div className=' a3 tw-bg-midnight p-4 rounded-4'>
+<div className=' a3 tw-bg-midnight p-4 rounded-4 w-100'>
 
-    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
+    {/* <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" /> */}
+    <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
+            <div className=''>
+              <img src={A3b} className='w-100' alt="" />
+            </div>
 
+            <div className=''>
+              <img src={seven} className='w-100' alt="" />
+            </div>
 
-  <div className='about'>
+          </Carousel>
+
+  <div className='about w-100'>
   <h5 className='tw-text-bone text-center'>
           {t('A3b')}
         </h5>
@@ -135,12 +175,22 @@ const SectionA3 = () => {
 
 
 {/* A3c */}
-<div className=' a3 tw-bg-midnight p-4 rounded-4'>
+<div className=' a3 tw-bg-midnight p-4 rounded-4 w-100'>
 
-    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
+    {/* <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" /> */}
+    	
+    <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
+            <div className=''>
+              <img src={A3c} className='w-100' alt="" />
+            </div>
 
+            <div className=''>
+              <img src={eight} className='w-100' alt="" />
+            </div>
 
-  <div className='about'>
+          </Carousel>
+
+  <div className='about w-100'>
   <h5 className='tw-text-bone text-center'>
           {t('A3c')}
         </h5>
@@ -191,12 +241,23 @@ const SectionA3 = () => {
 
 {/* A3d */}
 
-<div className=' a3 tw-bg-midnight p-4 rounded-4'>
+<div className=' a3 tw-bg-midnight p-4 rounded-4 w-100'>
 
-    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
+    {/* <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" /> */}
+
+    <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
+            <div className=''>
+              <img src={A3d} className='w-100' alt="" />
+            </div>
+
+            <div className=''>
+              <img src={nine} className='w-100' alt="" />
+            </div>
+
+          </Carousel>
 
 
-  <div className='about'>
+  <div className='about w-100'>
   <h5 className='tw-text-bone text-center'>
           {t('A3d')}
         </h5>

@@ -10,10 +10,17 @@
 }
 
 .about {
-  width: 60%;
+
+  /* margin-top: 20px; */
+  width: 100%;
+
+  /* padding: 10px auto; */
   /* background-color: red; */
 }
 
+.react-carousel {
+  width: 75%;
+}
 
 .a1 ul {
 
@@ -54,6 +61,12 @@ color: #C4A962;
 }
 }
 
+@media (max-width: 992px) {
+  .react-carousel {
+    width: 100%;
+  }
+}
+
 
 @media (max-width: 576px) {
 
@@ -75,6 +88,10 @@ color: #C4A962;
   .about {
     width: 100%;
     /* background-color: red; */
+  }
+
+  .react-carousel {
+    width: 100%;
   }
   
 }

@@ -13,6 +13,7 @@ import SectionA2 from "../pages/Sub-Services/SectionA2";
 import SectionA3 from "../pages/Sub-Services/SectionA3";
 import SectionA4 from "../pages/Sub-Services/SectionA4";
 import SectionA5 from "../pages/Sub-Services/SectionA5";
+import Product from "../pages/Product";
 
 
 const router = createBrowserRouter([
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
                 element: <Services />,
             },
             {
+                path: '/products',
+                element: <Product />
+            },
+            {
                 path: '/services/PsychologicalSupport-Psychotherapy-Counseling',
                 element: <SectionA />
             },
@@ -45,8 +50,6 @@ const router = createBrowserRouter([
                 path: '/services/Healing-Therapy',
                 element: <SectionB />
             },
-            
-
 
             {
                 path: '/services/Body-Mind-SoulMixologyService',

@@ -21,7 +21,7 @@ const Footer = () => {
                     </p>
                 </div>
                 <div className="col-12 col-lg-3 col-md-6 mt-3">
-                <iframe className='rounded-3 d-block mx-auto' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1118.831269853482!2d100.50927172278587!3d13.725170345225289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e299b2efbe5181%3A0x838a32522037d70a!2sEmpathy%20Sauce%20Co.%2CLtd.!5e0!3m2!1sen!2smm!4v1696444808945!5m2!1sen!2smm" style={{ width: 300, height: 200, border: 0 }} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                <iframe className='rounded-3 d-block mx-auto' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1118.831269853482!2d100.50927172278587!3d13.725170345225289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e299b2efbe5181%3A0x838a32522037d70a!2sEmpathy%20Sauce%20Co.%2CLtd.!5e0!3m2!1sen!2smm!4v1696444808945!5m2!1sen!2smm" style={{ width: 300, height: 170, border: 0 }} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div className="col-12 col-lg-3 col-md-6 pt-4 text-center">
                     <h5 className='tw-text-gold'>
@@ -34,7 +34,7 @@ const Footer = () => {
   <input
     type="email"
     className="form-control border-0 h-100"
-    placeholder="Email"
+    placeholder="email"
     aria-describedby="button-addon2"
     style={{ backgroundColor: '#393D4A' }}
 
@@ -54,6 +54,13 @@ const Footer = () => {
                 </div>
             </div>
         </div>
+
+
+    <div className='d-flex justify-content-center mt-2 p-3' >
+    <small className='tw-text-bone'>
+        © 2023 SOULSMITH. All rights reserved
+        </small>
+    </div>
     </div>
   )
 }

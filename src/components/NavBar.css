@@ -161,7 +161,6 @@ a {
   /* Border */
   border: 1px solid #d1d5db;
   display: flex;
-
   /* Reset list styles */
   list-style-type: none;
   margin: 0;
@@ -170,6 +169,7 @@ a {
 
 .nested-dropdowns li {
   cursor: pointer;
+  /* z-index: 999; */
 
   /* Spacing */
   padding: 0.25rem;
@@ -184,7 +184,7 @@ a {
   .nested-dropdowns ul {
     /* Border */
     /* border: 1px solid #d1d5db; */
-    z-index: 1;
+    z-index: 999;
     /* Hidden by default */
     display: none;
   
@@ -210,7 +210,7 @@ a {
   .nested-dropdowns ul {
     /* Border */
     /* border: 1px solid #d1d5db; */
-    z-index: 1;
+    z-index: 999;
     /* Hidden by default */
     display: none;
   
@@ -239,7 +239,7 @@ a {
   .nested-dropdowns ul {
     /* Border */
     /* border: 1px solid #d1d5db; */
-    z-index: 1;
+    z-index: 999;
     /* Hidden by default */
     display: none;
   
@@ -249,7 +249,8 @@ a {
     position: absolute;
     top: 100%;
   
-    background-color: #2D3738;
+    /* background-color: #2D3738; */
+    /* background-color: red; */
     width: 12rem;
     /* width: auto; */
     /* Reset styles */

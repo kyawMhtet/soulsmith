@@ -39,6 +39,7 @@ p {
     width: 70%;
     height: auto;
     margin-left: 650px;
+    /* z-index: 0; */
     /* margin-top: -60px; */
     /* box-shadow: -12px 20px 15px -1px rgba(232,229,215,0.75);
 -webkit-box-shadow: -12px 20px 15px -1px rgba(232,229,215,0.75);
@@ -91,7 +92,7 @@ p {
     width: 280px;
     height: 280px;
     position: absolute;
-    bottom: -24%;
+    bottom: -16%;
     left: -6%;
 }
 
@@ -99,7 +100,7 @@ p {
     width: 280px;
     height: 280px;
     position: absolute;
-    bottom: -37%;
+    bottom: -28%;
     right: -4%;
     z-index: -1;
 }
