@@ -16,6 +16,9 @@
   /* background-color: red; */
 }
 
+.react-carousel {
+  width: 75%;
+}
 
 .a4 ul {
 
@@ -59,9 +62,14 @@
   /* background-color: red; */
 }
 
+.react-carousel {
+  width: 100%;
+}
+
   }
+
   
- 
+
   @media (max-width: 576px) {
 
     .a4 {
@@ -96,6 +104,8 @@
       /* background-color: red; */
     }
     
-
+    .react-carousel {
+      width: 100%;
+    }
     
   }

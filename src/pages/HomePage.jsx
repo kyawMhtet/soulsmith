@@ -29,7 +29,7 @@ const HomePage = () => {
     <>
 
 
-      <div className='main mt-3'>
+      <div className='main'>
           <div className=' main-content order-2 order-lg-1'>
             <h1 className='tw-text-gold'>SOULSMITH</h1>
             <p className='tw-text-bone mt-3'>

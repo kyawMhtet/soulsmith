@@ -116,15 +116,15 @@ const ContactUs = () => {
     <div className="tw-w-full tw-md:w-1/2 tw-px-3">
       <label
         className="tw-block tw-uppercase tw-tracking-wide tw-text-gold tw-text-xs tw-font-bold tw-mb-2"
-        htmlFor="grid-last-name"
+        htmlFor=""
       >
         Your Email
       </label>
       <input
-        className="tw-appearance-none tw-block tw-w-full tw-bg-bone tw-text-gray-700 tw-border tw-border-gray-200 tw-rounded tw-py-3 tw-px-4 tw-leading-tight tw-focus:tw-outline-none tw-focus:bg-white tw-focus:border-gray-500"
-        id="grid-last-name"
-        type="email"
-        placeholder="Your Email"
+        className="tw-appearance-none tw-block tw-w-full tw-bg-bone tw-text-gray-700 tw-border tw-border-gray-200 tw-rounded tw-py-3 tw-px-4 tw-leading-tight tw-focus:tw-outline-none tw-focus:bg-white"
+        id=""
+        type="text"
+        placeholder='Your Email'
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         required

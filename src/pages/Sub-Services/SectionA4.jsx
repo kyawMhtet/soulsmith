@@ -2,6 +2,16 @@ import React from 'react'
 import { useTranslation } from 'react-i18next'
 import './css/section-a4.css'
 import Footer from '../../components/Footer';
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css"
+import A4a from '../../assets/services/A4/A4a.png'
+import ten from '../../assets/services/A4/10.png'
+import A4b from '../../assets/services/A4/A4b.png'
+import eleven from '../../assets/services/A4/11.png'
+import A4c from '../../assets/services/A4/A4c.png'
+import twelve from '../../assets/services/A4/12.png'
+import A4d from '../../assets/services/A4/A4d.png'
+import thirteen from '../../assets/services/A4/13.png'
 
 const SectionA4 = () => {
   const {t} = useTranslation();
@@ -23,12 +33,21 @@ const SectionA4 = () => {
         </p>
 
 
-        <div className='my-5 a4 tw-bg-midnight p-4 rounded-3'>
+        <div className='my-5 a4 tw-bg-midnight p-4 rounded-3 w-100'>
 
-    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
+    {/* <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" /> */}
+    <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
+            <div className=''>
+              <img src={A4a} className='w-100' alt="" />
+            </div>
 
+            <div className=''>
+              <img src={ten} className='w-100' alt="" />
+            </div>
 
-  <div className=' about'>
+          </Carousel>
+
+  <div className=' about w-100'>
   <h5 className='tw-text-bone text-center '>
           {t('A4a')}
         </h5>
@@ -80,12 +99,22 @@ const SectionA4 = () => {
 {/* A4b */}
 
 
-<div className='my-5 a4 tw-bg-midnight p-4 rounded-3'>
+<div className='my-5 a4 tw-bg-midnight p-4 rounded-3 w-100'>
 
-    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
+    {/* <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" /> */}
 
+    <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
+            <div className=''>
+              <img src={A4b} className='w-100' alt="" />
+            </div>
 
-  <div className=' about'>
+            <div className=''>
+              <img src={eleven} className='w-100' alt="" />
+            </div>
+
+          </Carousel>
+
+  <div className=' about w-100'>
   <h5 className='tw-text-bone text-center '>
           {t('A4b')}
         </h5>
@@ -135,12 +164,22 @@ const SectionA4 = () => {
 
 
 {/* A4c */}
-<div className='my-5 a4 tw-bg-midnight p-4 rounded-3'>
+<div className='my-5 a4 tw-bg-midnight p-4 rounded-3 w-100'>
 
-    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
+    {/* <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" /> */}
 
+    <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
+            <div className=''>
+              <img src={A4c} className='w-100' alt="" />
+            </div>
 
-  <div className='about'>
+            <div className=''>
+              <img src={twelve} className='w-100' alt="" />
+            </div>
+
+          </Carousel>
+
+  <div className='about w-100'>
   <h5 className='tw-text-bone px-3 text-center '>
           {t('A4c')}
         </h5>
@@ -192,12 +231,22 @@ const SectionA4 = () => {
 
 {/* A4d */}
 
-<div className='my-5 a4 tw-bg-midnight p-4 rounded-3'>
+<div className='my-5 a4 tw-bg-midnight p-4 rounded-3 w-100'>
 
-    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
+    {/* <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" /> */}
 
+    <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
+            <div className=''>
+              <img src={A4d} className='w-100' alt="" />
+            </div>
 
-  <div className='about'>
+            <div className=''>
+              <img src={thirteen} className='w-100' alt="" />
+            </div>
+
+          </Carousel>
+
+  <div className='about w-100'>
   <h5 className='tw-text-bone text-center'>
           {t('A4d')}
         </h5>

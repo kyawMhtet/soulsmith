@@ -2,6 +2,12 @@ import React from 'react'
 import { useTranslation } from 'react-i18next'
 import './css/section-a5.css'
 import Footer from '../../components/Footer';
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css"
+import A5a from '../../assets/services/A5/A5a.png'
+import fourteen from '../../assets/services/A5/14.png'
+import A5b from '../../assets/services/A5/A5b.png'
+import fifteen from '../../assets/services/A5/15.png'
 
 const SectionA5 = () => {
 
@@ -27,12 +33,22 @@ const SectionA5 = () => {
 
 
 {/* A5a */}
-        <div className='my-5 a5 w-100 tw-bg-midnight p-4 rounded-3'>
+        <div className='my-5 a5 w-100 tw-bg-midnight p-4 rounded-3 w-100'>
 
-    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
+    {/* <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" /> */}
 
+    <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
+            <div className=''>
+              <img src={A5a} className='w-100' alt="" />
+            </div>
 
-  <div className=' about'>
+            <div className=''>
+              <img src={fourteen} className='w-100' alt="" />
+            </div>
+
+          </Carousel>
+
+  <div className=' about w-100'>
   <h5 className='tw-text-bone text-center '>
           {t('A5a')}
         </h5>
@@ -81,12 +97,22 @@ const SectionA5 = () => {
 
 
 {/* A5b */}
-<div className='my-5 a5 w-100 tw-bg-midnight p-4 rounded-3'>
+<div className='my-5 a5 w-100 tw-bg-midnight p-4 rounded-3 w-100'>
 
-    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
+    {/* <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" /> */}
 
+    <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
+            <div className=''>
+              <img src={A5b} className='w-100' alt="" />
+            </div>
 
-  <div className=' about'>
+            <div className=''>
+              <img src={fifteen} className='w-100' alt="" />
+            </div>
+
+          </Carousel>
+
+  <div className=' about w-100'>
   <h5 className='tw-text-bone text-center '>
           {t('A5b')}
         </h5>

@@ -16,6 +16,9 @@
   /* background-color: red; */
 }
 
+.react-carousel {
+  width: 75%;
+}
 
 .a5 ul {
 
@@ -45,6 +48,11 @@
   /* background-color: red; */
 }
 
+.react-carousel {
+  width: 100%;
+}
+
+
   }
   
  
@@ -69,5 +77,10 @@
       width: 100%;
       /* background-color: red; */
     }
+
+    .react-carousel {
+      width: 100%;
+    }
+    
     
   }
