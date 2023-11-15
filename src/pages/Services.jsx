@@ -66,9 +66,16 @@ const Services = () => {
       <div className="card-text px-3">
           <ul className=''>
             <li>{t('SectionA1')}</li>
+            <hr className='w-100' />
             <li>{t('SectionA2')}</li>
+            <hr className='w-100' />
+
             <li>{t('SectionA3')}</li>
+            <hr className='w-100' />
+
             <li>{t('SectionA4')}</li>
+            <hr className='w-100' />
+
             <li>{t('SectionA5')}</li>
           </ul>
       </div>
@@ -86,6 +93,8 @@ const Services = () => {
       <div className="card-text py-2 tw-text-bone px-3">
           <ul className=''>
             <li>{t('SectionB1')}</li>
+            <hr className='w-100' />
+
           </ul>
       </div>
     </div>

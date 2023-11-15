@@ -35,8 +35,8 @@ const SectionA4 = () => {
 
         <div className='my-5 a4 tw-bg-midnight p-4 rounded-3 w-100'>
 
-    {/* <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" /> */}
-    <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
+    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
+    {/* <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
             <div className=''>
               <img src={A4a} className='w-100' alt="" />
             </div>
@@ -45,7 +45,7 @@ const SectionA4 = () => {
               <img src={ten} className='w-100' alt="" />
             </div>
 
-          </Carousel>
+          </Carousel> */}
 
   <div className=' about w-100'>
   <h5 className='tw-text-bone text-center '>
@@ -101,9 +101,9 @@ const SectionA4 = () => {
 
 <div className='my-5 a4 tw-bg-midnight p-4 rounded-3 w-100'>
 
-    {/* <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" /> */}
+    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
 
-    <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
+    {/* <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
             <div className=''>
               <img src={A4b} className='w-100' alt="" />
             </div>
@@ -112,7 +112,7 @@ const SectionA4 = () => {
               <img src={eleven} className='w-100' alt="" />
             </div>
 
-          </Carousel>
+          </Carousel> */}
 
   <div className=' about w-100'>
   <h5 className='tw-text-bone text-center '>
@@ -166,9 +166,9 @@ const SectionA4 = () => {
 {/* A4c */}
 <div className='my-5 a4 tw-bg-midnight p-4 rounded-3 w-100'>
 
-    {/* <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" /> */}
+    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
 
-    <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
+    {/* <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
             <div className=''>
               <img src={A4c} className='w-100' alt="" />
             </div>
@@ -177,7 +177,7 @@ const SectionA4 = () => {
               <img src={twelve} className='w-100' alt="" />
             </div>
 
-          </Carousel>
+          </Carousel> */}
 
   <div className='about w-100'>
   <h5 className='tw-text-bone px-3 text-center '>
@@ -233,9 +233,9 @@ const SectionA4 = () => {
 
 <div className='my-5 a4 tw-bg-midnight p-4 rounded-3 w-100'>
 
-    {/* <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" /> */}
+    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
 
-    <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
+    {/* <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
             <div className=''>
               <img src={A4d} className='w-100' alt="" />
             </div>
@@ -244,7 +244,269 @@ const SectionA4 = () => {
               <img src={thirteen} className='w-100' alt="" />
             </div>
 
-          </Carousel>
+          </Carousel> */}
+
+  <div className='about w-100'>
+  <h5 className='tw-text-bone text-center'>
+          {t('A4d')}
+        </h5>
+    <ul className='mt-4 lists ms-3'>
+      <li className='tw-text-bone'>
+        <p className=''>{t('descA4d')}</p>
+      </li>
+
+      <li className='tw-text-bone'>
+        <p className=''>{t('A4dDuration')}</p>
+      </li>
+
+      <li className='tw-text-bone'>
+        <p className=''>{t('A4ddesc1')}</p>
+      </li>
+      <li className='tw-text-bone'>
+        <p className=''>{t('A4dlanguage')}</p>
+      </li>
+
+      <li className='tw-text-bone'>
+        <p>{t('Price')}</p> 
+        <ul className='mt-2' style={{ listStyleType: "circle" }}>
+          <li>
+            <p>
+              {t('A4dSession1')}
+            </p>
+          </li>
+          <li>
+            <p>{t('A4dSession2')}</p>
+          </li>
+          <li>
+            <p>{t('A4dSession3')}</p>
+          </li>
+        </ul>
+
+        <li className='button tw-list-none ms-4 mt-5'>
+    <a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
+
+      </li>
+      </li>
+
+      
+    </ul>
+  </div>
+</div>
+
+
+
+
+
+
+<div className='my-5 a4 tw-bg-midnight p-4 rounded-3 w-100'>
+
+    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
+
+    {/* <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
+            <div className=''>
+              <img src={A4d} className='w-100' alt="" />
+            </div>
+
+            <div className=''>
+              <img src={thirteen} className='w-100' alt="" />
+            </div>
+
+          </Carousel> */}
+
+  <div className='about w-100'>
+  <h5 className='tw-text-bone text-center'>
+          {t('A4d')}
+        </h5>
+    <ul className='mt-4 lists ms-3'>
+      <li className='tw-text-bone'>
+        <p className=''>{t('descA4d')}</p>
+      </li>
+
+      <li className='tw-text-bone'>
+        <p className=''>{t('A4dDuration')}</p>
+      </li>
+
+      <li className='tw-text-bone'>
+        <p className=''>{t('A4ddesc1')}</p>
+      </li>
+      <li className='tw-text-bone'>
+        <p className=''>{t('A4dlanguage')}</p>
+      </li>
+
+      <li className='tw-text-bone'>
+        <p>{t('Price')}</p> 
+        <ul className='mt-2' style={{ listStyleType: "circle" }}>
+          <li>
+            <p>
+              {t('A4dSession1')}
+            </p>
+          </li>
+          <li>
+            <p>{t('A4dSession2')}</p>
+          </li>
+          <li>
+            <p>{t('A4dSession3')}</p>
+          </li>
+        </ul>
+
+        <li className='button tw-list-none ms-4 mt-5'>
+    <a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
+
+      </li>
+      </li>
+
+      
+    </ul>
+  </div>
+</div>
+
+
+
+
+
+<div className='my-5 a4 tw-bg-midnight p-4 rounded-3 w-100'>
+
+    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
+
+    {/* <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
+            <div className=''>
+              <img src={A4d} className='w-100' alt="" />
+            </div>
+
+            <div className=''>
+              <img src={thirteen} className='w-100' alt="" />
+            </div>
+
+          </Carousel> */}
+
+  <div className='about w-100'>
+  <h5 className='tw-text-bone text-center'>
+          {t('A4d')}
+        </h5>
+    <ul className='mt-4 lists ms-3'>
+      <li className='tw-text-bone'>
+        <p className=''>{t('descA4d')}</p>
+      </li>
+
+      <li className='tw-text-bone'>
+        <p className=''>{t('A4dDuration')}</p>
+      </li>
+
+      <li className='tw-text-bone'>
+        <p className=''>{t('A4ddesc1')}</p>
+      </li>
+      <li className='tw-text-bone'>
+        <p className=''>{t('A4dlanguage')}</p>
+      </li>
+
+      <li className='tw-text-bone'>
+        <p>{t('Price')}</p> 
+        <ul className='mt-2' style={{ listStyleType: "circle" }}>
+          <li>
+            <p>
+              {t('A4dSession1')}
+            </p>
+          </li>
+          <li>
+            <p>{t('A4dSession2')}</p>
+          </li>
+          <li>
+            <p>{t('A4dSession3')}</p>
+          </li>
+        </ul>
+
+        <li className='button tw-list-none ms-4 mt-5'>
+    <a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
+
+      </li>
+      </li>
+
+      
+    </ul>
+  </div>
+</div>
+
+
+<div className='my-5 a4 tw-bg-midnight p-4 rounded-3 w-100'>
+
+    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
+
+    {/* <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
+            <div className=''>
+              <img src={A4d} className='w-100' alt="" />
+            </div>
+
+            <div className=''>
+              <img src={thirteen} className='w-100' alt="" />
+            </div>
+
+          </Carousel> */}
+
+  <div className='about w-100'>
+  <h5 className='tw-text-bone text-center'>
+          {t('A4d')}
+        </h5>
+    <ul className='mt-4 lists ms-3'>
+      <li className='tw-text-bone'>
+        <p className=''>{t('descA4d')}</p>
+      </li>
+
+      <li className='tw-text-bone'>
+        <p className=''>{t('A4dDuration')}</p>
+      </li>
+
+      <li className='tw-text-bone'>
+        <p className=''>{t('A4ddesc1')}</p>
+      </li>
+      <li className='tw-text-bone'>
+        <p className=''>{t('A4dlanguage')}</p>
+      </li>
+
+      <li className='tw-text-bone'>
+        <p>{t('Price')}</p> 
+        <ul className='mt-2' style={{ listStyleType: "circle" }}>
+          <li>
+            <p>
+              {t('A4dSession1')}
+            </p>
+          </li>
+          <li>
+            <p>{t('A4dSession2')}</p>
+          </li>
+          <li>
+            <p>{t('A4dSession3')}</p>
+          </li>
+        </ul>
+
+        <li className='button tw-list-none ms-4 mt-5'>
+    <a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
+
+      </li>
+      </li>
+
+      
+    </ul>
+  </div>
+</div>
+
+
+
+
+
+<div className='my-5 a4 tw-bg-midnight p-4 rounded-3 w-100'>
+
+    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
+
+    {/* <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
+            <div className=''>
+              <img src={A4d} className='w-100' alt="" />
+            </div>
+
+            <div className=''>
+              <img src={thirteen} className='w-100' alt="" />
+            </div>
+
+          </Carousel> */}
 
   <div className='about w-100'>
   <h5 className='tw-text-bone text-center'>

@@ -29,66 +29,14 @@ const SectionA1 = () => {
       </div>
 
 
-      <div className='mt-5 container'>
+ <div className='mt-5 container'>
 
         <div className=' my-4 a1 tw-bg-midnight p-4 w-100 mx-auto rounded-3'>
       
-            {/* <img src="https://empathysauce.com/wp-content/uploads/2020/05/1Online-Personal-one-on-one-scaled.jpg"  alt="" /> */}
-
-            {/* <div
-  id="carouselExampleAutoplaying"
-  className="carousel slide"
-  data-bs-ride="carousel"
->
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-      <img src={A1a} className="d-block w-75 mx-auto" alt="..." />
-    </div>
-    <div className="carousel-item">
-      <img src={one} className="d-block w-75 mx-auto" alt="..." />
-    </div>
-    <div className="carousel-item">
-      <img src={two} className="d-block w-75 mx-auto" alt="..." />
-    </div>
-
-  </div>
-  <button
-    className="carousel-control-prev"
-    type="button"
-    data-bs-target="#carouselExampleAutoplaying"
-    data-bs-slide="prev"
-  >
-    <span className="carousel-control-prev-icon" aria-hidden="true" />
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button
-    className="carousel-control-next"
-    type="button"
-    data-bs-target="#carouselExampleAutoplaying"
-    data-bs-slide="next"
-  >
-    <span className="carousel-control-next-icon" aria-hidden="true" />
-    <span className="visually-hidden">Next</span>
-  </button>
-</div> */}
-
-<Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
-            <div className=''>
-              <img src={A1a} className='w-100' alt="" />
-            </div>
-
-            <div className=''>
-              <img src={one} className='w-100' alt="" />
-            </div>
-
-            <div className=''>
-              <img src={two} className='w-100' alt="" />
-            </div>
-
-          </Carousel>
+            <img src={A1a}  alt="" />
 
 
-          <div className=' about w-100'>
+          <div className=' about w-100 px-md-2'>
           <h4 className='tw-text-bone text-center'>
             {t('A1a')}
           </h4>
@@ -108,30 +56,89 @@ const SectionA1 = () => {
         <p className=''>{t('A1alanguage')}</p>
       </li>
 
-      <li className='tw-text-bone'>
-        {t('Price')} 
-        <ul className='mt-2' style={{ listStyleType: "circle" }}>
+      <li className='tw-text-bone '>
+        <p>{t('Price')}</p>
+        <ul className='' style={{ listStyleType: "circle" }}>
           <li>
             <p>
               {t('A1aSession1')}
             </p>
           </li>
           <li>
+            <p>{t('A1aSession2')}</p>
+          </li>
+
+          <li>
             <p>{t('A1aSession3')}</p>
           </li>
         </ul>
 
-        <li className='button tw-list-none ms-4 mt-5'>
-    <a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
-
-      </li>
+        {/* <li className='button tw-list-none ms-4 mt-5'> */}
+      {/* </li> */}
       </li>
 
+      <li className='mt-5 text-center button'>
+      <a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone tw-bg-gold px-5 py-2 tw-rounded-md">{t('Book Now')}</a>
+      </li>
       
     </ul>
+
+  
+
+
+
           </div>
         </div>
 
+
+
+
+        {/* <div className=' my-4 a1b tw-bg-midnight p-4 w-100 mx-auto rounded-3'>
+      
+            <img src={A1a}  alt="" />
+
+
+          <div className=' about w-100 px-md-2'>
+          <h4 className='tw-text-bone text-center'>
+            {t('A1a')}
+          </h4>
+
+  
+
+
+
+          </div>
+        </div> */}
+
+
+<div className="a1b">
+    <div className="card-1 tw-bg-midnight rounded-3" >
+  <img src={two} className="card-img-top mx-auto p-4"  alt="..." />
+  <div className="px-2 pb-5">
+    {/* <h5 className="card-title">{t('A1b')}</h5> */}
+    <h5 className=' tw-text-bone text-center'>{t('A1b')}</h5>
+
+<div className='text-center mt-4'>
+<a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone tw-bg-gold px-5 py-2 tw-rounded-md">{t('Book Now')}</a>
+</div>
+      
+  </div>
+</div>
+
+
+<div className="card-1 tw-bg-midnight rounded-3 mt-4 mt-md-0" >
+  <img src={one} className="card-img-top mx-auto p-4"  alt="..." />
+  <div className="px-2 pb-5">
+    {/* <h5 className="card-title">{t('A1b')}</h5> */}
+    <h5 className=' tw-text-bone text-center'>{t('A1c')}</h5>
+
+    <div className='text-center mt-4'>
+<a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone tw-bg-gold px-5 py-2 tw-rounded-md">{t('Book Now')}</a>
+</div>
+  </div>
+</div>
+
+    </div>
 
 
       </div>

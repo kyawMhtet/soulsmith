@@ -46,7 +46,7 @@ const SectionA2 = () => {
 
 <div className='my-4 a2 tw-bg-midnight p-4 rounded-3 w-100'>
 
-    {/* <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg" alt="" /> */}
+    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg" alt="" />
 
     {/* <div
   id="carouselExampleAutoplaying"
@@ -81,7 +81,7 @@ const SectionA2 = () => {
     <span className="visually-hidden">Next</span>
   </button>
 </div> */}
-          <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
+          {/* <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
             <div className=''>
               <img src={A2a} className='w-100' alt="" />
             </div>
@@ -90,7 +90,105 @@ const SectionA2 = () => {
               <img src={three} className='w-100' alt="" />
             </div>
 
-          </Carousel>
+          </Carousel> */}
+
+
+
+  <div className='about w-100'>
+  <h4 className='tw-text-bone text-center'>
+          {t('A2a')}
+        </h4>
+    <ul className='mt-4 ms-lg-3'>
+      <li className="tw-text-bone">
+        <p>{t('descA2a')}</p>
+      </li>
+
+      <li className='tw-text-bone'>
+        <p className=''>{t('A2aDuration')}</p>
+      </li>
+
+      <li className='tw-text-bone'>
+        <p className=''>{t('A2adesc1')}</p>
+      </li>
+
+      <li className='tw-text-bone'>
+        <p className=''>{t('A2alanguage')}</p>
+      </li>
+
+      <li className='tw-text-bone'>
+        {t('Price')}
+        <ul className='mt-2' style={{ listStyleType: "circle" }}>
+          <li>
+            <p>{t('A2aSession1')}</p>
+          </li>
+          <li>
+            <p>{t('A2aSession2')}</p>
+          </li>
+          <li>
+            <p>{t('A2aSession3')}</p>
+          </li>
+        </ul>
+
+        <li className='button tw-list-none ms-4 mt-5'>
+    <a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
+
+      </li>
+      </li>
+
+        
+      
+    </ul>
+  </div>
+</div>
+
+
+<div className='my-4 a2 tw-bg-midnight p-4 rounded-3 w-100'>
+
+    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg" alt="" />
+
+    {/* <div
+  id="carouselExampleAutoplaying"
+  className="carousel slide"
+  data-bs-ride="carousel"
+>
+  <div className="carousel-inner">
+    <div className="carousel-item active">
+      <img src={A2a} className="d-block w-75 mx-auto" alt="..." />
+    </div>
+    <div className="carousel-item">
+      <img src={two} className="d-block w-75 mx-auto" alt="..." />
+    </div>
+
+  </div>
+  <button
+    className="carousel-control-prev"
+    type="button"
+    data-bs-target="#carouselExampleAutoplaying"
+    data-bs-slide="prev"
+  >
+    <span className="carousel-control-prev-icon" aria-hidden="true" />
+    <span className="visually-hidden">Previous</span>
+  </button>
+  <button
+    className="carousel-control-next"
+    type="button"
+    data-bs-target="#carouselExampleAutoplaying"
+    data-bs-slide="next"
+  >
+    <span className="carousel-control-next-icon" aria-hidden="true" />
+    <span className="visually-hidden">Next</span>
+  </button>
+</div> */}
+          {/* <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
+            <div className=''>
+              <img src={A2a} className='w-100' alt="" />
+            </div>
+
+            <div className=''>
+              <img src={three} className='w-100' alt="" />
+            </div>
+
+          </Carousel> */}
 
 
 

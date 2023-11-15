@@ -1,6 +1,7 @@
 
 * {
     scroll-behavior: smooth;
+    list-style-type: none;
 }
 
 .main {
@@ -47,7 +48,7 @@ p {
 }
 
 
-.team img {
+.home-team img {
     width: 70%;
     margin-inline: auto;
 }

@@ -9,24 +9,23 @@
   width: 40%;
 }
 
+/* .a1b img {
+  width: 30%;
+} */
+
 .about {
 
   /* margin-top: 20px; */
   width: 100%;
+  /* padding: 0; */
 
-  /* padding: 10px auto; */
-  /* background-color: red; */
 }
 
 .react-carousel {
   width: 75%;
 }
 
-.a1 ul {
 
-list-style-type: disc;
-
-}
 .a1 .button button {
 transition: all 0.3s;
 }
@@ -35,6 +34,16 @@ transition: all 0.3s;
 .a1 .button button:hover {
 background-color: #E8E5D7;
 color: #C4A962;
+}
+
+
+.a1b {
+  display: flex;
+  justify-content: space-between;
+}
+
+.a1b .card-1 {
+  width: 38rem;
 }
 
 @media (max-width: 992px) {
@@ -59,12 +68,34 @@ color: #C4A962;
   width: 100%;
   /* background-color: red; */
 }
+
 }
 
 @media (max-width: 992px) {
   .react-carousel {
     width: 100%;
   }
+
+}
+
+@media (max-width: 768px) {
+  .a1 img {
+    width: 100%;
+  }
+  
+  .a1b {
+    display: block;
+  }
+
+  .a1b .card-1 {
+    width: 100%;
+  }
+
+  .a1b .card-1 h5 {
+    font-size: x-large;
+    /* padding-bottom: 20px; */
+  }
+
 }
 
 
@@ -93,5 +124,25 @@ color: #C4A962;
   .react-carousel {
     width: 100%;
   }
+
+
+  .a1b {
+    display: block;
+  }
+
+  .a1b img {
+    width: 100%;
+  }
+
+  .a1b .card-1 {
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .a1 .button a {
+    /* width: 100%; */
+    margin-right: 30px;
+  }
+  
   
 }

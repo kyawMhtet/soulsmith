@@ -3,100 +3,70 @@ body {
   overflow-x: hidden;
 }
 
+hr {
+  color: #E8E5D7;
+  width: 60%;
+  margin: auto;
+}
 
+.members {
+  background-color: #040406;
 
-.person {
-    margin-top: 80px;
-    display: flex;
-    flex-direction: row; /* Horizontal layout for larger screens */
-  }
+}
+
+.team-info a {
+  text-decoration: underline;
+}
+
+.team {
+  display: flex;
+  padding: 10px;
+  margin-top: 50px;
   
-  .info, .info1 {
-    height: 280px;
-    overflow-y: hidden;
-    transition: all 0.5s;
-  }
+}
+
+.team-image {
+  width: 55%;
+  /* display: flex;
+  align-items: center; */
+}
+
+
+.team-info {
+  width: 50%;
+  padding: 20px;
+  margin: auto;
+  margin-left: -100px;
   
-  .info:hover {
-    cursor: default;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-}
-
-.info:hover::-webkit-scrollbar {
-    width: 5px;
-}
-
-.info:hover::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px #2D3738;
-    border-radius: 10px;
-}
-
-.info:hover::-webkit-scrollbar-thumb {
-    background: #2D3738;
-    border-radius: 10px;
-}
-
-.info:hover::-webkit-scrollbar-thumb:hover {
-    background: #2D3738;
 }
 
 
-/* Increase the size of all indicator buttons */
-.carousel .control-dots li {
-  width: 12px !important; /* Adjust the width as needed */
-  height: 12px !important; /* Adjust the height as needed */
+.team1 {
+  display: flex;
+  padding: 20px;
+  margin-top: 50px;
+  /* background-color: #040406; */
 }
 
-/* Add some margin between the indicator buttons */
-.carousel .control-dots li + li {
-  margin-left: 10px; /* Adjust the margin as needed */
+.team-info1 {
+  /* height: 420px; */
+  width: 50%;
+  margin-left: 100px;
+  margin: auto;
+
 }
 
 
-/* Change the active indicator size (optional) */
-/* .carousel .control-dots .dot.selected {
 
-  width: 20px; 
-  height: 20px; 
-} */
-
-
-
-/* .info1 {
-  direction: rtl;
-  overflow-y: hidden;
-
-} */
-
-  .info1 .list2 {
-    list-style-type: disc;
-    /* margin-left: 20px; */
-    direction: ltr;
-  }
-  
+.team-image1 {
+  width: 50%;
+  /* display: flex;
+  align-items: center; */
+  margin-right: 20px;
+  /* margin: auto; */
+}
 
   
-  .info1:hover {
-    cursor: default;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-}
-
-.info1:hover::-webkit-scrollbar {
-    width: 5px;
-}
-
-.info1:hover::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px #2D3738;
-    border-radius: 10px;
-}
-
-.info1:hover::-webkit-scrollbar-thumb {
-    background: #2D3738;
-    border-radius: 10px;
-}
-
 
 
 
@@ -109,6 +79,7 @@ body {
 
   .photo {
     margin: auto;
+
   }
 
   .person {
@@ -136,6 +107,14 @@ body {
     .person {
       flex-direction: column; /* Vertical layout for small screens */
     }
+
+    .photo {
+      width: 100%;
+    }
+
+    .photo img {
+      width: 100%;
+    }
   
     .info1 {
       order: 1; /* Swap order on small screens */
@@ -154,6 +133,54 @@ body {
 
     .name, .category {
       text-align: center;
+    }
+
+
+    .team {
+      display: block;
+      
+    }
+    
+    .team-image {
+      width: 100%;
+      margin-top: 1px;
+     
+    }
+    
+    .photo img {
+      width: 100%;
+    }
+    
+    .team-info {
+      margin: auto;
+      padding: 20px;
+      width: 100%;
+    }
+
+
+
+    .team1 {
+      display: flex;
+      flex-direction: column;
+      /* background-color: #040406; */
+    }
+    
+    .team-info1 {
+
+      width: 100%;
+      margin: auto;
+      order: 2;
+    }
+    
+    
+    
+    .team-image1 {
+      width: 100%;
+      order: 1;
+    }
+
+    hr {
+      width: 70%;
     }
   }
   

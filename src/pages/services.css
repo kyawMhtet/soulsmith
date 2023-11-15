@@ -4,21 +4,23 @@
 }
 
 .sections ul {
-    list-style-type: circle;
+    margin-top: 15px;
+    padding: 5px 10px;
     color: #C4A962;
 }
 
 .sections ul li {
-    padding: 2px 0;
+    margin: 5px 0;
 }
 
-.sections a:hover {
+.sections ul li:hover {
     text-decoration: underline;
+    
 }
 
-.card-text ul {
+/* .card-text ul {
     list-style-type: disc;
-}
+} */
 
 .card-text ul li {
     padding: 5px 0;
@@ -27,7 +29,7 @@
 }
 
 .card-body {
-    min-height: 20rem;
+    min-height: 24rem;
 }
 
 .card-img-top {
@@ -57,4 +59,11 @@
         min-height: 30rem;
     }
 } */
+
+
+@media (max-width: 576px) {
+    .card-body {
+        min-height: auto;
+    }
+}
 

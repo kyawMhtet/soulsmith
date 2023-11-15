@@ -46,7 +46,7 @@
 
     "A4Description_02": "Arts Psychotherapy is Suitable for Children, preteens, teenagers, adults, and the elderly seeking self-understanding or understanding of others, individuals with low self-esteem, those wanting someone to comprehend their emotions, thoughts, and behaviours, those exploring possibilities for life direction, seeking solutions to existing problems, enhancing relationship skills, emotional awareness, and analytical thinking, feeling stressed, anxious, or detached, needing emotional healing and understanding.",
 
-    "A1a" : "Listening Service and Mindfulness Practice: One-to-one",
+    "A1a" : "Listening Service and Mindfulness Practice: One-to-one (First time with SOULSMITH)",
 
     "descA1a" : "Suitable for: Individual.",
 
@@ -57,7 +57,14 @@
 
     "A1aSession1": "Single session: 900",
     
-    "A1aSession3": "Package of 5 Sessions: 4,300",
+    "A1aSession2": "Package of 5 Sessions: 4,300",
+    "A1aSession3": "Package of 10 Sessions: 9,000 + 1 Free Session",
+
+
+    "A1b" : "Listening Service and Mindfulness Practice By Khun Pair: One-to-one",
+
+    "A1c" : "Listening Service and Mindfulness Practice By Khun May: One-to-one",
+
 
 
 
@@ -376,7 +383,25 @@
 
     "B1aSession2" : "5 Sessions: xxx",
     
-    "B1aSession3": "10 Sessions: xxx"
+    "B1aSession3": "10 Sessions: xxx",
+
+
+
+
+
+    "Mind Magnifying" : "Mind Magnifying",
+    "MagnifyDesc" : "Mind Magnifying : emotion l core values l core beliefs l needs are designed to enhance understanding and explore one's own thoughts and feelings, as well as those of others, in greater depth. It serves as a starting point for conversational exchange of ideas and is one of the tools to help people communicate and express their feelings.",
+    "Mind Magnifying in one set consists of" : "Mind Magnifying in one set consists of",
+
+    "instructions" : "Instructions for Use",
+    "card1" : "Set of emotion cards 1 box (72 cards)",
+    "card2" : "Set of core values cards 1 box (72 cards)",
+    "card3" : "Set of core beliefs cards 1 box (72 cards)",
+    "card4" : " Set of needs cards 1 box (72 cards)",
+
+    "MagnifyPrice" : "Price: 3,200 Baht",
+    "BUY NOW" : "BUY NOW"
+
 
 
 

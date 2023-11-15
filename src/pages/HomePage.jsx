@@ -140,14 +140,17 @@ const HomePage = () => {
 
       {/* our team */}
 
-      <div className='team'>
+      <div className='home-team'>
         <h3 className='text-center tw-text-bone'>OUR TEAM</h3>
 
 
       <div className="container mt-5">
       <div className="col-12 col-lg-4 col-md-4 mx-auto" data-aos="fade-right" data-aos-duration="2500" >
             <img src={Person1} alt="" />
-            <p className='text-center text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto, repudiandae voluptas maxime magni cumque a expedita aperiam doloremque</p>
+          <div className='tw-text-bone text-center'>
+          <h4 className=''>{t('name1')}</h4>
+            <p className='p-1'>({t('category1')})</p>
+          </div>
           </div>
       </div>
 
@@ -155,30 +158,48 @@ const HomePage = () => {
         <div className="row">
           <div className="col-12 col-lg-4 col-md-4" data-aos="fade-right" data-aos-duration="2500" >
             <img src={Person1} alt="" />
-            <p className='text-center text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iusto, repudiandae voluptas maxime magni cumque a expedita aperiam doloremque error?</p>
+            <div className='tw-text-bone text-center'>
+          <h4 className=''>{t('name2')}</h4>
+            <p className='p-1'>({t('category2')})</p>
+          </div>
           </div>
           <div className="col-12 col-lg-4 col-md-4" data-aos="fade-right" data-aos-duration="2000">
           <img src={Person2} alt="" />
-            <p className='text-center text-white'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum voluptatem officia soluta maiores distinctio facere ullam suscipit perspiciatis excepturi in?</p>
+          <div className='tw-text-bone text-center'>
+          <h4 className=''>{t('name3')}</h4>
+            <p className='p-1'>({t('category3')})</p>
+          </div>
           </div>
           <div className="col-12 col-lg-4 col-md-4" data-aos="fade-right" data-aos-duration="1500">
           <img src={Person3} alt="" />
-            <p className='text-center text-white'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas eligendi sequi voluptatum nobis optio labore ipsam, tempore magni nostrum deleniti!</p>
+          <div className='tw-text-bone text-center'>
+          <h4 className=''>{t('name4')}</h4>
+            <p className='p-1'>({t('category4')})</p>
+          </div>
           </div>
 
           <div className="col-12 col-lg-4 col-md-4" data-aos="fade-right" data-aos-duration="1500">
           <img src={Person1} alt="" />
-            <p className='text-center text-white'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas eligendi sequi voluptatum nobis optio labore ipsam, tempore magni nostrum deleniti!</p>
+          <div className='tw-text-bone text-center'>
+          <h4 className=''>{t('name5')}</h4>
+            <p className='p-1'>({t('category5')})</p>
+          </div>
           </div>
 
           <div className="col-12 col-lg-4 col-md-4" data-aos="fade-right" data-aos-duration="1500">
           <img src={Person2} alt="" />
-            <p className='text-center text-white'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas eligendi sequi voluptatum nobis optio labore ipsam, tempore magni nostrum deleniti!</p>
+          <div className='tw-text-bone text-center'>
+          <h4 className=''>{t('name6')}</h4>
+            <p className='p-1'>({t('category6')})</p>
+          </div>
           </div>
 
           <div className="col-12 col-lg-4 col-md-4" data-aos="fade-right" data-aos-duration="1500">
           <img src={Person3} alt="" />
-            <p className='text-center text-white'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas eligendi sequi voluptatum nobis optio labore ipsam, tempore magni nostrum deleniti!</p>
+          <div className='tw-text-bone text-center'>
+          <h4 className=''>{t('name7')}</h4>
+            <p className='p-1'>{t('category7')}</p>
+          </div>
           </div>
         </div>
       </div>

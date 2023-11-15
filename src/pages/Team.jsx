@@ -1,16 +1,22 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './team.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { Carousel } from 'react-responsive-carousel'
 import { useTranslation } from 'react-i18next'
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import Footer from '../components/Footer'
+import member1 from '../assets/team/member1.jpg'
+import member2 from '../assets/team/member2.jpg'
+import Person1 from '../assets/person1.png'
 
 const Team = () => {
   const { t, i18n } = useTranslation();
-
   const isThaiLanguage = i18n.language === 'th';
 
-
+  useEffect(() => {
+    Aos.init();
+  },[])
 
   return (
     <>
@@ -18,572 +24,323 @@ const Team = () => {
       <img src="https://strategyfirst.edu.mm/img/who-we.png" className='d-flex w-100' alt="" />
 
     </div> */}
-  <div className="container">
-  <h2 className='tw-text-gold text-center mt-4 '>
+  {/* <div className="container"> */}
+  <h2 className='tw-text-gold text-center mt-4'>
       SOULSMITH TEAM MEMBERS
     </h2>
-  </div>
+  {/* </div> */}
 
-    <div className=" mt-4">
-
-      <div className='person w-75 mx-auto'>
-        <div className='photo'>
-          <img src="https://strategyfirst.edu.mm/frontend/people/wypz.png" className='rounded-circle' alt="" />
+    <div className='members container rounded-3'>
+      <div className="team">
+        <div className="team-image" data-aos="fade-right" data-aos-duration="2000">
+          <img src={Person1} className='' />
         </div>
 
-        <div className='w-100 info p-3 tw-text-bone'>
-          <h4 className='tw-text-bone name text-sm-center '>
-          {t('name1')}
-          </h4>
-          <h5 className='my-3 category text-sm-center '>({t('category1')})</h5>
-          
-          {/* <h5 className=' tw-text-gold text-center'> Cognitive Behavioral Therapist</h5> */}
+        <div className="team-info" data-aos="fade-left" data-aos-duration="2000">
+        <h4 className='tw-text-bone name text-sm-center'>
+                {t('name1')}
+            </h4>
+            <h5 className='mt-2 mb-3 category text-sm-center tw-text-bone'>({t('category1')})</h5>
 
-          
-          {/* <div className='mt-3 text-left'> */}
-          <Carousel showThumbs={false} width="100%" dynamicHeight={true} showArrows={false} emulateTouch={true} showStatus={false} >
-          <div className='text-start py-1 '>
-              <h5 className='tw-text-bone' >
-                {t('list1A')}
-              </h5>
+            <div className='text-start py-2'>
+                        <h5 className='tw-text-bone'>
+                            {t('list1A')}
+                        </h5>
 
-              <ul className='tw-list-disc mt-1 mb-5 tw-text-start tw-text-bone' >
-                <li>{t('list1Aa')}</li>
-                <li className='my-2'>{t('list1Ab')}</li>
-                <li>{t('list1Ac')}</li>
-              </ul>
+                        <ul
+                            className='mt-3 mb-5 tw-text-start tw-text-bone'>
+                            <li><p>{t('list1Aa')}</p></li>
+                            <li className='my-2'><p>{t('list1Ab')}</p></li>
+                            <li><p>{t('list1Ac')}</p></li>
+                        </ul>
 
-                    {/* <p className="legend">Legend 1</p> */}
-                </div>
+                        {/* <p className="legend">Legend 1</p> */}
+                    </div>
 
+                    <div className='text-start'>
+                        <h5 className='tw-text-bone'>
+                            {t('list1B')}
+                        </h5>
 
-            <div className='text-start py-1'>
-              <h5 className=''>
-              {t('list1B')}
-              </h5>
+                        <ul className='mt-3 mb-5 tw-text-bone'>
+                            <li><p>{t('list1Ba')} <a href="https://www.facebook.com/cbtdeetorjai" className='tw-text-bone' style={{ wordWrap: 'break-word' }}>(https://www.facebook.com/cbtdeetorjai)</a>.
+                            </p> 
+                                    {/* <span style={{ wordWrap:
+                                    'break-word' }}>
+                                </span> */}
 
-              <ul className='tw-list-disc mt-3 mb-5'>
-                <li>{t('list1Ba')} <span style={{ wordWrap: 'break-word' }}>
-                (https://www.facebook.com/cbtdeetorjai).
+                            </li>
+                            <li className='my-2'>
+                              <p>
+                              {t('list1Bb')}
 
-                </span>
+                              </p>
+                            </li>
 
-                </li>
-                <li className='my-2'>
-                  {t('list1Bb')}
-                </li>
-                
-              </ul>
+                        </ul>
 
-                    {/* <p className="legend">Legend 1</p> */}
-                </div>
-          </Carousel>
-          {/* </div> */}
-
-
-
-
-
+                        {/* <p className="legend">Legend 1</p> */}
+                    </div>
         </div>
       </div>
 
 
-{/* second member */}
-
-      <div className='person w-75 mx-auto'>
+                                <hr  />
 
 
-        
-      <div className='w-100 info1 p-3 tw-text-bone'>
+{/* 2nd member */}
+      <div className="team1">
+      <div className="team-info1" data-aos="fade-right" data-aos-duration="2000">
+        <h4 className='tw-text-bone name text-sm-center'>
+                {t('name2')}
+            </h4>
+            <h5 className='mt-2 mb-3 category text-sm-center tw-text-bone'>({t('category2')})</h5>
 
-      <h4 className='tw-text-bone name text-sm-center  '>
-          {t('name2')}
-          </h4>
-          <h5 className='my-3 category text-sm-center '>({t('category2')})</h5>
-          
-          {/* <h5 className=' tw-text-gold text-center'> Cognitive Behavioral Therapist</h5> */}
+            <div className='text-start py-2'>
+                        <h5 className='tw-text-bone'>
+                            {t('list2A')}
+                        </h5>
 
-          
-          {/* <div className='mt-3 text-left'> */}
-          <Carousel showThumbs={false} width="100%" dynamicHeight={true} showArrows={false} emulateTouch={true} showStatus={false} >
-          <div className='text-start py-1 list2'>
-              <h5 className='tw-text-bone'>
-                {t('list2A')}
-              </h5>
+                        <ul
+                            className='mt-3 mb-5 tw-text-start tw-text-bone'>
+                            <li><p>{t('list2Aa')}</p></li>
+                            <li className='my-2'><p>{t('list2Ab')}</p></li>
+                            <li><p>{t('list2Ac')}</p></li>
+                        </ul>
+                    </div>
 
-              <ul className='tw-list-disc mt-1 mb-5 tw-text-start tw-text-bone' >
-                <li className=''>{t('list2Aa')}</li>
-                <li className='my-2'>{t('list2Ab')}</li>
-                <li>{t('list2Ac')}</li>
-              </ul>
+                    <div className='text-start'>
+                        <h5 className='tw-text-bone'>
+                            {t('list2B')}
+                        </h5>
 
-                    {/* <p className="legend">Legend 1</p> */}
-                </div>
+                        <ul className='mt-3 mb-5 tw-text-bone'>
+                            <li><p>{t('list2Ba')}
+                            </p> 
+                                    {/* <span style={{ wordWrap:
+                                    'break-word' }}>
+                                </span> */}
 
+                            </li>
+                            <li className='my-2'>
+                              <p>
+                              {t('list2Bb')}
 
-            <div className='text-start py-1'>
-              <h5 className='tw-text-bone'>
-              {t('list2B')}
-              </h5>
+                              </p>
+                            </li>
 
-              <ul className='tw-list-disc mt-3 mb-5 tw-text-bone'>
-                <li>{t('list2Ba')}
-                </li>
-                <li className='my-2'>
-                  {t('list2Bb')}
-                </li>
+                            <li className='my-2'>
+                              <p>
+                              {t('list2Bc')}
 
-                <li className='my-2'>
-                  {t('list2Bc')}
-                </li>
+                              </p>
+                            </li>
 
-                <li className='my-2'>
-                  {t('list2Bd')}
-                </li>
+                            <li className='my-2'>
+                              <p>
+                              {t('list2Bd')}
 
-                <li className='my-2'>
-                  {t('list2Be')}
-                </li>
+                              </p>
+                            </li>
 
-                <li className='my-2'>
-                  {t('list2Bf')}
-                </li>
+                            <li className='my-2'>
+                              <p>
+                              {t('list2Be')}
 
-                <li className='my-2'>
-                  {t('list2Bg')}
-                </li>
+                              </p>
+                            </li>
 
-                {
-                  !isThaiLanguage && (
-                    <li className='my-2'>
-                    {t('list2Bh')}
-                  </li>
-                  )
-                }
+                            <li className='my-2'>
+                              <p>
+                              {t('list2Bf')}
 
-                {
-                  !isThaiLanguage && (
-                    <li className='my-2'>
-                    {t('list2Bi')}
-                  </li>
-                  )
-                }
+                              </p>
+                            </li>
 
-                {
-                  !isThaiLanguage && (
-                    <li className='my-2'>
-                    {t('list2Bj')}
-                  </li>
-                  )
-                }
+                            <li className='my-2'>
+                              <p>
+                              {t('list2Bg')}
 
-                {
-                  !isThaiLanguage && (
-                    <li className='my-2'>
-                    {t('list2Bk')}
-                  </li>
-                  )
-                }
-                
-              </ul>
-                </div>
-          </Carousel>
+                              </p>
+                            </li>
 
+                            <li className='my-2'>
+                              <p>
+                              {t('list2Bh')}
 
+                              </p>
+                            </li>
 
+                            <li className='my-2'>
+                              <p>
+                              {t('list2Bi')}
 
+                              </p>
+                            </li>
+
+                            <li className='my-2'>
+                              <p>
+                              {t('list2Bj')}
+
+                              </p>
+                            </li>
+
+                            <li className='my-2'>
+                              <p>
+                              {t('list2Bk')}
+
+                              </p>
+                            </li>
+
+                        </ul>
+
+                        {/* <p className="legend">Legend 1</p> */}
+                    </div>
+        </div>
+        <div className="team-image1" data-aos="fade-left" data-aos-duration="2000">
+          <img src={Person1} className='' />
         </div>
 
-        <div className='photo'>
-          <img src="https://strategyfirst.edu.mm/frontend/people/wypz.png" className='rounded-circle photo1' alt="" />
+
+      </div>
+
+                                <hr />
+
+{/* 3rd member */}
+
+<div className="team">
+        <div className="team-image" data-aos="fade-right" data-aos-duration="2000">
+          <img src={Person1} className='' />
+        </div>
+
+        <div className="team-info" data-aos="fade-left" data-aos-duration="2000">
+        <h4 className='tw-text-bone name text-sm-center'>
+                {t('name3')}
+            </h4>
+            <h5 className='mt-2 mb-3 category text-sm-center tw-text-bone'>({t('category3')})</h5>
+
+            <div className='text-start py-2'>
+                        <h5 className='tw-text-bone'>
+                            {t('list3A')}
+                        </h5>
+
+                        <ul
+                            className='mt-3 mb-5 tw-text-start tw-text-bone'>
+                            <li><p>{t('list3Aa')}</p></li>
+                            <li className='my-2'><p>{t('list3Ab')}</p></li>
+                            
+                        </ul>
+
+                        {/* <p className="legend">Legend 1</p> */}
+                    </div>
+
+                    <div className='text-start'>
+                        <h5 className='tw-text-bone'>
+                            {t('list3B')}
+                        </h5>
+
+                        <ul className='mt-3 mb-5 tw-text-bone'>
+                            <li><p>{t('list3Ba')}
+                            </p> 
+                                    {/* <span style={{ wordWrap:
+                                    'break-word' }}>
+                                </span> */}
+
+                            </li>
+                            <li className='my-2'>
+                              <p>
+                              {t('list3Bb')}
+
+                              </p>
+                            </li>
+
+                            <li className='my-2'>
+                              <p>
+                              {t('list3Bc')}
+
+                              </p>
+                            </li>
+
+                            <li className='my-2'>
+                              <p>
+                              {t('list3Bd')}
+
+                              </p>
+                            </li>
+
+                        </ul>
+
+                        {/* <p className="legend">Legend 1</p> */}
+                    </div>
         </div>
       </div>
 
+                                <hr />
 
+{/* 4th member */}
+<div className="team1">
+      <div className="team-info1" data-aos="fade-right" data-aos-duration="2000">
+        <h4 className='tw-text-bone name text-sm-center'>
+                {t('name4')}
+            </h4>
+            {/* <h5 className='mt-2 mb-3 category text-sm-center tw-text-bone'>({t('category4')})</h5> */}
 
-      {/* 3rd member */}
+            <div className='text-start py-2'>
+                        <h5 className='tw-text-bone'>
+                            {t('list4A')}
+                        </h5>
 
-      <div className='person w-75 mx-auto h-auto'>
-        <div className='photo'>
-          <img src="https://strategyfirst.edu.mm/frontend/people/wypz.png" className='rounded-circle' alt="" />
+                        <ul
+                            className='mt-3 mb-5 tw-text-start tw-text-bone'>
+                            <li><p>{t('list4Aa')}</p></li>
+
+                        </ul>
+                    </div>
+
+                    <div className='text-start'>
+                        <h5 className='tw-text-bone'>
+                            {t('list4B')}
+                        </h5>
+
+                        <ul className='mt-3 mb-5 tw-text-bone'>
+                            <li><p>{t('list4Ba')} .
+                            </p> 
+                                    {/* <span style={{ wordWrap:
+                                    'break-word' }}>
+                                </span> */}
+
+                            </li>
+                            <li className='my-2'>
+                              <p>
+                              {t('list4Bb')}
+
+                              </p>
+                            </li>
+
+                            <li className='my-2'>
+                              <p>
+                              {t('list4Bc')}
+
+                              </p>
+                            </li>
+
+                        </ul>
+
+                        {/* <p className="legend">Legend 1</p> */}
+                    </div>
+        </div>
+        <div className="team-image1" data-aos="fade-left" data-aos-duration="2000">
+          <img src={Person1} className='' />
         </div>
 
-        <div className='w-100 info p-3 tw-text-bone'>
-          <h4 className='tw-text-bone text-sm-center  name '>
-          {t('name3')}
-          </h4>
-          <h5 className='my-3 category text-sm-center '>({t('category3')})</h5>
-          
-          {/* <h5 className=' tw-text-gold text-center'> Cognitive Behavioral Therapist</h5> */}
 
-          
-          {/* <div className='mt-3 text-left'> */}
-          <Carousel showThumbs={false} width="100%" dynamicHeight={true} showArrows={false} emulateTouch={true} showStatus={false} >
-          <div className='text-start py-1 '>
-              <h5 className='tw-text-bone'>
-                {t('list3A')}
-              </h5>
-
-              <ul className='tw-list-disc mt-1 mb-5 tw-text-start tw-text-bone' >
-                <li>{t('list3Aa')}</li>
-                <li className='my-2'>{t('list3Ab')}</li>
-                
-              </ul>
-
-                    {/* <p className="legend">Legend 1</p> */}
-                </div>
-
-
-            <div className='text-start py-1'>
-              <h5 className='tw-text-bone '>
-              {t('list3B')}
-              </h5>
-
-              <ul className='tw-list-disc mt-3 mb-5 tw-text-bone'>
-                <li>{t('list3Ba')}
-
-                </li>
-                <li className='my-2'>
-                  {t('list3Bb')}
-                </li>
-
-                {
-                  !isThaiLanguage && (
-                    <li className='my-2'>
-                    {t('list3Bc')}
-                  </li>
-                  )
-                }
-
-                {
-                  !isThaiLanguage && (
-                    <li className='my-2'>
-                    {t('list3Bd')}
-                  </li>
-                  )
-                }
-
-                
-              </ul>
-
-                    {/* <p className="legend">Legend 1</p> */}
-                </div>
-          </Carousel>
-          {/* </div> */}
-
-
-
-
-
-        </div>
       </div>
 
-
-
-
-      {/* 4th member */}
-
-      <div className='person w-75 mx-auto'>
-
-
-        
-      <div className='w-100 info1 p-3 tw-text-bone'>
-
-      <h4 className='tw-text-bone text-sm-center  name '>
-          {t('name2')}
-          </h4>
-          <h5 className='my-3 category text-sm-center '>({t('category4')})</h5>
-          
-          {/* <h5 className=' tw-text-gold text-center'> Cognitive Behavioral Therapist</h5> */}
-
-          
-          {/* <div className='mt-3 text-left'> */}
-          <Carousel showThumbs={false} width="100%" dynamicHeight={true} showArrows={false} emulateTouch={true} showStatus={false} >
-          <div className='text-start py-1 list2'>
-              <h5 className='tw-text-bone '>
-                {t('list4A')}
-              </h5>
-
-              <ul className='tw-list-disc mt-1 mb-5 tw-text-start tw-text-bone' >
-                <li>{t('list4Aa')}</li>
-
-              </ul>
-
-                    {/* <p className="legend">Legend 1</p> */}
-                </div>
-
-
-            <div className='text-start py-1'>
-              <h5 className=''>
-              {t('list4B')}
-              </h5>
-
-              <ul className='tw-list-disc mt-3 mb-5'>
-                <li>{t('list4Ba')}
-                </li>
-                <li className='my-2'>
-                  {t('list4Bb')}
-                </li>
-
-                <li className='my-2'>
-                  {t('list4Bc')}
-                </li>
-
-                
-              </ul>
-                </div>
-          </Carousel>
-
-        </div>
-
-        <div className='photo'>
-          <img src="https://strategyfirst.edu.mm/frontend/people/wypz.png" className='rounded-circle photo1' alt="" />
-        </div>
-      </div>
-
-
-
-
-      {/* 5th member */}
-  
-      <div className='person w-75 mx-auto h-auto'>
-        <div className='photo'>
-          <img src="https://strategyfirst.edu.mm/frontend/people/wypz.png" className='rounded-circle' alt="" />
-        </div>
-
-        <div className='w-100 info p-3 tw-text-bone'>
-          <h4 className='tw-text-bone text-sm-center  name '>
-          {t('name5')}
-          </h4>
-          <h5 className='my-3 category text-sm-center '>({t('category5')})</h5>
-          
-          {/* <h5 className=' tw-text-gold text-center'> Cognitive Behavioral Therapist</h5> */}
-
-          
-          {/* <div className='mt-3 text-left'> */}
-          <Carousel showThumbs={false} width="100%" dynamicHeight={true} showArrows={false} emulateTouch={true} showStatus={false} >
-          <div className='text-start py-1 '>
-              <h5 className=''>
-                {t('list5A')}
-              </h5>
-
-              <ul className='tw-list-disc mt-1 mb-5 tw-text-start' >
-                <li>{t('list5Aa')}</li>
-                <li className='my-2'>{t('list5Ab')}</li>
-                <li className='my-2'>{t('list5Ac')}</li>
-                
-              </ul>
-
-                    {/* <p className="legend">Legend 1</p> */}
-                </div>
-
-
-            <div className='text-start py-1'>
-              <h5 className=''>
-              {t('list5B')}
-              </h5>
-
-              <ul className='tw-list-disc mt-3 mb-5'>
-                <li>{t('list5Ba')}
-
-                </li>
-                <li className='my-2'>
-                  {t('list5Bb')}
-                </li>
-
-                <li className='my-2'>
-                  {t('list5Bc')}
-                </li>
-
-                <li className='my-2'>
-                  {t('list5Bd')}
-                </li>
-
-                <li className='my-2'>
-                  {t('list5Be')}
-                </li>
-
-                <li className='my-2'>
-                  {t('list5Bf')}
-                </li>
-
-                <li className='my-2'>
-                  {t('list5Bg')}
-                </li>
-
-                <li className='my-2'>
-                  {t('list5Bh')}
-                </li>
-
-
-                
-              </ul>
-
-                    {/* <p className="legend">Legend 1</p> */}
-                </div>
-          </Carousel>
-          {/* </div> */}
-
-        </div>
-      </div>
-
-
-
-      {/* 6th member */}
-
-      <div className='person w-75 mx-auto'>
-
-
-        
-<div className='w-100 info1 p-3 tw-text-bone'>
-
-<h4 className='tw-text-bone name text-sm-center  '>
-    {t('name6')}
-    </h4>
-    <h5 className='my-3 category text-sm-center '>({t('category6')})</h5>
-    
-    {/* <h5 className=' tw-text-gold text-center'> Cognitive Behavioral Therapist</h5> */}
-
-    
-    {/* <div className='mt-3 text-left'> */}
-    <Carousel showThumbs={false} width="100%" dynamicHeight={true} showArrows={false} emulateTouch={true} showStatus={false} >
-    <div className='text-start py-1 list2'>
-        <h5 className=''>
-          {t('list6A')}
-        </h5>
-
-        <ul className='tw-list-disc mt-1 mb-5 tw-text-start' >
-          <li>{t('list6Aa')}</li>
-          <li className='my-2'>{t('list6Ab')}</li>
-          <li>{t('list6Ac')}</li>
-        </ul>
-
-              {/* <p className="legend">Legend 1</p> */}
-          </div>
-
-
-      <div className='text-start py-1'>
-        <h5 className=''>
-        {t('list6B')}
-        </h5>
-
-        <ul className='tw-list-disc mt-3 mb-5'>
-          <li>{t('list6Ba')}
-          </li>
-          <li className='my-2'>
-            {t('list6Bb')}
-          </li>
-
-          <li className='my-2'>
-            {t('list6Bc')}
-          </li>
-
-          <li className='my-2'>
-            {t('list6Bd')}
-          </li>
-
-          <li className='my-2'>
-            {t('list6Be')}
-          </li>
-
-          <li className='my-2'>
-            {t('list6Bf')}
-          </li>
-
-          <li className='my-2'>
-            {t('list6Bg')}
-          </li>
-
-              <li className='my-2'>
-              {t('list6Bh')}
-            </li>
-
-
-    
-          
-        </ul>
-          </div>
-    </Carousel>
-
-  </div>
-
-  <div className='photo'>
-    <img src="https://strategyfirst.edu.mm/frontend/people/wypz.png" className='rounded-circle photo1' alt="" />
-  </div>
-  
-</div>
-
-
-
-
-<div className='person w-75 mx-auto h-auto'>
-        <div className='photo'>
-          <img src="https://strategyfirst.edu.mm/frontend/people/wypz.png" className='rounded-circle' alt="" />
-        </div>
-
-        <div className='w-100 info p-3 tw-text-bone'>
-          <h4 className='tw-text-bone text-sm-center  name '>
-          {t('name7')}
-          </h4>
-          <h5 className='my-3 category text-sm-center '>{t('category7')}</h5>
-          
-          {/* <h5 className=' tw-text-gold text-center'> Cognitive Behavioral Therapist</h5> */}
-
-          
-          {/* <div className='mt-3 text-left'> */}
-          <Carousel showThumbs={false} width="100%" dynamicHeight={true} showArrows={false} emulateTouch={true} showStatus={false} >
-          <div className='text-start py-1 '>
-              <h5 className=''>
-                {t('list7A')}
-              </h5>
-
-              <ul className='tw-list-disc mt-1 mb-5 tw-text-start' >
-                <li>{t('list7Aa')}</li>
-                <li className='my-2'>{t('list7Ab')}</li>
-                <li className='my-2'>{t('list7Ac')}</li>
-                <li className='my-2'>{t('list7Ad')}</li>
-                
-              </ul>
-
-                    {/* <p className="legend">Legend 1</p> */}
-                </div>
-
-
-            <div className='text-start py-1'>
-              <h5 className=''>
-              {t('list7B')}
-              </h5>
-
-              <ul className='tw-list-disc mt-3 mb-5'>
-                <li>{t('list7Ba')}
-
-                </li>
-                <li className='my-2'>
-                  {t('list7Bb')}
-                </li>
-
-    
-                    <li className='my-2'>
-                    {t('list7Bc')}
-                  </li>
-
-
-
-                
-              </ul>
-
-                    {/* <p className="legend">Legend 1</p> */}
-                </div>
-          </Carousel>
-          {/* </div> */}
-
-
-
-
-
-        </div>
-      </div>
     </div>
+
+
+
+
 
 
 
