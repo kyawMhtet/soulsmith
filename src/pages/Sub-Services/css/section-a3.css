@@ -1,4 +1,26 @@
 
+.accordion-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+
+.accordion-content {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.accordion-content a {
+  background-color: #C4A962;
+  transition: all 0.5s;
+}
+
+.accordion-content a:hover {
+  background-color: #6C757D;
+}
 
 .a3 {
     display: flex;
@@ -102,4 +124,12 @@
     .react-carousel {
       width: 100%;
     }
+
+    .accordion-btn {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+    }
+    
   }

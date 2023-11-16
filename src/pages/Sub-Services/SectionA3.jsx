@@ -1,5 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
+import 'react-accessible-accordion/dist/fancy-example.css';
+import {Accordion,AccordionItem,AccordionItemButton,AccordionItemHeading,AccordionItemPanel} from 'react-accessible-accordion'
 import './css/section-a3.css'
 import Footer from '../../components/Footer';
 import { Carousel } from 'react-responsive-carousel';
@@ -22,6 +24,11 @@ const SectionA3 = () => {
 
   return (
     <>
+
+
+
+
+
       <h2 className='tw-text-bone text-center mt-4'>
       {t('SectionA3')}
       </h2>
@@ -38,81 +45,171 @@ const SectionA3 = () => {
         </p>
 
 
-        <div className='a3 tw-bg-midnight p-4 rounded-3 w-100'>
-
-    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
-    {/* <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
-            <div className=''>
-              <img src={A3a} className='w-100' alt="" />
-            </div>
-
-            <div className=''>
-              <img src={four} className='w-100' alt="" />
-            </div>
-
-            <div className=''>
-              <img src={five} className='w-100' alt="" />
-            </div>
-
-            <div className=''>
-              <img src={six} className='w-100' alt="" />
-            </div>
-
-          </Carousel> */}
 
 
-  <div className='  about w-100'>
-  <h5 className='tw-text-bone text-center'>
-          {t('A3a')}
-        </h5>
-    <ul className='mt-4 ms-lg-3'>
-      <li className='tw-text-bone'>
-        <p className=''>{t('descA3a')}</p>
+      <div className='tw-bg-midnight'>
+      <div className='a3  p-4 rounded-3 w-100'>
+
+<img src={A3a} alt="" />
+
+
+<div className='  about w-100'>
+<h5 className='tw-text-bone text-center'>
+      {t('A3a')}
+    </h5>
+<ul className='mt-4 ms-lg-3'>
+  <li className='tw-text-bone'>
+    <p className=''>{t('descA3a')}</p>
+  </li>
+
+  <li className='tw-text-bone'>
+    <p className=''>{t('A3aDuration')}</p>
+  </li>
+
+  <li className='tw-text-bone'>
+    <p className=''>{t('A3adesc1')}</p>
+  </li>
+  <li className='tw-text-bone'>
+    <p className=''>{t('A3alanguage')}</p>
+  </li>
+
+  <li className='tw-text-bone'>
+    <p>{t('Price')}</p> 
+    <ul className='mt-2' style={{ listStyleType: "circle" }}>
+      <li>
+        <p>
+          {t('A3aSession1')}
+        </p>
       </li>
-
-      <li className='tw-text-bone'>
-        <p className=''>{t('A3aDuration')}</p>
+      <li>
+        <p>{t('A3aSession2')}</p>
       </li>
-
-      <li className='tw-text-bone'>
-        <p className=''>{t('A3adesc1')}</p>
-      </li>
-      <li className='tw-text-bone'>
-        <p className=''>{t('A3alanguage')}</p>
-      </li>
-
-      <li className='tw-text-bone'>
-        <p>{t('Price')}</p> 
-        <ul className='mt-2' style={{ listStyleType: "circle" }}>
-          <li>
-            <p>
-              {t('A3aSession1')}
-            </p>
-          </li>
-          <li>
-            <p>{t('A3aSession2')}</p>
-          </li>
-          <li>
-            <p>{t('A3aSession3')}</p>
-          </li>
-        </ul>
-      </li>
-
-      <li className='button tw-list-none ms-4 mt-5'>
-    <a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
-
+      <li>
+        <p>{t('A3aSession3')}</p>
       </li>
     </ul>
+  </li>
 
-  </div>
+  {/* <li className='button tw-list-none ms-4 mt-5'>
+<a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
+
+  </li> */}
+</ul>
+
 </div>
+
+</div>
+
+<button className='w-100 pb-3 px-4'>
+<Accordion allowZeroExpanded style={{border: 'none'}}>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton className='accordion-btn border-1 tw-bg-midnight tw-text-bone'>
+                        <h5>{t('A3a1')}</h5>
+                        <button href="" type='button' className='btn btn-secondary'>Select</button>
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                <div className='accordion-content p-4 mx-auto' style={{ border: '1px solid #E8E5D7' }}>
+        
+            <img src={four} style={{width: '20%'}} alt="" />
+         
+
+
+        
+            <h5 className='tw-text-bone'>
+              {t('A3a1')}
+            </h5>
+
+            <div>
+            <a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
+            </div>
+
+          
+
+    </div>  
+                </AccordionItemPanel>
+            </AccordionItem>
+        </Accordion>
+</button>
+
+
+<button className='w-100 pb-3 px-4'>
+<Accordion allowZeroExpanded style={{border: 'none'}}>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton className='accordion-btn border-1 tw-bg-midnight tw-text-bone'>
+                        <h5>{t('A3a2')}</h5>
+                        <button href="" type='button' className='btn btn-secondary'>Select</button>
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                <div className='accordion-content p-4 mx-auto' style={{ border: '1px solid #E8E5D7' }}>
+                <img src={five} style={{width: '20%'}} alt="" />
+         
+
+
+        
+         <h5 className='tw-text-bone'>
+           {t('A3a1')}
+         </h5>
+
+         <div>
+         <a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
+         </div>
+
+          
+    </div>  
+                </AccordionItemPanel>
+            </AccordionItem>
+        </Accordion>
+</button>
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+    {/* <div className='mt-3 col-10 p-4 mx-auto' style={{ border: '1px solid #E8E5D7' }}>
+        <img src={four} style={{width: '25%'}} alt="" />
+
+    </div> */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 {/* A3b */}
 <div className=' a3 tw-bg-midnight p-4 rounded-4 w-100'>
 
-    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
+    <img src={A3b}  alt="" />
     {/* <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
             <div className=''>
               <img src={A3b} className='w-100' alt="" />
@@ -177,7 +274,7 @@ const SectionA3 = () => {
 {/* A3c */}
 <div className=' a3 tw-bg-midnight p-4 rounded-4 w-100'>
 
-    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
+    <img src={A3c}  alt="" />
     	
     {/* <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
             <div className=''>
@@ -243,7 +340,7 @@ const SectionA3 = () => {
 
 <div className=' a3 tw-bg-midnight p-4 rounded-4 w-100'>
 
-    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
+    <img src={A3d}  alt="" />
 
     {/* <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
             <div className=''>
@@ -307,68 +404,7 @@ const SectionA3 = () => {
 
 
 
-<div className=' a3 tw-bg-midnight p-4 rounded-4 w-100'>
 
-    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
-
-    {/* <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
-            <div className=''>
-              <img src={A3d} className='w-100' alt="" />
-            </div>
-
-            <div className=''>
-              <img src={nine} className='w-100' alt="" />
-            </div>
-
-          </Carousel> */}
-
-
-  <div className='about w-100'>
-  <h5 className='tw-text-bone text-center'>
-          {t('A3d')}
-        </h5>
-    <ul className='mt-4 ms-lg-3'>
-      <li className='tw-text-bone'>
-        <p className=''>{t('descA3d')}</p>
-      </li>
-
-      <li className='tw-text-bone'>
-        <p className=''>{t('A3dDuration')}</p>
-      </li>
-
-      <li className='tw-text-bone'>
-        <p className=''>{t('A3ddesc1')}</p>
-      </li>
-      <li className='tw-text-bone'>
-        <p className=''>{t('A3dlanguage')}</p>
-      </li>
-
-      <li className='tw-text-bone'>
-        {t('Price')} 
-        <ul className='mt-2' style={{ listStyleType: "circle" }}>
-          <li>
-            <p>
-              {t('A3dSession1')}
-            </p>
-          </li>
-          <li>
-            <p>{t('A3dSession2')}</p>
-          </li>
-          <li>
-            <p>{t('A3dSession3')}</p>
-          </li>
-        </ul>
-
-        <li className='button tw-list-none ms-4 mt-5'>
-    <a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
-
-      </li>
-      </li>
-
-      
-    </ul>
-  </div>
-</div>
 
 
 
@@ -645,16 +681,6 @@ const SectionA3 = () => {
 
     <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
 
-    {/* <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
-            <div className=''>
-              <img src={A3d} className='w-100' alt="" />
-            </div>
-
-            <div className=''>
-              <img src={nine} className='w-100' alt="" />
-            </div>
-
-          </Carousel> */}
 
 
   <div className='about w-100'>

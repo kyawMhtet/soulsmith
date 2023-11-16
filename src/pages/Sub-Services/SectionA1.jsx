@@ -71,15 +71,20 @@ const SectionA1 = () => {
           <li>
             <p>{t('A1aSession3')}</p>
           </li>
-        </ul>
 
+
+        </ul>
+        <li className='button tw-list-none ms-4 mt-5'>
+    <a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
+
+      </li>
         {/* <li className='button tw-list-none ms-4 mt-5'> */}
       {/* </li> */}
+
+
       </li>
 
-      <li className='mt-5 text-center button'>
-      <a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone tw-bg-gold px-5 py-2 tw-rounded-md">{t('Book Now')}</a>
-      </li>
+
       
     </ul>
 
@@ -92,53 +97,43 @@ const SectionA1 = () => {
 
 
 
-
-        {/* <div className=' my-4 a1b tw-bg-midnight p-4 w-100 mx-auto rounded-3'>
+{/* 2nd */}
+        <div className=' my-4 a1 tw-bg-midnight p-4 w-100 mx-auto rounded-3'>
       
-            <img src={A1a}  alt="" />
+            <img src={two}  alt="" />
 
 
           <div className=' about w-100 px-md-2'>
           <h4 className='tw-text-bone text-center'>
-            {t('A1a')}
+            {t('A1b')}
           </h4>
 
-  
 
+          {/* <p className=''>(May be later)</p> */}
 
 
           </div>
-        </div> */}
+        </div>
 
 
-<div className="a1b">
-    <div className="card-1 tw-bg-midnight rounded-3" >
-  <img src={two} className="card-img-top mx-auto p-4"  alt="..." />
-  <div className="px-2 pb-5">
-    {/* <h5 className="card-title">{t('A1b')}</h5> */}
-    <h5 className=' tw-text-bone text-center'>{t('A1b')}</h5>
+{/* 3rd */}
 
-<div className='text-center mt-4'>
-<a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone tw-bg-gold px-5 py-2 tw-rounded-md">{t('Book Now')}</a>
-</div>
+<div className=' my-4 a1 tw-bg-midnight p-4 w-100 mx-auto rounded-3'>
       
-  </div>
-</div>
+      <img src={one}  alt="" />
 
 
-<div className="card-1 tw-bg-midnight rounded-3 mt-4 mt-md-0" >
-  <img src={one} className="card-img-top mx-auto p-4"  alt="..." />
-  <div className="px-2 pb-5">
-    {/* <h5 className="card-title">{t('A1b')}</h5> */}
-    <h5 className=' tw-text-bone text-center'>{t('A1c')}</h5>
+    <div className=' about w-100 px-md-2'>
+    <h4 className='tw-text-bone text-center'>
+      {t('A1c')}
+    </h4>
 
-    <div className='text-center mt-4'>
-<a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone tw-bg-gold px-5 py-2 tw-rounded-md">{t('Book Now')}</a>
-</div>
-  </div>
-</div>
+
+    {/* <p className=''>(May be later)</p> */}
+
 
     </div>
+  </div>
 
 
       </div>

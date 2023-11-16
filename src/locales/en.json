@@ -68,7 +68,7 @@
 
 
 
-    "A2a" : "Counselling: One-to-one",
+    "A2a" : "Counselling: One-to-one (First time with SOULSMITH)",
 
     "descA2a" : "Suitable for: Individual.",
 
@@ -82,9 +82,16 @@
     "A2aSession2": "Package of 5 Sessions: 7150",
     "A2aSession3": "Package of 10 Sessions: 15,000 + 1 Free Session",
 
+    "A2b" : "Counselling By Khun Pair: One-to-one",
 
 
-    "A3a" : "Psychotherapy: One-to-one",
+
+
+
+    "A3a" : "Psychotherapy: One-to-one (First time with SOULSMITH)",
+    "A3a1" : "Psychotherapy By Khun Vi: One-to-one",
+    "A3a2" : "Psychotherapy By Khun May: One-to-one",
+
 
     "descA3a" : "Suitable for: Individual.",
 
@@ -100,7 +107,7 @@
 
     "Duration" : " Duration: 60 minutes",
 
-    "A3b": "Psychotherapy by Senior Psychotherapist: One-to-one",
+    "A3b": "Psychotherapy by Senior Psychotherapist: One-to-one (First time with SOULSMITH) ",
 
     "descA3b": "Suitable for: Individual.",
 
@@ -114,7 +121,7 @@
     "A3bSession3": "Package of 10 Sessions: 35,000 + 1 Free Session",
 
 
-    "A3c": "Psychotherapy by Senior Psychotherapist: Couple",
+    "A3c": "Psychotherapy by Senior Psychotherapist: Couple (First time with SOULSMITH)",
     "descA3c": "Suitable for: Couples, such as couples in a relationship, or family couples.",
     "A3cDuration": "Duration: 60 minutes",
     "A3cdesc1": "Service Delivery Channels: Available for Online session only",
@@ -125,7 +132,7 @@
 
 
 
-    "A3d": "Psychotherapy by Senior Psychotherapist: Family",
+    "A3d": "Psychotherapy by Senior Psychotherapist: Family (First time with SOULSMITH)",
     "descA3d": "Suitable for: Family, such as parents and children, grandparents, and grandchildren.",
     "A3dDuration": "Duration: 60 minutes",
     "A3ddesc1": "Service Delivery Channels: Available for Online session only",
