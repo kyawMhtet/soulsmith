@@ -4,13 +4,16 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 15px;
+  border: 1px solid #E8E5D7;
+  
 }
 
 
 .accordion-content {
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: space-around;
+  padding: 25px;
 }
 
 .accordion-content a {

@@ -21,7 +21,7 @@
     "SectionB": "Healing & Therapy",
     "SectionC": "Body - Mind - Soul Mixology Service",
     "SectionA1": "Listening Service and Mindfulness Practice",
-    "SectionA2": "Counseling",
+    "SectionA2": "Counselling",
     "SectionA3": "Psychotherapy",
     "SectionA4": "Arts Psychotherapy",
     "SectionA5": "Therapeutic Workshop",
@@ -47,6 +47,8 @@
     "A4Description_02": "Arts Psychotherapy is Suitable for Children, preteens, teenagers, adults, and the elderly seeking self-understanding or understanding of others, individuals with low self-esteem, those wanting someone to comprehend their emotions, thoughts, and behaviours, those exploring possibilities for life direction, seeking solutions to existing problems, enhancing relationship skills, emotional awareness, and analytical thinking, feeling stressed, anxious, or detached, needing emotional healing and understanding.",
 
     "A1a" : "Listening Service and Mindfulness Practice: One-to-one (First time with SOULSMITH)",
+    "A1a1" : "Listening Service and Mindfulness Practice By Khun Pair: One-to-one",
+    "A1a2" : "Listening Service and Mindfulness Practice By Khun May: One-to-one",
 
     "descA1a" : "Suitable for: Individual.",
 
@@ -69,6 +71,7 @@
 
 
     "A2a" : "Counselling: One-to-one (First time with SOULSMITH)",
+    "A2a1" : "Counselling By Khun Pair: One-to-one",
 
     "descA2a" : "Suitable for: Individual.",
 
@@ -91,6 +94,7 @@
     "A3a" : "Psychotherapy: One-to-one (First time with SOULSMITH)",
     "A3a1" : "Psychotherapy By Khun Vi: One-to-one",
     "A3a2" : "Psychotherapy By Khun May: One-to-one",
+    "A3a3" : "Psychotherapy By Khun Prim: One-to-one",
 
 
     "descA3a" : "Suitable for: Individual.",
@@ -108,6 +112,7 @@
     "Duration" : " Duration: 60 minutes",
 
     "A3b": "Psychotherapy by Senior Psychotherapist: One-to-one (First time with SOULSMITH) ",
+    "A3b1": "Psychotherapy by Khun Jear, Senior Psychotherapist: One-to-one",
 
     "descA3b": "Suitable for: Individual.",
 
@@ -122,6 +127,7 @@
 
 
     "A3c": "Psychotherapy by Senior Psychotherapist: Couple (First time with SOULSMITH)",
+    "A3c1": "Psychotherapy by Khun Jear, Senior Psychotherapist: Couple",
     "descA3c": "Suitable for: Couples, such as couples in a relationship, or family couples.",
     "A3cDuration": "Duration: 60 minutes",
     "A3cdesc1": "Service Delivery Channels: Available for Online session only",
@@ -133,6 +139,7 @@
 
 
     "A3d": "Psychotherapy by Senior Psychotherapist: Family (First time with SOULSMITH)",
+    "A3d1": "Psychotherapy by Khun Jear, Senior Psychotherapist: Family",
     "descA3d": "Suitable for: Family, such as parents and children, grandparents, and grandchildren.",
     "A3dDuration": "Duration: 60 minutes",
     "A3ddesc1": "Service Delivery Channels: Available for Online session only",
