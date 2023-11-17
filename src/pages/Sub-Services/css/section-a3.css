@@ -4,16 +4,30 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 15px;
-  border: 1px solid #E8E5D7;
+  /* border: 1px solid #E8E5D7; */
   
 }
 
+.accordion-btn:hover {
+  border: 1px solid #E8E5D7;
+
+}
 
 .accordion-content {
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: space-around;
   padding: 25px;
+  background-color: #6C757D;
+}
+
+.accordion-content h5 {
+  width: 50%;
+  margin-inline: auto;
+}
+
+.accordion-content img {
+  width: 25%;
 }
 
 .accordion-content a {
@@ -22,12 +36,13 @@
 }
 
 .accordion-content a:hover {
-  background-color: #6C757D;
+  background-color: #2D3738;
 }
 
 .a3 {
     display: flex;
     margin-top: 50px;
+    padding: 30px;
     /* background-color: red; */
     /* justify-content: space-between; */
 }
@@ -67,12 +82,11 @@
 
 @media (max-width: 992px) {
   .a3 {
-        
-    display: inline-block;
+    display: block;
+    margin-top: 50px;
+    padding: 30px;
     /* background-color: red; */
-
-    /* margin-top: 50px; */
-
+    /* justify-content: space-between; */
 }
 
 .a3 .about {
@@ -81,19 +95,65 @@
 }
 
 .a3 img {
-  width: 100%;
+  width: 90%;
+  margin: auto;
 }
 
 .about {
+  margin-top: 20px;
+
   width: 100%;
   /* background-color: red; */
 }
+
+
+.accordion-content {
+  width: 100%;
+  display: block;
+  padding: 25px;
+}
+
+
+.accordion-content img {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.accordion-content div {
+    margin-top: 20px;
+}
+
+.accordion-content h5 {
+  width: 100%;
+  margin-inline: auto;
+}
+
+.accordion-btn button {
+  margin: 0px 0px 15px 10px;
+  
+}
+
+
   }
   
+
+
 
   @media (max-width: 992px) {
     .react-carousel {
       width: 100%;
+    }
+
+    .a3 {
+      display: block;
+      margin-top: 50px;
+      padding: 30px;
+    }
+  
+    .a3 img {
+      margin: auto;
+      width: 90%;
     }
   }
 
@@ -102,7 +162,7 @@
 
     .a3 {
         
-        display: inline-block;
+        display: block;
     /* margin-top: 50px; */
 
 
@@ -128,11 +188,35 @@
       width: 100%;
     }
 
-    .accordion-btn {
+    /* .accordion-btn {
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 10px;
+    } */
+
+
+    .accordion-content {
+      width: 100%;
+      display: block;
+      padding: 25px;
+  align-items: center;
+
+    }
+
+
+    .accordion-content img {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+
+    .accordion-content div {
+        margin-top: 20px;
+    }
+
+    .accordion-content h5 {
+      width: 100%;
+      margin-inline: auto;
     }
     
   }

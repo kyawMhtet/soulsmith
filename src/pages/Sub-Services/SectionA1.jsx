@@ -32,11 +32,9 @@ const SectionA1 = () => {
 
 
  <div className='mt-5 container'>
-
-
-
+  
   <div className='tw-bg-midnight rounded-3'>
-      <div className='a3  p-4 w-100'>
+      <div className='a1 w-100'>
 
 <img src={A1a} alt="" />
 
@@ -95,17 +93,13 @@ const SectionA1 = () => {
                     <AccordionItemButton className='accordion-btn  rounded-2 tw-bg-midnight tw-text-bone'>
                         <h5>{t('A1a1')}</h5>
                         <button href="" type='button' className='btn btn-secondary'>Select</button>
-                        
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
-                <div className='accordion-content mx-auto rounded-2' style={{ border: '1px solid #E8E5D7' }}>
+                <div className='accordion-content mx-auto rounded-2' >
         
-            <img src={two} style={{width: '25%'}} alt="" />
+            <img src={two} alt="" />
          
-
-
-        
             <h5 className='tw-text-bone'>
               {t('A1a1')}
             </h5>
@@ -113,15 +107,11 @@ const SectionA1 = () => {
             <div>
             <a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
             </div>
-
-          
-
     </div>  
                 </AccordionItemPanel>
             </AccordionItem>
         </Accordion>
 </button>
-
 
 <button className='w-100 pb-3 px-4'>
 <Accordion allowZeroExpanded style={{border: 'none'}}>
@@ -133,8 +123,8 @@ const SectionA1 = () => {
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
-                <div className='accordion-content mx-auto rounded-2' style={{ border: '1px solid #E8E5D7' }}>
-                <img src={one} style={{width: '25%'}} alt="" />
+                <div className='accordion-content mx-auto rounded-2' >
+                <img src={one} alt="" />
          
 
 

@@ -47,7 +47,7 @@ const SectionA2 = () => {
 
 
       <div className='tw-bg-midnight rounded-3'>
-      <div className='a3  p-4 w-100'>
+      <div className='a2 w-100'>
 
 <img src={A2a} alt="" />
 
@@ -110,14 +110,14 @@ const SectionA2 = () => {
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
-                <div className='accordion-content mx-auto rounded-2' style={{ border: '1px solid #E8E5D7' }}>
+                <div className='accordion-content mx-auto rounded-2' >
         
-            <img src={three} style={{width: '25%'}} alt="" />
+            <img src={three} alt="" />
          
 
 
         
-            <h5 className='tw-text-bone'>
+            <h5 className='tw-text-bone '>
               {t('A1a1')}
             </h5>
 

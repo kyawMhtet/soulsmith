@@ -25,10 +25,6 @@ const SectionA3 = () => {
   return (
     <>
 
-
-
-
-
       <h2 className='tw-text-bone text-center mt-4'>
       {t('SectionA3')}
       </h2>
@@ -48,7 +44,7 @@ const SectionA3 = () => {
 
 
       <div className='tw-bg-midnight rounded-3'>
-      <div className='a3  p-4 w-100'>
+      <div className='a3 w-100'>
 
 <img src={A3a} alt="" />
 
@@ -100,19 +96,21 @@ const SectionA3 = () => {
 
 </div>
 
+
+
 <button className='w-100 pb-3 px-4'>
 <Accordion allowZeroExpanded style={{border: 'none'}}>
             <AccordionItem>
                 <AccordionItemHeading>
-                    <AccordionItemButton className='accordion-btn border-1 rounded-2 tw-bg-midnight tw-text-bone'>
+                    <AccordionItemButton className='accordion-btn  rounded-2 tw-bg-midnight tw-text-bone'>
                         <h5>{t('A3a1')}</h5>
                         <button href="" type='button' className='btn btn-secondary'>Select</button>
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
-                <div className='accordion-content mx-auto rounded-2' style={{ border: '1px solid #E8E5D7' }}>
+                <div className='accordion-content mx-auto rounded-2' >
         
-            <img src={four} style={{width: '25%'}} alt="" />
+            <img src={four} alt="" />
          
 
 
@@ -138,20 +136,20 @@ const SectionA3 = () => {
 <Accordion allowZeroExpanded style={{border: 'none'}}>
             <AccordionItem>
                 <AccordionItemHeading>
-                    <AccordionItemButton className='accordion-btn border-1 rounded-2 tw-bg-midnight tw-text-bone'>
+                    <AccordionItemButton className='accordion-btn  rounded-2 tw-bg-midnight tw-text-bone'>
                         <h5>{t('A3a2')}</h5>
                         <button href="" type='button' className='btn btn-secondary'>Select</button>
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
-                <div className='accordion-content mx-auto rounded-2' style={{ border: '1px solid #E8E5D7' }}>
-                <img src={five} style={{width: '25%'}} alt="" />
+                <div className='accordion-content mx-auto rounded-2' >
+                <img src={five} alt="" />
          
 
 
         
          <h5 className='tw-text-bone'>
-           {t('A3a1')}
+           {t('A3a2')}
          </h5>
 
          <div>
@@ -171,14 +169,14 @@ const SectionA3 = () => {
 <Accordion allowZeroExpanded style={{border: 'none'}}>
             <AccordionItem>
                 <AccordionItemHeading>
-                    <AccordionItemButton className='accordion-btn border-1 rounded-2 tw-bg-midnight tw-text-bone'>
+                    <AccordionItemButton className='accordion-btn  rounded-2 tw-bg-midnight tw-text-bone'>
                         <h5>{t('A3a3')}</h5>
                         <button href="" type='button' className='btn btn-secondary'>Select</button>
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
-                <div className='accordion-content mx-auto rounded-2' style={{ border: '1px solid #E8E5D7' }}>
-                <img src={six} style={{width: '25%'}} alt="" />
+                <div className='accordion-content mx-auto rounded-2' >
+                <img src={six} alt="" />
          
 
 
@@ -271,15 +269,15 @@ const SectionA3 = () => {
 <Accordion allowZeroExpanded style={{border: 'none'}}>
             <AccordionItem>
                 <AccordionItemHeading>
-                    <AccordionItemButton className='accordion-btn border-1 rounded-2 tw-bg-midnight tw-text-bone'>
+                    <AccordionItemButton className='accordion-btn  rounded-2 tw-bg-midnight tw-text-bone'>
                         <h5>{t('A3b1')}</h5>
                         <button href="" type='button' className='btn btn-secondary'>Select</button>
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
-                <div className='accordion-content mx-auto rounded-2' style={{ border: '1px solid #E8E5D7' }}>
+                <div className='accordion-content mx-auto rounded-2' >
         
-            <img src={seven} style={{width: '25%'}} alt="" />
+            <img src={seven} alt="" />
          
 
 
@@ -364,15 +362,15 @@ const SectionA3 = () => {
 <Accordion allowZeroExpanded style={{border: 'none'}}>
             <AccordionItem>
                 <AccordionItemHeading>
-                    <AccordionItemButton className='accordion-btn border-1 rounded-2 tw-bg-midnight tw-text-bone'>
+                    <AccordionItemButton className='accordion-btn  rounded-2 tw-bg-midnight tw-text-bone'>
                         <h5>{t('A3c1')}</h5>
                         <button href="" type='button' className='btn btn-secondary'>Select</button>
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
-                <div className='accordion-content mx-auto rounded-2' style={{ border: '1px solid #E8E5D7' }}>
+                <div className='accordion-content mx-auto rounded-2' >
         
-            <img src={eight} style={{width: '25%'}} alt="" />
+            <img src={eight} alt="" />
          
 
 
@@ -459,15 +457,15 @@ const SectionA3 = () => {
 <Accordion allowZeroExpanded style={{border: 'none'}}>
             <AccordionItem>
                 <AccordionItemHeading>
-                    <AccordionItemButton className='accordion-btn border-1 rounded-2 tw-bg-midnight tw-text-bone'>
+                    <AccordionItemButton className='accordion-btn  rounded-2 tw-bg-midnight tw-text-bone'>
                         <h5>{t('A3d1')}</h5>
                         <button href="" type='button' className='btn btn-secondary'>Select</button>
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
-                <div className='accordion-content mx-auto rounded-2' style={{ border: '1px solid #E8E5D7' }}>
+                <div className='accordion-content mx-auto rounded-2' >
         
-            <img src={eight} style={{width: '25%'}} alt="" />
+            <img src={eight} alt="" />
          
 
 

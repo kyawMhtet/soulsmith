@@ -4,6 +4,8 @@ import './css/section-a5.css'
 import Footer from '../../components/Footer';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css"
+import 'react-accessible-accordion/dist/fancy-example.css';
+import {Accordion,AccordionItem,AccordionItemButton,AccordionItemHeading,AccordionItemPanel} from 'react-accessible-accordion'
 import A5a from '../../assets/services/A5/A5a.png'
 import fourteen from '../../assets/services/A5/14.png'
 import A5b from '../../assets/services/A5/A5b.png'
@@ -33,266 +35,192 @@ const SectionA5 = () => {
 
 
 {/* A5a */}
-        <div className='my-5 a5 w-100 tw-bg-midnight p-4 rounded-3 w-100'>
+<div className='tw-bg-midnight rounded-3'>
+      <div className='a5 w-100'>
 
-    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
+<img src={A5a} alt="" />
 
-    {/* <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
-            <div className=''>
-              <img src={A5a} className='w-100' alt="" />
-            </div>
 
-            <div className=''>
-              <img src={fourteen} className='w-100' alt="" />
-            </div>
+<div className='  about w-100'>
+<h5 className='tw-text-bone text-center'>
+      {t('A5a')}
+    </h5>
+<ul className='mt-4 ms-lg-3'>
+  <li className='tw-text-bone'>
+    <p className=''>{t('descA5a')}</p>
+  </li>
 
-          </Carousel> */}
+  <li className='tw-text-bone'>
+    <p className=''>{t('A5aDuration')}</p>
+  </li>
 
-  <div className=' about w-100'>
-  <h5 className='tw-text-bone text-center '>
-          {t('A5a')}
-        </h5>
-    <ul className='mt-4 ms-lg-3'>
-      <li className='tw-text-bone'>
-        {/* <p className=''>{t('descA5a')}</p> */}
-        <p>May be later</p>
+  <li className='tw-text-bone'>
+    <p className=''>{t('A5adesc1')}</p>
+  </li>
+  <li className='tw-text-bone'>
+    <p className=''>{t('A5alanguage')}</p>
+  </li>
+
+  <li className='tw-text-bone'>
+    <p>{t('Price')}</p> 
+    <ul className='mt-2' style={{ listStyleType: "circle" }}>
+      <li>
+        <p>
+          {t('A5aSession1')}
+        </p>
       </li>
-
-      <li className='tw-text-bone'>
-        <p className=''>{t('A5aDuration')}</p>
+      <li>
+        <p>{t('A5aSession2')}</p>
       </li>
-
-      <li className='tw-text-bone'>
-        <p className=''>{t('A5adesc1')}</p>
+      <li>
+        <p>{t('A5aSession3')}</p>
       </li>
-      <li className='tw-text-bone'>
-        <p className=''>{t('A5alanguage')}</p>
-      </li>
-
-      <li className='tw-text-bone'>
-        {t('Price')} :
-        <ul className='mt-2' style={{ listStyleType: "circle" }}>
-          <li>
-            <p>
-              {t('A5aSession1')}
-            </p>
-          </li>
-          <li>
-            <p>{t('A5aSession2')}</p>
-          </li>
-          <li>
-            <p>{t('A5aSession3')}</p>
-          </li>
-        </ul>
-      </li>
-
-      <li className='button tw-list-none ms-4 mt-5'>
-    <a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
-
-      </li>
-      
     </ul>
-  </div>
+  </li>
+
+  {/* <li className='button tw-list-none ms-4 mt-5'>
+<a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
+
+  </li> */}
+</ul>
+
 </div>
+
+</div>
+
+<button className='w-100 pb-3 px-4'>
+<Accordion allowZeroExpanded style={{border: 'none'}}>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton className='accordion-btn  rounded-2 tw-bg-midnight tw-text-bone'>
+                        <h5>{t('A5a1')}</h5>
+                        <button href="" type='button' className='btn btn-secondary'>Select</button>
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                <div className='accordion-content mx-auto rounded-2' >
+        
+            <img src={fourteen} alt="" />
+         
+
+
+        
+            <h5 className='tw-text-bone'>
+              {t('A5a1')}
+            </h5>
+
+            <div>
+            <a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
+            </div>
+
+          
+
+    </div>  
+                </AccordionItemPanel>
+            </AccordionItem>
+        </Accordion>
+</button>
+
+
+
+
+      </div>
 
 
 {/* A5b */}
-<div className='my-5 a5 w-100 tw-bg-midnight p-4 rounded-3 w-100'>
+<div className='tw-bg-midnight rounded-3'>
+      <div className='a5 w-100'>
 
-    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
+<img src={A5b} alt="" />
 
-    {/* <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
-            <div className=''>
-              <img src={A5b} className='w-100' alt="" />
-            </div>
 
-            <div className=''>
-              <img src={fifteen} className='w-100' alt="" />
-            </div>
+<div className='  about w-100'>
+<h5 className='tw-text-bone text-center'>
+      {t('A5b')}
+    </h5>
+<ul className='mt-4 ms-lg-3'>
+  <li className='tw-text-bone'>
+    <p className=''>{t('descA5b')}</p>
+  </li>
 
-          </Carousel> */}
+  <li className='tw-text-bone'>
+    <p className=''>{t('A5bDuration')}</p>
+  </li>
 
-  <div className=' about w-100'>
-  <h5 className='tw-text-bone text-center '>
-          {t('A5b')}
-        </h5>
-    <ul className='mt-4 ms-lg-3'>
-      <li className='tw-text-bone'>
-        {/* <p className=''>{t('descA4a')}</p> */}
-        <p>May be later</p>
+  <li className='tw-text-bone'>
+    <p className=''>{t('A5bdesc1')}</p>
+  </li>
+  <li className='tw-text-bone'>
+    <p className=''>{t('A5blanguage')}</p>
+  </li>
+
+  <li className='tw-text-bone'>
+    <p>{t('Price')}</p> 
+    <ul className='mt-2' style={{ listStyleType: "circle" }}>
+      <li>
+        <p>
+          {t('A5bSession1')}
+        </p>
       </li>
-
-      <li className='tw-text-bone'>
-        <p className=''>{t('A5bDuration')}</p>
+      <li>
+        <p>{t('A5bSession2')}</p>
       </li>
-
-      <li className='tw-text-bone'>
-        <p className=''>{t('A5bdesc1')}</p>
+      <li>
+        <p>{t('A5bSession3')}</p>
       </li>
-      <li className='tw-text-bone'>
-        <p className=''>{t('A5blanguage')}</p>
-      </li>
-
-      <li className='tw-text-bone'>
-        {t('Price')} :
-        <ul className='mt-2' style={{ listStyleType: "circle" }}>
-          <li>
-            <p>
-              {t('A5bSession1')}
-            </p>
-          </li>
-          <li>
-            <p>{t('A5bSession2')}</p>
-          </li>
-          <li>
-            <p>{t('A5bSession3')}</p>
-          </li>
-        </ul>
-      </li>
-
-
-      <li className='button tw-list-none ms-4 mt-5'>
-    <a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
-
-      </li>
-      
     </ul>
-  </div>
+  </li>
+
+  {/* <li className='button tw-list-none ms-4 mt-5'>
+<a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
+
+  </li> */}
+</ul>
+
 </div>
 
-
-
-
-<div className='my-5 a5 w-100 tw-bg-midnight p-4 rounded-3 w-100'>
-
-    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
-
-    {/* <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
-            <div className=''>
-              <img src={A5b} className='w-100' alt="" />
-            </div>
-
-            <div className=''>
-              <img src={fifteen} className='w-100' alt="" />
-            </div>
-
-          </Carousel> */}
-
-  <div className=' about w-100'>
-  <h5 className='tw-text-bone text-center '>
-          {t('A5b')}
-        </h5>
-    <ul className='mt-4 ms-lg-3'>
-      <li className='tw-text-bone'>
-        {/* <p className=''>{t('descA4a')}</p> */}
-        <p>May be later</p>
-      </li>
-
-      <li className='tw-text-bone'>
-        <p className=''>{t('A5bDuration')}</p>
-      </li>
-
-      <li className='tw-text-bone'>
-        <p className=''>{t('A5bdesc1')}</p>
-      </li>
-      <li className='tw-text-bone'>
-        <p className=''>{t('A5blanguage')}</p>
-      </li>
-
-      <li className='tw-text-bone'>
-        {t('Price')} :
-        <ul className='mt-2' style={{ listStyleType: "circle" }}>
-          <li>
-            <p>
-              {t('A5bSession1')}
-            </p>
-          </li>
-          <li>
-            <p>{t('A5bSession2')}</p>
-          </li>
-          <li>
-            <p>{t('A5bSession3')}</p>
-          </li>
-        </ul>
-      </li>
-
-
-      <li className='button tw-list-none ms-4 mt-5'>
-    <a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
-
-      </li>
-      
-    </ul>
-  </div>
 </div>
 
+<button className='w-100 pb-3 px-4'>
+<Accordion allowZeroExpanded style={{border: 'none'}}>
+            <AccordionItem>
+                <AccordionItemHeading>
+                    <AccordionItemButton className='accordion-btn  rounded-2 tw-bg-midnight tw-text-bone'>
+                        <h5>{t('A5b1')}</h5>
+                        <button href="" type='button' className='btn btn-secondary'>Select</button>
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                <div className='accordion-content mx-auto rounded-2' >
+        
+            <img src={fifteen} alt="" />
+         
 
 
+        
+            <h5 className='tw-text-bone'>
+              {t('A5b1')}
+            </h5>
 
-
-
-<div className='my-5 a5 w-100 tw-bg-midnight p-4 rounded-3 w-100'>
-
-    <img src="https://empathysauce.com/wp-content/uploads/2020/05/Personal-one-on-one-scaled.jpg"  alt="" />
-
-    {/* <Carousel showThumbs={true} showArrows={true} infiniteLoop={true} autoPlay={true} emulateTouch={true} showStatus={false} className='react-carousel mx-auto'>
-            <div className=''>
-              <img src={A5b} className='w-100' alt="" />
+            <div>
+            <a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
             </div>
 
-            <div className=''>
-              <img src={fifteen} className='w-100' alt="" />
-            </div>
+          
 
-          </Carousel> */}
-
-  <div className=' about w-100'>
-  <h5 className='tw-text-bone text-center '>
-          {t('A5b')}
-        </h5>
-    <ul className='mt-4 ms-lg-3'>
-      <li className='tw-text-bone'>
-        {/* <p className=''>{t('descA4a')}</p> */}
-        <p>May be later</p>
-      </li>
-
-      <li className='tw-text-bone'>
-        <p className=''>{t('A5bDuration')}</p>
-      </li>
-
-      <li className='tw-text-bone'>
-        <p className=''>{t('A5bdesc1')}</p>
-      </li>
-      <li className='tw-text-bone'>
-        <p className=''>{t('A5blanguage')}</p>
-      </li>
-
-      <li className='tw-text-bone'>
-        {t('Price')} :
-        <ul className='mt-2' style={{ listStyleType: "circle" }}>
-          <li>
-            <p>
-              {t('A5bSession1')}
-            </p>
-          </li>
-          <li>
-            <p>{t('A5bSession2')}</p>
-          </li>
-          <li>
-            <p>{t('A5bSession3')}</p>
-          </li>
-        </ul>
-      </li>
+    </div>  
+                </AccordionItemPanel>
+            </AccordionItem>
+        </Accordion>
+</button>
 
 
-      <li className='button tw-list-none ms-4 mt-5'>
-    <a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
 
-      </li>
-      
-    </ul>
-  </div>
-</div>
+
+      </div>
+
+
+
         
       </div>
 

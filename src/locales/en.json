@@ -151,7 +151,8 @@
 
 
 
-    "A4a" : "Dance Movement Psychotherapy: One-to-one",
+    "A4a" : "Dance Movement Psychotherapy: One-to-one (First time with SOULSMITH)",
+    "A4a1" : " Dance Movement Psychotherapy By Khun Vi: One-to-one",
 
     "descA4a" : "Suitable for: Individual.",
 
@@ -165,7 +166,9 @@
     "A4aSession3": "Package of 10 Sessions: 25,000 + 1 Free Session",
 
 
-    "A4b" : "Music Psychotherapy: One-to-one",
+    "A4b" : "Music Therapy: One-to-one (First time with SOULSMITH)",
+    "A4b1" : "Music Therapy By Khun May: One-to-one",
+
     "descA4b" : "Suitable for: Individual.",
     "A4bDuration": "Duration: 75 minutes",
     "A4bdesc1": "Service Delivery Channels: Available for Online & Onsite at SOULSMITH",
@@ -175,7 +178,8 @@
     "A4bSession2": "Package of 5 Sessions: 11,900",
     "A4bSession3": "Package of 10 Sessions: 25,000 + 1 Free Session",
 
-    "A4c": "Drama and Movement Therapy by Registered Dramatherapist: One-to-one",
+    "A4c": "Drama and Movement Therapy: One-to-one (First time with SOULSMITH)",
+    "A4c1": "Drama and Movement Therapy by Khun Prim: One-to-one",
 
     "descA4c": "Suitable for: Individual.",
 
@@ -188,7 +192,8 @@
     "A4cSession3": "Package of 10 Sessions: 25,000 + 1 Free Session",
 
 
-    "A4d": "Dramatherapy by Senior Registered Dramatherapist: One-to-one",
+    "A4d": "Dramatherapy by Senior Registered Dramatherapist: One-to-one (First time with SOULSMITH)",
+    "A4d1": "Dramatherapy by Khun Jear, Senior Registered Dramatherapist: One-to-one",
 
     "descA4d": "Suitable for: Individual.",
 
@@ -212,7 +217,8 @@
 
 
 
-    "A5a": "Therapeutic Workshop: One-to-one",
+    "A5a": "Therapeutic Workshop: One-to-one (First time with SOULSMITH)",
+    "A5a1": "Therapeutic Workshop By Khun Dujdao: One-to-one",
 
     "descA5a": "Suitable for: Individual.",
 
@@ -230,7 +236,8 @@
 
 
 
-    "A5b": "Therapeutic Workshop: Couple",
+    "A5b": "Therapeutic Workshop: Couple (First time with SOULSMITH)",
+    "A5b1": "Therapeutic Workshop By Khun Dujdao: Couple",
 
     "descA5b": "Suitable for: Couples, such as couples in a relationship, or family couples.",
 

@@ -27,12 +27,12 @@ font-family: 'Geologica', sans-serif;
 font-family: 'IBM Plex Sans', sans-serif;
 font-family: 'IBM Plex Sans Thai', sans-serif;
 /* font-family: 'Open Sans', sans-serif; */
-    word-spacing: 0.2rem;
-    letter-spacing: 0.06rem;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.05rem;
 }
 
 p {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .carousel-home img {
@@ -377,6 +377,10 @@ p {
         height: auto;
         margin: auto;
         z-index: 0;
+    }
+
+    p {
+        font-size: 18px;
     }
 
 
