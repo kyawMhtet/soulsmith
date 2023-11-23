@@ -9,3 +9,4 @@ const SectionC = () => {
 };
 
 export default SectionC;
+

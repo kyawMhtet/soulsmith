@@ -45,22 +45,22 @@ const SectionA1 = () => {
     </h5>
 <ul className='mt-4 ms-lg-3'>
   <li className='tw-text-bone'>
-    <p className=''>{t('descA1a')}</p>
+    <p className=''>- {t('descA1a')}</p>
   </li>
 
   <li className='tw-text-bone'>
-    <p className=''>{t('A1aDuration')}</p>
+    <p className=''>- {t('A1aDuration')}</p>
   </li>
 
   <li className='tw-text-bone'>
-    <p className=''>{t('A1adesc1')}</p>
+    <p className=''>- {t('A1adesc1')}</p>
   </li>
   <li className='tw-text-bone'>
-    <p className=''>{t('A1alanguage')}</p>
+    <p className=''>- {t('A1alanguage')}</p>
   </li>
 
   <li className='tw-text-bone'>
-    <p>{t('Price')}</p> 
+    <p>- {t('Price')}</p> 
     <ul className='mt-2' style={{ listStyleType: "circle" }}>
       <li>
         <p>
@@ -76,17 +76,19 @@ const SectionA1 = () => {
     </ul>
   </li>
 
-  {/* <li className='button tw-list-none ms-4 mt-5'>
+  <li className='button tw-list-none ms-4 mt-5'>
+
 <a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
 
-  </li> */}
+
+  </li>
 </ul>
 
 </div>
 
 </div>
 
-<button className='w-100 pb-3 px-4'>
+{/* <button className='w-100 pb-3 px-4'>
 <Accordion allowZeroExpanded style={{border: 'none'}}>
             <AccordionItem>
                 <AccordionItemHeading>
@@ -142,7 +144,74 @@ const SectionA1 = () => {
                 </AccordionItemPanel>
             </AccordionItem>
         </Accordion>
-</button>
+</button> */}
+
+
+
+      </div>
+
+
+
+
+
+
+
+      <div className='tw-bg-midnight rounded-3'>
+      <div className='a1a1 w-100'>
+
+<img src={two} alt="" />
+
+
+<div className='about w-100'>
+<h5 className='tw-text-bone text-center'>
+      {t('A1a1')}
+    </h5>
+{/* <ul className='mt-4 ms-lg-3'>
+  <li className='tw-text-bone'>
+    <p className=''>{t('descA1a')}</p>
+  </li>
+
+  <li className='tw-text-bone'>
+    <p className=''>{t('A1aDuration')}</p>
+  </li>
+
+  <li className='tw-text-bone'>
+    <p className=''>{t('A1adesc1')}</p>
+  </li>
+  <li className='tw-text-bone'>
+    <p className=''>{t('A1alanguage')}</p>
+  </li>
+
+  <li className='tw-text-bone'>
+    <p>{t('Price')}</p> 
+    <ul className='mt-2' style={{ listStyleType: "circle" }}>
+      <li>
+        <p>
+          {t('A1aSession1')}
+        </p>
+      </li>
+      <li>
+        <p>{t('A1aSession2')}</p>
+      </li>
+      <li>
+        <p>{t('A1aSession3')}</p>
+      </li>
+    </ul>
+  </li>
+
+  <li className='button tw-list-none ms-4 mt-5'>
+<a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
+
+  </li>
+</ul> */}
+<div className='button1'>
+<a href='https://SOULSMITH.as.me/' target='_blank' className="tw-text-bone tw-bg-gold px-3 py-2 tw-rounded-md">{t('Book Now')}</a>
+</div>
+</div>
+
+
+
+</div>
 
 
 
