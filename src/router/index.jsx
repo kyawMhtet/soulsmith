@@ -14,6 +14,9 @@ import SectionA3 from "../pages/Sub-Services/SectionA3";
 import SectionA4 from "../pages/Sub-Services/SectionA4";
 import SectionA5 from "../pages/Sub-Services/SectionA5";
 import Product from "../pages/Product";
+import Member from "../pages/Member";
+import ProductA from "../pages/Sub-Products/ProductA";
+import ProductB from "../pages/Sub-Products/ProductB";
 
 
 const router = createBrowserRouter([
@@ -36,6 +39,14 @@ const router = createBrowserRouter([
             {
                 path: '/products',
                 element: <Product />
+            },
+            {
+                path: '/products/Mind-Magnifying',
+                element: <ProductA />
+            },
+            {
+                path: '/products/Mind-Exercise-Vol1',
+                element: <ProductB />
             },
             {
                 path: '/services/PsychologicalSupport-Psychotherapy-Counseling',
@@ -76,6 +87,12 @@ const router = createBrowserRouter([
                 path: '/team',
                 element: <Team />
             },
+
+            {
+                path: '/team/:id',
+                element: <Member />
+            },
+            
         ]
     },
     {

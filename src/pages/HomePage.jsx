@@ -1,8 +1,12 @@
 import React, { useEffect } from 'react';
+
 import { useTranslation } from 'react-i18next';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
 import Section1 from '../assets/Section1_Photo.png'
+import image103 from '../assets/products/mind-magnifying/Image 103.jpg'
+import image104 from '../assets/products/mind-magnifying/Image 104.jpg'
+import image107 from '../assets/products/mind-magnifying/Image 107.jpg'
 import Person1 from '../assets/person1.png'
 import Person2 from '../assets/person2.png'
 import Person3 from '../assets/person3.png'
@@ -13,6 +17,7 @@ import Element3 from '../assets/Element3.png'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import './home.css'
+import { NavLink } from 'react-router-dom';
 
 
 
@@ -47,37 +52,92 @@ const HomePage = () => {
 
         <div
         id="carouselExampleFade"
-        className="carousel-home slide carousel-fade order-1 order-lg-2"
+        className="carousel slide carousel-home carousel-fade order-1 order-lg-2"
         data-bs-ride="carousel"
         data-bs-interval="3000" // Adjust the interval (in milliseconds) as needed 
       >
-        <div className="carousel-inner">
+        <div className="carousel-inner ">
           <div className="carousel-item active">
             <img
-              src={Section1}
+              src={image104}
               alt="Slide 1"
+              className='rounded-3'
+              style={{ width: '55%' }}
               
             />
           </div>
-          <div className="carousel-item">
+          <div className="carousel-item  slide-2">
             <img
-              src={Section1}
-              
+              src={image103}
+              className='rounded-3'
+              style={{ width: '55%' }}
               alt="Slide 2"
               
             />
           </div>
           <div className="carousel-item">
             <img
-              src={Section1}
-              
+              src={image107}
+className='rounded-3'
+style={{ width: '55%' }}
               alt="Slide 3"
               
             />
           </div>
         </div>
-
+        <button
+    className="carousel-control-prev"
+    type="button"
+    data-bs-target="#carouselExampleFade"
+    data-bs-slide="prev"
+  >
+    <span className="carousel-control-prev-icon" aria-hidden="true" />
+    <span className="visually-hidden">Previous</span>
+  </button>
+  <button
+    className="carousel-control-next"
+    type="button"
+    data-bs-target="#carouselExampleFade"
+    data-bs-slide="next"
+  >
+    <span className="carousel-control-next-icon" aria-hidden="true" />
+    <span className="visually-hidden">Next</span>
+  </button>
       </div>
+
+
+
+{/* <div id="carouselExampleFade" className="carousel carousel-home slide carousel-fade">
+  <div className="carousel-inner">
+    <div className="carousel-item active">
+      <img src={image103} className="" alt="..." />
+    </div>
+    <div className="carousel-item">
+      <img src={image104} className="" alt="..." />
+    </div>
+    <div className="carousel-item">
+      <img src={image107} className="" alt="..." />
+    </div>
+  </div>
+  <button
+    className="carousel-control-prev"
+    type="button"
+    data-bs-target="#carouselExampleFade"
+    data-bs-slide="prev"
+  >
+    <span className="carousel-control-prev-icon" aria-hidden="true" />
+    <span className="visually-hidden">Previous</span>
+  </button>
+  <button
+    className="carousel-control-next"
+    type="button"
+    data-bs-target="#carouselExampleFade"
+    data-bs-slide="next"
+  >
+    <span className="carousel-control-next-icon" aria-hidden="true" />
+    <span className="visually-hidden">Next</span>
+  </button>
+</div> */}
 
 
       </div>
@@ -145,6 +205,8 @@ const HomePage = () => {
 
 
       <div className="container mt-5">
+     
+      <NavLink to={'/team/member1'}>
       <div className="col-12 col-lg-4 col-md-4 mx-auto" data-aos="fade-right" data-aos-duration="2500" >
             <img src={Person1} alt="" />
           <div className='tw-text-bone text-center'>
@@ -152,7 +214,9 @@ const HomePage = () => {
             <p className='p-1'>({t('category1')})</p>
           </div>
           </div>
+      </NavLink>
       </div>
+    
 
       <div className="container-fluid mt-4" >
         <div className="row">

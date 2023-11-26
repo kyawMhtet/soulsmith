@@ -112,9 +112,12 @@ const Services = () => {
         {/* <ul>
           <li></li>
         </ul> */}
+
+        <h5 className='text-center mt-5'>Coming Soon!</h5>
       </div>
     </div>
     <div className="card-footer">
+      
       {/* <small className="text-body-secondary">Last updated 3 mins ago</small> */}
     </div>
         </NavLink>

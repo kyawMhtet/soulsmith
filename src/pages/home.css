@@ -35,17 +35,45 @@ p {
     font-size: 20px;
 }
 
-.carousel-home img {
+.carousel-item img {
     /* position: relative; */
-    width: 70%;
+    /* display: flex; */
+    /* width: 70%;
+    height: auto; */
+    margin-left: 750px;
+
+
+
     height: auto;
-    margin-left: 650px;
+    margin-top: 50px;
+
+    margin-bottom: 100px;
     /* z-index: 0; */
     /* margin-top: -60px; */
     /* box-shadow: -12px 20px 15px -1px rgba(232,229,215,0.75);
 -webkit-box-shadow: -12px 20px 15px -1px rgba(232,229,215,0.75);
 -moz-box-shadow: -12px 20px 15px -1px rgba(232,229,215,0.75);    */
 }
+
+/* .slide-2 {
+    width: 83%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 90px;
+    margin-bottom: 100px;
+} */
+
+.carousel-home .carousel-control-prev {
+    margin-left: 740px;
+    margin-top: -50px;
+}
+
+.carousel-home .carousel-control-next {
+
+    margin-top: -50px;
+}
+
+
 
 
 .home-team img {

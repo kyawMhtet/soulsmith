@@ -11,10 +11,12 @@
 
 .sections ul li {
     margin: 5px 0;
+    transition: all 0.5s;
 }
 
 .sections ul li:hover {
-    text-decoration: underline;
+    /* transform: scale(1.05); */
+    margin-left: 10px;
     
 }
 

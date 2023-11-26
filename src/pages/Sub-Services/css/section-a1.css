@@ -38,8 +38,36 @@ margin-left: 100px;
   /* margin-top: 20px; */
   width: 100%;
   /* padding: 0; */
-
 }
+
+
+
+.about .price {
+  /* padding: 5px 0; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.about .price p {
+  width: 70%;
+  margin-left: 50px;
+  color: #E8E5D7;
+  /* background-color: red; */
+}
+
+.about li {
+  display: flex;
+  margin-top: 2px;
+  /* padding-top: 5px; */
+  margin-left: -15px;
+}
+
+.about li p {
+  margin-left: 25px;
+ 
+}
+
+
 
 .react-carousel {
   width: 75%;
@@ -134,6 +162,10 @@ color: #C4A962;
     /* padding-bottom: 20px; */
   }
 
+  .about .price li span {
+    margin-top: 5px;
+  }
+
 }
 
 
@@ -193,4 +225,36 @@ color: #C4A962;
     margin-top: 25px;
   }
    */
+
+   .about li {
+    display: flex;
+    padding-top: 5px;
+    margin: auto;
+  }
+
+  .about .bi-terminal, .bi-translate{
+    width: 40px;
+    height: 40px;
+  }
+
+  .about .bi-cash-stack {
+    width: 55px;
+    /* height: 55px; */
+    margin-left: -10px;
+    
+  }
+
+  .about .price p {
+    width: 55%;
+    margin: auto;
+    color: #E8E5D7;
+    /* background-color: red; */
+  }
+
+
+  .about .price span {
+    margin-top: 8px;
+    /* width: 40%; */
+  }
+
 }

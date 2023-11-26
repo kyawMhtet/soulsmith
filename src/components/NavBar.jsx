@@ -321,12 +321,43 @@ const NavBar = () => {
 
         </ul>
     </li>
-    
+
+
+
+
+{/* product */}
     <li className="nav-item mx-2">
-    <NavLink to={'/products'} className="nav-link tw-text-bone" >
+        <div className="nested-dropdowns__item">
+        <NavLink to={'/products'} className="nav-link tw-text-bone" >
                     {t('Products')}
                   </NavLink>
+            {/* <div class="nested-dropdowns__arrow">...</div> */}
+        </div>
+        <ul className=''>
+
+
+        <li>
+                <div className="nested-dropdowns__item">
+                  <NavLink to={'/products/Mind-Magnifying'} className="nav-link tw-text-bone"  >
+                {t('Mind Magnifying')}
+
+                  </NavLink>
+                    {/* <div class="nested-dropdowns__arrow">...</div> */}
+                </div>
+            </li>
+        <li>
+
+            <NavLink to={'/products/Mind-Exercise-Vol1'} className="nav-link tw-text-bone" >
+                {t('Mind Exercise Vol.1')}
+              </NavLink>
+
+        </li>
+
+
+
+        </ul>
     </li>
+    
 
     <li className="nav-item mx-2">
     <NavLink to={'/team'} className="nav-link tw-text-bone" >
@@ -482,11 +513,55 @@ const NavBar = () => {
             }
         </li>
 
+
+
+
+        {/* product */}
+
         <li className="nav-item mx-2">
+            <div className="nested-dropdowns__item d-flex justify-content-between">
+            <NavLink to={'/products'} className="nav-link tw-text-bone justify-content-between" >
+                        {t('Products')} 
+
+                      </NavLink>
+                      <img src={DownArrow} alt="" onClick={toggleA}/>
+
+            </div>
+
+            {
+              ANav && (
+                            <ul className='shadow-sm'>
+    
+    
+            <li>
+                  <NavLink to={'/products/Mind-Magnifying'} className="nav-link tw-text-bone" >
+                    {t('Mind Magnifying')}
+                  </NavLink>
+            </li>
+    
+                <li>
+                  <NavLink to={'/products/Mind-Exercise-Vol1'} className="nav-link tw-text-bone"   >
+                    {t('Mind Exercise Vol.1')}
+    
+                  </NavLink>
+                </li>
+    
+            </ul>
+              )
+            }
+        </li>
+
+
+
+
+
+
+
+        {/* <li className="nav-item mx-2">
     <NavLink to={'/products'} className="nav-link tw-text-bone" >
                     {t('Products')}
                   </NavLink>
-    </li>
+    </li> */}
         
 
         <li className="nav-item mx-2">
