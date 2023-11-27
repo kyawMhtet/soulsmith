@@ -17,6 +17,9 @@
     box-shadow: 3px 10px 7px rgba(0, 0, 0, 0.3);
     transition: 0.5s;
 } */
+.product-card {
+    min-height: 12rem;
+}
 
 .box {
     margin:0 8px;

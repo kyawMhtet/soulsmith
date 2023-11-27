@@ -57,7 +57,7 @@ const HomePage = () => {
         data-bs-interval="3000" // Adjust the interval (in milliseconds) as needed 
       >
         <div className="carousel-inner ">
-          <div className="carousel-item active">
+          <div className="carousel-item home active">
             <img
               src={image104}
               alt="Slide 1"
@@ -66,7 +66,7 @@ const HomePage = () => {
               
             />
           </div>
-          <div className="carousel-item  slide-2">
+          <div className="carousel-item  home slide-2">
             <img
               src={image103}
               className='rounded-3'
@@ -75,7 +75,7 @@ const HomePage = () => {
               
             />
           </div>
-          <div className="carousel-item">
+          <div className="carousel-item home">
             <img
               src={image107}
 className='rounded-3'
@@ -220,50 +220,132 @@ style={{ width: '55%' }}
 
       <div className="container-fluid mt-4" >
         <div className="row">
-          <div className="col-12 col-lg-4 col-md-4" data-aos="fade-right" data-aos-duration="2500" >
-            <img src={Person1} alt="" />
+      
+      <div className="col-12 col-lg-4 col-md-4" data-aos="fade-right" data-aos-duration="2500" >
+      <NavLink to={'/team/member2'}>
+      <div>
+      <img src={Person1} alt="" />
             <div className='tw-text-bone text-center'>
           <h4 className=''>{t('name2')}</h4>
             <p className='p-1'>({t('category2')})</p>
           </div>
+      </div>
+      </NavLink>
+
           </div>
           <div className="col-12 col-lg-4 col-md-4" data-aos="fade-right" data-aos-duration="2000">
-          <img src={Person2} alt="" />
+        <NavLink to={'/team/member3'}>
+        <img src={Person1} alt="" />
           <div className='tw-text-bone text-center'>
           <h4 className=''>{t('name3')}</h4>
             <p className='p-1'>({t('category3')})</p>
           </div>
+        </NavLink>
           </div>
           <div className="col-12 col-lg-4 col-md-4" data-aos="fade-right" data-aos-duration="1500">
-          <img src={Person3} alt="" />
+          <NavLink to={'/team/member4'}>
+          <img src={Person1} alt="" />
           <div className='tw-text-bone text-center'>
           <h4 className=''>{t('name4')}</h4>
             <p className='p-1'>({t('category4')})</p>
           </div>
+          </NavLink>
           </div>
 
           <div className="col-12 col-lg-4 col-md-4" data-aos="fade-right" data-aos-duration="1500">
+          <NavLink to={'/team/member5'}>
           <img src={Person1} alt="" />
           <div className='tw-text-bone text-center'>
           <h4 className=''>{t('name5')}</h4>
             <p className='p-1'>({t('category5')})</p>
           </div>
+          </NavLink>
           </div>
 
           <div className="col-12 col-lg-4 col-md-4" data-aos="fade-right" data-aos-duration="1500">
-          <img src={Person2} alt="" />
+        <NavLink to={'/team/member6'}>
+        <img src={Person1} alt="" />
           <div className='tw-text-bone text-center'>
           <h4 className=''>{t('name6')}</h4>
             <p className='p-1'>({t('category6')})</p>
           </div>
+        </NavLink>
           </div>
 
           <div className="col-12 col-lg-4 col-md-4" data-aos="fade-right" data-aos-duration="1500">
-          <img src={Person3} alt="" />
+        <NavLink to={'/team/member7'}>
+        <img src={Person1} alt="" />
           <div className='tw-text-bone text-center'>
           <h4 className=''>{t('name7')}</h4>
             <p className='p-1'>{t('category7')}</p>
           </div>
+        </NavLink>
+          </div>
+
+
+          <div className="col-12 col-lg-4 col-md-4" data-aos="fade-right" data-aos-duration="1500">
+        <NavLink to={'/team/member7'}>
+        <img src={Person1} alt="" />
+          <div className='tw-text-bone text-center'>
+          <h4 className=''>{t('name7')}</h4>
+            <p className='p-1'>{t('category7')}</p>
+          </div>
+        </NavLink>
+          </div>
+
+
+          <div className="col-12 col-lg-4 col-md-4" data-aos="fade-right" data-aos-duration="1500">
+        <NavLink to={'/team/member7'}>
+        <img src={Person1} alt="" />
+          <div className='tw-text-bone text-center'>
+          <h4 className=''>{t('name7')}</h4>
+            <p className='p-1'>{t('category7')}</p>
+          </div>
+        </NavLink>
+          </div>
+
+
+          <div className="col-12 col-lg-4 col-md-4" data-aos="fade-right" data-aos-duration="1500">
+        <NavLink to={'/team/member7'}>
+        <img src={Person1} alt="" />
+          <div className='tw-text-bone text-center'>
+          <h4 className=''>{t('name7')}</h4>
+            <p className='p-1'>{t('category7')}</p>
+          </div>
+        </NavLink>
+          </div>
+
+
+          <div className="col-12 col-lg-4 col-md-4" data-aos="fade-right" data-aos-duration="1500">
+        <NavLink to={'/team/member7'}>
+        <img src={Person1} alt="" />
+          <div className='tw-text-bone text-center'>
+          <h4 className=''>{t('name7')}</h4>
+            <p className='p-1'>{t('category7')}</p>
+          </div>
+        </NavLink>
+          </div>
+
+
+          <div className="col-12 col-lg-4 col-md-4" data-aos="fade-right" data-aos-duration="1500">
+        <NavLink to={'/team/member7'}>
+        <img src={Person1} alt="" />
+          <div className='tw-text-bone text-center'>
+          <h4 className=''>{t('name7')}</h4>
+            <p className='p-1'>{t('category7')}</p>
+          </div>
+        </NavLink>
+          </div>
+
+
+          <div className="col-12 col-lg-4 col-md-4" data-aos="fade-right" data-aos-duration="1500">
+        <NavLink to={'/team/member7'}>
+        <img src={Person1} alt="" />
+          <div className='tw-text-bone text-center'>
+          <h4 className=''>{t('name7')}</h4>
+            <p className='p-1'>{t('category7')}</p>
+          </div>
+        </NavLink>
           </div>
         </div>
       </div>
