@@ -11,7 +11,9 @@ const Services = () => {
   return (
     <>
       <div className="container mt-4">
-        <h2 className='text-center tw-text-gold'>{t('serviceTitle')}</h2>
+        <h2 className='text-center tw-text-gold'>
+          <b>{t('serviceTitle')}</b>
+        </h2>
         
         {/* <div className='container mt-4'>
           <p className='tw-text-bone fw-semibold'>

@@ -18,7 +18,11 @@
     transition: 0.5s;
 } */
 .product-card {
-    min-height: 12rem;
+    min-height: 10rem;
+}
+
+.product-card h5 {
+    margin-top: 40px;
 }
 
 .box {
