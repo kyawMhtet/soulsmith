@@ -40,7 +40,7 @@ p {
     /* display: flex; */
     /* width: 70%;
     height: auto; */
-    margin-left: 770px;
+    margin-left: 750px;
 
 
 
@@ -73,6 +73,11 @@ p {
     margin-top: -50px;
 }
 
+
+.child .icon {
+    margin: auto;
+    margin-top: 70px;
+}
 
 
 

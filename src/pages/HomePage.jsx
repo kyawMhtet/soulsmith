@@ -14,6 +14,9 @@ import Footer from '../components/Footer';
 import Element1 from '../assets/Element1.png'
 import Element2 from '../assets/Element2.png'
 import Element3 from '../assets/Element3.png'
+import icon4 from '../assets/Icon-4.png'
+import icon5 from '../assets/Icon-5.png'
+import icon6 from '../assets/Icon-6.png'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import './home.css'
@@ -166,16 +169,18 @@ style={{ width: '55%' }}
             <div className='row mt-2 gap-2 py-4 mx-auto' data-aos="fade-right" data-aos-duration="1500">
                 <div className="col-12 my-3 col-lg-4 col-md-4 col-sm12 mx-auto service tw-bg-midnight">
                   <div className='child'>
+                    <img src={icon4} alt="" className='icon img-fluid' />
+                  </div>
+                </div>
+                <div className="col-12 my-3 col-lg-4 col-md-4 col-sm12 mx-auto service tw-bg-midnight">
+                  <div className="child">
+                  <img src={icon5} alt="" className='icon img-fluid' />
 
                   </div>
                 </div>
                 <div className="col-12 my-3 col-lg-4 col-md-4 col-sm12 mx-auto service tw-bg-midnight">
                   <div className="child">
-
-                  </div>
-                </div>
-                <div className="col-12 my-3 col-lg-4 col-md-4 col-sm12 mx-auto service tw-bg-midnight">
-                  <div className="child">
+                  <img src={icon6} alt="" className='icon img-fluid' />
                     
                   </div>
                 </div>
