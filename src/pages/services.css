@@ -3,6 +3,11 @@
     margin-top: 50px;
 }
 
+.sections img {
+    width: 100%;
+    height: 50%;
+}
+
 .sections ul {
     margin-top: 15px;
     padding: 5px 10px;

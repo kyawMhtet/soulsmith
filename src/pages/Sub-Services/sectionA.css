@@ -11,7 +11,7 @@
 }
 
 .card1-content {
-    background-image: url('../../assets/A1.ListeningServiceandMindfulnessPractice.webp');
+    background-image: url('../../assets/services/sectionA1.jpg');
     background-size: cover;
     background-position: center;
     padding: 20px;
@@ -27,7 +27,7 @@
 }
 
 .card2-content {
-    background-image: url('../../assets/A2.Counseling.webp');
+    background-image: url('../../assets/services/sectionA2.jpg');
     background-size: cover;
     background-position: center;
     padding: 20px;
@@ -43,7 +43,7 @@
 }
 
 .card3-content {
-    background-image: url('../../assets/A3.Psychotherapy.webp');
+    background-image: url('../../assets/services/sectionA3.jpg');
     background-size: cover;
     background-position: center;
     padding: 20px;
@@ -59,7 +59,7 @@
 }
 
 .card4-content {
-    background-image: url('../../assets/A4.ArtPsychotherapy.jpeg');
+    background-image: url('../../assets/services/sectionA4.jpg');
     background-size: cover;
     background-position: center;
     padding: 20px;
@@ -76,7 +76,7 @@
 
 
 .card5-content {
-    background-image: url('../../assets/A5.TherapeuticWorkshop.jpeg');
+    background-image: url('../../assets/services/sectionA5.jpg');
     background-size: cover;
     background-position: center;
     padding: 20px;

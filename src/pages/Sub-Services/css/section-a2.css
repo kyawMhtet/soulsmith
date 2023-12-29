@@ -68,7 +68,7 @@
   }
   
  
-  @media (max-width: 576px) {
+  /* @media (max-width: 576px) {
 
     .a2 {
         
@@ -87,7 +87,7 @@
     
     .about {
       width: 100%;
-      /* background-color: red; */
+      
     }
 
     .react-carousel {
@@ -95,4 +95,98 @@
     }
 
     
+  } */
+
+
+
+  @media (max-width: 576px) {
+
+    .a2 {
+        
+        display: block;
+        /* padding: 2px 10px; */
+    }
+  
+  
+    .a2 .about {
+        margin-top: 15px;
+        
+    }
+  
+    .a2 img {
+      width: 100%;
+    }
+  
+    
+    .about {
+      width: 100%;
+      /* background-color: red; */
+    }
+  
+    .react-carousel {
+      width: 100%;
+    }
+  
+  
+    .a2b {
+      display: block;
+    }
+  
+    .a2b img {
+      width: 100%;
+    }
+  
+    .a2b .card-1 {
+      max-width: 100%;
+      margin: auto;
+    }
+  
+    .a2 .button {
+      /* width: 100%; */
+      text-align: center;
+      margin-right: 50px;
+    }
+    
+    /* .button1 {
+      text-align: center;
+      margin-top: 25px;
+    }
+     */
+  
+     .about li {
+      display: flex;
+      padding-top: 5px;
+      margin: auto;
+    }
+  
+    .about .bi-terminal, .bi-translate{
+      width: 40px;
+      height: 40px;
+    }
+  
+    .about .bi-cash-stack {
+      width: 55px;
+      /* height: 55px; */
+      margin-left: -10px;
+      
+    }
+  
+    .about .price p {
+      width: 55%;
+      margin: auto;
+      color: #E8E5D7;
+      /* background-color: red; */
+    }
+  
+  
+    .about .price span {
+      margin-top: 8px;
+      /* width: 40%; */
+    }
+
+    .bi-translate {
+      width: 20px;
+      height: 20px;
+    }
+  
   }

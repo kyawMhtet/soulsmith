@@ -218,5 +218,15 @@
       width: 100%;
       margin-inline: auto;
     }
+
+    .bi-translate {
+      width: 20px;
+      height: 20px;
+    }
+
+    .bi-clock {
+      width: 20px;
+      height: 20px;
+    }
     
   }

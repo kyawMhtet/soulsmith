@@ -58,9 +58,10 @@
 
 
     "A1adesc1": "Service Delivery Channels : ",
-    "A1aValue3" : "Available for Online session only",
+    "A1aValue3" : "Online",
 
-    "A1alanguage": "Language: Available for Thai Language only",
+    "A1alanguage": "Language :",
+    "A1aValue7" : "Thai",
     
 
     "A1aSession1": "Single session : ",
@@ -70,12 +71,12 @@
     "A1aSession2": "Package of 5 Sessions : ",
     "A1aValue5" : "4,300",
 
-    "A1aSession3": "Package of 10 Sessions : ",
-    "A1aValue6" : "9,000 + 1 Free Session",
+    "A1aSession3": "Package of 10 Sessions (Get 1 session FREE) : ",
+    "A1aValue6" : "9,000",
     
 
 
-    "A1b" : "Listening Service and Mindfulness Practice By Khun Pair: One-to-one",
+    "A1b" : "Listening Service and Mindfulness Practice By Khun Pear: One-to-one",
 
     "A1c" : "Listening Service and Mindfulness Practice By Khun May: One-to-one",
 
@@ -85,22 +86,39 @@
     "A2a" : "Counselling: One-to-one (First time with SOULSMITH)",
     "A2a1" : "Counselling By Khun Pair: One-to-one",
 
-    "descA2a" : "Suitable for: Individual.",
+    "descA2a" : "Suitable for: ",
     
 
-    "A2aDuration" : "Duration 60 minutes",
+    "A2aDuration" : "Duration :",
+    "A2aValue2" : "60 minutes",
 
-    "A2adesc1": "Service Delivery Channels: Available for Online & Onsite at SOULSMITH",
-    "A2alanguage": "Language: Available for Thai Language only",
+    "A2adesc1": "Service Delivery Channels: ",
+    "A2aValue3" : "Online / Onsite at SOULSMITH",
 
-    "A2aSession1": "Single session: 1500",
+
+    "A2alanguage": "Language : ",
+    "A2aValue7" : "Thai",
+
+    "A2aValue8" : "Thai / English",
+
+    "A2aSession1": "Single session : ",
+    "A2aValue4" : "1500",
+
     
-    "A2aSession2": "Package of 5 Sessions: 7150",
-    "A2aSession3": "Package of 10 Sessions: 15,000 + 1 Free Session",
+    "A2aSession2": "Package of 5 Sessions : ",
+    "A2aValue5" : "7150",
 
-    "A2b" : "Counselling By Khun Pair: One-to-one",
+    "A2aSession3": "Package of 10 Sessions (Get 1 session FREE) :",
+    "A2aValue6" : "15,000",
 
 
+    "A2b" : "Counselling by Khun Pear: One-to-one",
+
+    "A2c" : "Counselling by Khun Boom: One-to-one",
+    "A2d" : "Counselling by Khun Elm: One-to-one",
+
+    "A2e" : "Counselling by Khun Vhan: One-to-one",
+    "A2f" : "Counselling by Khun Ratanaphat: One-to-one",
 
 
 
@@ -112,87 +130,204 @@
 
     "descA3a" : "Suitable for: Individual.",
 
-    "A3aDuration" : "Duration: 75 minutes",
+    "A3aDuration" : "Duration : ",
+    "A3aValue2" : "75 minutes",
 
-    "A3adesc1": "Service Delivery Channels: Available for Online & Onsite at SOULSMITH",
-    "A3alanguage": "Language: Available for Thai Language & English.",
+
+    "A3adesc1": "Service Delivery Channels :",
+    "A3aValue3" : "Online / Onsite at SOULSMITH",
+
+    "A3alanguage": "Language :",
+    "A3aValue7" : "Thai",
+
+    
 
     "Price": "Price :",
-    "A3aSession1": "Single session: 2,500",
-    "A3aSession2": "Package of 5 Sessions: 11,900",
-    "A3aSession3": "Package of 10 Sessions: 25,000 + 1 Free Session",
+    "A3aSession1": "Single session :",
+    "A3aValue4" : "2,500",
 
-    "Duration" : " Duration: 60 minutes",
+    "A3aSession2": "Package of 5 Sessions :",
+    "A3aValue5" : "11,900",
 
-    "A3b": "Psychotherapy by Senior Psychotherapist: One-to-one (First time with SOULSMITH) ",
-    "A3b1": "Psychotherapy by Khun Jear, Senior Psychotherapist: One-to-one",
+    "A3aSession3": "Package of 10 Sessions (Get 1 session FREE) :",
+    "A3aValue6" : "25,000",
+    
+
+    "A3e" : "Psychotherapy by Khun Ton: One-to-one",
+    "A3edesc1" : "Service Delivery Channels :",
+    "A3eValue3" : "Online",
+
+    "Duration" : " Duration :",
+
+
+    "A3b": "Psychotherapy by Senior Psychotherapist: One-to-one (First time with SOULSMITH)",
+
 
     "descA3b": "Suitable for: Individual.",
 
-    "A3bDuration" : "Duration: 60 minutes",
+    "A3bDuration" : "Duration :",
+    "A3bValue2" : "60 minutes",
 
 
-    "A3bdesc1": "Service Delivery Channels: Available for Online session only",
-    "A3blanguage" : "Language: Available for Thai Language & English.",
-    "A3bSession1": "Single session: 3,500",
-    "A3bSession2": "Package of 5 Sessions: 16,650",
+    "A3bdesc1": "Service Delivery Channels :",
+    "A3bValue3" : "Online",
+
+    "A3blanguage" : "Language :",
+    "A3bValue7" : "Thai / English",
+
+    "A3bSession1": "Single session :",
+    "A3bValue4" : "3,500",
+
+    "A3bSession2": "Package of 5 Sessions : ",
+    "A3bValue5" : "16,650",
+
     "A3bSession3": "Package of 10 Sessions: 35,000 + 1 Free Session",
 
+    "A3b1": "Psychotherapy by Khun Jear, Senior Psychotherapist: One-to-one",
+
+    "A3b1Duration" : "Duration :",
+    "A3b1Value2" : "60 minutes",
+
+    "A3b1desc1": "Service Delivery Channels :",
+    "A3b1Value3" : "Online",
+
+    "A3b1language" : "Language :",
+    "A3b1Value7" : "Thai / English",
+
+    "A3b1Session3" : "Package of 10 Sessions (Get 1 session FREE) :",
+    "A3b1Value6" : "35,000",
 
     "A3c": "Psychotherapy by Senior Psychotherapist: Couple (First time with SOULSMITH)",
-    "A3c1": "Psychotherapy by Khun Jear, Senior Psychotherapist: Couple",
     "descA3c": "Suitable for: Couples, such as couples in a relationship, or family couples.",
     "A3cDuration": "Duration: 60 minutes",
     "A3cdesc1": "Service Delivery Channels: Available for Online session only",
     "A3clanguage": "Language: Available for Thai Language & English.",
-    "A3cSession1": "Single session: 4,200",
+    "A3cSession1": "Single session :",
+    "A3cValue4" : "4,200",
+
     "A3cSession2": "Package of 5 Sessions: 19,950",
+
     "A3cSession3": "Package of 10 Sessions: 42,000 + 1 Free Session",
 
 
+    "A3c1": "Psychotherapy by Khun Jear, Senior Psychotherapist: Couple",
+    "descA3c1" : "Suitable for :",
+    "A3c1Value1" : "Couples, such as couples in a relationship, or family couples.",
 
-    "A3d": "Psychotherapy by Senior Psychotherapist: Family (First time with SOULSMITH)",
-    "A3d1": "Psychotherapy by Khun Jear, Senior Psychotherapist: Family",
-    "descA3d": "Suitable for: Family, such as parents and children, grandparents, and grandchildren.",
+    "A3c1Session1": "Single session : ",
+    "A3c1Value4" : "4,200",
+
+    "A3c1Session2": "Package of 5 Sessions : ",
+    "A3c1Value5" : "19,950",
+
+    "A3c1Session3": "Package of 10 Sessions (Get 1 session FREE) : ",
+    "A3c1Value6" : "42,000",
+
+
+
+    "A3d": "Psychotherapy by Khun Jear, Senior Psychotherapist: Family",
+    "descA3d": "Suitable for : ",
+    "A3dValue1" : "Family, such as parents and children, grandparents, and grandchildren.",
+
     "A3dDuration": "Duration: 60 minutes",
+    
     "A3ddesc1": "Service Delivery Channels: Available for Online session only",
     "A3dlanguage": "Language: Available for Thai Language & English.",
-    "A3dSession1": "Single session: 4,500",
-    "A3dSession2": "Package of 5 Sessions: 21,400",
-    "A3dSession3": "Package of 10 Sessions: 45,000 + 1 Free Session",
+
+
+    "A3dSession1": "Single session : ",
+    "A3dValue4" : "4,500",
+    "A3dSession2": "Package of 5 Sessions : ",
+    "A3dValue5" : "21,400",
+
+    "A3dSession3": "Package of 10 Sessions (Get 1 session FREE) : ",
+    "A3dValue6" : "45,000",
+
+
+
+    "A3d1": "Psychotherapy by Khun Jear, Senior Psychotherapist: Family (First time with SOULSMITH)",
+    "descA3d1" : "Suitable for :",
+    "A3d1Value1" : "Family, such as parents and children, grandparents, and grandchildren.",
+
+    "A3d1Session1": "Single session : ",
+    "A3d1Value4" : "4,500",
 
 
 
 
     "A4a" : "Dance Movement Psychotherapy: One-to-one (First time with SOULSMITH)",
-    "A4a1" : " Dance Movement Psychotherapy By Khun Vi: One-to-one",
 
     "descA4a" : "Suitable for: Individual.",
 
-    "A4aDuration" : "Duration: 75 minutes",
+    "A4aDuration" : "Duration : ",
+    "A4aValue1" : "75 minutes",
 
-    "A4adesc1": "Service Delivery Channels: Available for Onsite at SOULSMITH only",
-    "A4alanguage": "Language: Available for Thai Language & English.",
+    "A4adesc1": "Service Delivery Channels : ",
+    "A4aValue2" : "Onsite at SOULSMITH",
 
-    "A4aSession1": "Single session: 2,500",
+    "A4alanguage": "Language : ",
+    "A4aValue3" : "Thai / English",
+
+    "A4aSession1": "Single session : ",
+    "A4aValue4" : "2,500",
+
     "A4aSession2": "Package of 5 Sessions: 11,900",
     "A4aSession3": "Package of 10 Sessions: 25,000 + 1 Free Session",
 
+    "A4a1" : " Dance Movement Psychotherapy By Khun Vi: One-to-one",
+    "descA4a1" : "Suitable for: Individual.",
+
+    "A4a1Duration" : "Duration : ",
+    "A4a1Value1" : "75 minutes",
+
+    "A4a1desc1": "Service Delivery Channels : ",
+    "A4a1Value2" : "Onsite at SOULSMITH",
+
+    "A4a1language": "Language : ",
+    "A4a1Value3" : "Thai / English",
+
+    "A4a1Session1": "Single session : ",
+    "A4a1Value4" : "2,500",
+    
+    "A4a1Session2": "Package of 5 Sessions : ",
+    "A4a1Value5" : "11,900",
+
+    "A4a1Session3": "Package of 10 Sessions (Get 1 session FREE) : ",
+    "A4a1Value6" : "25,000",
+
+
 
     "A4b" : "Music Therapy: One-to-one (First time with SOULSMITH)",
-    "A4b1" : "Music Therapy By Khun May: One-to-one",
 
     "descA4b" : "Suitable for: Individual.",
     "A4bDuration": "Duration: 75 minutes",
     "A4bdesc1": "Service Delivery Channels: Available for Online & Onsite at SOULSMITH",
 
-    "A4blanguage" : "Language: Available for Thai Language only",
+    "A4blanguage" : "Language : ",
+    "A4bValue3" : "Thai",
+
     "A4bSession1": "Single session: 2,500",
     "A4bSession2": "Package of 5 Sessions: 11,900",
     "A4bSession3": "Package of 10 Sessions: 25,000 + 1 Free Session",
 
-    "A4c": "Drama and Movement Therapy: One-to-one (First time with SOULSMITH)",
-    "A4c1": "Drama and Movement Therapy by Khun Prim: One-to-one",
+    "A4b1" : "Music Therapy by Khun May: One-to-one",
+    "A4b1Duration" : "Duration : ",
+    "A4b1Value1" : "75 minutes",
+
+    "A4b1desc1": "Service Delivery Channels : ",
+    "A4b1Value2" : "Onsite at SOULSMITH",
+
+    "A4b1language": "Language : ",
+    "A4b1Value3" : "Thai",
+
+    "A4b1Session1": "Single session : ",
+    "A4b1Value4" : "2,500",
+
+    "A4b1Session2": "Package of 5 Sessions: 11,900",
+    "A4b1Session3": "Package of 10 Sessions: 25,000 + 1 Free Session",
+
+
+    "A4c": "Drama and Movement Therapy by Registered Dramatherapist: One-to-one  (First time with SOULSMITH)",
 
     "descA4c": "Suitable for: Individual.",
 
@@ -205,20 +340,61 @@
     "A4cSession3": "Package of 10 Sessions: 25,000 + 1 Free Session",
 
 
-    "A4d": "Dramatherapy by Senior Registered Dramatherapist: One-to-one (First time with SOULSMITH)",
+    "A4c1": "Drama and Movement Therapy by Khun Prim, Registered Dramatherapist: One-to-one",
+    "A4c1Duration" : "Duration : ",
+    "A4c1Value1" : "75 minutes",
+
+    "A4c1desc1": "Service Delivery Channels : ",
+    "A4c1Value2" : "Onsite at SOULSMITH",
+
+    "A4c1language": "Language : ",
+    "A4c1Value3" : "Thai",
+
+    "A4c1Session1": "Single session : ",
+    "A4c1Value4" : "2,500",
+
+    "A4c1Session2": "Package of 5 Sessions: 11,900",
+    "A4c1Session3": "Package of 10 Sessions: 25,000 + 1 Free Session",
+
+
+    "A4d": "Dramatherapy by Senior Registered Dramatherapist: One-to-one  (First time with SOULSMITH)",
+
+    "A4dDuration" : "Duration : ",
+    "A4dValue1" : "60 minutes",
+
+    "A4ddesc1": "Service Delivery Channels : ",
+    "A4dValue2" : "Online",
+
+    "A4dlanguage": "Language : ",
+    "A4dValue3" : "Thai / English",
+
+    "A4dSession1": "Single session : ",
+    "A4dValue4" : "3,500",
+
+    "A4dSession2": "Package of 5 Sessions: 11,900",
+    "A4dSession3": "Package of 10 Sessions: 25,000 + 1 Free Session",
+
+
     "A4d1": "Dramatherapy by Khun Jear, Senior Registered Dramatherapist: One-to-one",
 
-    "descA4d": "Suitable for: Individual.",
 
+    "A4d1Duration" : "Duration : ",
+    "A4d1Value1" : "60 minutes",
 
-    "A4dDuration" : "Duration: 60 minutes",
+    "A4d1desc1": "Service Delivery Channels : ",
+    "A4d1Value2" : "Online",
 
-    "A4ddesc1": "Service Delivery Channels: Available for Online session only",
-    "A4dlanguage": "Language: Available for Thai Language & English.",
+    "A4d1language": "Language : ",
+    "A4d1Value3" : "Thai / English",
 
-    "A4dSession1": "Single session: 3,500",
-    "A4dSession2": "Package of 5 Sessions: 16,650",
-    "A4dSession3": "Package of 10 Sessions: 35,000 + 1 Free Session",
+    "A4d1Session1": "Single session : ",
+    "A4d1Value4" : "3,500",
+    
+    "A4d1Session2": "Package of 5 Sessions : ",
+    "A4d1Value5" : "16,650",
+
+    "A4d1Session3": "Package of 10 Sessions (Get 1 session FREE) : ",
+    "A4d1Value6" : "35,000",
 
 
 
@@ -230,46 +406,173 @@
 
 
 
-    "A5a": "Therapeutic Workshop: One-to-one (First time with SOULSMITH)",
-    "A5a1": "Therapeutic Workshop By Khun Dujdao: One-to-one",
+    "A5a": "Therapeutic Workshop: One-to-one  (First time with SOULSMITH)",
 
-    "descA5a": "Suitable for: Individual.",
+    "A5aDuration" : "Duration : ",
+    "A5aValue1" : "90 minutes",
+
+    "A5adesc1": "Service Delivery Channels : ",
+    "A5aValue2" : "Online / Onsite at SOULSMITH",
+
+    "A5alanguage": "Language : ",
+    "A5aValue3" : "Thai / English",
+
+    "A5aSession1": "Single session : ",
+    "A5aValue4" : "3,500",
 
 
-    "A5aDuration" : "Duration: 90 minutes",
 
-    "A5adesc1": "Service Delivery Channels: Available for Online & Onsite at SOULSMITH",
-    "A5alanguage": "Language: Available for Thai Language & English.",
+    "A5a1": "Therapeutic Workshop by Khun Dujdao: One-to-one",
+    "A5a1Duration" : "Duration : ",
+    "A5a1Value1" : "90 minutes",
 
-    "A5aSession1": "Single session: 3,500",
-    "A5aSession2": "Package of 5 Sessions: 16,650",
-    "A5aSession3": "Package of 10 Sessions: 35,000 + 1 Free Session",
+    "A5a1desc1": "Service Delivery Channels : ",
+    "A5a1Value2" : "Online / Onsite at SOULSMITH",
 
+    "A5a1language": "Language : ",
+    "A5a1Value3" : "Thai / English",
 
+    "A5a1Session1": "Single session : ",
+    "A5a1Value4" : "3,500",
+    
+    "A5a1Session2": "Package of 5 Sessions : ",
+    "A5a1Value5" : "16,650",
+
+    "A5a1Session3": "Package of 10 Sessions (Get 1 session FREE) : ",
+    "A5a1Value6" : "35,000",
 
 
 
     "A5b": "Therapeutic Workshop: Couple (First time with SOULSMITH)",
+
+    "descA5b": "Suitable for : ",
+    "descA5bValue5" : "Couples, such as couples in a relationship, or family couples.",
+
+    "A5bDuration" : "Duration : ",
+    "A5bValue1" : "90 minutes",
+
+    "A5bdesc1": "Service Delivery Channels : ",
+    "A5bValue2" : "Online / Onsite at SOULSMITH",
+
+    "A5blanguage": "Language : ",
+    "A5bValue3" : "Thai / English",
+
+    "A5bSession1": "Single session : ",
+    "A5bValue4" : "4,200",
+
+
     "A5b1": "Therapeutic Workshop By Khun Dujdao: Couple",
+    "A5b1Session1": "Single session : ",
+    "A5b1Value4" : "4,200",
+    
+    "A5b1Session2": "Package of 5 Sessions : ",
+    "A5b1Value5" : "19,950",
 
-    "descA5b": "Suitable for: Couples, such as couples in a relationship, or family couples.",
-
-
-    "A5bDuration" : "Duration: 90 minutes",
-
-    "A5bdesc1": "Service Delivery Channels: Available for Online & Onsite at SOULSMITH",
-    "A5blanguage": "Language: Available for Thai Language & English.",
-
-    "A5bSession1": "Single session: 4,200",
-    "A5bSession2": "Package of 5 Sessions: 19,950",
-    "A5bSession3": "Package of 10 Sessions: 42,000 + 1 Free Session",
+    "A5b1Session3": "Package of 10 Sessions (Get 1 session FREE) : ",
+    "A5b1Value6" : "42,000",
 
 
 
+    "B": "Sound Healing and Therapy by Khun Sarut: One-to-one",
+    "BDuration" : "Duration : ",
+    "BValue1" : "60 minutes",
+
+    "Bdesc1": "Service Delivery Channels : ",
+    "BValue2" : "Onsite at SOULSMITH",
+
+    "Blanguage": "Language : ",
+    "BValue3" : "Thai / English",
+
+    "BSession1": "Single session : ",
+    "BValue4" : "1,500",
+    
+    "BSession2": "Package of 5 Sessions : ",
+    "BValue5" : "7,150",
+
+    "BSession3": "Package of 10 Sessions (Get 1 session FREE) : ",
+    "BValue6" : "15,000",
+
+
+    "name8" : "Dujdao Vadhanapakorn",
+    "category8" : "Dance Movement Psychotherapist/ Empathetic Communication Specialist/ Founder of SOULSMITH & Empathy Sauce",
+    "list8A" : "Educational Background",
+    "list8B" : "Brief Work Experience",
+    "list8Aa" : "BA Journalism and Mass Communication, Thammasat University, Thailand",
+    "list8Ab" : "MA Dance Movement Therapy, Goldsmith University of London, UK",
+    "list8Ac" : "Certification in Customer Experience Strategy, Columbia Business School",
+    "list8Ad" : "Certification in Entrepreneurship Essentials, Harvard Business School",
+    "list8Ae" : "Certification in Prosci Change Management Program",
+    "list8Af" : "Certification in Advanced Management Program , Chulalongkorn Business School",
+    "list8Ba" : "CBT Therapist, CBT Dee Tor Jai Center",
+    "list8Bb" : "Part-time lecturer, Department of Psychiatry, Faculty of Medicine, Chulalongkorn University.",
+    
+
+    "name9" : "Chutharat (Soda) Sriphiphat",
+    "category9" : "Administrative Officer",
+
+    "name10" : "Thanawin (Boom) Melarpudomchai",
+    "category10" : "Clinical Psychologist",
+    "list10A" : "Educational Background",
+    "list10B" : "Brief Work Experience",
+    "list10Aa" : "Bachelor of Science in Clinical Psychology with First Class Honors from Kasetsart University",
+    "list10Ba" : "Counseling psychologist , Mental Health Hotline 1323 provides counseling for mental health issues.",
+    "list10Bb" : "Clinical Psychologist Clinical psychologists within the Bangkok Dusit Medical Services (BDMS) network",
+    "list10Bc" : "Practicum clinical psychologists at Srithanya Hospital.",
+
+    "name11" : "Nannapas (Elm) Phiriyaanon",
+    "category11" : "Counselling Psychologist",
+    "list11A" : "Educational Background",
+    "list11B" : "Brief Work Experience",
+    "list11Aa" : "Bachelor of Arts (Philosophy), Silpakorn University",
+    "list11Ab" : "Master of Counselling, Monash University, Australia",
+    "list11Ba" : "Behavioural Health Coach at Intellect Co., Ltd.",
+    "list11Ba1" : "Offer onsite and online counselling service to clients with stress, anxiety, family, relationships and work-related issues",
+    "list11Bb" : "Counselling Psychologist at Me Hug and Doctor A to Z Co., Ltd.",
+    "list11Bb1" : "Offer onsite and online counselling service to clients with stress, anxiety, family, relationships and work-related issues",
+    "list11Bc" : "Youth Mentor at Raise Foundation, Australia",
+    "list11Bc1" : "Provided youths with mentoring sessions about wellbeing, encouraged youths to reflect on their lives and experiences, enhanced their confidence and find their strengths, and raised youths’ awareness about the importance of asking for help",
+
+    "name12" : "Ratanaphat Wongyunyong",
+    "category12" : "CBT Therapist & Counselor Psychologist",
+    "list12A" : "Educational Background",
+    "list12B" : "Brief Work Experience",
+    "list12C" : "Providing counseling and Cognitive Behavioral Therapy in teenagers aged 16 years and over, adults, and the elderly",
+    "list12Aa" : "PGDip - Psychological Intervention, Cognitive Behavioral Therapy (CBT), Department of Psychiatry, Faculty of Medicine, Chulalongkorn University",
+    "list12Ab" : "Master of Science Program in Counseling Psychology (Counselor, MS) , Department of Psychology, Faculty of Humanities, Chiang Mai University",
+    "list12Ba" : "CBT Therapist, Chulalongkorn Hospital (2020-Present)",
+    "list12Bb" : "Counselor Psychologist, Sharing For Life Foundation, Ladkrabang (2019-Present)",
+    "list12Bc" : "Counselor Psychologist, Assumption Convent School (2019-2021)",
+    "list12Bd" : "Counselor Psychologist, Saint Louis College (2021-2022)",
+    "list12Ca" : "Self-Compassion",
+    "list12Cb" : "Self-Esteem",
+    "list12Cc" : "Emotional Management (Depression, Anxiety, Stress and Anger)",
+    "list12Cd" : "Positive communication",
+    "list12Ce" : "Relationship Problem",
+    "list12Cf" : "Adjustment Social Skill, Coping with change",
+    "list12Cg" : "Coping with PTSD",
+    "list12Ch" : "Coping with burnout syndromes",
 
 
 
-    "name1" : "Wilawan (Pair) Boonkuekoonlawong",
+    "name13" : "Paphada (Vhan) Dithanat",
+    "category13" : "Psychologist",
+    "list13A" : "Educational Background",
+    "list13B" : "Brief Work Experience",
+    "list13Aa" : "Clinical Psychology Bachelor's Degree at Kasetsart University, Second class honors.",
+    "list13Ba" : "Clinical psychologist Trainee at Srithanya Hospital",
+    "list13Ba1" : "Psychodrama, Talk Therapy, Psychological test",
+    "list13Bb" : "Research Assistant at Division of Child and Adolescent Psychiatry, Siriraj Hospital",
+    "list13Bb1" : "Advice Parents about Positive Parent Management Training(PMT) to approach positive direction of children.",
+    "list13Bc" : "Clinical Psychologist Internship at Srinakarin Hospital",
+    "list13Bc1" : "Psychological test (Intelligence Tests, Personality Tests,Neuropsychological Tests)",
+    "list13Bc2" : "Individual Therapy (CBT, Satir model)",
+    "list13Bc3" : "Group Therapy (Supportive)",
+    "list13Bd" : "Psychologist of AIMET (Center of Excellence in AI for mental health), Faculty of Engineering, Chulalongkorn University X King Chulalongkorn Memorial Hospital",
+
+
+
+
+    "name1" : "Wilawan (Pear) Boonkuekoonlawong",
     "category1" : "Cognitive Behavioral Therapist",
     "list1A" : "Educational Background",
     "list1B" : "Brief Work Experience",
@@ -321,8 +624,8 @@
 
 
 
-    "name4" : "(english name will be provided later)",
-    "category4" : "Cognitive Behavioral Therapist",
+    "name4" : "Papitchaya (Prim) Kannaleka",
+    "category4" : "Dramatherapist",
     "list4A" : "Educational Background",
     "list4B" : "Brief Work Experience",
     "list4Aa" : "MA Drama and Movement Therapy, Royal Central School of Speech and Drama, London, UK",
@@ -375,7 +678,7 @@
 
 
     "name7" : "Sarut Komalittipong",
-    "category7" : "(specialist)",
+    "category7" : "Mindfulness Practitioner",
     "list7A" : "Educational Background",
     "list7B" : "Brief Work Experience",
     "list7Aa" : "BA in Dramatic Arts, Faculty of Arts, Chulalongkorn University",
@@ -386,7 +689,6 @@
     "list7Ba" : "Mindfulness Movement and Applied Yoga Exercise Instructor at Cognitive Fitness Center, Chulalongkorn Hospital",
     "list7Bb" : "Mindfulness Movement and Applied Yoga Exercise Instructor at Dementia Day Center, Chulalongkorn Hospital",
     "list7Bc" : "Lecturer on Empathetic Communication at Bangkok Dusit Medical Services (BDMS)",
-
 
 
 
