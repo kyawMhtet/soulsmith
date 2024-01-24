@@ -1,17 +1,11 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import "./css/section-a4.css";
+// import "./css/section-a1.css";
 import Footer from "../../components/Footer";
-import { Carousel } from "react-responsive-carousel";
+
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "react-accessible-accordion/dist/fancy-example.css";
-import {
-  Accordion,
-  AccordionItem,
-  AccordionItemButton,
-  AccordionItemHeading,
-  AccordionItemPanel,
-} from "react-accessible-accordion";
 import A4a from "../../assets/services/A4/A4a.jpg";
 import ten from "../../assets/services/A4/ten.jpg";
 import A4b from "../../assets/services/A4/A4b.jpg";
@@ -22,7 +16,8 @@ import A4d from "../../assets/services/A4/A4d.jpg";
 import thirteen from "../../assets/services/A4/13.jpg";
 
 const SectionA4 = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const isThaiLanguage = i18n.language === "th";
 
   return (
     <>
@@ -130,37 +125,58 @@ const SectionA4 = () => {
                 </li>
 
                 <li className="price">
-                  <p>
-                    <b>{t("A4aSession1")} </b>
-                    {t("A4aValue4")}
-                  </p>
+                  {isThaiLanguage ? (
+                    <p>
+                      <b>{t("A1aSession1")} </b>
+                      <small className="tprice14">
+                        <b> :</b>
+                      </small>
+                      <span className="" style={{ marginTop: "-1px" }}>
+                        {t("A4aValue4")}
+                      </span>
+                    </p>
+                  ) : (
+                    <p>
+                      <span>
+                        <b className="">{t("A2aSession1")} </b>
+                      </span>
+                      {/* <small className="me-5">
+                        <b>:</b>
+                      </small> */}
+                      <span className="">{t("A4aValue4")}</span>
+                    </p>
+                  )}
 
-                  <span className="">
+                  <span className="button">
                     <a
                       href="https://SOULSMITH.as.me/A4a"
                       target="_blank"
-                      className="tw-text-bone tw-bg-gold px-2 py-1 tw-rounded-md"
+                      className="tw-text-bone tw-bg-gold button-1 tw-rounded-md"
                     >
                       {t("Book Now")}
                     </a>
                   </span>
                 </li>
-                {/* <li className="price">
+
+                <li className="price">
                   <p>
-                    <b>{t("A3bSession2")} </b>
-                    {t("A3bValue5")}
+                    <span>
+                      <b>
+                        <b>{t("Package")} </b>
+                      </b>
+                    </span>
                   </p>
 
-                  <span className="">
+                  <span className="button">
                     <a
-                      href="https://app.acuityscheduling.com/catalog.php?owner=29978531&action=addCart&clear=1&id=1664808"
+                      href="https://app.acuityscheduling.com/catalog.php?owner=29978531&category=4.%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%94%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%88%E0%B8%B4%E0%B8%95%E0%B8%9A%E0%B8%B3%E0%B8%9A%E0%B8%B1%E0%B8%94%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%A7%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%A8%E0%B8%B4%E0%B8%A5%E0%B8%9B%E0%B8%B0+-+Arts+Psychotherapy"
+                      className="tw-text-bone tw-bg-gold button-1  tw-rounded-md"
                       target="_blank"
-                      className="tw-text-bone tw-bg-gold px-2 py-1 tw-rounded-md"
                     >
-                      {t("Book Now")}
+                      {t("BUY NOW")}
                     </a>
                   </span>
-                </li> */}
+                </li>
                 {/* <li className="price">
                   <p>
                     <b>{t("A3bSession3")} </b>
@@ -281,53 +297,103 @@ const SectionA4 = () => {
                 </li>
 
                 <li className="price">
-                  <p>
-                    <b>{t("A4a1Session1")} </b>
-                    {t("A4a1Value4")}
-                  </p>
+                  {isThaiLanguage ? (
+                    <p>
+                      <b>{t("A2aSession1")} </b>
+                      <small className="tprice14">
+                        <b> :</b>
+                      </small>
+                      <span className="" style={{ marginTop: "-1px" }}>
+                        {t("A4a1Value4")}
+                      </span>
+                    </p>
+                  ) : (
+                    <p>
+                      <span>
+                        <b>{t("A2aSession1")} </b>
+                      </span>
 
-                  <span className="">
+                      <span>{t("A4a1Value4")}</span>
+                    </p>
+                  )}
+
+                  <span className="button">
                     <a
                       href="https://SOULSMITH.as.me/A4a1"
                       target="_blank"
-                      className="tw-text-bone tw-bg-gold px-1 py-1 tw-rounded-md"
+                      className="tw-text-bone tw-bg-gold button-2  tw-rounded-md"
                     >
                       {t("Book Now")}
                     </a>
                   </span>
                 </li>
                 <li className="price">
-                  <p>
-                    <b>{t("A4a1Session2")} </b>
-                    {t("A4a1Value5")}
-                  </p>
+                  {isThaiLanguage ? (
+                    <p>
+                      <span>
+                        <b>{t("A2aSession2")}</b>
+                      </span>
+                      <small className="tprice12">
+                        <b>:</b>
+                      </small>
+                      <span className="">{t("A4a1Value5")}</span>
+                    </p>
+                  ) : (
+                    <p>
+                      <span>
+                        <b>{t("A1aSession2")}</b>
+                      </span>
+                      <small className="price12">
+                        <b> :</b>
+                      </small>
+                      <span className="">{t("A4a1Value5")}</span>
+                    </p>
+                  )}
 
-                  <span className="">
+                  <span className="button">
                     <a
-                      href="https://app.acuityscheduling.com/catalog.php?owner=29978531&action=addCart&clear=1&id=1628051 
-                      "
+                      href="https://app.acuityscheduling.com/catalog.php?owner=29978531&action=addCart&clear=1&id=1628051"
                       target="_blank"
-                      className="tw-text-bone tw-bg-gold px-2 py-1 tw-rounded-md"
+                      className="tw-text-bone tw-bg-gold button-2 tw-rounded-md"
                     >
-                      {/* {t("Book Now")} */}
-                      Buy Now
+                      {t("BUY NOW")}
                     </a>
                   </span>
                 </li>
                 <li className="price">
-                  <p>
-                    <b>{t("A4a1Session3")} </b>
-                    {t("A4a1Value6")}
-                  </p>
+                  {isThaiLanguage ? (
+                    <p>
+                      <span>
+                        <b>
+                          <b>{t("A1aSession3")}</b>
+                        </b>
+                      </span>
+                      <small className="tprice13">
+                        <b>:</b>
+                      </small>
+                      <span className="">{t("A3aValue6")}</span>
+                    </p>
+                  ) : (
+                    <p>
+                      <span>
+                        <b>
+                          <b>{t("A1aSession3")}</b>
+                        </b>
+                      </span>
+                      <small className="price13">
+                        <b>:</b>
+                      </small>
+                      <span className="">{t("A3aValue6")}</span>
+                    </p>
+                  )}
 
-                  <span className="">
+                  <span className="button">
                     <a
                       href="https://app.acuityscheduling.com/catalog.php?owner=29978531&action=addCart&clear=1&id=1628069"
                       target="_blank"
-                      className="tw-text-bone tw-bg-gold px-2 py-1 tw-rounded-md"
+                      className="tw-text-bone tw-bg-gold button-1 tw-rounded-md"
                     >
-                      {/* {t("Book Now")} */}
-                      Buy Now
+                      {t("BUY NOW")}
                     </a>
                   </span>
                 </li>
@@ -434,37 +500,58 @@ const SectionA4 = () => {
                 </li>
 
                 <li className="price">
-                  <p>
-                    <b>{t("A4aSession1")} </b>
-                    {t("A4aValue4")}
-                  </p>
+                  {isThaiLanguage ? (
+                    <p>
+                      <b>{t("A1aSession1")} </b>
+                      <small className="tprice14">
+                        <b> :</b>
+                      </small>
+                      <span className="" style={{ marginTop: "-1px" }}>
+                        {t("A4aValue4")}
+                      </span>
+                    </p>
+                  ) : (
+                    <p>
+                      <span>
+                        <b className="">{t("A2aSession1")} </b>
+                      </span>
+                      {/* <small className="me-5">
+                        <b>:</b>
+                      </small> */}
+                      <span className="">{t("A4aValue4")}</span>
+                    </p>
+                  )}
 
-                  <span className="">
+                  <span className="button">
                     <a
                       href="https://SOULSMITH.as.me/A4b"
                       target="_blank"
-                      className="tw-text-bone tw-bg-gold px-2 py-1 tw-rounded-md"
+                      className="tw-text-bone tw-bg-gold button-1 tw-rounded-md"
                     >
                       {t("Book Now")}
                     </a>
                   </span>
                 </li>
-                {/* <li className="price">
+
+                <li className="price">
                   <p>
-                    <b>{t("A3bSession2")} </b>
-                    {t("A3bValue5")}
+                    <span>
+                      <b>
+                        <b>{t("Package")} </b>
+                      </b>
+                    </span>
                   </p>
 
-                  <span className="">
+                  <span className="button">
                     <a
-                      href="https://app.acuityscheduling.com/catalog.php?owner=29978531&action=addCart&clear=1&id=1664808"
+                      href="https://app.acuityscheduling.com/catalog.php?owner=29978531&category=4.%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%94%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%88%E0%B8%B4%E0%B8%95%E0%B8%9A%E0%B8%B3%E0%B8%9A%E0%B8%B1%E0%B8%94%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%A7%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%A8%E0%B8%B4%E0%B8%A5%E0%B8%9B%E0%B8%B0+-+Arts+Psychotherapy"
+                      className="tw-text-bone tw-bg-gold button-1  tw-rounded-md"
                       target="_blank"
-                      className="tw-text-bone tw-bg-gold px-2 py-1 tw-rounded-md"
                     >
-                      {t("Book Now")}
+                      {t("BUY NOW")}
                     </a>
                   </span>
-                </li> */}
+                </li>
                 {/* <li className="price">
                   <p>
                     <b>{t("A3bSession3")} </b>
@@ -585,53 +672,103 @@ const SectionA4 = () => {
                 </li>
 
                 <li className="price">
-                  <p>
-                    <b>{t("A4a1Session1")} </b>
-                    {t("A4a1Value4")}
-                  </p>
+                  {isThaiLanguage ? (
+                    <p>
+                      <b>{t("A2aSession1")} </b>
+                      <small className="tprice14">
+                        <b> :</b>
+                      </small>
+                      <span className="" style={{ marginTop: "-1px" }}>
+                        {t("A4a1Value4")}
+                      </span>
+                    </p>
+                  ) : (
+                    <p>
+                      <span>
+                        <b>{t("A2aSession1")} </b>
+                      </span>
 
-                  <span className="">
+                      <span>{t("A4a1Value4")}</span>
+                    </p>
+                  )}
+
+                  <span className="button">
                     <a
                       href="https://SOULSMITH.as.me/A4b1"
                       target="_blank"
-                      className="tw-text-bone tw-bg-gold px-1 py-1 tw-rounded-md"
+                      className="tw-text-bone tw-bg-gold button-2  tw-rounded-md"
                     >
                       {t("Book Now")}
                     </a>
                   </span>
                 </li>
                 <li className="price">
-                  <p>
-                    <b>{t("A4a1Session2")} </b>
-                    {t("A4a1Value5")}
-                  </p>
+                  {isThaiLanguage ? (
+                    <p>
+                      <span>
+                        <b>{t("A2aSession2")}</b>
+                      </span>
+                      <small className="tprice12">
+                        <b>:</b>
+                      </small>
+                      <span className="">{t("A4a1Value5")}</span>
+                    </p>
+                  ) : (
+                    <p>
+                      <span>
+                        <b>{t("A1aSession2")}</b>
+                      </span>
+                      <small className="price12">
+                        <b>:</b>
+                      </small>
+                      <span className="">{t("A4a1Value5")}</span>
+                    </p>
+                  )}
 
-                  <span className="">
+                  <span className="button">
                     <a
-                      href="https://app.acuityscheduling.com/catalog.php?owner=29978531&action=addCart&clear=1&id=1628052 
-                      "
+                      href="https://app.acuityscheduling.com/catalog.php?owner=29978531&action=addCart&clear=1&id=1628052"
                       target="_blank"
-                      className="tw-text-bone tw-bg-gold px-2 py-1 tw-rounded-md"
+                      className="tw-text-bone tw-bg-gold button-2 tw-rounded-md"
                     >
-                      {/* {t("Book Now")} */}
-                      Buy Now
+                      {t("BUY NOW")}
                     </a>
                   </span>
                 </li>
                 <li className="price">
-                  <p>
-                    <b>{t("A4a1Session3")} </b>
-                    {t("A4a1Value6")}
-                  </p>
+                  {isThaiLanguage ? (
+                    <p>
+                      <span>
+                        <b>
+                          <b>{t("A1aSession3")}</b>
+                        </b>
+                      </span>
+                      <small className="tprice13">
+                        <b>:</b>
+                      </small>
+                      <span className="">{t("A4a1Value6")}</span>
+                    </p>
+                  ) : (
+                    <p>
+                      <span>
+                        <b>
+                          <b>{t("A1aSession3")}</b>
+                        </b>
+                      </span>
+                      <small className="price13">
+                        <b>:</b>
+                      </small>
+                      <span className="">{t("A4a1Value6")}</span>
+                    </p>
+                  )}
 
-                  <span className="">
+                  <span className="button">
                     <a
                       href="https://app.acuityscheduling.com/catalog.php?owner=29978531&action=addCart&clear=1&id=1628071"
                       target="_blank"
-                      className="tw-text-bone tw-bg-gold px-2 py-1 tw-rounded-md"
+                      className="tw-text-bone tw-bg-gold button-1 tw-rounded-md"
                     >
-                      {/* {t("Book Now")} */}
-                      Buy Now
+                      {t("BUY NOW")}
                     </a>
                   </span>
                 </li>
@@ -738,37 +875,58 @@ const SectionA4 = () => {
                 </li>
 
                 <li className="price">
-                  <p>
-                    <b>{t("A4aSession1")} </b>
-                    {t("A4aValue4")}
-                  </p>
+                  {isThaiLanguage ? (
+                    <p>
+                      <b>{t("A1aSession1")} </b>
+                      <small className="tprice14">
+                        <b> :</b>
+                      </small>
+                      <span className="" style={{ marginTop: "-1px" }}>
+                        {t("A4aValue4")}
+                      </span>
+                    </p>
+                  ) : (
+                    <p>
+                      <span>
+                        <b className="">{t("A2aSession1")} </b>
+                      </span>
+                      {/* <small className="price13">
+                        <b>:</b>
+                      </small> */}
+                      <span className="">{t("A4aValue4")}</span>
+                    </p>
+                  )}
 
-                  <span className="">
+                  <span className="button">
                     <a
                       href="https://SOULSMITH.as.me/A4c"
                       target="_blank"
-                      className="tw-text-bone tw-bg-gold px-2 py-1 tw-rounded-md"
+                      className="tw-text-bone tw-bg-gold button-1 tw-rounded-md"
                     >
                       {t("Book Now")}
                     </a>
                   </span>
                 </li>
-                {/* <li className="price">
+
+                <li className="price">
                   <p>
-                    <b>{t("A3bSession2")} </b>
-                    {t("A3bValue5")}
+                    <span>
+                      <b>
+                        <b>{t("Package")} </b>
+                      </b>
+                    </span>
                   </p>
 
-                  <span className="">
+                  <span className="button">
                     <a
-                      href="https://app.acuityscheduling.com/catalog.php?owner=29978531&action=addCart&clear=1&id=1664808"
+                      href="https://app.acuityscheduling.com/catalog.php?owner=29978531&category=4.%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%94%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%88%E0%B8%B4%E0%B8%95%E0%B8%9A%E0%B8%B3%E0%B8%9A%E0%B8%B1%E0%B8%94%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%A7%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%A8%E0%B8%B4%E0%B8%A5%E0%B8%9B%E0%B8%B0+-+Arts+Psychotherapy"
+                      className="tw-text-bone tw-bg-gold button-1  tw-rounded-md"
                       target="_blank"
-                      className="tw-text-bone tw-bg-gold px-2 py-1 tw-rounded-md"
                     >
-                      {t("Book Now")}
+                      {t("BUY NOW")}
                     </a>
                   </span>
-                </li> */}
+                </li>
                 {/* <li className="price">
                   <p>
                     <b>{t("A3bSession3")} </b>
@@ -797,7 +955,7 @@ const SectionA4 = () => {
             <img src={twelve} alt="" />
 
             <div className=" about w-100">
-              <h4 className="tw-text-bone mx-auto ms-md-4 px-2">{t("A4b1")}</h4>
+              <h4 className="tw-text-bone mx-auto ms-md-4 px-2">{t("A4c1")}</h4>
               <ul className="mt-4 ms-lg-3">
                 {/* <li className="tw-text-bone">
                   <svg
@@ -889,53 +1047,103 @@ const SectionA4 = () => {
                 </li>
 
                 <li className="price">
-                  <p>
-                    <b>{t("A4a1Session1")} </b>
-                    {t("A4a1Value4")}
-                  </p>
+                  {isThaiLanguage ? (
+                    <p>
+                      <b>{t("A2aSession1")} </b>
+                      <small className="tprice14">
+                        <b> :</b>
+                      </small>
+                      <span className="" style={{ marginTop: "-1px" }}>
+                        {t("A4a1Value4")}
+                      </span>
+                    </p>
+                  ) : (
+                    <p>
+                      <span>
+                        <b>{t("A2aSession1")} </b>
+                      </span>
 
-                  <span className="">
+                      <span>{t("A4a1Value4")}</span>
+                    </p>
+                  )}
+
+                  <span className="button">
                     <a
                       href="https://SOULSMITH.as.me/A4c1"
                       target="_blank"
-                      className="tw-text-bone tw-bg-gold px-1 py-1 tw-rounded-md"
+                      className="tw-text-bone tw-bg-gold button-2  tw-rounded-md"
                     >
                       {t("Book Now")}
                     </a>
                   </span>
                 </li>
                 <li className="price">
-                  <p>
-                    <b>{t("A4a1Session2")} </b>
-                    {t("A4a1Value5")}
-                  </p>
+                  {isThaiLanguage ? (
+                    <p>
+                      <span>
+                        <b>{t("A2aSession2")}</b>
+                      </span>
+                      <small className="tprice12">
+                        <b>:</b>
+                      </small>
+                      <span className="">{t("A4a1Value5")}</span>
+                    </p>
+                  ) : (
+                    <p>
+                      <span>
+                        <b>{t("A1aSession2")}</b>
+                      </span>
+                      <small className="price12">
+                        <b>:</b>
+                      </small>
+                      <span className="">{t("A4a1Value5")}</span>
+                    </p>
+                  )}
 
-                  <span className="">
+                  <span className="button">
                     <a
-                      href="https://app.acuityscheduling.com/catalog.php?owner=29978531&action=addCart&clear=1&id=1628054 
-                      "
+                      href="https://app.acuityscheduling.com/catalog.php?owner=29978531&action=addCart&clear=1&id=1628054"
                       target="_blank"
-                      className="tw-text-bone tw-bg-gold px-2 py-1 tw-rounded-md"
+                      className="tw-text-bone tw-bg-gold button-2 tw-rounded-md"
                     >
-                      {/* {t("Book Now")} */}
-                      Buy Now
+                      {t("BUY NOW")}
                     </a>
                   </span>
                 </li>
                 <li className="price">
-                  <p>
-                    <b>{t("A4a1Session3")} </b>
-                    {t("A4a1Value6")}
-                  </p>
+                  {isThaiLanguage ? (
+                    <p>
+                      <span>
+                        <b>
+                          <b>{t("A1aSession3")}</b>
+                        </b>
+                      </span>
+                      <small className="tprice13">
+                        <b>:</b>
+                      </small>
+                      <span className="">{t("A4a1Value6")}</span>
+                    </p>
+                  ) : (
+                    <p>
+                      <span>
+                        <b>
+                          <b>{t("A1aSession3")}</b>
+                        </b>
+                      </span>
+                      <small className="price13">
+                        <b>:</b>
+                      </small>
+                      <span className="">{t("A4a1Value6")}</span>
+                    </p>
+                  )}
 
-                  <span className="">
+                  <span className="button">
                     <a
                       href="https://app.acuityscheduling.com/catalog.php?owner=29978531&action=addCart&clear=1&id=1628072"
                       target="_blank"
-                      className="tw-text-bone tw-bg-gold px-2 py-1 tw-rounded-md"
+                      className="tw-text-bone tw-bg-gold button-1 tw-rounded-md"
                     >
-                      {/* {t("Book Now")} */}
-                      Buy Now
+                      {t("BUY NOW")}
                     </a>
                   </span>
                 </li>
@@ -1042,37 +1250,58 @@ const SectionA4 = () => {
                 </li>
 
                 <li className="price">
-                  <p>
-                    <b>{t("A4dSession1")} </b>
-                    {t("A4dValue4")}
-                  </p>
+                  {isThaiLanguage ? (
+                    <p>
+                      <b>{t("A1aSession1")} </b>
+                      <small className="tprice14">
+                        <b> :</b>
+                      </small>
+                      <span className="" style={{ marginTop: "-1px" }}>
+                        {t("A4dValue4")}
+                      </span>
+                    </p>
+                  ) : (
+                    <p>
+                      <span>
+                        <b className="">{t("A2aSession1")} </b>
+                      </span>
+                      {/* <small className="me-5">
+                        <b>:</b>
+                      </small> */}
+                      <span className="">{t("A4dValue4")}</span>
+                    </p>
+                  )}
 
-                  <span className="">
+                  <span className="button">
                     <a
                       href="https://SOULSMITH.as.me/A4d"
                       target="_blank"
-                      className="tw-text-bone tw-bg-gold px-2 py-1 tw-rounded-md"
+                      className="tw-text-bone tw-bg-gold button-1 tw-rounded-md"
                     >
                       {t("Book Now")}
                     </a>
                   </span>
                 </li>
-                {/* <li className="price">
+
+                <li className="price">
                   <p>
-                    <b>{t("A3bSession2")} </b>
-                    {t("A3bValue5")}
+                    <span>
+                      <b>
+                        <b>{t("Package")} </b>
+                      </b>
+                    </span>
                   </p>
 
-                  <span className="">
+                  <span className="button">
                     <a
-                      href="https://app.acuityscheduling.com/catalog.php?owner=29978531&action=addCart&clear=1&id=1664808"
+                      href="https://app.acuityscheduling.com/catalog.php?owner=29978531&category=4.%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%94%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%88%E0%B8%B4%E0%B8%95%E0%B8%9A%E0%B8%B3%E0%B8%9A%E0%B8%B1%E0%B8%94%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%A7%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%A8%E0%B8%B4%E0%B8%A5%E0%B8%9B%E0%B8%B0+-+Arts+Psychotherapy"
+                      className="tw-text-bone tw-bg-gold button-1  tw-rounded-md"
                       target="_blank"
-                      className="tw-text-bone tw-bg-gold px-2 py-1 tw-rounded-md"
                     >
-                      {t("Book Now")}
+                      {t("BUY NOW")}
                     </a>
                   </span>
-                </li> */}
+                </li>
                 {/* <li className="price">
                   <p>
                     <b>{t("A3bSession3")} </b>
@@ -1100,7 +1329,7 @@ const SectionA4 = () => {
             <img src={thirteen} alt="" />
 
             <div className=" about w-100">
-              <h4 className="tw-text-bone mx-auto ms-md-4 px-2">{t("A4b1")}</h4>
+              <h4 className="tw-text-bone mx-auto ms-md-4 px-2">{t("A4d1")}</h4>
               <ul className="mt-4 ms-lg-3">
                 {/* <li className="tw-text-bone">
                   <svg
@@ -1192,53 +1421,102 @@ const SectionA4 = () => {
                 </li>
 
                 <li className="price">
-                  <p>
-                    <b>{t("A4d1Session1")} </b>
-                    {t("A4d1Value4")}
-                  </p>
+                  {isThaiLanguage ? (
+                    <p>
+                      <b>{t("A2aSession1")} </b>
+                      <small className="tprice14">
+                        <b> :</b>
+                      </small>
+                      <span className="" style={{ marginTop: "-1px" }}>
+                        {t("A4d1Value4")}
+                      </span>
+                    </p>
+                  ) : (
+                    <p>
+                      <span>
+                        <b>{t("A2aSession1")} </b>
+                      </span>
 
-                  <span className="">
+                      <span>{t("A4d1Value4")}</span>
+                    </p>
+                  )}
+
+                  <span className="button">
                     <a
                       href="https://SOULSMITH.as.me/A4d1"
                       target="_blank"
-                      className="tw-text-bone tw-bg-gold px-1 py-1 tw-rounded-md"
+                      className="tw-text-bone tw-bg-gold button-2  tw-rounded-md"
                     >
                       {t("Book Now")}
                     </a>
                   </span>
                 </li>
                 <li className="price">
-                  <p>
-                    <b>{t("A4d1Session2")} </b>
-                    {t("A4d1Value5")}
-                  </p>
+                  {isThaiLanguage ? (
+                    <p>
+                      <span>
+                        <b>{t("A2aSession2")}</b>
+                      </span>
+                      <small className="tprice12">
+                        <b>:</b>
+                      </small>
+                      <span className="">{t("A4d1Value5")}</span>
+                    </p>
+                  ) : (
+                    <p>
+                      <span>
+                        <b>{t("A1aSession2")}</b>
+                      </span>
+                      <small className="price12">
+                        <b>:</b>
+                      </small>
+                      <span className="">{t("A4d1Value5")}</span>
+                    </p>
+                  )}
 
-                  <span className="">
+                  <span className="button">
                     <a
-                      href="https://app.acuityscheduling.com/catalog.php?owner=29978531&action=addCart&clear=1&id=1628055 
-                      "
+                      href="https://app.acuityscheduling.com/catalog.php?owner=29978531&action=addCart&clear=1&id=1628055"
                       target="_blank"
-                      className="tw-text-bone tw-bg-gold px-2 py-1 tw-rounded-md"
+                      className="tw-text-bone tw-bg-gold button-2 tw-rounded-md"
                     >
-                      {/* {t("Book Now")} */}
-                      Buy Now
+                      {t("BUY NOW")}
                     </a>
                   </span>
                 </li>
                 <li className="price">
-                  <p>
-                    <b>{t("A4d1Session3")} </b>
-                    {t("A4d1Value6")}
-                  </p>
-
-                  <span className="">
+                  {isThaiLanguage ? (
+                    <p>
+                      <span>
+                        <b>
+                          <b>{t("A1aSession3")}</b>
+                        </b>
+                      </span>
+                      <small className="tprice13">
+                        <b>:</b>
+                      </small>
+                      <span className="">{t("A4d1Value6")}</span>
+                    </p>
+                  ) : (
+                    <p>
+                      <span>
+                        <b>
+                          <b>{t("A1aSession3")}</b>
+                        </b>
+                      </span>
+                      <small className="price13">
+                        <b>:</b>
+                      </small>
+                      <span className="">{t("A4d1Value6")}</span>
+                    </p>
+                  )}
+                  <span className="button">
                     <a
                       href="https://app.acuityscheduling.com/catalog.php?owner=29978531&action=addCart&clear=1&id=1628073"
                       target="_blank"
-                      className="tw-text-bone tw-bg-gold px-2 py-1 tw-rounded-md"
+                      className="tw-text-bone tw-bg-gold button-1  tw-rounded-md"
                     >
-                      {/* {t("Book Now")} */}
-                      Buy Now
+                      {t("BUY NOW")}
                     </a>
                   </span>
                 </li>

@@ -1,0 +1,129 @@
+.about .price p .price17 {
+    margin-right: 9.2rem;
+}
+
+.about .price p .price18 {
+    margin-right: 7.6rem;
+}
+
+.about .price p .tprice19 {
+    margin-right: 65px;
+}
+
+.about .price p .tprice17{
+    margin-right: 65px;
+}
+
+.about .price p .tprice18 {
+    margin-right: 42px;
+}
+
+@media(max-width: 992px) {
+    .about .price p .price17 {
+      margin-right: 86px;
+    }
+  
+    .about .price p .price18 {
+      margin-right: 62px;
+    }
+
+    .about .price p .tprice19 {
+        margin-right: 55px;
+    }
+
+    .about .price p .tprice17 {
+        margin-right: 55px;
+        /* margin-top: 10px; */
+      }
+    
+      .about .price p .tprice18 {
+        margin-right: 30px;
+        /* margin-top: 10px; */
+      }
+  
+  }
+
+
+
+  @media(max-width: 768px) {
+    .about .price p .price17 {
+      margin-right: 57px;
+  
+    }
+  
+    .about .price p .price18 {
+      margin-right: 33px;
+    }
+
+
+    .about .price p .tprice19 {
+        margin-right: 50px;
+    }
+
+    .about .price p .tprice17 {
+        margin-right: 50px;
+        /* margin-top: 10px; */
+      }
+    
+      .about .price p .tprice18 {
+        margin-right: 37px;
+        /* margin-top: 10px; */
+      }
+  }
+
+
+@media(max-width: 576px) {
+    .about .price p .price17 {
+      margin-right: 33px;
+      margin-top: 10px;
+    }
+  
+    .about .price p .price18 {
+      margin-right: 10px;
+      margin-top: 10px;
+    }
+
+    .about .price p .tprice19 {
+        margin-right: 27px;
+        /* margin-top: 10px; */
+      }
+
+
+    .about .price p .tprice17 {
+        margin-right: 27px;
+        margin-top: 10px;
+      }
+    
+      .about .price p .tprice18 {
+        margin-right: 15px;
+        margin-top: 10px;
+      }
+  }
+
+
+  @media(max-width: 376px){
+    .about .price p .price17 {
+      margin-right: 37px;
+    }
+  
+    .about .price p .price18 {
+      margin-right: 14px;
+    }
+
+    .about .price p .tprice19 {
+        margin-right: 30px;
+    }
+
+    .about .price p .tprice17 {
+        margin-right:30px;
+        margin-top: 10px;
+      }
+    
+      .about .price p .tprice18 {
+        margin-right: 18px;
+        margin-top: 10px;
+      }
+  }
+
+
+

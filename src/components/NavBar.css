@@ -110,6 +110,14 @@ a {
   height: 100px;
 }
 
+.phone {
+  margin-left: 140px;
+}
+
+.email {
+  margin-left: 100px;
+}
+
 .dropdown-content a:hover {background-color: #ddd;}
 
 .dropdown:hover .dropdown-content {display: block;}
@@ -127,7 +135,17 @@ a {
   
 } */
 
+@media (max-width: 1025px)
+{
+  .phone {
+    margin-left: 0px;
+  }
 
+  .email {
+    margin-left: 50px;
+  }
+  
+}
 
 
 

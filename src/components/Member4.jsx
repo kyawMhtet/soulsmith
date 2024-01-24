@@ -13,6 +13,7 @@ const Member4 = () => {
 
   useEffect(() => {
     Aos.init();
+    window.scrollTo(0, 0);
   }, []);
 
   return (

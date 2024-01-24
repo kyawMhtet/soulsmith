@@ -18,8 +18,6 @@ import home10 from "../assets/home/home10.jpg";
 import sectionA from "../assets/services/sectionA.jpg";
 import sectionB from "../assets/services/sectionB.jpg";
 import sectionC from "../assets/services/sectionC.jpg";
-
-import Person1 from "../assets/person1.png";
 import member1 from "../assets/team/member1.png";
 import member3 from "../assets/team/member3.png";
 import member2 from "../assets/team/member2.png";
@@ -37,19 +35,22 @@ import Footer from "../components/Footer";
 import Element1 from "../assets/Element1.png";
 import Element2 from "../assets/Element2.png";
 import Element3 from "../assets/Element3.png";
-import icon4 from "../assets/Icon-4.png";
-import icon5 from "../assets/Icon-5.png";
-import icon6 from "../assets/Icon-6.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./home.css";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const HomePage = () => {
   useEffect(() => {
     Aos.init();
   }, []);
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: smooth,
+    });
+  };
   const { t } = useTranslation();
 
   return (
@@ -72,44 +73,46 @@ const HomePage = () => {
           id="carouselExampleFade"
           className="carousel slide carousel-home carousel-fade order-1 order-lg-2"
           data-bs-ride="carousel"
-          data-bs-interval="3000" // Adjust the interval (in milliseconds) as needed
         >
           <div className="carousel-inner ">
-            <div className="carousel-item home active">
+            <div className="carousel-item home active" data-bs-interval="2500">
               <img src={home1} alt="Slide 1" className="rounded-3" />
             </div>
-            <div className="carousel-item  home slide-2">
+            <div
+              className="carousel-item  home slide-2"
+              data-bs-interval="2500"
+            >
               <img src={home2} className="rounded-3" alt="Slide 2" />
             </div>
-            <div className="carousel-item home">
+            <div className="carousel-item home" data-bs-interval="2500">
               <img src={home3} className="rounded-3" alt="Slide 3" />
             </div>
 
-            <div className="carousel-item home">
+            <div className="carousel-item home" data-bs-interval="2500">
               <img src={home4} className="rounded-3" alt="Slide 3" />
             </div>
 
-            <div className="carousel-item home">
+            <div className="carousel-item home" data-bs-interval="2500">
               <img src={home5} className="rounded-3" alt="Slide 3" />
             </div>
 
-            <div className="carousel-item home">
+            <div className="carousel-item home" data-bs-interval="2500">
               <img src={home6} className="rounded-3" alt="Slide 3" />
             </div>
 
-            <div className="carousel-item home">
+            <div className="carousel-item home" data-bs-interval="2500">
               <img src={home7} className="rounded-3" alt="Slide 3" />
             </div>
 
-            <div className="carousel-item home">
+            <div className="carousel-item home" data-bs-interval="2500">
               <img src={home8} className="rounded-3" alt="Slide 3" />
             </div>
 
-            <div className="carousel-item home">
+            <div className="carousel-item home" data-bs-interval="2500">
               <img src={home9} className="rounded-3" alt="Slide 3" />
             </div>
 
-            <div className="carousel-item home">
+            <div className="carousel-item home" data-bs-interval="2500">
               <img src={home10} className="rounded-3" alt="Slide 3" />
             </div>
           </div>

@@ -63,7 +63,7 @@
 .about {
   margin-top: 20px;
   width: 100%;
-  /* background-color: red; */
+
 }
   }
   
@@ -159,10 +159,10 @@
       margin: auto;
     }
   
-    .about .bi-terminal, .bi-translate{
+    /* .about .bi-terminal, .bi-translate{
       width: 40px;
       height: 40px;
-    }
+    } */
   
     .about .bi-cash-stack {
       width: 55px;
@@ -172,7 +172,7 @@
     }
   
     .about .price p {
-      width: 55%;
+      /* width: 55%; */
       margin: auto;
       color: #E8E5D7;
       /* background-color: red; */

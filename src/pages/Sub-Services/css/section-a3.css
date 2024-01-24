@@ -1,232 +1,108 @@
-
-.accordion-btn {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 15px;
-  /* border: 1px solid #E8E5D7; */
-  
-}
-
-.accordion-btn:hover {
-  border: 1px solid #E8E5D7;
-
-}
-
-.accordion-content {
-  width: 90%;
-  display: flex;
-  justify-content: space-around;
-  padding: 25px;
-  background-color: #6C757D;
-}
-
-.accordion-content h5 {
-  width: 50%;
-  margin-inline: auto;
-}
-
-.accordion-content img {
-  width: 25%;
-}
-
-.accordion-content a {
-  background-color: #C4A962;
-  transition: all 0.5s;
-}
-
-.accordion-content a:hover {
-  background-color: #2D3738;
-}
-
-.a3 {
-    display: flex;
-    margin-top: 50px;
-    padding: 30px;
-    /* background-color: red; */
-    /* justify-content: space-between; */
-}
-
-.a3 img {
-  width: 40%;
-  height: 100%;
-}
-
-.about {
-  width: 100%;
-  /* background-color: red; */
-}
-
-.react-carousel {
-  width: 75%;
-}
-
-.a3 .button {
-  list-style-type: none;
-}
-
-.a3 .button button {
-  transition: all 0.3s;
-}
-
-.a3 .button button:hover {
-  background-color: #E8E5D7;
-  color: #C4A962;
-}
-
-.a3 ul {
-
-  list-style-type: disc;
-
-}
-
-@media (max-width: 992px) {
-  .a3 {
-    display: block;
-    margin-top: 50px;
-    padding: 30px;
-    /* background-color: red; */
-    /* justify-content: space-between; */
-}
-
-.a3 .about {
-    margin-top: 15px;
-    
-}
-
-.a3 img {
-  width: 90%;
-  margin: auto;
-}
-
-.about {
-  margin-top: 20px;
-
-  width: 100%;
-  /* background-color: red; */
+.about .price p .price10 {
+    margin-right: 8.4rem;
 }
 
 
-.accordion-content {
-  width: 100%;
-  display: block;
-  padding: 25px;
+.about .price p .price11 {
+    margin-right: 7.6rem;
 }
 
 
-.accordion-content img {
-  width: 80%;
-  margin: auto;
-  margin-bottom: 15px;
-}
-
-.accordion-content div {
-    margin-top: 20px;
-}
-
-.accordion-content h5 {
-  width: 100%;
-  margin-inline: auto;
-}
-
-.accordion-btn button {
-  margin: 0px 0px 15px 10px;
-  
-}
-
-
-  }
-  
-
-
-
-  @media (max-width: 992px) {
-    .react-carousel {
-      width: 100%;
+@media(max-width: 992px)
+{
+    .about .price p .tprice9 {
+        margin-right: 25px;
     }
 
-    .a3 {
-      display: block;
-      margin-top: 50px;
-      padding: 30px;
-    }
-  
-    .a3 img {
-      margin: auto;
-      width: 90%;
-    }
-  }
-
- 
-  @media (max-width: 576px) {
-
-    .a3 {
-        
-        display: block;
-    /* margin-top: 50px; */
-
-
-
+    .about .price p .tprice10 {
+        margin-right: 43px;
     }
 
-    .a3 .about {
-        margin-top: 15px;
-
-        
+    .about .price p .price10 {
+        margin-right: 73px;
     }
 
-    .a3 img {
-      width: 100%;
+    .about .price p .tprice11 {
+        margin-right: 30px;
+    }
+
+    .about .price p .price11 {
+        margin-right: 63px;
+    }
+}
+
+@media(max-width: 768px)
+{
+    .about .price p .tprice9 {
+        margin-right: 25px;
+    }
+
+    .about .price p .tprice10 {
+        margin-right: 37px;
+    }
+
+    .about .price p .price10 {
+        margin-right: 45px;
+    }
+
+    .about .price p .tprice11 {
+        margin-right: 37px;
+    }
+
+    .about .price p .price11 {
+        margin-right: 33px;
+    }
+}
+
+
+@media(max-width: 576px)
+{
+    .bi-person-check {
+        width: 75px;
+        height: 75px;
+        margin-top: -25px;
+        /* margin-left: -5=2px; */
+    }
+
+    .about .price p .price10 {
+        margin-right: 22px;
+        margin-top: 10px;
+        /* background-color: red; */
     }
     
-    .about {
-      width: 60%;
-      /* background-color: red; */
-    }
-
-    .react-carousel {
-      width: 100%;
-    }
-
-    /* .accordion-btn {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px;
-    } */
-
-
-    .accordion-content {
-      width: 100%;
-      display: block;
-      padding: 25px;
-  align-items: center;
-
-    }
-
-
-    .accordion-content img {
-      width: 100%;
-      margin-bottom: 15px;
-    }
-
-    .accordion-content div {
-        margin-top: 20px;
-    }
-
-    .accordion-content h5 {
-      width: 100%;
-      margin-inline: auto;
-    }
-
-    .bi-translate {
-      width: 20px;
-      height: 20px;
-    }
-
-    .bi-clock {
-      width: 20px;
-      height: 20px;
+    
+    .about .price p .price11 {
+        margin-right: 10px;
+        margin-top: 9px;
     }
     
-  }
+    .about .price p .tprice9 {
+        margin-right: 25px;
+    }
+
+    .about .price p .tprice10 {
+        margin-right: 16px;
+        margin-top: 9.5px;
+    }
+
+    .about .price p .tprice11 {
+        margin-right: 15px;
+        margin-top: 9.5px;
+    }
+
+
+}
+
+
+@media (max-width: 376px){
+
+
+    .about .price p .price10 {
+        margin-right: 25px;
+    }
+
+    .about .price p .price11 {
+        margin-right: 13px;
+        /* background-color: red; */
+    }
+}

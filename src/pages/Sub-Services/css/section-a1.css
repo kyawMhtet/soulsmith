@@ -1,11 +1,13 @@
-
-.a1{
+.a1 {
   display: flex;
   margin-top: 30px;
   padding: 30px;
 }
+html {
+  scroll-behavior: smooth;
+}
 
-.a1a1{
+.a1a1 {
   display: flex;
   margin-top: 15px;
   justify-content: space-between;
@@ -18,7 +20,6 @@
 
 .a1a1 img {
   width: 40%;
-
 }
 
 .a1a1 .button1 {
@@ -26,33 +27,99 @@
   margin-top: 40px;
 }
 
+.button-1,
+.button-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  width: 120px;
+  height: 35px;
+}
+
+.button-1,
+.button-2 {
+  background-color: #c4a962; /* Set the background color for the BOOK NOW button */
+  color: #e8e5d7;
+}
 
 /* .button {
 margin-left: 100px;
   margin-top: 100px;
 } */
 
-
 .about {
-
   /* margin-top: 20px; */
   width: 100%;
   /* padding: 0; */
 }
 
-
-
 .about .price {
   /* padding: 5px 0; */
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  margin-left: 80px;
+  margin: 5px 0px;
 }
 
+.about .price .button {
+  margin-left: 20px;
+}
+
+.about .price p small {
+  margin-top: 3px;
+  margin-right: 20px;
+
+  font: bolder;
+  color: #e8e5d7;
+}
+
+/* .about .price p b {
+  background-color: red;
+  width: 50%;
+} */
+
 .about .price p {
-  width: 70%;
-  margin-left: 50px;
-  color: #E8E5D7;
+  display: flex;
+  justify-content: space-between;
+  width: 65%;
+  /* margin-left: 30px; */
+  color: #e8e5d7;
   /* background-color: red; */
+}
+
+.about .price p .price1 {
+  margin-right: 9rem;
+}
+
+.about .price p .price2 {
+  margin-right: 8.4rem;
+}
+
+.about .price p .price3 {
+  margin-right: 7.5rem;
+}
+
+.about .price p .price5 {
+  margin-right: 65px;
+}
+
+.about .price p .price6 {
+  margin-right: 65px;
+}
+
+.about .price p .price7 {
+  margin-right: 42px;
+}
+
+.about .price p .price8 {
+  margin-right: 40px;
+}
+
+.about .price p .price9 {
+  margin-right: 55px;
 }
 
 .about li {
@@ -64,31 +131,16 @@ margin-left: 100px;
 
 .about li p {
   margin-left: 25px;
- 
 }
-
-
-
-.react-carousel {
-  width: 75%;
-}
-
-/* .button1 {
-  margin-top: 200px;
-  margin-left: 15px;
-} */
-
 
 .a1 .button button {
-transition: all 0.3s;
+  transition: all 0.3s;
 }
-
 
 .a1 .button button:hover {
-background-color: #E8E5D7;
-color: #C4A962;
+  background-color: #e8e5d7;
+  color: #c4a962;
 }
-
 
 .a1b {
   display: flex;
@@ -99,36 +151,33 @@ color: #C4A962;
   width: 38rem;
 }
 
-@media (max-width: 992px) {
-.a1 {
-      
-  display: inline-block;
+/* @media (max-width: 992px) {
+  .a1 {
+    display: inline-block;
+  }
 
-}
+  .a1 .about {
+    margin-top: 15px;
+  }
 
-.a1 .about {
-  margin-top: 15px;
-  
-}
+  .a1 img {
+    width: 40%;
+    height: 100%;
+  }
 
-.a1 img {
-  width: 40%;
-  height: 100%;
+  .about {
+    width: 100%;
+  }
 
-}
-
-.about {
-  width: 100%;
-  /* background-color: red; */
-}
-
-}
+  .about .price p .price4 {
+    margin-right: 25px;
+  }
+} */
 
 @media (max-width: 992px) {
   .react-carousel {
     width: 100%;
   }
-  
 
   .a1 {
     display: block;
@@ -140,15 +189,52 @@ color: #C4A962;
     margin: auto;
     width: 90%;
   }
-  
 
+  .about .price p .price1 {
+    /* margin-top: 5px; */
+    margin-right: 85px;
+  }
+
+  .about .price p .price3 {
+    /* margin-top: 9.5px; */
+    margin-right: 62px;
+  }
+
+  .about .price p .price5 {
+    /* margin-top: 9.5px; */
+    margin-right: 55px;
+  }
+
+  .about .price p .price4 {
+    margin-right: 75px;
+    /* background-color: red; */
+  }
+
+  .about .price p .price6 {
+    /* margin-top: 9.5px; */
+    margin-right: 55px;
+  }
+
+  .about .price p .price7 {
+    margin-top: 2px;
+    margin-right: 30px;
+  }
+
+  .about .price p .price9 {
+    margin-right: 43px;
+  }
 }
 
 @media (max-width: 768px) {
+
+  .about {
+    margin-top: 25px;
+  }
+
   .a1 img {
     width: 100%;
   }
-  
+
   .a1b {
     display: block;
   }
@@ -162,25 +248,71 @@ color: #C4A962;
     /* padding-bottom: 20px; */
   }
 
+  .about .price p {
+    /* display: flex; */
+    /* justify-content: space-around; */
+    width: 60%;
+  }
+
   .about .price li span {
     margin-top: 5px;
   }
 
-}
-
-
-@media (max-width: 576px) {
-
-  .a1 {
-      
-      display: block;
-      /* padding: 2px 10px; */
+  .about .price p small {
+    margin-top: 3.5px;
+    margin-right: 30px;
+    font: bolder;
+    color: #e8e5d7;
   }
 
+  .about .price p .price1 {
+    /* margin-top: 5px; */
+    margin-right: 55px;
+  }
+
+  
+
+  .about .price p .price3 {
+    /* margin-top: 9.5px; */
+    margin-right: 32px;
+  }
+
+  .about .price p .price4 {
+    margin-right: 45px;
+  }
+  
+  .about .price p .price9 {
+    margin-right: 55px;
+  }
+
+  .about .price p .price5 {
+    /* margin-top: 9.5px; */
+    margin-right: 50px;
+  }
+
+  .about .price p .price6 {
+    /* margin-top: 9.5px; */
+    margin-right: 50px;
+  }
+
+  .about .price p .price7 {
+    /* margin-top: 9.5px; */
+    margin-right: 37px;
+  }
+  
+  .about .price p .price9 {
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .a1 {
+    display: block;
+    /* padding: 2px 10px; */
+  }
 
   .a1 .about {
-      margin-top: 15px;
-      
+    margin-top: 15px;
   }
 
   .a1 img {
@@ -190,16 +322,14 @@ color: #C4A962;
   .a1a1 img {
     width: 100%;
   }
-  
+
   .about {
     width: 100%;
-    /* background-color: red; */
   }
 
   .react-carousel {
     width: 100%;
   }
-
 
   .a1b {
     display: block;
@@ -219,42 +349,198 @@ color: #C4A962;
     text-align: center;
     margin-right: 50px;
   }
-  
+
   /* .button1 {
     text-align: center;
     margin-top: 25px;
   }
    */
 
-   .about li {
+  .about li {
     display: flex;
     padding-top: 5px;
     margin: auto;
   }
 
-  .about .bi-terminal, .bi-translate{
+  .about .bi-translate {
+    width: 20px;
+    height: 20px;
+  }
+
+  .about .bi-clock {
+    margin-left: -5px;
+  }
+
+  .about .bi-terminal {
     width: 40px;
     height: 40px;
+    margin-left: -3px;
   }
 
   .about .bi-cash-stack {
     width: 55px;
+
     /* height: 55px; */
     margin-left: -10px;
-    
+  }
+
+  .about .price p small {
+    margin-top: 2px;
+    font: bolder;
+    color: #e8e5d7;
+  }
+
+  .about .price p .price1 {
+    margin-top: 9.5px;
+    margin-right: 35px;
+  }
+
+  .about .price p .price2 {
+    margin-top: 10px;
+    margin-right: 24px;
+  }
+
+  .about .price p .price3 {
+    margin-top: 10px;
+
+    margin-right: 10px;
+  }
+
+  .about .price p .price4 {
+    margin-top: 10px;
+    margin-right: 22px;
+  }
+
+  .about .price p .price5 {
+    margin-right: 25px;
+  }
+
+  .about .price p .price6 {
+    margin-right: 25px;
+    margin-top: 10px;
+  }
+
+  .about .price p .price7 {
+    margin-right: 13px;
+    margin-top: 10px;
+  }
+
+  .about .price p .price8 {
+    margin-right: 40px;
+  }
+  
+  .about .price p .price9 {
+    margin-right: 25px;
+    margin-top: 9px;
+  }
+
+
+
+
+  .about .price {
+
+    /* display: inline-block; */
+    width: 20rem;
+    margin-left: -55px;
   }
 
   .about .price p {
-    width: 55%;
-    margin: auto;
-    color: #E8E5D7;
     /* background-color: red; */
+    
+    
+    /* justify-content: space-between; */
+    width: 75%;
+
+    color: #e8e5d7;
   }
 
+  /* .about .price {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px;
+  } */
+
+  .about .price .button {
+    margin: 15px auto;
+  }
+
+  .button-1,
+  .button-2 {
+    width: 4rem;
+    margin-left: 10px;
+    margin-top: -12px;
+    padding: 25px 5px;
+  }
 
   .about .price span {
     margin-top: 8px;
     /* width: 40%; */
   }
 
+  .session1 {
+    margin-right: 27px !important;
+  }
+}
+
+
+@media(max-width: 476px){
+  .about .price {
+
+    /* display: inline-block; */
+    width: 20rem;
+    margin-left: -36px;
+  }
+}
+
+
+
+@media(max-width: 376px) {
+  .about .price p {
+    /* background-color: red; */
+    
+    
+    /* justify-content: space-between; */
+    width: 70%;
+    margin: auto;
+    color: #e8e5d7;
+  }
+
+  .button-1,
+  .button-2 {
+    width: 4rem;
+    margin-left: 10px;
+    margin-top: -12px;
+    padding: 25px 5px;
+  }
+
+  .about .price p .price1 {
+    margin-top: 10px;
+    margin-right: 37px;
+  }
+
+  .about .price p .price3 {
+    margin-top: 10px;
+
+    margin-right: 15px;
+  }
+  .about .price {
+
+    width: 20rem;
+    margin-left: -45px;
+  }
+
+
+  /* .about .price p .price5 {
+    margin-right: 25px;
+  }
+
+  .about .price p .price6 {
+    margin-right: 25px;
+    margin-top: 10px;
+  }
+
+  .about .price p .price7 {
+    margin-right: 13px;
+    margin-top: 10px;
+  } */
 }
