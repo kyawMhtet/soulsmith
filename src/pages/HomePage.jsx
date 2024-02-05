@@ -56,17 +56,85 @@ const HomePage = () => {
   return (
     <>
       <div className="main">
+        {/* <div className=" main-content order-2 order-lg-1">
+          <h1 className="tw-text-gold">
+            <b>SOULSMITH</b>
+          </h1>
+          <p className="tw-text-bone mt-3">{t("About SOULSMITH")}</p>
+        </div>
+
+        <div
+          id="carouselExampleFade"
+          className="carousel slide carousel-home carousel-fade order-1 order-lg-2"
+          data-bs-ride="carousel"
+        >
+          <div className="carousel-inner ">
+            <div className="carousel-item home active" data-bs-interval="2500">
+              <img src={home1} alt="Slide 1" className="rounded-3" />
+            </div>
+            <div
+              className="carousel-item  home slide-2"
+              data-bs-interval="2500"
+            >
+              <img src={home2} className="rounded-3" alt="Slide 2" />
+            </div>
+            <div className="carousel-item home" data-bs-interval="2500">
+              <img src={home3} className="rounded-3" alt="Slide 3" />
+            </div>
+
+            <div className="carousel-item home" data-bs-interval="2500">
+              <img src={home4} className="rounded-3" alt="Slide 3" />
+            </div>
+
+            <div className="carousel-item home" data-bs-interval="2500">
+              <img src={home5} className="rounded-3" alt="Slide 3" />
+            </div>
+
+            <div className="carousel-item home" data-bs-interval="2500">
+              <img src={home6} className="rounded-3" alt="Slide 3" />
+            </div>
+
+            <div className="carousel-item home" data-bs-interval="2500">
+              <img src={home7} className="rounded-3" alt="Slide 3" />
+            </div>
+
+            <div className="carousel-item home" data-bs-interval="2500">
+              <img src={home8} className="rounded-3" alt="Slide 3" />
+            </div>
+
+            <div className="carousel-item home" data-bs-interval="2500">
+              <img src={home9} className="rounded-3" alt="Slide 3" />
+            </div>
+
+            <div className="carousel-item home" data-bs-interval="2500">
+              <img src={home10} className="rounded-3" alt="Slide 3" />
+            </div>
+          </div>
+          <button
+            className="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev"
+          >
+            <span className="carousel-control-prev-icon" aria-hidden="true" />
+            <span className="visually-hidden">Previous</span>
+          </button>
+          <button
+            className="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="next"
+          >
+            <span className="carousel-control-next-icon" aria-hidden="true" />
+            <span className="visually-hidden">Next</span>
+          </button>
+        </div> */}
+
         <div className=" main-content order-2 order-lg-1">
           <h1 className="tw-text-gold">
             <b>SOULSMITH</b>
           </h1>
           <p className="tw-text-bone mt-3">{t("About SOULSMITH")}</p>
-
-          {/* <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi id nisi, ipsam sint, debitis architecto odit odio pariatur delectus consectetur laudantium excepturi quas eligendi! Temporibus et beatae dolorem architecto sequi provident voluptatibus illum harum, nihil distinctio quo earum ad aspernatur! Debitis harum minima adipisci! Corrupti quidem dolore earum rem quasi saepe nihil ab enim autem laudantium dolores natus, hic porro vel commodi sed maxime? Aspernatur, voluptate eius nostrum quidem deleniti doloremque libero itaque, adipisci optio odio suscipit, fugit aut commodi?
-            </p>
-
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo cupiditate iusto vitae aperiam exercitationem, minus harum non aliquam tempora ad, eligendi ullam laborum accusamus doloremque soluta assumenda ratione unde ut corrupti dignissimos. Quisquam enim itaque perspiciatis repellat voluptatem esse molestias.</p> */}
         </div>
 
         <div
@@ -135,46 +203,7 @@ const HomePage = () => {
             <span className="visually-hidden">Next</span>
           </button>
         </div>
-
-        {/* <div id="carouselExampleFade" className="carousel carousel-home slide carousel-fade">
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-      <img src={image103} className="" alt="..." />
-    </div>
-    <div className="carousel-item">
-      <img src={image104} className="" alt="..." />
-    </div>
-    <div className="carousel-item">
-      <img src={image107} className="" alt="..." />
-    </div>
-  </div>
-  <button
-    className="carousel-control-prev"
-    type="button"
-    data-bs-target="#carouselExampleFade"
-    data-bs-slide="prev"
-  >
-    <span className="carousel-control-prev-icon" aria-hidden="true" />
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button
-    className="carousel-control-next"
-    type="button"
-    data-bs-target="#carouselExampleFade"
-    data-bs-slide="next"
-  >
-    <span className="carousel-control-next-icon" aria-hidden="true" />
-    <span className="visually-hidden">Next</span>
-  </button>
-</div> */}
       </div>
-
-      {/* <div className="container mt-4">
-        {t('pageTitle')}
-        <p className="tw-bg-blue-500">{t('pageContent')}</p>
-      </div> */}
-
-      {/* services */}
 
       <div className="container-fluid home-services">
         <div className="row">
