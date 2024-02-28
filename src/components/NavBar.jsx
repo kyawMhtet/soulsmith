@@ -106,7 +106,7 @@ const NavBar = () => {
               </a>
             </div>
 
-            <span className="email">contact@soulsmith.empathysauce.com</span>
+            <span className="email">noreply@soulsmith.empathysauce.com</span>
           </div>
 
           <div className="col d-flex justify-content-center align-items-center">

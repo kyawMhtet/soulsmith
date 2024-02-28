@@ -58,8 +58,8 @@ const Product = () => {
           </ul>
         </div> */}
 
-        <div className="row ">
-          <div className="col-12 col-lg-5 col-md-5 col-sm-12 mx-auto section">
+        <div className="row justify-content-center gap-4 mt-5">
+          <div className="col-12 col-lg-5 col-md-5 col-sm-12 section">
             <NavLink
               to={"/products/Mind-Magnifying"}
               className="text-decoration-none"
@@ -75,7 +75,7 @@ const Product = () => {
               </div>
             </NavLink>
           </div>
-          <div className="col-12 col-lg-5 col-md-5 col-sm-12 mx-auto section">
+          <div className="col-12 col-lg-5 col-md-5 col-sm-12 section">
             <NavLink
               to={"/products/Mind-Exercise-Vol1"}
               className="text-decoration-none"

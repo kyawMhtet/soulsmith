@@ -15,14 +15,14 @@ const ContactUs = () => {
 
     emailjs
       .send(
-        "service_quv33gm",
-        "template_4oijqle",
+        "service_37rkuhq",
+        "template_dfwbelo",
         {
           from_name: name,
           from_email: email,
           message: message,
         },
-        "vBegxAp8ZYjCa06sF"
+        "7DsZKdJ851zY9Qr44"
       )
       .then(
         (response) => {
@@ -68,28 +68,13 @@ const ContactUs = () => {
             <div className="row">
               <p className="col-3 tw-text-gold">Email:</p>
               <p className="col tw-text-bone">
-                contact@soulsmith.empathysauce.com
+                noreply@soulsmith.empathysauce.com
               </p>
             </div>
           </div>
 
           {/* form */}
           <div className="col-12 col-lg-6 col-md-12 col-sm-12 mt-4">
-            {/* <form action="">
-                    <div className='row'>
-                        <div className='col'>
-                            
-                        <input type="text" className='form-control' placeholder='Your Name' />
-                        </div>
-
-                        <div className='col'>
-                        <input type="text" className='form-control' placeholder='Your Name' />
-
-                        </div>
-
-                    </div>
-                </form> */}
-
             <form
               onSubmit={sendEmail}
               className="tw-w-full tw-max-w-lg mx-auto"

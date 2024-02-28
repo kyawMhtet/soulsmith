@@ -9,10 +9,10 @@
 }
 
 .main {
-    display: flex;
+    /* display: flex; */
     overflow-x: hidden;
     
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 * {
@@ -39,24 +39,22 @@ p {
     font-size: 20px;
 }
 
-.home img {
-    /* position: relative; */
-    /* display: flex; */
-    /* width: 70%;
-    height: auto; */
-    margin-left: 750px;
+.home {
+    margin-top: 25px;
+    margin-left: 10px;
+}
 
-    width: 55% !important;
+.home img {
+    width: 100%;
+
+    /* margin-left: 750px;
+
 
     height: auto;
     margin-top: 50px;
 
-    margin-bottom: 100px;
-    /* z-index: 0; */
-    /* margin-top: -60px; */
-    /* box-shadow: -12px 20px 15px -1px rgba(232,229,215,0.75);
--webkit-box-shadow: -12px 20px 15px -1px rgba(232,229,215,0.75);
--moz-box-shadow: -12px 20px 15px -1px rgba(232,229,215,0.75);    */
+    margin-bottom: 100px; */
+
 }
 
 /* .slide-2 {
@@ -91,24 +89,23 @@ p {
 }
 
 
-.main-content {
+/* .main-content {
     position:absolute;
-    width: 40%;
-    /* background-color: red; */
+    width: 45%;
     top: 35%;
     left: 3%;
     z-index: 1;
-}
+} */
 
 
 .services {
     height: 65vh;
     position:relative;
+    margin-top: 150px;
 }
 
 .service {
     position: relative;
-    /* background-color: rgb(221, 125, 125); */
     height: 320px;
     width: 400px;
     z-index: 1;
@@ -217,8 +214,9 @@ p {
   }
 
 
-.team {
-    margin-top: 150px;
+.home-team {
+    margin-top: 150px !important;
+    /* background-color: red; */
 }
   
 
@@ -267,31 +265,91 @@ p {
     }
   } */
 
-  @media(min-width: 1025px) and (max-width: 1340px){
+
+
+/* @media(min-width: 1441px) and (max-width: 1490px) {
+    .home-team {
+        margin-top: 400px !important;
+    }
+} */
+
+  @media(max-width: 1440px){
 
     .home-services {
         height: auto;
-        margin-top: 60px;
-        /* background-color: red; */
+        margin-top: 50px;
+       
+    }
+    
+
+    .home-team {
+        margin-top: 450px !important;
+    }
+
+
+    .home img {
+        width: 100% !important;
+        /* margin-top: 10px; */
+    }
+
+  }
+
+  @media(max-width: 1345px) {
+    .home-team {
+        margin-top: 500px !important;
+    }
+  }
+
+
+
+  @media(max-width: 1281px){
+
+    .home-services {
+        height: auto;
+        margin-top: 50px;
        
     }
 
 
     .home-team {
-        margin-top: 400px !important;
+        margin-top: 500px !important;
         /* background-color: red; */
     }
 
-    .main-content {
-        width: 45%;
-    }
+    /* .main-content {
+        width: 40%;
+    } */
 
     .home img {
-        width: 70% !important;
-    margin-left: 520px;
-        margin-top: 160px;
+        width: 100% !important;
+    /* margin-left: 560px; */
+        margin-top: 50px;
     }
 
+    /* .main-content {
+        position:absolute;
+        width: 40%;
+        top: 35%;
+        left: 3%;
+        z-index: 1;
+        background-color: red;
+    } */
+
+  }
+
+  /* @media(max-width: 1210px) {
+    .home-team {
+        margin-top: 800px !important;
+        background-color: red;
+
+    }
+  } */
+  /* @media(max-width: ) */
+
+  @media(max-width: 995px) {
+    .home-team {
+        margin-top: 750px !important;
+    }
   }
 
 
@@ -302,6 +360,7 @@ p {
         width: 200px;
         z-index: 1;
     }
+    
 
     .services {
         height: auto;
@@ -354,6 +413,13 @@ p {
         margin-top: -50px;
     }
     
+    .home {
+        margin: auto;
+    }
+
+    .main-content {
+        margin-top: -50px;
+    }
 
     .service {
         height: 200px;
@@ -366,7 +432,7 @@ p {
 
     .services {
         height: auto;
-        margin-top: 430px;
+        margin-top: 0px;
        
     }
     .child {
@@ -378,26 +444,25 @@ p {
         z-index: 2;
     }
 
-    .team {
-        margin-top: 30px;
+    .home-team {
+        margin-top: 60px !important;
+        /* background-color: red; */
     }
 
-    .main-content {
-        /* margin-top: 200px; */
-        /* display: none; */
+    /* .main-content {
+
         width: 90%;
         height: 28%;
         overflow: auto;
         padding: 5px 0;
-        /* top: 40%; */
+
         top: 30%;
         margin-left: 20px;
         padding: 20px;
-        /* text-align: center; */
-        /* background-color: red; */
+
         z-index: 100;
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
-    }
+    } */
 
 
     .carousel-home img {
@@ -424,8 +489,8 @@ p {
   }
 
 
-  .main-content {
-    /* width: 320px;  */
+  /* .main-content {
+
     order: unset; 
     z-index: 999;
     height: 100%;
@@ -433,7 +498,7 @@ p {
    
     margin-top: 400px;
     
-}
+} */
 
 .child {
     display: inline-block;
@@ -447,14 +512,11 @@ p {
     width: 400px;
     right: 7%;
     bottom: 3%;
-    /* margin-top: 20px;  */
 }
 
 .child img {
     width: 100%;
-    height: auto; /* Allow the height to adjust proportionally */
-    /* margin-bottom: 20px; */
-/* object-fit: cover; */
+    height: auto;
 
 }
 
@@ -463,27 +525,10 @@ p {
 
   @media (max-width: 768px) {
 
-
-
-    /* .carousel-control-prev {
-        position: absolute;
-        left: -20px;
-        background-color: yellow;
+    .home {
+        margin-top: 25px;
+        margin-left: 0px;
     }
-    
-    .carousel-control-next {
-        right: -20px;
-        background-color: red;
-    }
-    
-    
-    .carousel-control-prev-icon {
-        transition: all 0.5s;
-    }
-    
-    .carousel-control-next-icon {
-        transition: all 0.5s;
-    } */
 
     .carousel-home .carousel-control-prev {
         /* margin-left: 740px; */
@@ -507,10 +552,10 @@ p {
         height: auto;
     }
 
-    .services {
+    /* .services {
         height: auto;
-        /* margin-top: 0px; */
-    }
+        margin-top: 0px;
+    } */
     .child {
         position: absolute;
         right: 4.5%;
@@ -525,18 +570,12 @@ p {
     }
 
     .main-content {
-        /* margin-top: 200px; */
-        /* display: none; */
-        width: 90%;
-        height: 28%;
+
+        margin:auto;
+        width: 100%;
         overflow: auto;
         padding: 5px 0;
-        /* top: 40%; */
-        top: 30%;
-        margin-left: 20px;
         padding: 20px;
-        /* text-align: center; */
-        /* background-color: red; */
         z-index: 100;
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
     }
@@ -551,35 +590,25 @@ p {
 
 
     .home img {
-        /* position: relative; */
-        /* display: flex; */
-        /* width: 70%;
-        height: auto; */
-        /* margin-left: 750px; */
-    
-        width: 100% !important;
+        /* width: 100% !important; */
     
         height: auto;
         margin-top: 50px;
-    
         margin-bottom: 100px;
   }
 
 
-  .main-content {
-    /* width: 320px;  */
+  /* .main-content {
     order: unset; 
     z-index: 999;
     height: 100%;
     overflow: hidden;
-   
-    margin-top: 400px;
     
-}
+} */
 
-.services{
+/* .services{
     margin-top: 400px;
-}
+} */
 
 
 .child {
@@ -612,10 +641,8 @@ p {
   @media (max-width: 576px) {
 
     .carousel-home .carousel-control-prev {
-        /* margin-left: 740px; */
         margin-left: 100px;
         margin-top: -20px;
-        /* background-color: red; */
     }
     
     .carousel-home .carousel-control-next {
@@ -632,22 +659,11 @@ p {
     }
 
     .carousel-control-prev {
-        /* background-color: red; */
         left: -100px !important;
     }
     
     .carousel-control-next {
-        /* background-color: red; */
         right: -50px;
-    }
-
-    /* .service {
-        height: 200px;
-        width: 200px;
-        z-index: 1;
-    } */
-    .home-services {
-        margin-top: 200px;
     }
 
 
@@ -660,59 +676,40 @@ p {
     }
 
     .child {
-        position: relative; /* Remove absolute positioning */
+        position: relative;
         width: 280px;
         right: 9%;
         bottom: 5%;
-        /* margin-top: 20px;  */
+      
     }
     
     .child img {
         width: 100%;
-        height: auto; /* Allow the height to adjust proportionally */
-        /* margin-bottom: 20px; */
-    /* object-fit: cover; */
+        height: auto; 
+
 
     }
 
-    /* .services {
-        height: auto;
-    }
-    .child {
-        height: 200px;
-        width: 200px;
-        z-index: 2;
-    } */
+
 
     .team {
         margin-top: 30px;
     }
 
-    /* .main {
-        display: block;
-    } */
-    /* .services {
-        margin-top: 100px;
-    } */
 
-    .services {
-        margin-top: 300px;
-    }
 
     .main-content {
-        /* width: 320px;  */
+    
+        width: 100%;
         order: unset; 
         z-index: 0;
-        height: 50%;
         overflow: auto;
-        margin-top: 120px;
         
     }
 
 
     .carousel-home img {
         width: 100%;
-        /* height: 300px; */
         height: auto;
         margin: auto;
         z-index: 0;
@@ -742,34 +739,30 @@ p {
     }
 
     .main-content {
-        width: 320px; 
+        /* width: 320px;  */
         order: unset; 
         z-index: 0;
         height: 50%;
         overflow: auto;
-        margin-top: 170px;
+        /* margin-top: 170px; */
         
     }
 
-    .services {
+    /* .services {
         margin-top: 150px;
-    }
+    } */
 }
 
-@media (max-width: 375px)
+@media (max-width: 376px)
 
 {
 
     .main-content {
-        width: 320px; 
         order: unset; 
         z-index: 0;
         height: 50%;
         overflow: auto;
-        margin-top: 130px;
         
     }
-    .services {
-        margin-top: 200px;
-    }
+
 }

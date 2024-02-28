@@ -55,153 +55,84 @@ const HomePage = () => {
 
   return (
     <>
-      <div className="main">
-        {/* <div className=" main-content order-2 order-lg-1">
-          <h1 className="tw-text-gold">
-            <b>SOULSMITH</b>
-          </h1>
-          <p className="tw-text-bone mt-3">{t("About SOULSMITH")}</p>
-        </div>
-
-        <div
-          id="carouselExampleFade"
-          className="carousel slide carousel-home carousel-fade order-1 order-lg-2"
-          data-bs-ride="carousel"
-        >
-          <div className="carousel-inner ">
-            <div className="carousel-item home active" data-bs-interval="2500">
-              <img src={home1} alt="Slide 1" className="rounded-3" />
-            </div>
-            <div
-              className="carousel-item  home slide-2"
-              data-bs-interval="2500"
-            >
-              <img src={home2} className="rounded-3" alt="Slide 2" />
-            </div>
-            <div className="carousel-item home" data-bs-interval="2500">
-              <img src={home3} className="rounded-3" alt="Slide 3" />
-            </div>
-
-            <div className="carousel-item home" data-bs-interval="2500">
-              <img src={home4} className="rounded-3" alt="Slide 3" />
-            </div>
-
-            <div className="carousel-item home" data-bs-interval="2500">
-              <img src={home5} className="rounded-3" alt="Slide 3" />
-            </div>
-
-            <div className="carousel-item home" data-bs-interval="2500">
-              <img src={home6} className="rounded-3" alt="Slide 3" />
-            </div>
-
-            <div className="carousel-item home" data-bs-interval="2500">
-              <img src={home7} className="rounded-3" alt="Slide 3" />
-            </div>
-
-            <div className="carousel-item home" data-bs-interval="2500">
-              <img src={home8} className="rounded-3" alt="Slide 3" />
-            </div>
-
-            <div className="carousel-item home" data-bs-interval="2500">
-              <img src={home9} className="rounded-3" alt="Slide 3" />
-            </div>
-
-            <div className="carousel-item home" data-bs-interval="2500">
-              <img src={home10} className="rounded-3" alt="Slide 3" />
-            </div>
+      <div className="main ">
+        <div className="row">
+          <div className="col-6 col-lg-6 col-md-12 py-4 px-5 main-content order-2 order-lg-1">
+            <h1 className="tw-text-gold">
+              <b>SOULSMITH</b>
+            </h1>
+            <p className="tw-text-bone mt-3">{t("About SOULSMITH")}</p>
           </div>
-          <button
-            className="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleFade"
-            data-bs-slide="prev"
-          >
-            <span className="carousel-control-prev-icon" aria-hidden="true" />
-            <span className="visually-hidden">Previous</span>
-          </button>
-          <button
-            className="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleFade"
-            data-bs-slide="next"
-          >
-            <span className="carousel-control-next-icon" aria-hidden="true" />
-            <span className="visually-hidden">Next</span>
-          </button>
-        </div> */}
 
-        <div className=" main-content order-2 order-lg-1">
-          <h1 className="tw-text-gold">
-            <b>SOULSMITH</b>
-          </h1>
-          <p className="tw-text-bone mt-3">{t("About SOULSMITH")}</p>
-        </div>
+          <div
+            id="carouselExampleFade"
+            className="col carousel slide carousel-home carousel-fade order-1 order-lg-2"
+            data-bs-ride="carousel"
+          >
+            <div className="carousel-inner ">
+              <div
+                className="carousel-item home active"
+                data-bs-interval="2500"
+              >
+                <img src={home1} alt="Slide 1" className="rounded-3" />
+              </div>
+              <div
+                className="carousel-item  home slide-2"
+                data-bs-interval="2500"
+              >
+                <img src={home2} className="rounded-3" alt="Slide 2" />
+              </div>
+              <div className="carousel-item home" data-bs-interval="2500">
+                <img src={home3} className="rounded-3" alt="Slide 3" />
+              </div>
 
-        <div
-          id="carouselExampleFade"
-          className="carousel slide carousel-home carousel-fade order-1 order-lg-2"
-          data-bs-ride="carousel"
-        >
-          <div className="carousel-inner ">
-            <div className="carousel-item home active" data-bs-interval="2500">
-              <img src={home1} alt="Slide 1" className="rounded-3" />
+              <div className="carousel-item home" data-bs-interval="2500">
+                <img src={home4} className="rounded-3" alt="Slide 3" />
+              </div>
+
+              <div className="carousel-item home" data-bs-interval="2500">
+                <img src={home5} className="rounded-3" alt="Slide 3" />
+              </div>
+
+              <div className="carousel-item home" data-bs-interval="2500">
+                <img src={home6} className="rounded-3" alt="Slide 3" />
+              </div>
+
+              <div className="carousel-item home" data-bs-interval="2500">
+                <img src={home7} className="rounded-3" alt="Slide 3" />
+              </div>
+
+              <div className="carousel-item home" data-bs-interval="2500">
+                <img src={home8} className="rounded-3" alt="Slide 3" />
+              </div>
+
+              <div className="carousel-item home" data-bs-interval="2500">
+                <img src={home9} className="rounded-3" alt="Slide 3" />
+              </div>
+
+              <div className="carousel-item home" data-bs-interval="2500">
+                <img src={home10} className="rounded-3" alt="Slide 3" />
+              </div>
             </div>
-            <div
-              className="carousel-item  home slide-2"
-              data-bs-interval="2500"
+            {/* <button
+              className="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="prev"
             >
-              <img src={home2} className="rounded-3" alt="Slide 2" />
-            </div>
-            <div className="carousel-item home" data-bs-interval="2500">
-              <img src={home3} className="rounded-3" alt="Slide 3" />
-            </div>
-
-            <div className="carousel-item home" data-bs-interval="2500">
-              <img src={home4} className="rounded-3" alt="Slide 3" />
-            </div>
-
-            <div className="carousel-item home" data-bs-interval="2500">
-              <img src={home5} className="rounded-3" alt="Slide 3" />
-            </div>
-
-            <div className="carousel-item home" data-bs-interval="2500">
-              <img src={home6} className="rounded-3" alt="Slide 3" />
-            </div>
-
-            <div className="carousel-item home" data-bs-interval="2500">
-              <img src={home7} className="rounded-3" alt="Slide 3" />
-            </div>
-
-            <div className="carousel-item home" data-bs-interval="2500">
-              <img src={home8} className="rounded-3" alt="Slide 3" />
-            </div>
-
-            <div className="carousel-item home" data-bs-interval="2500">
-              <img src={home9} className="rounded-3" alt="Slide 3" />
-            </div>
-
-            <div className="carousel-item home" data-bs-interval="2500">
-              <img src={home10} className="rounded-3" alt="Slide 3" />
-            </div>
+              <span className="carousel-control-prev-icon" aria-hidden="true" />
+              <span className="visually-hidden">Previous</span>
+            </button>
+            <button
+              className="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="next"
+            >
+              <span className="carousel-control-next-icon" aria-hidden="true" />
+              <span className="visually-hidden">Next</span>
+            </button> */}
           </div>
-          <button
-            className="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleFade"
-            data-bs-slide="prev"
-          >
-            <span className="carousel-control-prev-icon" aria-hidden="true" />
-            <span className="visually-hidden">Previous</span>
-          </button>
-          <button
-            className="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleFade"
-            data-bs-slide="next"
-          >
-            <span className="carousel-control-next-icon" aria-hidden="true" />
-            <span className="visually-hidden">Next</span>
-          </button>
         </div>
       </div>
 
@@ -211,7 +142,7 @@ const HomePage = () => {
             <h3 className="tw-text-bone text-center p-3">SERVICES</h3>
 
             <div
-              className="row mt-2 gap-2 py-4 mx-auto"
+              className="row mt-2 gap-3 py-4"
               data-aos="fade-right"
               data-aos-duration="1500"
             >
@@ -252,19 +183,21 @@ const HomePage = () => {
         <h3 className="text-center tw-text-bone">OUR TEAM</h3>
 
         <div className="container mt-4">
-          <NavLink to={"/team/member8"}>
-            <div
-              className="col-12 col-lg-6 col-md-6 mx-auto"
-              data-aos="fade-right"
-              data-aos-duration="2500"
-            >
-              <img src={member8} alt="" />
-              <div className="tw-text-bone text-center">
-                <h4 className="">{t("name8")}</h4>
-                <p className="p-1">({t("category8")})</p>
+          <div className="row col-12">
+            <NavLink to={"/team/member8"}>
+              <div
+                className="col-12 col-lg-6 col-md-6 mx-auto"
+                data-aos="fade-right"
+                data-aos-duration="2500"
+              >
+                <img src={member8} alt="" />
+                <div className="tw-text-bone text-center">
+                  <h4 className="">{t("name8")}</h4>
+                  <p className="p-1">({t("category8")})</p>
+                </div>
               </div>
-            </div>
-          </NavLink>
+            </NavLink>
+          </div>
         </div>
 
         <div className="container-fluid mt-4">
