@@ -30,6 +30,8 @@
 
     "Package" : "Package",
 
+    "unit" : "THB",
+
     
     "A1Description_01": "Listening Service and Mindfulness Practice is a service that provides a safe space for individuals to utilize as a supportive and cathartic environment. It allows service recipients to express and process their thoughts alongside being heard, without the need to disclose their identity.",
     "A1Description_02": "Listening Service and Mindfulness Practice is suitable for individuals experiencing stress, anxiety, feeling overwhelmed, needing understanding, desiring a high level of privacy but wanting someone to listen, or seeking a listener and feeling unable to talk to those around them.",
@@ -66,14 +68,14 @@
     
 
     "A1aSession1": "Single session:",
-    "A1aValue4" : "900",
+    "A1aValue4" : "900 THB",
 
     
     "A1aSession2": "Package of 5 Sessions ",
-    "A1aValue5" : "4,300",
+    "A1aValue5" : "4,300 THB",
 
     "A1aSession3": "Package of 10 Sessions (Get 1 session FREE)  ",
-    "A1aValue6" : "9,000",
+    "A1aValue6" : "9,000 THB",
     
 
 
@@ -103,14 +105,14 @@
     "A2aValue8" : "Thai / English",
 
     "A2aSession1": "Single session: ",
-    "A2aValue4" : "1500",
+    "A2aValue4" : "1500 THB",
 
     
     "A2aSession2": "Package of 5 Sessions ",
-    "A2aValue5" : "7,150",
+    "A2aValue5" : "7,150 THB",
 
     "A2aSession3": "Package of 10 Sessions (Get 1 session FREE)",
-    "A2aValue6" : "15,000",
+    "A2aValue6" : "15,000 THB",
 
 
     "A2b" : "Counselling by Khun Pear: One-to-one",
@@ -145,13 +147,13 @@
 
     "Price": "Price ",
     "A3aSession1": "Single session: ",
-    "A3aValue4" : "2,500",
+    "A3aValue4" : "2,500 THB",
 
     "A3aSession2": "Package of 5 Sessions ",
-    "A3aValue5" : "11,900",
+    "A3aValue5" : "11,900 THB",
 
     "A3aSession3": "Package of 10 Sessions (Get 1 session FREE) ",
-    "A3aValue6" : "25,000",
+    "A3aValue6" : "25,000 THB",
     
 
     "A3e" : "Psychotherapy by Khun Ton: One-to-one",
@@ -177,10 +179,10 @@
     "A3bValue7" : "Thai / English",
 
     "A3bSession1": "Single session: ",
-    "A3bValue4" : "3,500",
+    "A3bValue4" : "3,500 THB",
 
     "A3bSession2": "Package of 5 Sessions ",
-    "A3bValue5" : "16,650",
+    "A3bValue5" : "16,650 THB",
 
     "A3bSession3": "Package of 10 Sessions: 35,000 + 1 Free Session",
 
@@ -196,7 +198,7 @@
     "A3b1Value7" : "Thai / English",
 
     "A3b1Session3" : "Package of 10 Sessions (Get 1 session FREE) ",
-    "A3b1Value6" : "35,000",
+    "A3b1Value6" : "35,000 THB",
 
     "A3c": "Psychotherapy by Senior Psychotherapist: Couple (First time with SOULSMITH)",
     "descA3c": "Suitable for: Couples, such as couples in a relationship, or family couples.",
@@ -204,7 +206,7 @@
     "A3cdesc1": "Service Delivery Channels: Available for Online session only",
     "A3clanguage": "Language: Available for Thai Language & English.",
     "A3cSession1": "Single session: ",
-    "A3cValue4" : "4,200",
+    "A3cValue4" : "4,200 THB",
 
     "A3cSession2": "Package of 5 Sessions: 19,950",
 
@@ -216,13 +218,13 @@
     "A3c1Value1" : "Couples, such as couples in a relationship, or family couples.",
 
     "A3c1Session1": "Single session: ",
-    "A3c1Value4" : "4,200",
+    "A3c1Value4" : "4,200 THB",
 
     "A3c1Session2": "Package of 5 Sessions ",
-    "A3c1Value5" : "19,950",
+    "A3c1Value5" : "19,950 THB",
 
     "A3c1Session3": "Package of 10 Sessions (Get 1 session FREE) ",
-    "A3c1Value6" : "42,000",
+    "A3c1Value6" : "42,000 THB",
 
 
 
@@ -237,12 +239,12 @@
 
 
     "A3dSession1": "Single session: ",
-    "A3dValue4" : "4,500",
+    "A3dValue4" : "4,500 THB",
     "A3dSession2": "Package of 5 Sessions ",
-    "A3dValue5" : "21,400",
+    "A3dValue5" : "21,400 THB",
 
     "A3dSession3": "Package of 10 Sessions (Get 1 session FREE) ",
-    "A3dValue6" : "45,000",
+    "A3dValue6" : "45,000 THB",
 
 
 
@@ -251,7 +253,7 @@
     "A3d1Value1" : "Family, such as parents and children, grandparents, and grandchildren.",
 
     "A3d1Session1": "Single session: ",
-    "A3d1Value4" : "4,500",
+    "A3d1Value4" : "4,500 THB",
 
 
 
@@ -270,7 +272,7 @@
     "A4aValue3" : "Thai / English",
 
     "A4aSession1": "Single session: ",
-    "A4aValue4" : "2,500",
+    "A4aValue4" : "2,500 THB",
 
     "A4aSession2": "Package of 5 Sessions: 11,900",
     "A4aSession3": "Package of 10 Sessions: 25,000 + 1 Free Session",
@@ -288,13 +290,13 @@
     "A4a1Value3" : "Thai / English",
 
     "A4a1Session1": "Single session: ",
-    "A4a1Value4" : "2,500",
+    "A4a1Value4" : "2,500 THB",
     
     "A4a1Session2": "Package of 5 Sessions ",
-    "A4a1Value5" : "11,900",
+    "A4a1Value5" : "11,900 THB",
 
     "A4a1Session3": "Package of 10 Sessions (Get 1 session FREE)  ",
-    "A4a1Value6" : "25,000",
+    "A4a1Value6" : "25,000 THB",
 
 
 
@@ -322,7 +324,7 @@
     "A4b1Value3" : "Thai",
 
     "A4b1Session1": "Single session: ",
-    "A4b1Value4" : "2,500",
+    "A4b1Value4" : "2,500 THB",
 
     "A4b1Session2": "Package of 5 Sessions: 11,900",
     "A4b1Session3": "Package of 10 Sessions: 25,000 + 1 Free Session",
@@ -352,7 +354,7 @@
     "A4c1Value3" : "Thai",
 
     "A4c1Session1": "Single session: ",
-    "A4c1Value4" : "2,500",
+    "A4c1Value4" : "2,500 THB",
 
     "A4c1Session2": "Package of 5 Sessions: 11,900",
     "A4c1Session3": "Package of 10 Sessions: 25,000 + 1 Free Session",
@@ -370,7 +372,7 @@
     "A4dValue3" : "Thai / English",
 
     "A4dSession1": "Single session: ",
-    "A4dValue4" : "3,500",
+    "A4dValue4" : "3,500 THB",
 
     "A4dSession2": "Package of 5 Sessions: 11,900",
     "A4dSession3": "Package of 10 Sessions: 25,000 + 1 Free Session",
@@ -389,13 +391,13 @@
     "A4d1Value3" : "Thai / English",
 
     "A4d1Session1": "Single session: ",
-    "A4d1Value4" : "3,500",
+    "A4d1Value4" : "3,500 THB",
     
     "A4d1Session2": "Package of 5 Sessions  ",
-    "A4d1Value5" : "16,650",
+    "A4d1Value5" : "16,650 THB",
 
     "A4d1Session3": "Package of 10 Sessions (Get 1 session FREE)  ",
-    "A4d1Value6" : "35,000",
+    "A4d1Value6" : "35,000 THB",
 
 
 
@@ -419,7 +421,7 @@
     "A5aValue3" : "Thai / English",
 
     "A5aSession1": "Single session: ",
-    "A5aValue4" : "3,500",
+    "A5aValue4" : "3,500 THB",
 
 
 
@@ -434,13 +436,13 @@
     "A5a1Value3" : "Thai / English",
 
     "A5a1Session1": "Single session: ",
-    "A5a1Value4" : "3,500",
+    "A5a1Value4" : "3,500 THB",
     
     "A5a1Session2": "Package of 5 Sessions ",
-    "A5a1Value5" : "16,650",
+    "A5a1Value5" : "16,650 THB",
 
     "A5a1Session3": "Package of 10 Sessions (Get 1 session FREE) ",
-    "A5a1Value6" : "35,000",
+    "A5a1Value6" : "35,000 THB",
 
 
 
@@ -459,18 +461,18 @@
     "A5bValue3" : "Thai / English",
 
     "A5bSession1": "Single session: ",
-    "A5bValue4" : "4,200",
+    "A5bValue4" : "4,200 THB",
 
 
     "A5b1": "Therapeutic Workshop By Khun Dujdao: Couple",
     "A5b1Session1": "Single session: ",
-    "A5b1Value4" : "4,200",
+    "A5b1Value4" : "4,200 THB",
     
     "A5b1Session2": "Package of 5 Sessions ",
-    "A5b1Value5" : "19,950",
+    "A5b1Value5" : "19,950 THB",
 
     "A5b1Session3": "Package of 10 Sessions (Get 1 session FREE) ",
-    "A5b1Value6" : "42,000",
+    "A5b1Value6" : "42,000 THB",
 
 
 
@@ -485,13 +487,13 @@
     "BValue3" : "Thai / English",
 
     "BSession1": "Single session: ",
-    "BValue4" : "1,500",
+    "BValue4" : "1,500 THB",
     
     "BSession2": "Package of 5 Sessions ",
-    "BValue5" : "7,150",
+    "BValue5" : "7,150 THB",
 
     "BSession3": "Package of 10 Sessions (Get 1 session FREE) ",
-    "BValue6" : "15,000",
+    "BValue6" : "15,000 THB",
 
 
     "name8" : "Dujdao Vadhanapakorn",
@@ -509,7 +511,7 @@
     
 
     "name9" : "Chutharat (Soda) Sriphiphat",
-    "category9" : "Administrative Officer",
+    "category9" : "Administrator & Customer Service Manager",
 
     "name10" : "Thanawin (Boom) Melarpudomchai",
     "category10" : "Clinical Psychologist",

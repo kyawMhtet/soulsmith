@@ -195,7 +195,7 @@ const Product = () => {
 
               <li></li>
             </ul>
-            <div className="text-center buy-now">
+            <div className="text-center buy-now mt-2">
               <a
                 href=""
                 target="_blank"

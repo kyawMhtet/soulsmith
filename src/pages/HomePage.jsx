@@ -193,7 +193,7 @@ const HomePage = () => {
                 <img src={member8} alt="" />
                 <div className="tw-text-bone text-center">
                   <h4 className="">{t("name8")}</h4>
-                  <p className="p-1">({t("category8")})</p>
+                  <p className="p-1">{t("category8")}</p>
                 </div>
               </div>
             </NavLink>
@@ -212,7 +212,7 @@ const HomePage = () => {
                   <img src={member9} alt="" />
                   <div className="tw-text-bone text-center">
                     <h4 className="">{t("name9")}</h4>
-                    <p className="p-1">({t("category9")})</p>
+                    <p className="p-1">{t("category9")}</p>
                   </div>
                 </div>
               </NavLink>
@@ -226,7 +226,7 @@ const HomePage = () => {
                 <img src={member6} alt="" />
                 <div className="tw-text-bone text-center">
                   <h4 className="">{t("name6")}</h4>
-                  <p className="p-1">({t("category6")})</p>
+                  <p className="p-1">{t("category6")}</p>
                 </div>
               </NavLink>
             </div>
@@ -239,7 +239,7 @@ const HomePage = () => {
                 <img src={member3} alt="" />
                 <div className="tw-text-bone text-center">
                   <h4 className="">{t("name3")}</h4>
-                  <p className="p-1">({t("category3")})</p>
+                  <p className="p-1">{t("category3")}</p>
                 </div>
               </NavLink>
             </div>
@@ -253,7 +253,7 @@ const HomePage = () => {
                 <img src={member7} alt="" />
                 <div className="tw-text-bone text-center">
                   <h4 className="">{t("name7")}</h4>
-                  <p className="p-1">({t("category7")})</p>
+                  <p className="p-1">{t("category7")}</p>
                 </div>
               </NavLink>
             </div>
@@ -267,7 +267,7 @@ const HomePage = () => {
                 <img src={member2} alt="" />
                 <div className="tw-text-bone text-center">
                   <h4 className="">{t("name2")}</h4>
-                  <p className="p-1">({t("category2")})</p>
+                  <p className="p-1">{t("category2")}</p>
                 </div>
               </NavLink>
             </div>
@@ -281,7 +281,7 @@ const HomePage = () => {
                 <img src={member1} alt="" />
                 <div className="tw-text-bone text-center">
                   <h4 className="">{t("name1")}</h4>
-                  <p className="p-1">({t("category1")})</p>
+                  <p className="p-1">{t("category1")}</p>
                 </div>
               </NavLink>
             </div>
@@ -295,7 +295,7 @@ const HomePage = () => {
                 <img src={member5} alt="" />
                 <div className="tw-text-bone text-center">
                   <h4 className="">{t("name5")}</h4>
-                  <p className="p-1">({t("category5")})</p>
+                  <p className="p-1">{t("category5")}</p>
                 </div>
               </NavLink>
             </div>
@@ -309,7 +309,7 @@ const HomePage = () => {
                 <img src={member4} alt="" />
                 <div className="tw-text-bone text-center">
                   <h4 className="">{t("name4")}</h4>
-                  <p className="p-1">({t("category4")})</p>
+                  <p className="p-1">{t("category4")}</p>
                 </div>
               </NavLink>
             </div>
@@ -323,7 +323,7 @@ const HomePage = () => {
                 <img src={member12} alt="" />
                 <div className="tw-text-bone text-center">
                   <h4 className="">{t("name12")}</h4>
-                  <p className="p-1">({t("category12")})</p>
+                  <p className="p-1">{t("category12")}</p>
                 </div>
               </NavLink>
             </div>
@@ -337,7 +337,7 @@ const HomePage = () => {
                 <img src={member10} alt="" />
                 <div className="tw-text-bone text-center">
                   <h4 className="">{t("name10")}</h4>
-                  <p className="p-1">({t("category10")})</p>
+                  <p className="p-1">{t("category10")}</p>
                 </div>
               </NavLink>
             </div>
@@ -351,7 +351,7 @@ const HomePage = () => {
                 <img src={member11} alt="" />
                 <div className="tw-text-bone text-center">
                   <h4 className="">{t("name11")}</h4>
-                  <p className="p-1">({t("category11")})</p>
+                  <p className="p-1">{t("category11")}</p>
                 </div>
               </NavLink>
             </div>
@@ -365,7 +365,7 @@ const HomePage = () => {
                 <img src={member13} alt="" />
                 <div className="tw-text-bone text-center">
                   <h4 className="">{t("name13")}</h4>
-                  <p className="p-1">({t("category13")})</p>
+                  <p className="p-1">{t("category13")}</p>
                 </div>
               </NavLink>
             </div>

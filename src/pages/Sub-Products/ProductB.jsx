@@ -179,14 +179,16 @@ const Product = () => {
                   <li>{t("pencil3")}</li>
                 </ul>
               </div>
-              <div>
+              <div className="me-4">
                 <ul>
-                  <li>{t("pencil4")}</li>
+                  <li className="text-wrap" style={{ width: "12rem" }}>
+                    {t("pencil4")}
+                  </li>
                 </ul>
               </div>
             </div>
 
-            <div className="text-center buy-now1">
+            <div className="text-center buy-now1 mt-2">
               <a
                 href=""
                 target="_blank"

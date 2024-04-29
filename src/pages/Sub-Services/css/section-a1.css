@@ -7,6 +7,7 @@ html {
   scroll-behavior: smooth;
 }
 
+
 .a1a1 {
   display: flex;
   margin-top: 15px;
@@ -84,22 +85,47 @@ margin-left: 100px;
 .about .price p {
   display: flex;
   justify-content: space-between;
+  flex-wrap: nowrap;
   width: 65%;
   /* margin-left: 30px; */
   color: #e8e5d7;
   /* background-color: red; */
 }
 
+
+
 .about .price p .price1 {
   margin-right: 9rem;
 }
 
+.about .price p .span {
+
+  width: 56%;
+}
+
 .about .price p .price2 {
-  margin-right: 8.4rem;
+  margin-right: 5.1rem !important;
+}
+
+.about .price p .price2Unit {
+  width: 42% !important;
+}
+
+.about .price p .unit {
+  margin-right: 93px;
 }
 
 .about .price p .price3 {
   margin-right: 7.5rem;
+}
+
+.about .price p .price06 {
+  margin-right: 4.4rem;
+}
+
+.about .price p .price3Unit {
+  width: 52%;
+  /* background-color: red; */
 }
 
 .about .price p .price5 {
@@ -107,8 +133,11 @@ margin-left: 100px;
 }
 
 .about .price p .price6 {
-  margin-right: 65px;
+  margin-right: 20px;
+  /* background-color: red; */
 }
+
+
 
 .about .price p .price7 {
   margin-right: 42px;
@@ -118,8 +147,58 @@ margin-left: 100px;
   margin-right: 40px;
 }
 
+.about .price p .price9Span {
+  width: 63%;
+}
+
 .about .price p .price9 {
   margin-right: 55px;
+  /* background-color: red; */
+}
+
+.about .price p .price02 {
+  margin-right: 2.6rem;
+}
+
+.about .price p .price02Unit {
+  width: 53%;
+}
+
+.about .price p .p7 {
+  margin-right: 2.5rem;
+}
+
+.about .price p .p7Value {
+  width: 52%;
+}
+
+.about .price p .p12 {
+  margin-right: 5.1rem;
+}
+
+.about .price p .p13 {
+  margin-right: 4.4rem;
+}
+
+.about .price p .p13Value {
+  width: 52%;
+}
+
+.about .price p .tp12{
+  margin-right: 3.3rem;
+}
+
+.about .price p .tp12Value {
+  width: 30%;
+}
+
+.about .price p .tp13 {
+  margin-right: 40px;
+  margin-top: 2.5px;
+}
+
+.about .price p .tp13Value {
+  width: 53%;
 }
 
 .about li {
@@ -149,6 +228,10 @@ margin-left: 100px;
 
 .a1b .card-1 {
   width: 38rem;
+}
+
+.about .price p .price01 {
+  margin-right: 40px;
 }
 
 /* @media (max-width: 992px) {
@@ -190,9 +273,54 @@ margin-left: 100px;
     width: 90%;
   }
 
-  .about .price p .price1 {
+  .about .price p {
+    width: 100%;
+  }
+
+  .about .price p .price01 {
+    margin-right: 25px;
+  }
+
+  .about .price .session2 {
+    width: 62%;
+    /* background-color: red; */
+  }
+
+  .about .price .price9Span {
+    width: 65% !important;
+  }
+
+  .about .price p .price8 {
+    margin-right: 25px;
+  }
+  
+  .about .price p .price2 {
+    margin-right: 4.4rem !important;
+  }
+  
+  .about .price p .unit {
+    margin-right: 5rem;
+    /* background-color: red; */
+  }
+
+
+
+  .about .price p .span {
     /* margin-top: 5px; */
-    margin-right: 85px;
+    width: 100%;
+  }
+
+  .about .price p .price2Unit {
+    width: 44%;
+    /* background-color: red; */
+  }
+
+  .about .price p .price06 {
+    margin-right: 3.5rem;
+  }
+
+  .about .price p .price3Unit {
+    width: 53%;
   }
 
   .about .price p .price3 {
@@ -213,6 +341,7 @@ margin-left: 100px;
   .about .price p .price6 {
     /* margin-top: 9.5px; */
     margin-right: 55px;
+
   }
 
   .about .price p .price7 {
@@ -222,6 +351,52 @@ margin-left: 100px;
 
   .about .price p .price9 {
     margin-right: 43px;
+  }
+
+  .about .price p .p6 {
+    margin-right: 2.7rem;
+  }
+
+
+  .about .price p .p6Value {
+    width: 30%;
+  }
+
+  .about .price p .p7 {
+    margin-right: 1.2rem;
+  }
+
+  .about .price p .p7Value {
+    width: 58%;
+  }
+
+  .about .price p .p12 {
+    margin-right: 4.3rem;
+    margin-top: 3.5px;
+  }
+
+  .about .price p .p13 {
+    margin-right: 3.6rem;
+  }
+
+  .about .price p .p13Value {
+    width: 53%;
+  }
+
+  .about .price p .tp12 {
+    margin-right: 28px;
+  }
+
+  .about .price p .tp12Value {
+    width: 34%;
+  }
+
+  .about .price p .tp13 {
+    margin-right: 16px;
+  }
+
+  .about .price p .tp13Value {
+    width: 60%;
   }
 }
 
@@ -251,8 +426,37 @@ margin-left: 100px;
   .about .price p {
     /* display: flex; */
     /* justify-content: space-around; */
-    width: 60%;
+    width: 80%;
   }
+
+  .about .price p .price01 {
+    margin-right: 25px;
+  }
+
+  .about .price .session2 {
+    width: 62%;
+    /* background-color: red; */
+  }
+
+  .about .price .price9Span {
+    width: 65% !important;
+  }
+
+  .about .price p .price2 {
+    margin-right: 4.4rem !important;
+    /* background-color: red; */
+  }
+
+  .about .price p .span {
+    /* margin-top: 5px; */
+    width: 97% !important;
+  }
+
+  .about .price p .price2Unit {
+    width: 42%;
+    /* background-color: red; */
+  }
+
 
   .about .price li span {
     margin-top: 5px;
@@ -260,14 +464,28 @@ margin-left: 100px;
 
   .about .price p small {
     margin-top: 3.5px;
-    margin-right: 30px;
+    /* margin-right: 30px; */
     font: bolder;
     color: #e8e5d7;
   }
 
+  /* .about .price p .priceTHB {
+    background-color: red !important;
+  } */
+  .about .price p .span {
+    width: 58%;
+  }
+  
+  .about .price p .price2 {
+    margin-right: 69px;
+  }
+  
+  .about .price p .unit {
+    margin-right: 80px;
+  }
+
   .about .price p .price1 {
-    /* margin-top: 5px; */
-    margin-right: 55px;
+    margin-left: 30px !important;
   }
 
   
@@ -291,8 +509,8 @@ margin-left: 100px;
   }
 
   .about .price p .price6 {
-    /* margin-top: 9.5px; */
-    margin-right: 50px;
+    margin-top: 3px;
+    margin-right: 55px;
   }
 
   .about .price p .price7 {
@@ -301,11 +519,98 @@ margin-left: 100px;
   }
   
   .about .price p .price9 {
-    margin-right: 50px;
+    margin-top: 3px;
+    margin-right: 43px;
+  }
+
+  .about .price p .p7 {
+    margin-top: 2px;
   }
 }
 
 @media (max-width: 576px) {
+
+  .about .price .single {
+    /* background-color: red; */
+    width: 70%;
+  }
+
+  .about .price p .span {
+    /* background-color: red; */
+    width: 130%;
+  }
+
+  .about .price p .price2Unit {
+    margin-right: 5px;
+  }
+
+
+  .about .price .singleUnit {
+    width: 20%;
+    /* margin-right: 20px; */
+  }
+
+  .session2 {
+    /* margin-right: 27px !important; */
+    width: 110% !important;
+  }
+  
+  .about .price .price9Span {
+    width: 110% !important;
+  }
+
+  .about .price .price01 {
+    /* background-color: red; */
+    margin-top: 9px;
+    margin-right: 40px !important;
+  }
+  
+  .about .price p .price2 {
+    /* margin: 8px 5px !important; */
+    margin-top: 9px !important;
+    margin-right: 18px !important;
+    /* margin-right: 5px; */
+    /* background-color: red; */
+  }
+  
+  .about .price p .unit {
+    margin-right: 28px;
+    margin-top: 9px;
+  }
+
+  .about .price p .price06 {
+    margin-right: 10px;
+    margin-top: 9px;
+  }
+
+  .about .price p .price3Unit {
+    width: 53%;
+  }
+
+  .about .price p .p12 {
+    margin-right: 22px;
+    margin-top: 9px;
+  }
+
+  .about .price p .p13 {
+    margin-right: 12px;
+    margin-top: 9px;
+  }
+
+  .about .price p .tp12 {
+    margin-top: 9.5px;
+    margin-right: 14px;
+  }
+
+  .about .price p .tp13 {
+    margin-top: 9.5px;
+    margin-right: 14px;
+  }
+
+  .about .price p .single01 {
+    margin-right: 10px;
+  }
+
   .a1 {
     display: block;
     /* padding: 2px 10px; */
@@ -397,7 +702,11 @@ margin-left: 100px;
 
   .about .price p .price2 {
     margin-top: 10px;
-    margin-right: 24px;
+    margin-right: 15px !important;
+  }
+
+  .about .price p .price2Unit {
+    width: 37% !important;
   }
 
   .about .price p .price3 {
@@ -427,6 +736,7 @@ margin-left: 100px;
 
   .about .price p .price8 {
     margin-right: 40px;
+    margin-top: 9px;
   }
   
   .about .price p .price9 {
@@ -434,8 +744,15 @@ margin-left: 100px;
     margin-top: 9px;
   }
 
+  .about .price p .p6 {
+      margin-top: 9px;
+      margin-right: 25px;
+  }
 
-
+  .about .price p .p7 {
+    margin-top: 9px;
+    margin-right: 14px;
+  }
 
   .about .price {
 
@@ -453,6 +770,9 @@ margin-left: 100px;
 
     color: #e8e5d7;
   }
+
+
+
 
   /* .about .price {
     display: flex;
@@ -477,9 +797,7 @@ margin-left: 100px;
     /* width: 40%; */
   }
 
-  .session1 {
-    margin-right: 27px !important;
-  }
+
 }
 
 
@@ -490,6 +808,21 @@ margin-left: 100px;
     width: 20rem;
     margin-left: -36px;
   }
+}
+
+.about .price p .price2 {
+  margin-right: 4rem;
+  /* background-color: red; */
+}
+
+.about .price p .span {
+  /* margin-top: 5px; */
+  width: 97% !important;
+}
+
+.about .price p .price2Unit {
+  width: 30%;
+  /* background-color: red; */
 }
 
 
@@ -529,6 +862,29 @@ margin-left: 100px;
     margin-left: -45px;
   }
 
+
+  .about .price p .price2 {
+    margin-right: 4.5rem;
+    /* background-color: red; */
+  }
+
+  .about .price p .span {
+    /* margin-top: 5px; */
+    width: 97% !important;
+  }
+
+  .about .price p .price2Unit {
+    width: 35%;
+    /* background-color: red; */
+  }
+
+  .about .price p .p6 {
+    margin-right: 28px;
+  }
+
+  .about .price p .p7 {
+    margin-right: 17px;
+  }
 
   /* .about .price p .price5 {
     margin-right: 25px;

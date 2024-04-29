@@ -114,23 +114,23 @@ const SectionA2 = () => {
                 <li className="price">
                   {isThaiLanguage ? (
                     <p>
-                      <b>{t("A1aSession1")} </b>
-                      <small className="" style={{ marginRight: "40px" }}>
-                        <b> :</b>
-                      </small>
-                      <span className="" style={{ marginTop: "-1px" }}>
-                        {t("A1aValue4")}
+                      <span className="session1">
+                        <b>{t("A1aSession1")} </b>
                       </span>
+                      <small className="p6">
+                        <b>:</b>
+                      </small>
+                      <span className="p6Value">{t("A2aValue4")}</span>
                     </p>
                   ) : (
                     <p>
-                      <span>
+                      <span className="single">
                         <b className="">{t("A2aSession1")} </b>
                       </span>
                       {/* <small className="me-5">
                         <b>:</b>
                       </small> */}
-                      <span className="">{t("A2aValue4")}</span>
+                      <span className="singleUnit">{t("A2aValue4")}</span>
                     </p>
                   )}
 
@@ -268,21 +268,21 @@ const SectionA2 = () => {
                 <li className="price">
                   {isThaiLanguage ? (
                     <p>
-                      <b>{t("A2aSession1")} </b>
-                      <small className="price5">
+                      <span>
+                        <b>{t("A2aSession1")}</b>
+                      </span>
+                      <small className="p6">
                         <b> :</b>
                       </small>
-                      <span className="" style={{ marginTop: "-1px" }}>
-                        {t("A2aValue4")}
-                      </span>
+                      <span className="p6Value">{t("A2aValue4")}</span>
                     </p>
                   ) : (
                     <p>
-                      <span>
+                      <span className="single">
                         <b>{t("A2aSession1")} </b>
                       </span>
 
-                      <span>{t("A2aValue4")}</span>
+                      <span className="singleUnit">{t("A2aValue4")}</span>
                     </p>
                   )}
 
@@ -303,17 +303,17 @@ const SectionA2 = () => {
                       <span>
                         <b>{t("A2aSession2")}</b>
                       </span>
-                      <small className="price6">
+                      <small className="p6">
                         <b>:</b>
                       </small>
-                      <span className="">{t("A2aValue5")}</span>
+                      <span className="p6Value">{t("A2aValue5")}</span>
                     </p>
                   ) : (
                     <p>
                       <span>
                         <b>{t("A1aSession2")}</b>
                       </span>
-                      <small className="price1">
+                      <small className="unit">
                         <b>:</b>
                       </small>
                       <span className="">{t("A2aValue5")}</span>
@@ -338,10 +338,10 @@ const SectionA2 = () => {
                           <b>{t("A1aSession3")}</b>
                         </b>
                       </span>
-                      <small className="price7">
+                      <small className="p7">
                         <b>:</b>
                       </small>
-                      <span className="">{t("A2aValue6")}</span>
+                      <span className="p7Value">{t("A2aValue6")}</span>
                     </p>
                   ) : (
                     <p>
@@ -350,10 +350,10 @@ const SectionA2 = () => {
                           <b>{t("A1aSession3")}</b>
                         </b>
                       </span>
-                      <small className="price3">
+                      <small className="price06">
                         <b>:</b>
                       </small>
-                      <span className="">{t("A2aValue6")}</span>
+                      <span className="price3Unit">{t("A2aValue6")}</span>
                     </p>
                   )}
 
@@ -473,21 +473,21 @@ const SectionA2 = () => {
                 <li className="price">
                   {isThaiLanguage ? (
                     <p>
-                      <b>{t("A2aSession1")} </b>
-                      <small className="price5">
-                        <b> :</b>
-                      </small>
-                      <span className="" style={{ marginTop: "-1px" }}>
-                        {t("A2aValue4")}
-                      </span>
-                    </p>
-                  ) : (
-                    <p>
                       <span>
                         <b>{t("A2aSession1")} </b>
                       </span>
+                      <small className="p6">
+                        <b> :</b>
+                      </small>
+                      <span className="p6Value">{t("A2aValue4")}</span>
+                    </p>
+                  ) : (
+                    <p>
+                      <span className="single">
+                        <b>{t("A2aSession1")} </b>
+                      </span>
 
-                      <span>{t("A2aValue4")}</span>
+                      <span className="singleUnit">{t("A2aValue4")}</span>
                     </p>
                   )}
 
@@ -507,17 +507,17 @@ const SectionA2 = () => {
                       <span>
                         <b>{t("A2aSession2")}</b>
                       </span>
-                      <small className="price6">
+                      <small className="p6">
                         <b>:</b>
                       </small>
-                      <span className="">{t("A2aValue5")}</span>
+                      <span className="p6Value">{t("A2aValue5")}</span>
                     </p>
                   ) : (
                     <p>
                       <span>
                         <b>{t("A1aSession2")}</b>
                       </span>
-                      <small className="price1">
+                      <small className="unit">
                         <b>:</b>
                       </small>
                       <span className="">{t("A2aValue5")}</span>
@@ -542,10 +542,10 @@ const SectionA2 = () => {
                           <b>{t("A1aSession3")}</b>
                         </b>
                       </span>
-                      <small className="price7">
+                      <small className="p7">
                         <b>:</b>
                       </small>
-                      <span className="">{t("A2aValue6")}</span>
+                      <span className="p7Value">{t("A2aValue6")}</span>
                     </p>
                   ) : (
                     <p>
@@ -554,10 +554,10 @@ const SectionA2 = () => {
                           <b>{t("A1aSession3")}</b>
                         </b>
                       </span>
-                      <small className="price3">
+                      <small className="price06">
                         <b>:</b>
                       </small>
-                      <span className="">{t("A2aValue6")}</span>
+                      <span className="price3Unit">{t("A2aValue6")}</span>
                     </p>
                   )}
 
@@ -677,21 +677,21 @@ const SectionA2 = () => {
                 <li className="price">
                   {isThaiLanguage ? (
                     <p>
-                      <b>{t("A2aSession1")} </b>
-                      <small className="price5">
-                        <b> :</b>
-                      </small>
-                      <span className="" style={{ marginTop: "-1px" }}>
-                        {t("A2aValue4")}
-                      </span>
-                    </p>
-                  ) : (
-                    <p>
                       <span>
                         <b>{t("A2aSession1")} </b>
                       </span>
+                      <small className="p6">
+                        <b> :</b>
+                      </small>
+                      <span className="p6Value">{t("A2aValue4")}</span>
+                    </p>
+                  ) : (
+                    <p>
+                      <span className="single">
+                        <b>{t("A2aSession1")} </b>
+                      </span>
 
-                      <span>{t("A2aValue4")}</span>
+                      <span className="singleUnit">{t("A2aValue4")}</span>
                     </p>
                   )}
 
@@ -711,17 +711,17 @@ const SectionA2 = () => {
                       <span>
                         <b>{t("A2aSession2")}</b>
                       </span>
-                      <small className="price6">
+                      <small className="p6">
                         <b>:</b>
                       </small>
-                      <span className="">{t("A2aValue5")}</span>
+                      <span className="p6Value">{t("A2aValue5")}</span>
                     </p>
                   ) : (
                     <p>
                       <span>
                         <b>{t("A1aSession2")}</b>
                       </span>
-                      <small className="price1">
+                      <small className="unit">
                         <b>:</b>
                       </small>
                       <span className="">{t("A2aValue5")}</span>
@@ -746,10 +746,10 @@ const SectionA2 = () => {
                           <b>{t("A1aSession3")}</b>
                         </b>
                       </span>
-                      <small className="price7">
+                      <small className="p7">
                         <b>:</b>
                       </small>
-                      <span className="">{t("A2aValue6")}</span>
+                      <span className="p7Value">{t("A2aValue6")}</span>
                     </p>
                   ) : (
                     <p>
@@ -758,10 +758,10 @@ const SectionA2 = () => {
                           <b>{t("A1aSession3")}</b>
                         </b>
                       </span>
-                      <small className="price3">
+                      <small className="price06">
                         <b>:</b>
                       </small>
-                      <span className="">{t("A2aValue6")}</span>
+                      <span className="price3Unit">{t("A2aValue6")}</span>
                     </p>
                   )}
 
@@ -881,21 +881,21 @@ const SectionA2 = () => {
                 <li className="price">
                   {isThaiLanguage ? (
                     <p>
-                      <b>{t("A2aSession1")} </b>
-                      <small className="price5">
-                        <b> :</b>
-                      </small>
-                      <span className="" style={{ marginTop: "-1px" }}>
-                        {t("A2aValue4")}
-                      </span>
-                    </p>
-                  ) : (
-                    <p>
                       <span>
                         <b>{t("A2aSession1")} </b>
                       </span>
+                      <small className="p6">
+                        <b> :</b>
+                      </small>
+                      <span className="p6Value">{t("A2aValue4")}</span>
+                    </p>
+                  ) : (
+                    <p>
+                      <span className="single">
+                        <b>{t("A2aSession1")} </b>
+                      </span>
 
-                      <span>{t("A2aValue4")}</span>
+                      <span className="singleUnit">{t("A2aValue4")}</span>
                     </p>
                   )}
 
@@ -915,17 +915,17 @@ const SectionA2 = () => {
                       <span>
                         <b>{t("A2aSession2")}</b>
                       </span>
-                      <small className="price6">
+                      <small className="p6">
                         <b>:</b>
                       </small>
-                      <span className="">{t("A2aValue5")}</span>
+                      <span className="p6Value">{t("A2aValue5")}</span>
                     </p>
                   ) : (
                     <p>
                       <span>
                         <b>{t("A1aSession2")}</b>
                       </span>
-                      <small className="price6">
+                      <small className="unit">
                         <b>:</b>
                       </small>
                       <span className="">{t("A2aValue5")}</span>
@@ -950,10 +950,10 @@ const SectionA2 = () => {
                           <b>{t("A1aSession3")}</b>
                         </b>
                       </span>
-                      <small className="price7">
+                      <small className="p7">
                         <b>:</b>
                       </small>
-                      <span className="">{t("A2aValue6")}</span>
+                      <span className="p7Value">{t("A2aValue6")}</span>
                     </p>
                   ) : (
                     <p>
@@ -962,10 +962,10 @@ const SectionA2 = () => {
                           <b>{t("A1aSession3")}</b>
                         </b>
                       </span>
-                      <small className="price3">
+                      <small className="price06">
                         <b>:</b>
                       </small>
-                      <span className="">{t("A2aValue6")}</span>
+                      <span className="price3Unit">{t("A2aValue6")}</span>
                     </p>
                   )}
 
@@ -1084,21 +1084,21 @@ const SectionA2 = () => {
                 <li className="price">
                   {isThaiLanguage ? (
                     <p>
-                      <b>{t("A2aSession1")} </b>
-                      <small className="price5">
-                        <b> :</b>
-                      </small>
-                      <span className="" style={{ marginTop: "-1px" }}>
-                        {t("A2aValue4")}
-                      </span>
-                    </p>
-                  ) : (
-                    <p>
                       <span>
                         <b>{t("A2aSession1")} </b>
                       </span>
+                      <small className="p6">
+                        <b> :</b>
+                      </small>
+                      <span className="p6Value">{t("A2aValue4")}</span>
+                    </p>
+                  ) : (
+                    <p>
+                      <span className="single">
+                        <b>{t("A2aSession1")} </b>
+                      </span>
 
-                      <span>{t("A2aValue4")}</span>
+                      <span className="singleUnit">{t("A2aValue4")}</span>
                     </p>
                   )}
 
@@ -1118,17 +1118,17 @@ const SectionA2 = () => {
                       <span>
                         <b>{t("A2aSession2")}</b>
                       </span>
-                      <small className="price6">
+                      <small className="p6">
                         <b>:</b>
                       </small>
-                      <span className="">{t("A2aValue5")}</span>
+                      <span className="p6Value">{t("A2aValue5")}</span>
                     </p>
                   ) : (
                     <p>
                       <span>
                         <b>{t("A1aSession2")}</b>
                       </span>
-                      <small className="price1">
+                      <small className="unit">
                         <b>:</b>
                       </small>
                       <span className="">{t("A2aValue5")}</span>
@@ -1153,10 +1153,10 @@ const SectionA2 = () => {
                           <b>{t("A1aSession3")}</b>
                         </b>
                       </span>
-                      <small className="price7">
+                      <small className="p7">
                         <b>:</b>
                       </small>
-                      <span className="">{t("A2aValue6")}</span>
+                      <span className="p7Value">{t("A2aValue6")}</span>
                     </p>
                   ) : (
                     <p>
@@ -1165,10 +1165,10 @@ const SectionA2 = () => {
                           <b>{t("A1aSession3")}</b>
                         </b>
                       </span>
-                      <small className="price3">
+                      <small className="price06">
                         <b>:</b>
                       </small>
-                      <span className="">{t("A2aValue6")}</span>
+                      <span className="price3Unit">{t("A2aValue6")}</span>
                     </p>
                   )}
 
