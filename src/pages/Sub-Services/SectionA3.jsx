@@ -1508,7 +1508,7 @@ const SectionA3 = () => {
         {/*  */}
         <div className="tw-bg-midnight rounded-3">
           <div className="a1 w-100">
-            <img src={photo8} alt="" />
+            <img src={photo6} alt="" />
 
             <div className=" about w-100">
               <h4 className="tw-text-bone mx-auto ms-md-4 px-2">{t("A3b1")}</h4>
