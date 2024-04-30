@@ -33,13 +33,13 @@ const Team = () => {
 
   return (
     <>
-      <h2 className="tw-text-gold text-center mt-4">
+      <h2 className="tw-text-gold text-center mt-4 mb-5">
         <b>SOULSMITH TEAM MEMBERS</b>
       </h2>
       {/* </div> */}
 
       <div className="home-team">
-        <div className="container mt-4">
+        <div className="container">
           <NavLink to={"/team/member8"}>
             <div
               className="col-12 col-lg-6 col-md-6 mx-auto"

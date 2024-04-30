@@ -9,6 +9,10 @@ hr {
   margin: auto;
 }
 
+.home-team {
+  margin-top: -2px !important;
+}
+
 .members {
   background-color: #040406;
   display: none;

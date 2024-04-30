@@ -12,6 +12,7 @@ import Member12 from "../components/Member12";
 import Member10 from "../components/Member10";
 import Member11 from "../components/Member11";
 import Member13 from "../components/Member13";
+import Member8 from "../components/Member8";
 
 const Member = () => {
   const params = useParams();
@@ -25,6 +26,7 @@ const Member = () => {
       {params.id == "member5" ? <Member5 /> : ""}
       {params.id == "member6" ? <Member6 /> : ""}
       {params.id == "member7" ? <Member7 /> : ""}
+      {params.id == "member8" ? <Member8 /> : ""}
       {params.id == "member10" ? <Member10 /> : ""}
       {params.id == "member11" ? <Member11 /> : ""}
       {params.id == "member12" ? <Member12 /> : ""}
